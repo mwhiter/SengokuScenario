@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2023 6:19:30 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Entry UI-->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TITLE">
+			<Text>Sengoku Jidai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_DESC">
+			<Text>In 1467, Feudal Japan has plunged into a massive civil war as rival warlords seek total control of Japan. Are you able to become Japan's next Shogun?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TURNS_REMAINING">
+			<Text>Turns Left: {1_TurnsRemaining}</Text>
+		</Row>
+		<!-- Dawn of Man-->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT">
+			<Text>SCENARIO DESCRIPTION[NEWLINE]The year is 1467. Once-unified Japan has fractured into numerous warring factions, led by powerful warlords who seek to become the Shogun and force their rivals to bow before them. It is a time of unprecedented upheaval and opportunity, where the clash of steel echoes across the land, the scent of gunpowder fills the air, and the dreams of countless daimyo fuel the fires of ambition.[NEWLINE][NEWLINE]Your samurai look to you for guidance, as you lead your people towards the total conquest of Japan. The weight of your clan's legacy rests upon your shoulders. Will you rise to the challenge and lead your clan with unwavering resolve? Or will you wield cunning and deception, outmaneuvering your rivals with strategic mastery? The path you forge will shape the fate of your people and etch your name into the annals of legend. Are you ready to become the Shogun of Japan?[NEWLINE][NEWLINE]VICTORY CONDITIONS[NEWLINE]Replace me! This has not been finished![NEWLINE][NEWLINE]SPECIAL RULES[NEWLINE]Replace me! This has not been finished!</Text>
+		</Row>
+		<!-- Turns Remaining UI-->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BRIEFING_BUTTON">
+			<Text>Briefing</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POP_BARBARIAN_CLEARED">
+			<Text>Ronin Encampment Cleared!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2023 8:17:27 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Entry UI-->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO">
+			<Text>Shimazu Yoshihiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN">
+			<Text>Otomo Sorin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI">
+			<Text>Mori Motonari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA">
+			<Text>Chosokabe Motochika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN">
+			<Text>Uesugi Kenshin</Text>
+		</Row>
+
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_NAME">
+			<Text>Shimazu Yoshihiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_SUBTITLE">
+			<Text>Daimyo of the Shimazu Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_LIVED">
+			<Text>1535 - 1619 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_TEXT_1">
+			<Text>Shimazu Yoshihiro, a prominent figure in Japanese history, was born in 1535 as the eldest son of Shimazu Takahisa, the daimyo (feudal lord) of the Shimazu clan. Yoshihiro played a significant role in shaping the clan's legacy during the tumultuous Sengoku Jidai period.[NEWLINE][NEWLINE]Yoshihiro's military career began at a young age, receiving a strict upbringing that instilled discipline and martial prowess. He demonstrated exceptional skill and courage on the battlefield, quickly establishing himself as a formidable warrior. Yoshihiro's combat expertise centered around his mastery of the yari (spear), which became his signature weapon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_HEADING_2">
+			<Text>Military Dominance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_TEXT_2">
+			<Text>In 1565, at the age of 30, Yoshihiro led his forces in a decisive victory against the Ito clan at the Battle of Okitanawate. This triumph solidified his reputation as a fearsome general and contributed to the expansion of the Shimazu clan's influence in Kyushu. He went on to participate in numerous campaigns, leading his troops with unmatched bravery and tactical brilliance.[NEWLINE][NEWLINE]One of Yoshihiro's most iconic moments came during the Battle of Sekigahara in 1600. During this pivotal conflict, he aligned himself with the Western Army, opposing the powerful Tokugawa forces. Known for his unwavering loyalty, Yoshihiro fought valiantly despite being outnumbered and managed to rout a portion of the Tokugawa army. However, the overall outcome favored the Tokugawa forces, leading to their ultimate victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_HEADING_3">
+			<Text>Under Tokugawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_TEXT_3">
+			<Text>Following the defeat at Sekigahara, Yoshihiro's domain was reduced, and he was forced to submit to the Tokugawa shogunate. Despite this setback, he was allowed to retain his lands and maintain the Shimazu clan's presence in Satsuma province. Yoshihiro's diplomatic skills became evident during this period as he skillfully managed his clan's relations with the central government, preserving their autonomy and safeguarding their interests.[NEWLINE][NEWLINE]Yoshihiro's influence extended beyond the battlefield. He supported cultural and intellectual endeavors, fostering the arts, tea ceremony, and the study of classical literature. Under his patronage, Satsuma became a center of learning and cultural exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_HEADING_4">
+			<Text>Legacy and Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_TEXT_4">
+			<Text>Yoshihiro's influence extended beyond the battlefield. He supported cultural and intellectual endeavors, fostering the arts, tea ceremony, and the study of classical literature. Under his patronage, Satsuma became a center of learning and cultural exchange.[NEWLINE][NEWLINE]Shimazu Yoshihiro passed away in 1619, leaving behind a legacy of military prowess and unwavering loyalty. His contributions to the Shimazu clan's military expansion, his pivotal role in the Battle of Sekigahara, and his efforts in maintaining the clan's autonomy are testament to his significance in Japanese history. Yoshihiro's name continues to evoke admiration and respect, as he remains one of the most celebrated and revered figures of the Sengoku Jidai era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_NAME">
+			<Text>Otomo Sorin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_SUBTITLE">
+			<Text>Daimyo of the Otomo Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_LIVED">
+			<Text>1530 - 1587 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_TEXT_1">
+			<Text>Otomo Sorin, also known as Otomo Yoshishige, was a prominent daimyo and influential figure in the history of Japan. Born in 1530 in Bungo province (present-day Oita Prefecture), Sorin rose to power during the Sengoku Jidai period and became the founder of the Otomo clan's political and military dominance in Kyushu.[NEWLINE][NEWLINE]Sorin began his military career under the service of the Ōtomo clan, initially serving as a retainer to his uncle, Ōtomo Sōrinaga. Following his uncle's death, Sorin assumed leadership of the clan and embarked on a series of military campaigns and strategic alliances to expand their influence. He sought to unify the disparate factions within Bungo province and establish stable governance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_HEADING_2">
+			<Text>Conversion to Christianity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_TEXT_2">
+			<Text>One of Sorin's notable achievements was his conversion to Christianity, which occurred in 1562. Influenced by the arrival of Jesuit missionaries, Sorin embraced Christianity and became one of the earliest daimyo to adopt the faith. This decision had significant consequences for the Otomo clan and their relations with other daimyo and European powers.[NEWLINE][NEWLINE]Under Sorin's leadership, the Otomo clan actively engaged in diplomacy, forging alliances with neighboring daimyo and European traders. This allowed the clan to acquire Western firearms, knowledge, and technology, bolstering their military strength and giving them a strategic advantage over their rivals. The Otomo clan became a powerful force in Kyushu and played a key role in the political landscape of Japan.[NEWLINE][NEWLINE]However, the Otomo clan's adoption of Christianity became a source of conflict with other daimyo and the ruling authorities, who saw it as a potential threat to traditional Japanese culture and values. Sorin faced opposition and hostility from various factions, leading to intermittent conflicts and challenges to his authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_HEADING_3">
+			<Text>War against Toyotomi Hideyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_TEXT_3">
+			<Text>In 1587, Toyotomi Hideyoshi, a powerful warlord aiming to unify Japan, launched the Kyushu Campaign with the intent to subjugate the Christian daimyo, including Sorin. The Otomo clan initially resisted, but after facing significant military pressure, Sorin eventually surrendered to Hideyoshi in 1589. Despite the defeat, Sorin managed to retain some autonomy and land holdings, continuing to exert influence within Kyushu.[NEWLINE][NEWLINE]Following his surrender, Sorin focused on rebuilding his domain and cultivating diplomatic relations. He actively engaged in negotiations with Hideyoshi and later with Tokugawa Ieyasu, ultimately aligning with the Tokugawa forces in the Battle of Sekigahara in 1600.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_HEADING_4">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN_TEXT_4">
+			<Text>Otomo Sorin passed away in 1587, leaving a legacy of diplomatic skill, military prowess, and religious tolerance. His conversion to Christianity, strategic alliances, and ability to navigate the complex political landscape of the Sengoku Jidai era made him a significant figure in Japanese history. Sorin's contributions laid the foundation for the Otomo clan's enduring influence in Kyushu and their role in shaping the future of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_NAME">
+			<Text>Mori Motonari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_SUBTITLE">
+			<Text>Daimyo of the Motonari Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_LIVED">
+			<Text>1497 - 1571 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_TEXT_1">
+			<Text>Mori Motonari, born in 1497 in Aki Province (present-day Hiroshima Prefecture), was a highly esteemed daimyo and military strategist during the Sengoku Jidai period in Japan. He became the patriarch of the Mori clan, a powerful and influential family in the Chugoku region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_HEADING_2">
+			<Text>Rise to Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_TEXT_2">
+			<Text>Motonari's rise to power began when he succeeded his father, Mori Hiromoto, as the head of the clan in 1506. In his early years, he faced numerous challenges, including internal strife and external conflicts with neighboring clans. However, Motonari displayed remarkable leadership abilities and a keen strategic mind that enabled him to overcome these obstacles and solidify his position as a formidable daimyo.[NEWLINE][NEWLINE]One of Motonari's notable achievements was his ability to forge alliances with other clans, especially the powerful Ouchi clan. Through strategic marriages, political maneuvering, and military cooperation, he formed a robust network of allies that bolstered the Mori clan's strength and territorial expansion. This alliance allowed Motonari to withstand external pressures from rival daimyo and secure a dominant position in the Chugoku region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_HEADING_3">
+			<Text>Military Prowess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_TEXT_3">
+			<Text>Motonari's military campaigns and tactical brilliance are considered legendary. He adopted a three-arrow strategy, symbolizing his philosophy of unity and balance. The three arrows represented the principle of "One is weak, three are strong," emphasizing the importance of collaboration and cooperation among his three sons: Mori Takamoto, Kikkawa Motoharu, and Kobayakawa Takakage. This strategy proved highly effective, allowing the Mori clan to maintain a cohesive front against their enemies.[NEWLINE][NEWLINE]One of Motonari's most significant victories came in the Battle of Miyajima in 1555, where he decisively defeated the Sue clan and solidified his control over Aki Province. Motonari demonstrated his military acumen by utilizing strategic terrain and effectively coordinating his forces to overcome the enemy. This triumph further enhanced his reputation as a master tactician.[NEWLINE][NEWLINE]Beyond his military prowess, Motonari was known for his astute governance and promotion of cultural and economic development within his domains. He encouraged commerce, supported the arts, and fostered a climate of stability and prosperity. Motonari's rule contributed to the growth of cities like Hiroshima, which flourished under his patronage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_HEADING_4">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI_TEXT_4">
+			<Text>Mori Motonari's legacy extended beyond his lifetime. His three-arrow strategy, military achievements, and diplomatic finesse influenced subsequent generations of leaders in Japan. The Mori clan continued to thrive and play a significant role in Japanese history, with many of his descendants becoming influential figures in the Tokugawa shogunate and the Meiji Restoration.[NEWLINE][NEWLINE]Motonari's legacy as a wise and visionary daimyo, a skilled military strategist, and a patron of culture solidify his status as one of the most revered figures of the Sengoku Jidai period. His impact on the Chugoku region and his contributions to the history of Japan make him a true icon of the era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_NAME">
+			<Text>Chosokabe Motochika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_SUBTITLE">
+			<Text>Daimyo of the Chosokabe Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_LIVED">
+			<Text>1539 - 1599 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_TEXT_1">
+			<Text>Chosokabe Motochika, a prominent daimyo of the Sengoku Jidai period, played a significant role in the history of Japan. Born in 1539 in Tosa Province (present-day Kochi Prefecture), Motochika became the founder and leader of the Chosokabe clan, which would later become a powerful force in Shikoku.[NEWLINE][NEWLINE]Motochika's early life was marked by political turmoil and conflict within Tosa Province. His father, Chosokabe Kunichika, was assassinated, and Motochika assumed control of the clan at a young age. Faced with adversity, he swiftly consolidated his power and expanded his influence within the region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_HEADING_2">
+			<Text>Rise to Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_TEXT_2">
+			<Text>Motochika's rise to prominence began with his successful campaigns to unify Tosa Province. Through a combination of military prowess, strategic alliances, and skilled diplomacy, he managed to subdue rival clans and bring the entire province under his control. This achievement established the foundation of the Chosokabe clan's power.[NEWLINE][NEWLINE]One of Motochika's defining characteristics was his ambition to expand beyond Tosa Province. In pursuit of this goal, he set his sights on conquering neighboring provinces in Shikoku. His military campaigns in Awa, Sanuki, and Iyo brought him into conflict with the powerful clans of Shikoku, including the powerful Miyoshi and Ichijo clans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_HEADING_3">
+			<Text>Military Success</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_TEXT_3">
+			<Text>Motochika's most renowned victory came in 1585 when he successfully captured the fortress of Urado, effectively establishing his dominance over Shikoku. This triumph solidified his position as a major player in the region and enhanced the prestige of the Chosokabe clan. Motochika adopted the title of "Lord of Shikoku" and ruled over the island with authority.[NEWLINE][NEWLINE]Beyond his military successes, Motochika is also remembered for his innovative reforms and governance. He implemented land reforms, improving the lives of farmers and peasants under his rule. Motochika's administration fostered economic development, trade, and cultural exchanges, contributing to the prosperity of his domain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_HEADING_4">
+			<Text>Surrender to Toyotomi Hideyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_TEXT_4">
+			<Text>However, Motochika's ambitions eventually led him into conflict with the powerful Toyotomi Hideyoshi, who sought to unify Japan under his rule. In 1587, Hideyoshi launched the Kyushu Campaign, which aimed to suppress the power of regional daimyo, including Motochika. Faced with overwhelming force, Motochika surrendered to Hideyoshi, resulting in the loss of his conquests in Shikoku.[NEWLINE][NEWLINE]Following his surrender, Motochika retained his domain in Tosa Province under the Toyotomi shogunate. Despite the setback, he remained a respected figure and enjoyed relative autonomy. Motochika passed away in 1599, leaving behind a legacy of ambition, military prowess, and administrative reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_HEADING_5">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA_TEXT_5">
+			<Text>Chosokabe Motochika's impact on the history of Japan is significant. His successful unification of Tosa Province, conquest of Shikoku, and innovative governance mark him as an influential daimyo of the Sengoku Jidai period. His determination, strategic thinking, and contributions to regional development make him a notable figure in Japanese history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_NAME">
+			<Text>Uesugi Kenshin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_SUBTITLE">
+			<Text>Daimyo of the Uesugi Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_LIVED">
+			<Text>February 18, 1530 - April 19, 1578 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_TEXT_1">
+			<Text>Uesugi Kenshin, also known as the "Dragon of Echigo," was one of the most renowned and enigmatic figures of the Sengoku Jidai period in Japan. Born in 1530 as Nagao Kagetora, he would later be adopted into the Uesugi clan, becoming Uesugi Kenshin and assuming the leadership of the clan at the age of 14.[NEWLINE][NEWLINE]Kenshin quickly demonstrated exceptional military skills and leadership qualities. He was a fierce and fearless warrior, known for his unparalleled prowess on the battlefield. Kenshin's mastery of strategy and tactics allowed him to achieve remarkable victories against formidable opponents, most notably his rival Takeda Shingen. The legendary clashes between Kenshin and Shingen, such as the Battle of Kawanakajima, have become the stuff of legends in Japanese history.[NEWLINE][NEWLINE]Not only was Kenshin a formidable warrior, but he also embodied the virtues of the samurai code, bushido. He was known for his unwavering honor, strict adherence to ethical principles, and deep spirituality. Kenshin was a devout follower of Zen Buddhism and incorporated its teachings into his daily life and military strategies. He was highly respected not only for his military prowess but also for his just and benevolent rule over the Echigo province.[NEWLINE][NEWLINE]Despite his military achievements, Kenshin faced numerous challenges, including internal conflicts within his clan and external threats from rival warlords. However, he managed to navigate these turbulent waters with strategic alliances and diplomatic maneuvers. Kenshin's charisma and reputation as a fair and honorable leader attracted many followers, and his domain expanded to become one of the most prosperous and culturally vibrant regions of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_HEADING_2">
+			<Text>Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_TEXT_2">
+			<Text>Tragically, Uesugi Kenshin's life was cut short in 1578 under mysterious circumstances. The exact details surrounding his death remain a subject of speculation and debate. Nevertheless, his legacy as a legendary warrior, a paragon of honor, and a patron of the arts and culture endures. Uesugi Kenshin remains an iconic figure in Japanese history, embodying the ideals of the samurai and leaving an indelible mark on the nation's collective memory.</Text>
+		</Row>
+		
+		<!-- Greetings -->
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO_FIRSTGREETING_1">
+			<Text>Greetings, I am Shimazu Yoshihiro, the daimyo of the Shimazu clan. Our clan highly values loyalty and strength. If you honor your agreements, our clans shall forge a legendary alliance. However, should you betray your word, your clan will crumble beneath the weight of our steel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO_FIRSTGREETING_2">
+			<Text>Welcome to the camp of the Shimazu. Our mastery of the katana is renowned throughout all of Japan. Interfere with our ambition, and you shall witness firsthand the consequences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO_FIRSTGREETING_3">
+			<Text>It is a honor to meet another leader. I am Shimazu Yoshihiro, and I command the full respect of all of my generals. Disloyalty is a festering wound that erodes the foundation of society.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO_DEFEATED_1">
+			<Text>You have crushed my armies in battle. Even the most loyal commanders were not enough to defeat you. It is time for me to join my ancestors.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN_FIRSTGREETING_1">
+			<Text>May the grace of God fall upon you. I am Otomo Sorin, and I will rest for nothing in my pursuit to bring salvation to all of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN_FIRSTGREETING_2">
+			<Text>I am honored to be in your presence. The Otomo have embraced the teachings of God and welcome all new followers. Will you join me in prayer?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN_FIRSTGREETING_3">
+			<Text>Welcome, great leader! I am Otomo Sorin, leader of the righteous Otomo clan. Only through prayer can we seek to absolve each other of our sins. Shall you join us?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN_DEFEATED_1">
+			<Text>How can this be? Despite my best efforts, you have defeated me. But the grace of God shall guide me through the afterlife.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI_FIRSTGREETING_1">
+			<Text>You step into the lands of the Mori. We invite you to share in the bounty of the sea. If you act with dishonor, our ships will crush you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI_FIRSTGREETING_2">
+			<Text>Well met. I am Mori Motonari, feared daimyo of clan Mori. Our wisdom is seafaring is unmatched. For your sake, I hope you will never have to find out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI_FIRSTGREETING_3">
+			<Text>Welcome to our lands. My name is Mori Motonari. I have heard the call of the waves, and they will carry me to my claim of Shogun.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI_DEFEATED_1">
+			<Text>The tides have shifted against my favor. Your triumph is remarkable. It is now time for me to join my ancestors.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA_FIRSTGREETING_1">
+			<Text>Hello, there. You step into the presence of Chosokabe Motochika, warlord of Shikoku, and rightful claimant of Shogun. Have you come to bend the knee?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA_FIRSTGREETING_2">
+			<Text>You stand before Chosokabe Motochika, warlord of Shikoku, and future Shogun of Japan. Shall you join us in crushing our foes, or join the many graves of men who tried to challenge me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA_FIRSTGREETING_3">
+			<Text>Greetings. For generations the Chosokabe have ruled over Shikoku. It is time for us to claim the Shogunate. Will you call your banners in support of us, or surrender your provinces to my eventual domination?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA_DEFEATED_1">
+			<Text>We have fought bravely and lost. My ambition of the Shogunate has been crushed. I accept defeat and choose to die with honor by the blade.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_FIRSTGREETING_1">
+			<Text>Hello there! The Uesugi seek to live in harmony with the kami. Would you like to visit our shrine and join us in our worship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_FIRSTGREETING_2">
+			<Text>Welcome to the land of the Uesugi. I am Uesugi Kenshin, disciple of Bishamonten. Have you come to marvel at our places of worship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_FIRSTGREETING_3">
+			<Text>You stand before the Dragon of Echigo, Uesugi Kenshin! I follow in the footsteps of the great warrior-king Bishamonten!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_DEFEATED_1">
+			<Text>You have defeated me in combat. Have I misplaced my faith in the gods?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

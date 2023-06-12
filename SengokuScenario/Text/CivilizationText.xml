@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2023 7:54:20 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_BARBARIAN_ADJECTIVE">
+			<Text>Ronin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SHIMAZU_DESC">
+			<Text>Shimazu Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SHIMAZU_SHORT_DESC">
+			<Text>Shimazu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SHIMAZU_ADJECTIVE">
+			<Text>Shimazu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OTOMO_DESC">
+			<Text>Otomo Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OTOMO_SHORT_DESC">
+			<Text>Otomo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OTOMO_ADJECTIVE">
+			<Text>Otomo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MORI_DESC">
+			<Text>Mori Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MORI_SHORT_DESC">
+			<Text>Mori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MORI_ADJECTIVE">
+			<Text>Mori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CHOSOKABE_DESC">
+			<Text>Chosokabe Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CHOSOKABE_SHORT_DESC">
+			<Text>Chosokabe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CHOSOKABE_ADJECTIVE">
+			<Text>Chosokabe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UESUGI_DESC">
+			<Text>Uesugi Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UESUGI_SHORT_DESC">
+			<Text>Uesugi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UESUGI_ADJECTIVE">
+			<Text>Uesugi</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_SHIMAZU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_SHIMAZU_TEXT_1">
+			<Text>The Shimazu clan of Japan holds a storied history that spans centuries, marked by their influence, military prowess, and strategic alliances. Originating from the Satsuma province in Kyushu, the Shimazu clan emerged as a formidable force during the Sengoku Jidai, the era of warring states.[NEWLINE][NEWLINE]The clan's early history can be traced back to the 12th century when they rose to power under the leadership of Shimazu Tadahisa. Over time, the Shimazu clan expanded their territories through shrewd diplomacy, strategic marriages, and military conquests. They skillfully navigated the complex political landscape, forming alliances with neighboring clans such as the Otomo and Ryuzoji.[NEWLINE][NEWLINE]One of the notable figures in Shimazu clan history is Shimazu Yoshihiro, who played a pivotal role in the Battle of Sekigahara in 1600. Known for his fearless bravery and tactical brilliance, Yoshihiro led his forces against the powerful Tokugawa clan and became renowned for his skillful use of the yari (spear) on the battlefield. Although the Shimazu clan fought valiantly, they ultimately sided with the losing Western army, resulting in the loss of their territories.[NEWLINE][NEWLINE]Despite their defeat at Sekigahara, the Shimazu clan rebounded and reestablished their power in the Satsuma domain. Under the rule of Shimazu Nariakira in the mid-19th century, the clan embraced Western influences and implemented a range of modernization reforms in their domain. Nariakira's efforts helped Satsuma become a center of Western learning and technology, contributing to the larger movement of Meiji Restoration that led to the downfall of the Tokugawa shogunate.[NEWLINE][NEWLINE]During the Meiji period, the Shimazu clan transitioned from being feudal lords to influential figures in the new government. Shimazu Tadayoshi, a descendant of the clan, served as a prominent statesman and played a role in shaping Japan's early modernization efforts. The Shimazu clan continued to hold political influence and contributed to the nation's development throughout the subsequent eras.[NEWLINE][NEWLINE]Today, the Shimazu clan's legacy endures, with descendants still recognized as prominent figures in various fields, including politics, academia, and the arts. The clan's rich history and their impact on the region of Satsuma and Japanese society as a whole make them an integral part of Japan's historical tapestry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_OTOMO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_OTOMO_TEXT_1">
+			<Text>The Otomo clan of Japan has a rich and complex history that spans several centuries, leaving an indelible mark on the nation's political and cultural landscape. Originating from the Kyushu region, the Otomo clan rose to prominence during the Sengoku Jidai, the era of warring states.[NEWLINE][NEWLINE]The clan's earliest known ancestor was Otomo Sorin, who established the foundation of the clan's power in the 16th century. Known for his astute diplomacy, Sorin forged strategic alliances with neighboring clans, including the Shimazu and the Mōri, which helped solidify the Otomo clan's position in Kyushu. Through both military conquests and political maneuvering, the Otomo clan expanded their territory and influence across the region.[NEWLINE][NEWLINE]One of the defining aspects of the Otomo clan was their early embrace of Christianity. Sorin and subsequent clan leaders, such as Otomo Sōrin and Otomo Yoshimune, converted to Christianity and welcomed Jesuit missionaries to their domains. This religious affiliation brought new ideas, technology, and trade networks to the Otomo clan, setting them apart from other daimyo in Japan. However, their conversion also sparked tensions with other clans and the ruling authorities who saw Christianity as a potential threat to traditional Japanese values.[NEWLINE][NEWLINE]The Otomo clan faced significant challenges during the late 16th century when Toyotomi Hideyoshi launched his campaigns to unify Japan. Initially, the Otomo clan resisted Hideyoshi's advances, but they eventually succumbed to overwhelming pressure and allied with him. This alliance allowed the Otomo clan to maintain some autonomy and retain their territories, albeit under the watchful eye of the Toyotomi regime.[NEWLINE][NEWLINE]Following the fall of the Toyotomi regime, the Otomo clan aligned themselves with Tokugawa Ieyasu, who emerged as the de facto ruler of Japan. Under Tokugawa rule, the Otomo clan continued to exert influence and participate in the political affairs of Kyushu. However, as the Edo period progressed, their power gradually diminished, and they transitioned from being daimyo to local administrators under the Tokugawa shogunate.[NEWLINE][NEWLINE]Today, the Otomo clan's legacy endures, with descendants who have contributed to various fields, including politics, academia, and the arts. The clan's early adoption of Christianity and their role in regional politics make them a fascinating part of Japan's history. The Otomo clan's story is a testament to the complex interplay between religion, diplomacy, and power during the transformative Sengoku Jidai era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_MORI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_MORI_TEXT_1">
+			<Text>The Mori clan, with its roots in the Chugoku region of Japan, has a storied history that spans several centuries and played a pivotal role during the Sengoku Jidai period. Known for their military prowess, strategic acumen, and political maneuvering, the Mori clan left an indelible mark on the history of Japan.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]The origins of the Mori clan can be traced back to the late 12th century, when the family served as local warriors under the powerful Kikkawa clan. It was during the leadership of Mori Tokichika that the clan began to rise in prominence. Tokichika distinguished himself in battle, displaying remarkable martial skill and strategic thinking.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]The turning point for the Mori clan came when Mori Motonari assumed leadership in the late 15th century. Motonari's strategic brilliance and diplomatic finesse propelled the clan to new heights. He skillfully navigated the complex political landscape of the Sengoku Jidai, forging alliances with other powerful clans and expanding the Mori clan's influence.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Motonari's most notable achievement was the implementation of his three-arrow strategy, symbolizing the importance of unity among his three sons: Mori Takamoto, Kikkawa Motoharu, and Kobayakawa Takakage. This strategy enabled the clan to maintain a strong and cohesive front against their enemies, making them a formidable force on the battlefield.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Under Motonari's leadership, the Mori clan achieved several significant victories, including the Battle of Miyajima in 1555 and the Battle of Itsukushima in 1557. These triumphs solidified the clan's control over the Aki and Bingo provinces, establishing a strong base of power in the Chugoku region.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Following Motonari's death, his sons continued to uphold the clan's legacy and expand its influence. Mori Terumoto, the grandson of Motonari, became the most prominent figure of the next generation. Terumoto played a pivotal role in the late Sengoku Jidai, particularly during the events leading up to the Battle of Sekigahara in 1600.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]At the Battle of Sekigahara, the Mori clan initially aligned with the Western Army, opposing the Tokugawa forces. However, they were ultimately defeated, leading to a significant decline in the clan's power. Terumoto managed to retain some of their territories, but the Mori clan's influence was greatly diminished under the Tokugawa shogunate.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Despite their reduced power, the Mori clan continued to play a role in the political landscape of Japan. Some members of the clan served as administrators under the Tokugawa shogunate, maintaining a level of influence within their domains.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Today, the Mori clan's legacy endures, and their contributions to Japanese history are celebrated. Their military prowess, strategic brilliance, and ability to forge alliances set them apart as a formidable clan during the Sengoku Jidai period. The Mori clan's story serves as a testament to the complex dynamics of power, diplomacy, and warfare in feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_CHOSOKABE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_CHOSOKABE_TEXT_1">
+			<Text>The Chosokabe clan, a powerful daimyo family in feudal Japan, emerged from the Tosa Province (present-day Kochi Prefecture) and played a significant role during the Sengoku Jidai period. The clan's history is marked by the rise to power of Chosokabe Motochika and their subsequent expansion in Shikoku.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]The origins of the Chosokabe clan can be traced back to the late 14th century when Chosokabe Kunichika established himself as a local warrior in Tosa Province. However, it was under the leadership of Kunichika's son, Motochika, that the clan reached its zenith.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Motochika, born in 1539, assumed control of the Chosokabe clan following his father's assassination. At a young age, he displayed remarkable military talent and ambition, setting his sights on unifying the fragmented Tosa Province.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Motochika embarked on a series of military campaigns, clashing with rival clans in Tosa. Through his strategic brilliance and battlefield prowess, he gradually expanded his influence, securing alliances and defeating his opponents. His campaigns culminated in the unification of Tosa Province under the Chosokabe banner.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Having achieved control over Tosa, Motochika turned his attention to Shikoku, the neighboring island. He sought to extend his dominion and establish the Chosokabe clan as a major power in the region.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Motochika's conquest of Shikoku was a formidable challenge. The island was divided among powerful clans, including the powerful Miyoshi and Ichijo families. Undeterred, Motochika launched a series of military campaigns, gradually bringing the provinces of Awa, Sanuki, and Iyo under his control.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]His most notable victory came in 1585 when he successfully captured the strategically significant fortress of Urado. This achievement solidified Motochika's dominance over Shikoku, and he declared himself the "Lord of Shikoku," firmly establishing the Chosokabe clan as a major force in the region.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Motochika's rule over Shikoku was characterized by effective governance and reforms. He implemented land reforms, improving the lives of farmers and peasants. He encouraged economic development, trade, and cultural exchanges, fostering prosperity within his domain.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]However, the Chosokabe clan's expansion drew the attention of the powerful Toyotomi Hideyoshi, who sought to unify Japan under his rule. In 1587, Hideyoshi launched the Kyushu Campaign, aiming to suppress the power of regional daimyo, including Motochika.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]Faced with overwhelming force, Motochika chose to surrender to Hideyoshi, losing his conquests in Shikoku. Nonetheless, he retained his domain in Tosa Province under the Toyotomi shogunate. Motochika remained a respected figure and continued to wield influence within his reduced territories.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]The Chosokabe clan endured beyond Motochika's era. Some members of the clan served under the Tokugawa shogunate, maintaining a level of prominence within their domain. The clan's rich history and legacy continue to be celebrated in Kochi Prefecture, where their stronghold was located.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]The Chosokabe clan's rise to power, their conquests in Tosa and Shikoku, and their contributions to regional development make them a significant clan of the Sengoku Jidai period. Motochika's ambition, military achievements, and governance highlight their enduring impact on the history of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_UESUGI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_UESUGI_TEXT_1">
+			<Text>The Uesugi clan, a prominent lineage in Japanese history, traces its origins back to the 12th century. Initially based in the Echigo province, the clan rose to prominence under the leadership of Uesugi Norimasa. However, it was Uesugi Kenshin, the fourth head of the clan, who became the most renowned figure in Uesugi history. Kenshin, known as the "Dragon of Echigo," was a fearsome warrior and a master tactician. He engaged in numerous battles, most notably against his rival, Takeda Shingen, in what became one of the most legendary feuds of the Sengoku Jidai period. Kenshin's military genius, unwavering honor, and adherence to the principles of bushido earned him a place among Japan's greatest samurai.[NEWLINE][NEWLINE]Following Kenshin's death, the Uesugi clan experienced a decline in power and influence. Internal conflicts and external pressures weakened their position, and they eventually lost control of the Echigo province. Despite their diminished status, the Uesugi clan continued to hold a place of respect and admiration in Japanese history. Their legacy of martial prowess, loyalty, and adherence to the samurai code left an indelible mark on Japanese culture. The Uesugi clan's tale is one of valor, rivalry, and the pursuit of excellence, solidifying their status as an enduring symbol of the samurai spirit in feudal Japan.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

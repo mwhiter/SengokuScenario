@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2023 8:13:11 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU_SHORT">
+			<Text>Unwavering Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU">
+			<Text>This trait has no effect. (something to do with discipline / loyalty)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO_SHORT">
+			<Text>Call of Christianity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO">
+			<Text>This trait has no effect. (something to do with religion)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT">
+			<Text>Rising Tide</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI">
+			<Text>This trait has no effect. (something to do with naval prowess)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE_SHORT">
+			<Text>Warlord of Shikoku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE">
+			<Text>This trait has no effect. (something to do with bonuses on Shikoku)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT">
+			<Text>Disciple of Bishamonten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI">
+			<Text>This trait has no effect. (something to do with bonuses to war and Faith)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/31/2023 8:04:49 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_ASHIGARU">
+			<Text>Yari Ashigaru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_ASHIGARU_TEXT">
+			<Text>The term "Yari Ashigaru" refers to foot soldiers armed with the yari, a long spear that became their signature weapon. The yari, typically measuring around six to twelve feet in length, provided reach and versatility in combat. The Ashigaru were trained in the art of yarijutsu, spear techniques that emphasized precision strikes and coordination within their ranks.[NEWLINE][NEWLINE]Initially, the Yari Ashigaru were primarily peasants and commoners who were conscripted or enlisted to serve in the armies of daimyo. These foot soldiers provided a means for daimyo to field large armies at a relatively low cost, as the Ashigaru were less expensive to equip and maintain than the samurai warriors.[NEWLINE][NEWLINE]Over time, the Yari Ashigaru gained recognition for their discipline, effectiveness, and adaptability on the battlefield. They were known for their ability to form tight spear formations, called "yari wall" or "spear hedge," which created a formidable barrier against cavalry charges and infantry assaults.[NEWLINE][NEWLINE]The Yari Ashigaru were also skilled in siege warfare, often wielding their spears as makeshift pikes to repel castle defenders or breach enemy fortifications. They were adept at employing tactical formations, such as the "crane wing" or "flying geese," to encircle and overwhelm enemy forces.[NEWLINE][NEWLINE]The prominence of the Yari Ashigaru reached its peak during the Battle of Nagashino in 1575. Led by Oda Nobunaga and his strategist, Toyotomi Hideyoshi, a combined force of Ashigaru and matchlock gunners successfully defended against the cavalry charges of the Takeda clan. The battle showcased the effectiveness of the Ashigaru's disciplined formations and their integration with firearms.[NEWLINE][NEWLINE]As the Sengoku Jidai period came to a close and the Tokugawa shogunate was established, the role of the Yari Ashigaru underwent significant changes. With the Tokugawa shoguns seeking to stabilize Japan and establish a strict social hierarchy, the Ashigaru became more regulated and their status became more defined. They were often assigned to specific domains, serving as part of the standing armies under the control of the daimyo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_ASHIGARU_STRATEGY">
+			<Text>The Yari Ashigaru is the cheapest and earliest unit in the game. Yari Ashigaru allow you to quickly build up and field an army, and can hold their own against Cavalry, but they will quickly fall to more heavily armored foes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_ASHIGARU_HELP">
+			<Text>Weak, cheap early game Unit that deals +100% vs. Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI">
+			<Text>Yari Samurai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI_TEXT">
+			<Text>These elite samurai were known for their exceptional proficiency in spear combat, utilizing the yari's reach and versatility to devastating effect. They formed the backbone of many feudal armies, employing disciplined formations and strategic maneuvers to overcome their opponents. Renowned for their unwavering loyalty, strict code of honor, and mastery of battlefield tactics, Yari Samurai were formidable forces on the battlefield, capable of breaking enemy lines and securing victories for their clans. Their skill with the yari made them respected and feared adversaries, embodying the essence of samurai warriors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI_STRATEGY">
+			<Text>Yari Samurai fare better in combat against more improved opponents compared to their Ashigaru counterparts. Utilize Yari Samurai when you need to counter a lot of enemy Mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI_HELP">
+			<Text>+100% vs. Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK">
+			<Text>Warrior Monk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK_TEXT">
+			<Text>The Sohei were warrior monks of medieval Japan, known for their martial skills and spiritual devotion. These disciplined and formidable warriors were deeply rooted in Buddhist teachings, combining their religious practices with combat training. Clad in distinctive robes and armed with traditional weapons such as naginatas and bows, the Sohei served as protectors of temples and monastic communities. Their unwavering loyalty to their religious beliefs and their prowess on the battlefield made them a force to be reckoned with, embodying the harmonious blend of spiritual enlightenment and martial strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK_STRATEGY">
+			<Text>The Warrior Monk is a terrifying melee unit only available in Cities where the Buddhist faith is most prominent. Warrior monks are exceptional in combat against traditional melee units like the Yari Ashigaru and Katana Samurai, but they are very vulnerable to ranged attacks from both bows and guns. Be selective with your targets with the Warrior Monk, and they will be a fantastic addition to your army.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK_HELP">
+			<Text>Feared warrior that can devastate both Melee and Mounted units. Weak to Gunpowder and Archery units. Can only be purchased with [ICON_PEACE] Faith, and is only available to [ICON_RELIGION_BUDDHISM] Buddhist nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KATANA_ASHIGARU">
+			<Text>Katana Ashigaru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KATANA_ASHIGARU_TEXT">
+			<Text>Consisting of peasant and commoner warriors, the ashigaru formed the backbone of many daimyo armies, bringing numerical strength, discipline, and adaptability to the battlefield. Equipped with an array of weapons such as spears, bows, katanas, and matchlock guns, they were adept at forming tight formations, repelling enemy assaults, and executing siege warfare. While lacking the social status of the samurai, ashigaru proved their worth through their resilience, tactical prowess, and ability to work in harmony with other units, leaving an indelible mark on the military history of feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KATANA_ASHIGARU_STRATEGY">
+			<Text>The Katana Ashigaru is a formidable early-game combat unit that is useful for crushing weaker units, such as the Yari Ashigaru. They are most effective in capturing cities early on since they do not suffer combat penalties against them, unlike mounted units, while maintaining a higher combat strength than the Yari Ashigaru. However, Katana Ashigaru may struggle against more heavily armored units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KATANA_ASHIGARU_HELP">
+			<Text>Early game Unit that is useful for capturing cities and defeating weaker melee units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY">
+			<Text>Light Cavalry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIGHT_CAVALRY_TEXT">
+			<Text>These mounted warriors played a crucial role in reconnaissance, skirmishes, and hit-and-run tactics. Lightly armored and armed with weapons such as bows, spears, or swords, they excelled in mobility and speed, allowing them to swiftly maneuver through enemy lines and exploit vulnerabilities. Their primary objective was to disrupt enemy formations, harass supply lines, and provide crucial support to the main forces. While they lacked the heavy armor and brute force of their samurai counterparts, the Light Cavalry's agility and strategic finesse made them invaluable assets in the ever-shifting landscape of feudal Japan's warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY_STRATEGY">
+			<Text>The Light Cavalry is a fast and powerful mounted unit, utilizing its mobility to attack weaker units such as archers or injured foes, and then retreating before they face counterattacks from more formidable enemies, particularly Yari units. Light Cavalry are highly ineffective when assaulting cities and should instead be deployed to break enemy lines, allowing more powerful units to siege cities. However, caution must be exercised when encountering enemy Yari units, as they can quickly kill Light Cavalry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY_HELP">
+			<Text>Fast and powerful Mounted unit. Weak to Yari units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY">
+			<Text>Heavy Cavalry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HEAVY_CAVALRY_TEXT">
+			<Text>These elite mounted warriors were heavily armored and armed with weapons such as yari (spears) and katana (swords), enabling them to deliver devastating charges and engage in close combat. With their superior armor and weaponry, Heavy Cavalry were capable of breaking through enemy lines, shattering formations, and instilling fear in their opponents. Their role extended beyond sheer brute force, as they also provided protection for commanders, executed flanking maneuvers, and pursued routing enemies. While fewer in number compared to other cavalry units, Heavy Cavalry commanded respect and played a pivotal role in shaping the outcome of battles during this tumultuous era of feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY_STRATEGY">
+			<Text>One of the most feared units on the battlefield, Heavy Cavalry sacrifice some of their mobility to deal more damage in direct combat. Employ Heavy Cavalry to eliminate opposing threats across the battlefield, yet exercise caution in the presence of Yari units, as they can make quick work of your cavalry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY_HELP">
+			<Text>A strong Mounted unit that sacrifices extra mobility for better performance in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU">
+			<Text>Bow Ashigaru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU_TEXT">
+			<Text>Bow Ashigaru were peasant warriors armed with bows, serving as a vital component of feudal Japan's military forces during the Sengoku Jidai period. Despite their humble origins, these commoners displayed remarkable skill in archery and played a significant role in ranged warfare. Equipped with their trusty bows, they unleashed volleys of arrows upon the enemy, utilizing their accuracy and range to deadly effect. Though lacking the social status and privileges of the samurai, the Bow Ashigaru proved their worth through their dedication and proficiency with the bow, underscoring the importance of commoners in shaping the outcome of battles during this era of intense conflict in Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU_STRATEGY">
+			<Text>The Bow Ashigaru are cheap and cost-effective to produce, provided they are protected on the battlefield from melee units, especially mounted units. Bow Ashigaru are most useful when defending cities in the early game, where they are cheap to produce and able to rain down fire from protected positions, but weak on the open terrain where they are susceptible to attacks from mounted units. Bow Ashigaru will be vulnerable to other ranged attacks, so they will not be effective in sieging enemy cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU_HELP">
+			<Text>Cheap ranged Unit, capable of attacking enemies at a distance. Their low [ICON_STRENGTH] Combat Strength makes them vulnerable to melee attacks, so they must be protected in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI">
+			<Text>Bow Samurai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI_TEXT">
+			<Text>Bow Samurai were elite warriors of feudal Japan who excelled in both archery and swordsmanship. These highly skilled and disciplined soldiers were among the most versatile and respected fighters on the battlefield during the Sengoku Jidai period. Armed with both a bow and a katana, they possessed the ability to engage enemies from a distance or in close-quarters combat. The Bow Samurai's mastery of archery allowed them to rain down precise and deadly volleys of arrows upon their foes, while their proficiency in swordplay ensured they were formidable opponents in melee engagements. With their well-rounded skill set, the Bow Samurai played a crucial role in strategic maneuvers, defensive actions, and decisive offensives, leaving a lasting impact on the military history of feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI_STRATEGY">
+			<Text>Bow Samurai are expert marksmen, capable of dealing devastating damage to units from range. Although they are less effective in melee combat compared to contemporary melee units, Bow Samurai are quite capable of defending themselves against Ashigaru units and light cavalry, making them a formidable force on the battlefield. To ensure their protection, position your archers alongside heavily armed melee units and take advantage of defensive bonuses provided by hills and forests. With this strategic placement, you can unleash a relentless barrage of arrows upon your enemies, turning the tide of battle in your favor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI_HELP">
+			<Text>Powerful ranged Unit, able to attack enemies from a distance. Capable of defending themselves in close combat, but less effective than other melee units in combat.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
