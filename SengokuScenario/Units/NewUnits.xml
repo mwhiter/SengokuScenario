@@ -198,8 +198,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_YARI_ASHIGARU</UnitArtInfo>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_YARI_SAMURAI</Class>
@@ -226,8 +226,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_YARI_SAMURAI</UnitArtInfo>
 			<UnitFlagIconOffset>1</UnitFlagIconOffset>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_WARRIOR_MONK</Class>
@@ -254,8 +254,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_WARRIOR_MONK</UnitArtInfo>
 			<UnitFlagIconOffset>5</UnitFlagIconOffset>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_KATANA_ASHIGARU</Class>
@@ -367,8 +367,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_HEAVY_CAVALRY</UnitArtInfo>
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
 		</Row>
 		<Row>
@@ -396,8 +396,8 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_BOW_ASHIGARU</UnitArtInfo>
 			<UnitFlagIconOffset>6</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_BOW_SAMURAI</Class>
@@ -425,8 +425,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_BOW_SAMURAI</UnitArtInfo>
 			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>13</UnitFlagIconOffset>
-			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MISSIONARY</Class>
@@ -830,145 +830,4 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
-	<Technologies>
-		<Row>
-			<Type>TECH_POTTERY</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_POTTERY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_POTTERY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_POTTERY_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>1</GridX>
-			<GridY>1</GridY>
-			<Quote>TXT_KEY_TECH_POTTERY_QUOTE</Quote>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_POTTERY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_POTTERY</AudioIntroHeader>
-		</Row>
-		<Row>
-			<Type>TECH_ANIMAL_HUSBANDRY</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_ANIMAL_HUSBANDRY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>1</GridX>
-			<GridY>4</GridY>
-			<Quote>TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE</Quote>
-			<PortraitIndex>2</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_ANIMAL_HUSBANDRY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_ANIMAL_HUSBANDRY</AudioIntroHeader>
-		</Row>
-		<Row>
-			<Type>TECH_ARCHERY</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_ARCHERY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_ARCHERY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_ARCHERY_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>1</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>
-			<PortraitIndex>7</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_ARCHERY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>
-		</Row>
-		<Row>
-			<Type>TECH_MINING</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_MINING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_MINING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_MINING_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>1</GridX>
-			<GridY>8</GridY>
-			<Quote>TXT_KEY_TECH_MINING_QUOTE</Quote>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_MINING</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_MINING</AudioIntroHeader>
-		</Row>
-	</Technologies>
-	<Technology_Flavors>
-		<Row>
-			<TechType>TECH_POTTERY</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_POTTERY</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MINING</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MINING</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MINING</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-	</Technology_Flavors>
-	<Technology_PrereqTechs>
-		<Row>
-			<TechType>TECH_POTTERY</TechType>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MINING</TechType>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-		</Row>
-	</Technology_PrereqTechs>
 </GameData>

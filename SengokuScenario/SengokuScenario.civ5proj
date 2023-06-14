@@ -51,6 +51,13 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Vox Populi</Name>
+        <Id>8411a7a8-dad3-4622-a18e-fcc18324c799</Id>
+        <MinVersion>6</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModDependencies>
     <ModContent>
       <Content>
@@ -122,6 +129,16 @@
         <Type>UpdateDatabase</Type>
         <FileName>Buildings/NewBuildings.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/NewTechs.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Text/TechsText.xml</FileName>
+      </Action>
     </ModActions>
     <ReloadUnitSystem>true</ReloadUnitSystem>
   </PropertyGroup>
@@ -161,6 +178,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Techs\NewTechs.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Text\CityNames.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -178,6 +199,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Text\ScenarioText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Text\TechsText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -205,6 +230,7 @@
   <ItemGroup>
     <Folder Include="Civilizations" />
     <Folder Include="Buildings" />
+    <Folder Include="Techs" />
     <Folder Include="Units" />
     <Folder Include="Text" />
   </ItemGroup>

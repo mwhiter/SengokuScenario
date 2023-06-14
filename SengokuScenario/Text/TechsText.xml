@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2023 9:30:08 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_MYSTICISM_TITLE">
+			<Text>Mysticism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MYSTICISM_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MYSTICISM_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MYSTICISM_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_TITLE">
+			<Text>Calligraphy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NINJUTSU_TITLE">
+			<Text>Ninjutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NINJUTSU_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NINJUTSU_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NINJUTSU_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BUSHIDO_TITLE">
+			<Text>Bushido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BUSHIDO_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BUSHIDO_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BUSHIDO_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BAJUTSU_TITLE">
+			<Text>Bajutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BAJUTSU_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BAJUTSU_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BAJUTSU_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KENJUTSU_TITLE">
+			<Text>Kenjutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KENJUTSU_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KENJUTSU_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KENJUTSU_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KYUJUTSU_TITLE">
+			<Text>Kyujutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KYUJUTSU_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KYUJUTSU_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_KYUJUTSU_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STRATEGY_TITLE">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STRATEGY_DESC">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STRATEGY_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STRATEGY_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

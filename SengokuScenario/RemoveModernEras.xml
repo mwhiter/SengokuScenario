@@ -124,6 +124,9 @@
 	<Improvements>
 		<Delete/>
 	</Improvements>
+	<Improvement_TechYieldChanges>
+		<Delete/>
+	</Improvement_TechYieldChanges>
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_PALACE</Type>
@@ -236,6 +239,53 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
+		<Row>
+			<Type>ERA_INDUSTRIAL</Type>
+			<Description>TXT_KEY_ERA_4</Description>
+			<ShortDescription>TXT_KEY_ERA_4_SHORT</ShortDescription>
+			<Abbreviation>TXT_KEY_ERA_4_ABBREV</Abbreviation>
+			<Strategy>TXT_KEY_ERA_INDUSTRIAL_STRATEGY</Strategy>
+			<ArtPrefix>INDUSTRIAL </ArtPrefix>
+			<NoGoodies>true</NoGoodies>
+			<NoBarbUnits>true</NoBarbUnits>
+			<NoReligion>true</NoReligion>
+			<ResearchAgreementCost>300</ResearchAgreementCost>
+			<EmbarkedUnitDefense>10</EmbarkedUnitDefense>
+			<StartingUnitMultiplier>3</StartingUnitMultiplier>
+			<StartingDefenseUnits>3</StartingDefenseUnits>
+			<StartingWorkerUnits>2</StartingWorkerUnits>
+			<StartingExploreUnits>2</StartingExploreUnits>
+			<StartingGold>100</StartingGold>
+			<StartingCulture>400</StartingCulture>
+			<FreePopulation>2</FreePopulation>
+			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
+			<StartPercent>50</StartPercent>
+			<BuildingMaintenancePercent>60</BuildingMaintenancePercent>
+			<GrowthPercent>75</GrowthPercent>
+			<TrainPercent>33</TrainPercent>
+			<ConstructPercent>37</ConstructPercent>
+			<CreatePercent>37</CreatePercent>
+			<ResearchPercent>20</ResearchPercent>
+			<BuildPercent>80</BuildPercent>
+			<ImprovementPercent>80</ImprovementPercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
+			<CulturePercent>80</CulturePercent>
+			<TradeRouteFoodBonusTimes100>200</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>200</TradeRouteProductionBonusTimes100>
+			<EventChancePerTurn>6</EventChancePerTurn>
+			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
+			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
+			<FaithCostMultiplier>200</FaithCostMultiplier>
+			<DiploEmphasisReligion>2</DiploEmphasisReligion>
+			<DiploEmphasisLatePolicies>7</DiploEmphasisLatePolicies>
+			<LeaguePercent>200</LeaguePercent>
+			<WarmongerPercent>90</WarmongerPercent>
+			<SoundtrackSpace>120</SoundtrackSpace>
+			<FirstSoundtrackFirst>false</FirstSoundtrackFirst>
+			<CityBombardEffectTag>CITY_BOMBARD_MID</CityBombardEffectTag>
+			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
+			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
+		</Row>
 	</Eras>
 	<Technologies>
 		<Delete/>
@@ -325,23 +375,21 @@
 				<CultureBranchesRequired>100</CultureBranchesRequired>
 			</Set>
 		</Update>
-	</Projects>
-	<Processes>
 		<Update>
-			<Where Type="PROCESS_WEALTH"/>
+			<Where Type="PROJECT_PUBLIC_WORKS"/>
 			<Set>
-				<TechPrereq>TECH_AGRICULTURE</TechPrereq>
+				<CultureBranchesRequired>100</CultureBranchesRequired>
 			</Set>
 		</Update>
-		<Delete>
-			<Type>PROCESS_WORLD_FAIR</Type>
-		</Delete>
-		<Delete>
-			<Type>PROCESS_WORLD_GAMES</Type>
-		</Delete>
-		<Delete>
-			<Type>PROCESS_INTERNATIONAL_SPACE_STATION</Type>
-		</Delete>
+	</Projects>
+	<Processes>
+		<Delete Type="PROCESS_WORLD_FAIR" />
+		<Delete Type="PROCESS_WORLD_GAMES" />
+		<Delete Type="PROCESS_FOOD" />
+		<Delete Type="PROCESS_DEFENSE" />
+		<Delete Type="PROCESS_TREASURE_FLEET" />
+		<Delete Type="PROCESS_WARGAMES" />
+		<Delete Type="PROCESS_UNITED_NATIONS" />
 	</Processes>
 	<LeagueProjects>
 		<Delete/>
@@ -349,6 +397,9 @@
 	<Resolutions>
 		<Delete/>
 	</Resolutions>
+	<Specialists>
+		<Delete Type="SPECIALIST_CIVIL_SERVANT" />
+	</Specialists>
 	<Improvements>
 		<Row>
 			<Type>IMPROVEMENT_FARM</Type>
