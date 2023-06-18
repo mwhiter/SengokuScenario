@@ -2,6 +2,30 @@
 <!-- Created by ModBuddy on 6/12/2023 9:30:08 PM -->
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_TITLE">
+			<Text>Horseback Riding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_DESC">
+			<Text>Horseback riding, also known as equestrianism, has a rich history that spans thousands of years, deeply intertwined with human civilization and its development. The concept of horseback riding originated in Central Asia around 4000 BCE when early nomadic tribes realized the immense potential of domesticating horses for transportation, warfare, and agriculture. The invention of the saddle and bridle in ancient times further enhanced the ability of humans to control and ride horses, enabling the expansion of trade routes and the movement of people across vast distances.[NEWLINE][NEWLINE]Throughout history, horseback riding played a crucial role in various cultures and societies. In ancient civilizations like Greece and Rome, horseback riding became an essential part of military training and warfare strategies. Horse-mounted warriors, such as the Mongol Empire's fearsome horse archers, demonstrated the immense power and mobility that horseback riding provided on the battlefield.[NEWLINE][NEWLINE]As societies evolved, horseback riding became more than just a practical skill. It became a popular recreational activity and a symbol of status and prestige among the aristocracy. Equestrian sports, such as horse racing, dressage, and show jumping, gained popularity, leading to the establishment of equestrian competitions and events worldwide.[NEWLINE][NEWLINE]In modern times, horseback riding serves various purposes, ranging from competitive sports to leisurely trail rides and therapeutic activities. It continues to captivate people's imaginations and remains an important connection between humans and animals, promoting a sense of harmony, skill, and appreciation for these majestic creatures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_TITLE">
+			<Text>Cartography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_DESC">
+			<Text>The concept of cartography dates back thousands of years when early humans began to create rudimentary maps to navigate their surroundings and depict the world around them. Ancient civilizations like the Mesopotamians, Egyptians, Greeks, and Chinese made significant contributions to the development of cartography, using different techniques and tools to represent the land, seas, and celestial bodies.[NEWLINE][NEWLINE]The history of cartography took a significant leap forward during the Age of Exploration in the 15th and 16th centuries. Explorers like Christopher Columbus, Ferdinand Magellan, and James Cook relied heavily on cartography to document their voyages and discover new lands. During this period, advancements in technology, such as the invention of the printing press and improvements in navigational instruments, enabled more accurate and detailed maps to be produced.[NEWLINE][NEWLINE]The field of cartography continued to evolve with the advent of aerial and satellite imagery in the 20th century. This development allowed cartographers to create maps with greater precision and detail. Today, cartography has expanded beyond traditional paper maps, embracing digital technologies and Geographic Information Systems (GIS) to create interactive and dynamic maps that serve a wide range of purposes, including navigation, urban planning, environmental analysis, and scientific research. Cartography remains a vital discipline for understanding and representing the world around us, continually adapting to new technologies and advancements in data collection and visualization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TECH_MYSTICISM_TITLE">
 			<Text>Mysticism</Text>
 		</Row>

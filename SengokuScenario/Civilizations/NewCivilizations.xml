@@ -706,28 +706,6 @@
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
-	<Civilization_FreeTechs>
-		<Row>
-			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
-			<TechType>TECH_AGRICULTURE</TechType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_OTOMO</CivilizationType>
-			<TechType>TECH_AGRICULTURE</TechType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_MORI</CivilizationType>
-			<TechType>TECH_AGRICULTURE</TechType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_CHOSOKABE</CivilizationType>
-			<TechType>TECH_AGRICULTURE</TechType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
-			<TechType>TECH_AGRICULTURE</TechType>
-		</Row>
-	</Civilization_FreeTechs>
 	<Civilization_Leaders>
 		<Row>
 			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>

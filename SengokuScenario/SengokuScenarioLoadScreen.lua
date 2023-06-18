@@ -54,7 +54,7 @@ Controls.StartButton:RegisterCallback(Mouse.eLClick, function()
 	UI.ResetScenarioPlayerSlots(true);
 	PreGame.SetOverrideScenarioHandicap(true);
 	PreGame.SetHandicap(0, g_CurrentDifficulty);
-	PreGame.SetGameSpeed(GameInfo.GameSpeeds["GAMESPEED_STANDARD"].ID);
+	PreGame.SetGameSpeed(GameInfo.GameSpeeds["GAMESPEED_QUICK"].ID);
 
 	local playerIndex = g_CurrentPlayerIndex;
 	if(playerIndex == nil) then

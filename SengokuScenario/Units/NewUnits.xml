@@ -68,6 +68,16 @@
 			<DefaultUnit>UNIT_BOW_SAMURAI</DefaultUnit>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_MUSKETMAN</Type>
+			<Description>TXT_KEY_UNIT_MUSKETMAN</Description>
+			<DefaultUnit>UNIT_MUSKETMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CANNON</Type>
+			<Description>TXT_KEY_UNIT_CANNON</Description>
+			<DefaultUnit>UNIT_CANNON</DefaultUnit>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_MISSIONARY</Type>
 			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
 			<DefaultUnit>UNIT_MISSIONARY</DefaultUnit>
@@ -260,6 +270,7 @@
 		<Row>
 			<Class>UNITCLASS_KATANA_ASHIGARU</Class>
 			<Type>UNIT_KATANA_ASHIGARU</Type>
+			<PrereqTech>TECH_BUSHIDO</PrereqTech>
 			<Combat>10</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
@@ -290,6 +301,7 @@
 		<Row>
 			<Class>UNITCLASS_KATANA_SAMURAI</Class>
 			<Type>UNIT_KATANA_SAMURAI</Type>
+			<PrereqTech>TECH_KENJUTSU</PrereqTech>
 			<Combat>21</Combat>
 			<Cost>120</Cost>
 			<FaithCost>240</FaithCost>
@@ -318,6 +330,7 @@
 		<Row>
 			<Class>UNITCLASS_LIGHT_CAVALRY</Class>
 			<Type>UNIT_LIGHT_CAVALRY</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			<Combat>12</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
@@ -346,6 +359,7 @@
 		<Row>
 			<Class>UNITCLASS_HEAVY_CAVALRY</Class>
 			<Type>UNIT_HEAVY_CAVALRY</Type>
+			<PrereqTech>TECH_BAJUTSU</PrereqTech>
 			<Combat>20</Combat>
 			<Cost>120</Cost>
 			<FaithCost>240</FaithCost>
@@ -374,6 +388,7 @@
 		<Row>
 			<Class>UNITCLASS_BOW_ASHIGARU</Class>
 			<Type>UNIT_BOW_ASHIGARU</Type>
+			<PrereqTech>TECH_BUSHIDO</PrereqTech>
 			<Combat>5</Combat>
 			<RangedCombat>7</RangedCombat>
 			<Cost>40</Cost>
@@ -402,6 +417,7 @@
 		<Row>
 			<Class>UNITCLASS_BOW_SAMURAI</Class>
 			<Type>UNIT_BOW_SAMURAI</Type>
+			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
 			<Combat>7</Combat>
 			<RangedCombat>11</RangedCombat>
 			<Cost>75</Cost>
@@ -452,6 +468,66 @@
 			<UnitFlagIconOffset>20</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Type>UNIT_MUSKETMAN</Type>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>24</Combat>
+			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MUSKETMAN</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_MUSKETMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MUSKETMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MUSKETMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_MUSKETMAN</UnitArtInfo>
+			<UnitFlagIconOffset>37</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_CANNON</Class>
+			<Type>UNIT_CANNON</Type>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<Combat>14</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Cost>185</Cost>
+			<FaithCost>370</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CANNON</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_CANNON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CANNON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CANNON</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CANNON</UnitArtInfo>
+			<UnitFlagIconOffset>43</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>ARTILLERY</MoveRate>
 		</Row>
 	</Units>
 	<Unit_AITypes>

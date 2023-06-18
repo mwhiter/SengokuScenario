@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/17/2023 1:39:49 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE">
+			<Text>Magistrate Office</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_PEDIA">
+			<Text>In feudal Japan, a magistrate's office, known as "bugyōsho" or "machiya," held a vital role in the governance and administration of local regions. These offices served as centers of authority, where magistrates, or "bugyō," carried out their duties of enforcing the law, resolving disputes, and maintaining order. Situated in prominent locations within towns or cities, magistrate's offices were often imposing structures designed to convey a sense of power and authority. Within their walls, magistrates presided over court hearings, issued judgments, and oversaw the daily affairs of their jurisdiction. These offices also provided a platform for citizens to voice their concerns, seek justice, and present petitions. Magistrate's offices became hubs of social interaction, where community members would gather to witness trials, engage in negotiations, and participate in local governance. Through their administration of justice and the exercise of power, magistrate's offices played a crucial role in maintaining law and order, resolving conflicts, and upholding societal harmony in feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN">
+			<Text>Sake Den</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_PEDIA">
+			<Text>During feudal Japan, sake dens, also known as "Izakaya", played an important role in the social fabric of Japanese society. These establishments originated as humble sake breweries but evolved into gathering places where locals would come to enjoy sake and camaraderie. In a time of strict social hierarchies and rigid class divisions, sakaya provided a space where people from different walks of life could intermingle, share stories, and forge connections. Sake dens often became popular meeting spots for samurai, merchants, artists, and commoners alike, fostering a sense of community and relaxation amidst the demands of feudal life. The sakaya owners, known as "sakanaya," acted as both brewers and hosts, carefully selecting and serving a range of sake to cater to different tastes. These sake dens became cultural hubs, nurturing the arts and serving as venues for poetry recitals, performances, and intellectual discourse. With their warm ambiance, lively atmosphere, and the ever-flowing sake, sake dens in feudal Japan left an indelible mark on the social fabric and drinking culture of the time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL">
+			<Text>Citadel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_PEDIA">
+			<Text>A citadel is a fortified stronghold or a fortified area within a city or town that serves as a defensive structure and a symbol of authority. Citadels have a long history dating back to ancient civilizations, where they were strategically positioned to provide protection against external threats and control over a region. These fortified complexes typically feature high walls, strong gates, and towers for surveillance and defense. Citadels often housed important government or military institutions, such as palaces, barracks, or administrative buildings. Throughout history, citadels played a crucial role in safeguarding territories, providing refuge for inhabitants during times of conflict, and asserting control over a region. They have become iconic landmarks and historical sites, representing the strength and resilience of civilizations from the past. Today, many citadels have been preserved or transformed into museums, offering visitors a glimpse into the military, political, and cultural heritage of the time periods in which they were built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE">
+			<Text>Tea House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_PEDIA">
+			<Text>Tea houses, known as "chashitsu" or "ochaya," have a rich history in feudal Japan as serene retreats dedicated to the art of tea ceremony and the appreciation of matcha, powdered green tea. Originating from Zen Buddhism, tea houses became important spaces for contemplation, tranquility, and social interaction. These elegant establishments were often nestled in carefully manicured gardens or scenic locations, providing a serene environment that reflected the principles of harmony and simplicity. Tea masters, known as "chajin," meticulously crafted the tea house's design, incorporating elements of traditional architecture and aesthetics. The tea ceremony, conducted with grace and precision, became a symbol of hospitality and refined manners. Tea houses became gathering places for intellectuals, samurai, and cultural elites, fostering discussions on philosophy, art, and poetry. With their focus on mindfulness, tea houses in feudal Japan provided an oasis of calm in a bustling world, serving as sanctuaries where the appreciation of tea became a pathway to inner peace and connection with others.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER">
+			<Text>Noh Theater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_PEDIA">
+			<Text>Noh theater, a traditional form of Japanese performing arts, holds a rich historical significance in feudal Japan. Developed during the 14th century, Noh theater became an integral part of courtly culture and the entertainment of the aristocracy. The theater itself, known as a "Noh stage" or "Nohgakudo," embodied a unique blend of simplicity and elegance. Constructed with natural materials, the stage featured a distinctive structure adorned with intricate woodwork and painted backdrops. Noh theaters were often found within the premises of shrines, temples, or feudal lord residences. These venues served as hallowed spaces for performances that combined music, dance, and poetic dialogue to convey stories rooted in mythology, folklore, and historical events. Noh theater also provided a platform for skilled actors, musicians, and chorus members to showcase their talents and artistic prowess. With its deep symbolism and spiritual undertones, Noh theater offered audiences a profound and contemplative experience, exploring themes of beauty, impermanence, and the human condition. In feudal Japan, Noh theaters stood as cultural sanctuaries, preserving and propagating the captivating artistry and poetic depth of this timeless theatrical tradition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION">
+			<Text>Golden Pavilion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_PEDIA">
+			<Text>The Golden Pavilion, also known as Kinkaku-ji, is a stunning Zen Buddhist temple located in Kyoto, Japan. Renowned for its exquisite beauty and tranquil surroundings, the pavilion stands as a testament to the rich cultural heritage of Japan. Its upper two floors are covered in shimmering gold leaf, creating a breathtaking sight that reflects on the surrounding pond. Originally built as a retirement villa for a shogun in the 14th century, the Golden Pavilion has withstood the test of time, surviving fires and war to become a UNESCO World Heritage site and a beloved symbol of Japanese architecture and spirituality. Visitors from around the world come to admire its harmonious blend of natural and man-made beauty, making it a must-see destination for those seeking serenity and cultural immersion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"What transforms this world is — knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI">
+			<Text>Horyu-ji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_PEDIA">
+			<Text>Horyu-ji, located in Nara, Japan, is a Buddhist temple complex that holds immense historical and cultural significance. Founded in the early 7th century, Horyu-ji is one of the oldest wooden structures in the world and stands as a testament to the architectural and artistic achievements of ancient Japan. The temple complex consists of several buildings, including the iconic five-story pagoda and the main hall, known as the Golden Hall or Kondo. These structures showcase the distinct architectural style of the Asuka period, characterized by intricate wood carvings, ornate roof tiles, and the use of traditional building techniques. Horyu-ji also houses a vast collection of Buddhist artifacts, including statues, scriptures, and relics, many of which are considered national treasures or important cultural properties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI">
+			<Text>Hongan-ji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_PEDIA">
+			<Text>Hongan-ji, also known as Nishi Hongan-ji, is a prominent Buddhist temple located in Kyoto, Japan. Founded in the 16th century, it belongs to the Jodo Shinshu school of Buddhism and is considered one of the largest wooden structures in the world. The temple complex encompasses multiple buildings, including the Goei-do (Founder's Hall) and Amidado (Hall of Amida Buddha). Hongan-ji has a rich historical significance, as it played a pivotal role in the development and propagation of Jodo Shinshu Buddhism during a time of social and political upheaval in Japan. The temple has endured numerous reconstructions and fires throughout its history, showcasing the resilience and dedication of its followers. Today, Hongan-ji serves as a spiritual center and a place for Buddhist ceremonies, study, and worship. It also houses important cultural artifacts, such as ancient Buddhist scriptures and works of art. As an architectural marvel and a symbol of religious devotion, Hongan-ji continues to attract visitors from around the world, offering a glimpse into the profound teachings and cultural heritage of Jodo Shinshu Buddhism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE][NEWLINE]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

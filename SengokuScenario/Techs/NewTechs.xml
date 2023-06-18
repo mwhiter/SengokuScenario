@@ -3,37 +3,6 @@
 <GameData>
 	<Technologies>
 		<Row>
-			<Type>TECH_CALLIGRAPHY</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_CALLIGRAPHY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CALLIGRAPHY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CALLIGRAPHY_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>0</GridX>
-			<GridY>3</GridY>
-			<Quote>TXT_KEY_TECH_CALLIGRAPHY_QUOTE</Quote>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_BUSHIDO</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_BUSHIDO_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_BUSHIDO_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_BUSHIDO_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>0</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_BUSHIDO_QUOTE</Quote>
-			<PortraitIndex>3</PortraitIndex>
-			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
-		</Row>
-
-		<Row>
 			<Type>TECH_MYSTICISM</Type>
 			<Cost>35</Cost>
 			<Description>TXT_KEY_TECH_MYSTICISM_TITLE</Description>
@@ -67,14 +36,14 @@
 		<Row>
 			<Type>TECH_HORSEBACK_RIDING</Type>
 			<Cost>105</Cost>
-			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_HORSEBACK_RIDING_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_TITLE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
 			<GridX>1</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE</Quote>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_QUOTE</Quote>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
@@ -115,15 +84,15 @@
 		<Row>
 			<Type>TECH_OPTICS</Type>
 			<Cost>85</Cost>
-			<Description>TXT_KEY_TECH_OPTICS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_OPTICS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_OPTICS_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_TITLE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_DESC</Civilopedia>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<AllowsEmbarking>true</AllowsEmbarking>
 			<Trade>true</Trade>
 			<GridX>2</GridX>
 			<GridY>1</GridY>
-			<Quote>TXT_KEY_TECH_OPTICS_QUOTE</Quote>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_QUOTE</Quote>
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<AudioIntro>AS2D_TECH_OPTICS</AudioIntro>

@@ -290,5 +290,77 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAMIKAWA">
 			<Text>Kamikawa</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SENDAI">
+			<Text>Sendai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAKUDA">
+			<Text>Kakuda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUKUSHIMA">
+			<Text>Fukushima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KORIYAMA">
+			<Text>Koriyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ISHINOMAKI">
+			<Text>Ishinomaki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SOMA">
+			<Text>Soma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SUKAGAWA">
+			<Text>Sukagawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSUYAMA">
+			<Text>Tsuyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NIHONMATSU">
+			<Text>Nihonmatsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOMOIKA">
+			<Text>Tomoika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HARANOMACHI">
+			<Text>Haranomachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIROISHI">
+			<Text>Shiroishi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NARUKO">
+			<Text>Naruko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSUKIDATE">
+			<Text>Tsukidate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OJIKA">
+			<Text>Ojika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIOGAMA">
+			<Text>Shiogama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IWANUMA">
+			<Text>Iwanuma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IWAKI">
+			<Text>Iwaki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAMIE">
+			<Text>Namie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MATSUSHIMA">
+			<Text>Matsushima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MURAYAMA">
+			<Text>Murayama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SUNAGAWA">
+			<Text>Sunagawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_RUMOI">
+			<Text>Rumoi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HABORO">
+			<Text>Haboro</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

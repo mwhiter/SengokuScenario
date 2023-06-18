@@ -4,6 +4,29 @@
 	<Units>
 		<Delete/>
 	</Units>
+	<Builds>
+		<Delete Type="BUILD_ENCAMPMENT_SHOSHONE" />
+		<Delete Type="BUILD_RAILROAD" />
+		<Delete Type="BUILD_WELL" />
+		<Delete Type="BUILD_OFFSHORE_PLATFORM" />
+		<Delete Type="BUILD_POLDER" />
+		<Delete Type="BUILD_ARCHAEOLOGY_DIG" />
+		<Delete Type="BUILD_BRAZILWOOD_CAMP" />
+		<Delete Type="BUILD_KASBAH" />
+		<Delete Type="BUILD_FEITORIA" />
+		<Delete Type="BUILD_CHATEAU" />
+		<Delete Type="BUILD_SIHEYUAN" />
+		<Delete Type="BUILD_MONGOLIA_ORDO" />
+		<Delete Type="BUILD_SPAIN_HACIENDA" />
+		<Delete Type="BUILD_ENCAMPMENT_SHOSHONE" />
+		<Delete Type="BUILD_EKI" />
+		<Delete Type="BUILD_KUNA" />
+		<Delete Type="BUILD_POLDER_WATER" />
+		<Delete Type="BUILD_POLYNESIAN_BOATS" />
+		<Delete Type="BUILD_EMBASSY" />
+		<Delete Type="BUILD_TERRACE_FARM" />
+		<Delete Type="BUILD_MOAI" />
+	</Builds>
 	<Unit_Builds>
 		<Delete/>
 	</Unit_Builds>
@@ -202,6 +225,7 @@
 			<NoGoodies>false</NoGoodies>
 			<NoBarbUnits>false</NoBarbUnits>
 			<NoReligion>false</NoReligion>
+			<VassalageEnabled>true</VassalageEnabled>
 			<ResearchAgreementCost>100</ResearchAgreementCost>
 			<EmbarkedUnitDefense>3</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>1</StartingUnitMultiplier>
@@ -299,21 +323,34 @@
 	<Technologies>
 		<Row>
 			<ID>0</ID>
-			<Type>TECH_AGRICULTURE</Type>
-			<Cost>20</Cost>
-			<Description>TXT_KEY_TECH_AGRICULTURE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_AGRICULTURE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_AGRICULTURE_HELP</Help>
+			<Type>TECH_CALLIGRAPHY</Type>
+			<Cost>35</Cost>
+			<Description>TXT_KEY_TECH_CALLIGRAPHY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CALLIGRAPHY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CALLIGRAPHY_HELP</Help>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>0</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_CALLIGRAPHY_QUOTE</Quote>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_BUSHIDO</Type>
+			<Cost>35</Cost>
+			<Description>TXT_KEY_TECH_BUSHIDO_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_BUSHIDO_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_BUSHIDO_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>0</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_AGRICULTURE_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_AGRICULTURE</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_AGRICULTURE</AudioIntroHeader>
+			<Quote>TXT_KEY_TECH_BUSHIDO_QUOTE</Quote>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
 		</Row>
 	</Technologies>
 	<Technology_Flavors>
@@ -324,6 +361,19 @@
 		</Row>
 	</Technology_Flavors>
 	<Resources>
+		<Delete Type="RESOURCE_COAL" />
+		<Delete Type="RESOURCE_OIL" />
+		<Delete Type="RESOURCE_ALUMINUM" />
+		<Delete Type="RESOURCE_URANIUM" />
+		<Delete Type="RESOURCE_IVORY" />
+		<Delete Type="RESOURCE_TRUFFLES" />
+		<Delete Type="RESOURCE_HIDDEN_ARTIFACTS" />
+		<Delete Type="RESOURCE_ARTIFACTS" />
+		<Delete Type="RESOURCE_BRAZILWOOD" />
+		<Delete Type="RESOURCE_PAPER" />
+		<Delete Type="RESOURCE_TOBACCO" />
+		<Delete Type="RESOURCE_LAPIS" />
+		<Delete Type="RESOURCE_MAIZE" />
 		<Update>
 			<Set>
 				<TechReveal/>
@@ -390,6 +440,7 @@
 		<Delete Type="PROCESS_TREASURE_FLEET" />
 		<Delete Type="PROCESS_WARGAMES" />
 		<Delete Type="PROCESS_UNITED_NATIONS" />
+		<Delete Type="PROCESS_INTERNATIONAL_SPACE_STATION" />
 	</Processes>
 	<LeagueProjects>
 		<Delete/>
@@ -402,6 +453,7 @@
 	</Specialists>
 	<Improvements>
 		<Row>
+			<ID>0</ID>
 			<Type>IMPROVEMENT_FARM</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FARM</Description>
 			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT</Civilopedia>
