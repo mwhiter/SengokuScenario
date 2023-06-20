@@ -297,8 +297,6 @@
 			<TradeRouteFoodBonusTimes100>200</TradeRouteFoodBonusTimes100>
 			<TradeRouteProductionBonusTimes100>200</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>6</EventChancePerTurn>
-			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>200</FaithCostMultiplier>
 			<DiploEmphasisReligion>2</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>7</DiploEmphasisLatePolicies>

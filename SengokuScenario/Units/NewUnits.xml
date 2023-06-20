@@ -214,6 +214,7 @@
 		<Row>
 			<Class>UNITCLASS_YARI_SAMURAI</Class>
 			<Type>UNIT_YARI_SAMURAI</Type>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 			<Combat>16</Combat>
 			<Cost>90</Cost>
 			<FaithCost>180</FaithCost>
@@ -242,6 +243,7 @@
 		<Row>
 			<Class>UNITCLASS_WARRIOR_MONK</Class>
 			<Type>UNIT_WARRIOR_MONK</Type>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Combat>16</Combat>
 			<Cost>90</Cost>
 			<FaithCost>180</FaithCost>

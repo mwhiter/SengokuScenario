@@ -95,7 +95,7 @@ if (iValue == nil) then
 	Game.SetEstimateEndTurn(200);
 	
 	-- Game Options (some also set in WorldBuilder)
+	Game.SetOption("GAMEOPTION_EVENTS", true);
 	Game.SetOption("GAMEOPTION_NO_LEAGUES", true);
-	Game.SetOption("GAMEOPTION_NO_ESPIONAGE", true);
 	Game.SetOption("GAMEOPTION_NO_CULTURE_OVERVIEW_UI", true);
 end

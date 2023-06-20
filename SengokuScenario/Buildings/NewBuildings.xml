@@ -11,6 +11,13 @@
 			<Type>BUILDINGCLASS_SAKE_DEN</Type>
 			<DefaultBuilding>BUILDING_SAKE_DEN</DefaultBuilding>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_NINJUTSU_SCHOOL</Type>
+			<DefaultBuilding>BUILDING_NINJUTSU_SCHOOL</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_TEA_HOUSE</Type>
@@ -21,6 +28,11 @@
 			<Type>BUILDINGCLASS_NOH_THEATER</Type>
 			<DefaultBuilding>BUILDING_NOH_THEATER</DefaultBuilding>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SUMO_TOURNEY</Type>
+			<DefaultBuilding>BUILDING_SUMO_TOURNEY</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CASTLE</Type>
@@ -66,6 +78,16 @@
 			<Type>BUILDINGCLASS_CATHEDRAL</Type>
 			<DefaultBuilding>BUILDING_CATHEDRAL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CATHEDRAL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_GRANARY</Type>
+			<DefaultBuilding>BUILDING_GRANARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GRANARY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_RICE_PADDY</Type>
+			<DefaultBuilding>BUILDING_RICE_PADDY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RICE_PADDY</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_WATERMILL</Type>
@@ -136,6 +158,18 @@
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_HONGANJI</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_KIYOMIZU_TEMPLE</Type>
+			<DefaultBuilding>BUILDING_KIYOMIZU_TEMPLE</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_KIYOMIZU_TEMPLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_KASUGA_TAISHA</Type>
+			<DefaultBuilding>BUILDING_KASUGA_TAISHA</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_KASUGA_TAISHA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -154,8 +188,40 @@
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_GRANARY</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<Cost>60</Cost>
+			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GRANARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_RICE_PADDY</Type>
+			<BuildingClass>BUILDINGCLASS_RICE_PADDY</BuildingClass>
+			<Cost>75</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_SAKE_DEN</Type>
 			<BuildingClass>BUILDINGCLASS_SAKE_DEN</BuildingClass>
+			<PrereqTech>TECH_NINJUTSU</PrereqTech>
 			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN</Description>
@@ -163,7 +229,10 @@
 			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_PAPER_MAKER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>0</ConquestProb>
+			<LocalPopRequired>5</LocalPopRequired>
+			<Happiness>1</Happiness>
+			<ExtraSpies>1</ExtraSpies>
+			<NeverCapture>true</NeverCapture>
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
@@ -197,6 +266,21 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SUMO_TOURNEY</Type>
+			<BuildingClass>BUILDINGCLASS_SUMO_TOURNEY</BuildingClass>
+			<Cost>100</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>50</HurryCostModifier>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_SEAPORT</Type>
@@ -264,8 +348,8 @@
 		<Row>
 			<Type>BUILDING_SHRINE</Type>
 			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<Cost>40</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
 			<Description>TXT_KEY_BUILDING_SHRINE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SHRINE_STRATEGY</Strategy>
@@ -325,7 +409,6 @@
 			<Type>BUILDING_WATERMILL</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
 			<Cost>75</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
 			<Description>TXT_KEY_BUILDING_WATERMILL</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WATERMILL_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_WATERMILL_STRATEGY</Strategy>
@@ -343,7 +426,6 @@
 			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>120</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FORGE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FORGE_TEXT</Civilopedia>
@@ -464,10 +546,10 @@
 			<Type>BUILDING_CITADEL</Type>
 			<BuildingClass>BUILDINGCLASS_CITADEL</BuildingClass>
 			<Cost>160</Cost>
-			<Help>TXT_KEY_BUILDING_CITADEL_HELP</Help>
-			<Description>TXT_KEY_BUILDING_CITADEL</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CITADEL_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CITADEL_STRATEGY</Strategy>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_STRATEGY</Strategy>
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
@@ -480,6 +562,30 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
+		<!-- National Wonders -->
+		<Row>
+			<Type>BUILDING_NINJUTSU_SCHOOL</Type>
+			<BuildingClass>BUILDINGCLASS_NINJUTSU_SCHOOL</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_NINJUTSU</PrereqTech>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_EPIC</ArtDefineTag>
+			<ExtraSpies>2</ExtraSpies>
+			<Espionage>true</Espionage>
+			<SpyRankChange>1</SpyRankChange>
+			<InstantSpyRankChange>1</InstantSpyRankChange>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+		<!-- World Wonders -->
 		<Row>
 			<Type>BUILDING_HIMEJI_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClass>
@@ -561,5 +667,114 @@
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
 		</Row>
+		<Row>
+			<Type>BUILDING_KIYOMIZU_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_KIYOMIZU_TEMPLE</BuildingClass>
+			<Cost>500</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_QUOTE</Quote>
+			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<WonderSplashImage>kiyomizutemplesplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_KASUGA_TAISHA</Type>
+			<BuildingClass>BUILDINGCLASS_KASUGA_TAISHA</BuildingClass>
+			<Cost>500</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE</Quote>
+			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+		</Row>
 	</Buildings>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RICE_PADDY</BuildingType>
+			<ResourceType>RESOURCE_RICE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SAKE_DEN</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_SAKE_DEN</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RICE_PADDY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_NINJUTSU_SCHOOL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SAKE_DEN</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_LocalResourceAnds>
+		<Row>
+			<BuildingType>BUILDING_RICE_PADDY</BuildingType>
+			<ResourceType>RESOURCE_RICE</ResourceType>
+		</Row>
+	</Building_LocalResourceAnds>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_NINJUTSU_SCHOOL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SAKE_DEN</BuildingClassType>
+			<NumBuildingNeeded>3</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
 </GameData>

@@ -256,7 +256,7 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>3</GridX>
-			<GridY>6</GridY>
+			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_KYUJUTSU_QUOTE</Quote>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>

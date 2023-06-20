@@ -14,6 +14,18 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_STRATEGY">
 			<Text></Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY">
+			<Text>Rice Paddy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_PEDIA">
+			<Text>A rice paddy, also known as a rice field or rice terrace, is an agricultural landscape specifically cultivated for the purpose of growing rice. It is a fundamental component of rice farming, which is prevalent in many regions across Asia. Rice paddies are typically constructed on flat or gently sloping terrain and are carefully shaped and irrigated to control water levels. They are divided into small, leveled plots, separated by mud or earthen walls, to enable efficient water management. Rice seeds are planted in these flooded plots, allowing the rice plants to grow in submerged conditions. Throughout the growth cycle, the water levels are adjusted to suit different stages of rice cultivation. Rice paddies require diligent maintenance, including periodic weeding, pest control, and soil management. Harvesting of the mature rice grains takes place once the plants have ripened and turned golden. Rice paddies not only serve as the primary source of rice production but also contribute to the ecological balance, acting as habitats for various species of plants and animals. They also have cultural significance, often being associated with traditional farming practices and rural landscapes in many parts of the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_HELP">
+			<Text>+10% [ICON_FOOD] Food. Each source of [ICON_RES_RICE] Rice worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City have at least one source of [ICON_RES_RICE] Rice improved nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_STRATEGY">
+			<Text>The Rice Paddy can only be constructed in a city with an improved source of [ICON_RES_RICE] Rice nearby. It increases the city's [ICON_FOOD] Food output, and should be built to allow your cities to grow extremely fast.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN">
 			<Text>Sake Den</Text>
 		</Row>
@@ -21,10 +33,22 @@
 			<Text>During feudal Japan, sake dens, also known as "Izakaya", played an important role in the social fabric of Japanese society. These establishments originated as humble sake breweries but evolved into gathering places where locals would come to enjoy sake and camaraderie. In a time of strict social hierarchies and rigid class divisions, sakaya provided a space where people from different walks of life could intermingle, share stories, and forge connections. Sake dens often became popular meeting spots for samurai, merchants, artists, and commoners alike, fostering a sense of community and relaxation amidst the demands of feudal life. The sakaya owners, known as "sakanaya," acted as both brewers and hosts, carefully selecting and serving a range of sake to cater to different tastes. These sake dens became cultural hubs, nurturing the arts and serving as venues for poetry recitals, performances, and intellectual discourse. With their warm ambiance, lively atmosphere, and the ever-flowing sake, sake dens in feudal Japan left an indelible mark on the social fabric and drinking culture of the time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_HELP">
-			<Text></Text>
+			<Text>City must have 5 [ICON_CITIZEN] Population. Maximum 3 Sake Dens may be built in your clan. In addition to the [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness effects, the Sake Den provides 1 additional Spy for your clan.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_STRATEGY">
-			<Text></Text>
+			<Text>The Sake Den is an incredibly strong building, boosting a City's [ICON_GOLD] Gold generation, [ICON_HAPPINESS_1] Happiness, and allowing recruitment of spies for your clan. Build Sake Dens in your strongest cities and combine them with other Gold-generation cities to fund your armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL">
+			<Text>Ninjutsu School</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_PEDIA">
+			<Text>A ninjutsu school, often referred to as a "ninja dōjō," is a training center dedicated to the study and practice of ninjutsu, the traditional martial art and espionage techniques associated with the historical ninja of Japan. These schools provide a structured curriculum for individuals interested in learning the various skills and principles of ninjutsu, which include stealth, unarmed combat, weapons proficiency, disguise, espionage, and survival techniques. In a ninjutsu school, students, known as "shinobi" or "ninja," undergo rigorous training under the guidance of experienced instructors, who impart knowledge on specialized techniques and strategies passed down through generations. The training typically encompasses physical conditioning, weaponry training, agility drills, meditation, and the understanding of the principles of strategy and deception. Students are also encouraged to cultivate a mindset of adaptability, resourcefulness, and discipline. Ninjutsu schools aim to preserve and transmit the ancient art of the ninja while emphasizing its practical applications in self-defense, personal development, and the preservation of historical traditions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_HELP">
+			<Text>Provides two additional spies and levels up all your existing spies. Can only be built in a city with a Sake Den. Must have built at least 3 Sake Dens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_STRATEGY">
+			<Text>An important National Wonder for improving your clan's espionage abilities. The Ninjutsu School provides two additional spies, and levels up all your existing spies. Your clan must have built 3 Sake Dens before constructing the Ninjutsu School.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL">
 			<Text>Citadel</Text>
@@ -62,6 +86,18 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_STRATEGY">
 			<Text></Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY">
+			<Text>Sumo Wrestling Tourney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_PEDIA">
+			<Text>A sumo wrestling tournament, known as a "basho," is a highly anticipated and traditional event in Japan, showcasing the ancient sport of sumo wrestling. These tournaments take place several times throughout the year in major cities such as Tokyo, Osaka, and Nagoya. The basho lasts for 15 days, with wrestlers, or "rikishi," from various sumo stables competing against each other in a round-robin format. Each day of the tournament features exciting matches between the rikishi, who strive to push, throw, or force their opponents out of the circular ring, called a "dohyo." The top-ranked wrestlers, known as "yokozuna," attract particular attention and have a special status in the sport. Sumo tournaments are steeped in tradition, with rituals, ceremonies, and distinctive customs that accompany the matches. The atmosphere in the venue is electrifying, with spectators cheering for their favorite rikishi and immersing themselves in the unique cultural experience of sumo. Attending a sumo wrestling tournament offers a captivating glimpse into the ancient Japanese sport, its rituals, and the incredible strength and technique displayed by the sumo wrestlers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_STRATEGY">
+			<Text></Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION">
 			<Text>Golden Pavilion</Text>
 		</Row>
@@ -72,7 +108,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"What transforms this world is — knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE][NEWLINE]</Text>
+			<Text>[NEWLINE][NEWLINE]"What transforms this world is knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI">
 			<Text>Horyu-ji</Text>
@@ -84,7 +120,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE][NEWLINE]</Text>
+			<Text>[NEWLINE][NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI">
 			<Text>Hongan-ji</Text>
@@ -96,7 +132,31 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE][NEWLINE]</Text>
+			<Text>[NEWLINE][NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE">
+			<Text>Kiyomizu Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_PEDIA">
+			<Text>Kiyomizu-dera Temple, located in Kyoto, Japan, is an iconic and historic Buddhist temple that holds great cultural and religious significance. Founded in the 8th century, the temple is known for its impressive wooden structure, which was constructed without the use of any nails. The main hall of Kiyomizu-dera, known as the Hondo, stands on a steep hillside, offering visitors panoramic views of the surrounding city and the beautiful Otawa Waterfall below.[NEWLINE][NEWLINE]Kiyomizu-dera is a popular destination for tourists and locals alike, especially during the spring cherry blossom season and the autumn foliage season when the temple and its surrounding maple trees create a stunning display of colors. The temple complex also features various other structures and shrines, including the Jishu Shrine dedicated to love and matchmaking.[NEWLINE][NEWLINE]The temple holds deep spiritual significance for worshippers, who visit to pray for good fortune, success in their endeavors, and general well-being. Visitors can also participate in traditional rituals, such as drinking from the Otawa Waterfall, believed to have healing properties, and receiving blessings from the temple's resident priests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"In Kyoto,[NEWLINE]hearing the cuckoo,[NEWLINE]I long for Kyoto."[NEWLINE][TAB]- Basho[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA">
+			<Text>Kasuga Taisha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_PEDIA">
+			<Text>Kasuga Taisha, located in Nara, Japan, is a renowned Shinto shrine that holds deep historical and cultural significance. Established in the 8th century, it is dedicated to the deities of Kasuga Shrine, known as the guardian gods of the Fujiwara clan, a powerful family during the Heian period. Kasuga Taisha is known for its striking vermilion-colored buildings and numerous stone lanterns that line the paths leading to the shrine. The shrine's architectural style, called Kasuga-zukuri, is characterized by its intricate wooden structures and the use of cypress bark on the roofs. Kasuga Taisha is also surrounded by a picturesque forest, known as Kasugayama Primeval Forest, which is considered sacred and has been designated as a UNESCO World Heritage site. The shrine plays a significant role in the local community and hosts several festivals throughout the year, including the Setsubun Mantoro festival where lanterns are illuminated, creating a magical atmosphere. Kasuga Taisha stands as a testament to the enduring traditions and spiritual reverence of Shintoism in Japan, attracting visitors from around the world who come to appreciate its architectural beauty, serene ambiance, and rich cultural heritage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -50,6 +50,24 @@
 		<Row Tag="TXT_KEY_CIV_UESUGI_ADJECTIVE">
 			<Text>Uesugi</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIV_TAKEDA_DESC">
+			<Text>Takeda Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAKEDA_SHORT_DESC">
+			<Text>Takeda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAKEDA_ADJECTIVE">
+			<Text>Takeda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HOJO_DESC">
+			<Text>Hojo Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HOJO_SHORT_DESC">
+			<Text>Hojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HOJO_ADJECTIVE">
+			<Text>Hojo</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_SHIMAZU_HEADING_1">
 			<Text>History</Text>
@@ -80,6 +98,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_UESUGI_TEXT_1">
 			<Text>The Uesugi clan, a prominent lineage in Japanese history, traces its origins back to the 12th century. Initially based in the Echigo province, the clan rose to prominence under the leadership of Uesugi Norimasa. However, it was Uesugi Kenshin, the fourth head of the clan, who became the most renowned figure in Uesugi history. Kenshin, known as the "Dragon of Echigo," was a fearsome warrior and a master tactician. He engaged in numerous battles, most notably against his rival, Takeda Shingen, in what became one of the most legendary feuds of the Sengoku Jidai period. Kenshin's military genius, unwavering honor, and adherence to the principles of bushido earned him a place among Japan's greatest samurai.[NEWLINE][NEWLINE]Following Kenshin's death, the Uesugi clan experienced a decline in power and influence. Internal conflicts and external pressures weakened their position, and they eventually lost control of the Echigo province. Despite their diminished status, the Uesugi clan continued to hold a place of respect and admiration in Japanese history. Their legacy of martial prowess, loyalty, and adherence to the samurai code left an indelible mark on Japanese culture. The Uesugi clan's tale is one of valor, rivalry, and the pursuit of excellence, solidifying their status as an enduring symbol of the samurai spirit in feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_TAKEDA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_TAKEDA_TEXT_1">
+			<Text>Originating from the Kai Province, the Takeda clan, led by influential leaders such as Takeda Shingen, carved a legacy as fierce warriors and skilled tacticians. Their expertise in cavalry warfare, symbolized by their swift and devastating mounted attacks, left an indelible mark on the battlefield. Despite their ultimate defeat and the decline of their power, the Takeda clan's legacy endures as a testament to their unwavering spirit, unwavering ambition, and significant contributions to the complex tapestry of Japan's feudal history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_HOJO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_HOJO_TEXT_1">
+			<Text>The Hojo clan, a powerful lineage during the Sengoku Jidai period in Japan, established themselves as influential rulers in the Kanto region. Renowned for their military prowess, administrative skills, and expertise in fortress building, the Hojo clan commanded respect and held significant sway over the political landscape. Led by notable figures such as Hojo Ujiyasu, they successfully defended their main stronghold, Odawara Castle, against numerous attacks, solidifying their reputation as formidable defenders. While their ultimate defeat marked the end of their rule, the Hojo clan's legacy endures as a testament to their strategic acumen, cultural patronage, and their lasting impact on the history of feudal Japan.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

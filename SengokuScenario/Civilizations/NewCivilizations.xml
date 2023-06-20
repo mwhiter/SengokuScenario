@@ -72,6 +72,34 @@
 			<Blue>0.200</Blue>
 			<Alpha>1</Alpha>
 		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TAKEDA_ICON</Type>
+			<Red>0</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TAKEDA_BACKGROUND</Type>
+			<Red>0.494</Red>
+			<Green>0.043</Green>
+			<Blue>0.043</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HOJO_ICON</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HOJO_BACKGROUND</Type>
+			<Red>0.078</Red>
+			<Green>0.259</Green>
+			<Blue>0.392</Blue>
+			<Alpha>1</Alpha>
+		</Row>
 	</Colors>
 	<PlayerColors>
 		<Row>
@@ -102,6 +130,18 @@
 			<Type>PLAYERCOLOR_UESUGI</Type>
 			<PrimaryColor>COLOR_PLAYER_UESUGI_ICON</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_UESUGI_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_TAKEDA</Type>
+			<PrimaryColor>COLOR_PLAYER_TAKEDA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_TAKEDA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_BLACK_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_HOJO</Type>
+			<PrimaryColor>COLOR_PLAYER_HOJO_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HOJO_BACKGROUND</SecondaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
@@ -194,6 +234,44 @@
 			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
 			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_TAKEDA</Type>
+			<Description>TXT_KEY_CIV_TAKEDA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TAKEDA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TAKEDA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_TAKEDA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_TAKEDA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_HOJO</Type>
+			<Description>TXT_KEY_CIV_HOJO_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_HOJO_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_HOJO_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_HOJO</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_HOJO</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
@@ -683,6 +761,202 @@
 			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
 			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HABORO</CityName>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAGAOKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OJIYA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NIIGATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_JOETSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ARAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MAEBASHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SANJO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MITSUKE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIBATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_GOSEN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIRONE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAMO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSUBAME</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NIITSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MURAKAMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ATSUMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_YUZAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AIZUWAKAMATSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AIKAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOKAMACHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIBUKAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAKASAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NUMATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AWA_SHIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSUCHIURU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ASHIKAGA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_CHIBA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOGANE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KATSUURA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KIRYU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OTA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OTAWARA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KUROISO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIRAKAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_YAITA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MITO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HITACHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAKAHAGI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HOKOTA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_CHOSHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TATEYAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_URAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUNABASHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KUMAGAYA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KANUMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NIKKO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IMAICHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAJIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAKOSO</CityName>
+		</Row>
 	</Civilization_CityNames>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -703,6 +977,14 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
@@ -726,6 +1008,14 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
 			<LeaderheadType>LEADER_UESUGI_KENSHIN</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<LeaderheadType>LEADER_TAKEDA_SHINGEN</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<LeaderheadType>LEADER_HOJO_UJIYASU</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<Civilization_FreeUnits>
@@ -759,6 +1049,18 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
 	</Civilization_FreeUnits>
 	<Traits>
 		<Row>
@@ -785,6 +1087,16 @@
 			<Type>TRAIT_UESUGI</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_TAKEDA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_HOJO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT</ShortDescription>
 		</Row>
 	</Traits>
 	<Diplomacy_Responses>
@@ -828,6 +1140,22 @@
 			<ResponseType>RESPONSE_DEFEATED</ResponseType>
 			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_DEFEATED_%</Response>
 		</Row>
+		<Row LeaderType="LEADER_TAKEDA_SHINGEN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TAKEDA_SHINGEN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_DEFEATED_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_HOJO_UJIYASU">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_HOJO_UJIYASU">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_%</Response>
+		</Row>
 	</Diplomacy_Responses>
 	<Leaders>
 		<Row>
@@ -844,7 +1172,7 @@
 			<WarmongerHate>6</WarmongerHate>
 			<DenounceWillingness>7</DenounceWillingness>
 			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
+			<Loyalty>9</Loyalty>
 			<Neediness>6</Neediness>
 			<Forgiveness>5</Forgiveness>
 			<Chattiness>3</Chattiness>
@@ -940,6 +1268,50 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
+		<Row>
+			<Type>LEADER_TAKEDA_SHINGEN</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN</CivilopediaTag>
+			<ArtDefineTag>Takeda_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>7</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>3</Chattiness>
+			<Meanness>4</Meanness>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEADER_HOJO_UJIYASU</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU</CivilopediaTag>
+			<ArtDefineTag>Hojo_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>7</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>3</Chattiness>
+			<Meanness>4</Meanness>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
 	</Leaders>
 	<Leader_Traits>
 		<Row>
@@ -961,6 +1333,14 @@
 		<Row>
 			<LeaderType>LEADER_UESUGI_KENSHIN</LeaderType>
 			<TraitType>TRAIT_UESUGI</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TAKEDA_SHINGEN</LeaderType>
+			<TraitType>TRAIT_TAKEDA</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_HOJO_UJIYASU</LeaderType>
+			<TraitType>TRAIT_HOJO</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

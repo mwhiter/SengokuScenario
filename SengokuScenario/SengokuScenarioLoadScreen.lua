@@ -12,7 +12,9 @@ ktScenarioCivilizations = {
 	[1] = "CIVILIZATION_OTOMO",
 	[2] = "CIVILIZATION_MORI",
 	[3] = "CIVILIZATION_CHOSOKABE",
-	[4] = "CIVILIZATION_UESUGI"
+	[4] = "CIVILIZATION_UESUGI",
+	[5] = "CIVILIZATION_TAKEDA",
+	[6] = "CIVILIZATION_HOJO"
 }
 
 ----------------------------------------------------------------

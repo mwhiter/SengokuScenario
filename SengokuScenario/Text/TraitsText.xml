@@ -32,5 +32,17 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI">
 			<Text>This trait has no effect. (something to do with bonuses to war and Faith)</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA_SHORT">
+			<Text>Tiger of Kai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA">
+			<Text>This trait has no effect. (something to do with bonuses to cavalry)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT">
+			<Text>Lion of Sagami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO">
+			<Text>This trait has no effect. (something to do with bonuses to bonuses to defense and Culture)</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

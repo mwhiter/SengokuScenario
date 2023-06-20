@@ -18,6 +18,12 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN">
 			<Text>Uesugi Kenshin</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN">
+			<Text>Takeda Shingen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU">
+			<Text>Hojo Ujiyasu</Text>
+		</Row>
 
 		<!-- Civilopedia -->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_NAME">
@@ -179,6 +185,78 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN_TEXT_2">
 			<Text>Tragically, Uesugi Kenshin's life was cut short in 1578 under mysterious circumstances. The exact details surrounding his death remain a subject of speculation and debate. Nevertheless, his legacy as a legendary warrior, a paragon of honor, and a patron of the arts and culture endures. Uesugi Kenshin remains an iconic figure in Japanese history, embodying the ideals of the samurai and leaving an indelible mark on the nation's collective memory.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_NAME">
+			<Text>Takeda Shingen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_SUBTITLE">
+			<Text>Daimyo of the Takeda Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_LIVED">
+			<Text>1521 - 1573 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_TEXT_1">
+			<Text>Takeda Shingen, born Takeda Harunobu in 1521, was a legendary daimyo and military strategist during the tumultuous Sengoku Jidai period in Japan. As the head of the powerful Takeda clan, he played a significant role in shaping the political landscape and military conflicts of the time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_HEADING_2">
+			<Text>Military Campaigns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_TEXT_2">
+			<Text>Shingen inherited leadership of the Takeda clan at the age of 15, following the death of his father. He swiftly consolidated his power and embarked on a path of expansion, seeking to extend his influence across the provinces of Kai, Shinano, and Suruga. Shingen's military campaigns were characterized by his innovative tactics, including the famed "shingenjū no ran" or "Divine Wind" strategy, which involved utilizing mounted troops to create rapid and devastating attacks.[NEWLINE][NEWLINE]One of Shingen's most notable achievements was his rivalry with Uesugi Kenshin, the daimyo of the Uesugi clan. The two leaders engaged in a series of intense battles at Kawanakajima, each showcasing their exceptional military skills. Although the outcome of the conflicts was often inconclusive, the rivalry between Shingen and Kenshin became legendary, with both men earning a reputation as formidable adversaries.[NEWLINE][NEWLINE]Shingen's military success was not limited to his conflicts with Uesugi Kenshin. He also expanded his domain by capturing strategic castles and engaging in alliances and strategic marriages. The Takeda clan grew to become one of the most powerful forces in the region, challenging the authority of other prominent daimyo such as Oda Nobunaga and Tokugawa Ieyasu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_HEADING_3">
+			<Text>Surrender to Toyotomi Hideyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_TEXT_3">
+			<Text>However, Motochika's ambitions eventually led him into conflict with the powerful Toyotomi Hideyoshi, who sought to unify Japan under his rule. In 1587, Hideyoshi launched the Kyushu Campaign, which aimed to suppress the power of regional daimyo, including Motochika. Faced with overwhelming force, Motochika surrendered to Hideyoshi, resulting in the loss of his conquests in Shikoku.[NEWLINE][NEWLINE]Following his surrender, Motochika retained his domain in Tosa Province under the Toyotomi shogunate. Despite the setback, he remained a respected figure and enjoyed relative autonomy. Motochika passed away in 1599, leaving behind a legacy of ambition, military prowess, and administrative reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_HEADING_4">
+			<Text>Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_TEXT_4">
+			<Text>Beyond his military exploits, Shingen was known for his administrative reforms and patronage of the arts. He established efficient governing systems, implemented land reforms, and promoted economic development within his territories. Shingen's patronage of tea masters, poets, and scholars contributed to the cultural and intellectual growth of the Takeda domain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_HEADING_5">
+			<Text>Legacy and Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN_TEXT_5">
+			<Text>Tragically, Shingen's life was cut short in 1573 due to illness, at the age of 53. His death had a profound impact on the power dynamics of the Sengoku period and marked the beginning of the decline of the Takeda clan. However, his legacy as a brilliant military strategist, charismatic leader, and patron of the arts lives on. Takeda Shingen is remembered as one of Japan's most iconic figures, symbolizing the spirit of the samurai and leaving an enduring impact on Japanese history and culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_NAME">
+			<Text>Hojo Ujiyasu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_SUBTITLE">
+			<Text>Daimyo of the Hojo Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_LIVED">
+			<Text>1515 - 1571 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_TEXT_1">
+			<Text>Born in 1515, Ujiyasu came from a lineage of skilled military strategists and administrators, inheriting the responsibilities of leading the Hojo clan at a young age. Ujiyasu's rule was characterized by his efforts to consolidate and expand the influence of the Hojo clan in the Kanto region. He skillfully maneuvered through the complex political landscape, forming alliances and conducting military campaigns to secure his position and protect the clan's territories. Ujiyasu's strategic foresight and diplomatic acumen allowed the Hojo clan to flourish despite the constant conflicts and power struggles of the era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_HEADING_2">
+			<Text>Military Achievements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_TEXT_2">
+			<Text>One of Ujiyasu's notable achievements was his successful defense of Odawara Castle, the clan's main stronghold. His meticulous fortifications and military preparations turned Odawara Castle into an impregnable fortress, withstanding multiple attacks from rival clans. This reputation for fortress building and defensive strategies solidified the Hojo clan's position as a formidable force in the region.[NEWLINE][NEWLINE]Ujiyasu's military campaigns were not limited to defense alone. He also expanded the Hojo clan's influence through offensive operations, conquering neighboring territories and assimilating them into his domain. Ujiyasu's military successes, combined with his ability to balance diplomacy and governance, allowed the Hojo clan to maintain stability and prosperity throughout his rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_HEADING_3">
+			<Text>Later Campaigns and Defeat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_TEXT_3">
+			<Text>Unfortunately, Ujiyasu's reign was marked by ongoing conflicts with the powerful warlord, Takeda Shingen. The two leaders engaged in several battles, often resulting in stalemates or inconclusive outcomes. Despite their rivalry, Ujiyasu and Shingen held a mutual respect for each other's military prowess, which sometimes led to temporary alliances.[NEWLINE][NEWLINE]Ujiyasu's influence began to decline with the rise of Toyotomi Hideyoshi, who sought to unify Japan under his rule. The Hojo clan faced increasing pressure from Hideyoshi's forces, and in 1590, Odawara Castle finally fell after a long siege. Ujiyasu's son, Hojo Ujimasa, surrendered, effectively ending the Hojo clan's rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_HEADING_4">
+			<Text>Legacy and Defeat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_TEXT_4">
+			<Text>Despite their eventual defeat, Ujiyasu's legacy as a skilled military strategist and astute leader endures. The Hojo clan's defensive strategies, political maneuverings, and contributions to the cultural landscape of the Kanto region left an indelible mark on Japanese history. Ujiyasu's reign exemplified the complex dynamics of the Sengoku Jidai period and the resilience of the Hojo clan in the face of relentless challenges.</Text>
+		</Row>
 		
 		<!-- Greetings -->
 
@@ -245,6 +323,44 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_UESUGI_KENSHIN_DEFEATED_1">
 			<Text>You have defeated me in combat. Have I misplaced my faith in the gods?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_FIRSTGREETING_1">
+			<Text>I am Takeda Shingen, warlord of Kai. Do not interfere with my ambition, and you will live to see another day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_FIRSTGREETING_2">
+			<Text>You stand in the presence of Takeda Shingen. Our cavalry are feared amongst all men. Pray you do not have to learn why.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_FIRSTGREETING_3">
+			<Text>The proud people of the Takeda clan greet you. I hope you are a strong ally or worthy opponent!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_DEFEATED_1">
+			<Text>You have crushed my cavalry in combat, and left my clan to ruin. I know what must be done now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_DEFEATED_2">
+			<Text>I was outmaneuverd on the battlefield, and now I must pay the price. I wish you luck in your quest for the Shogunate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_DEFEATED_3">
+			<Text>With my armies defeated, there is nothing left that stands in your way. Remember me as you crush your enemies.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_FIRSTGREETING_1">
+			<Text>The stalwart Hojo people greet you. We invite you to marvel at our mighty castles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_FIRSTGREETING_2">
+			<Text>I am Hojo Ujiyasu, warlord of the Hojo. I am loyal to my friends, death to my enemies. Which are you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_FIRSTGREETING_3">
+			<Text>Welcome! I am Hojo Ujiyasu, ruler of the Hojo clan. Have you come to pay tribute?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_1">
+			<Text>I am defeated on the field of battle. I congratulate you on your victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_2">
+			<Text>Please end this dishonor to my family... to my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_3">
+			<Text>Your were far stronger on the battlefield than I anticipated. Now, I know what I must do.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
