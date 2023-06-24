@@ -14,7 +14,11 @@ ktScenarioCivilizations = {
 	[3] = "CIVILIZATION_CHOSOKABE",
 	[4] = "CIVILIZATION_UESUGI",
 	[5] = "CIVILIZATION_TAKEDA",
-	[6] = "CIVILIZATION_HOJO"
+	[6] = "CIVILIZATION_HOJO",
+	[7] = "CIVILIZATION_TOKUGAWA",
+	[8] = "CIVILIZATION_IKKO_IKKI",
+	[9] = "CIVILIZATION_JAPAN",
+	[10] = "CIVILIZATION_DATE"
 }
 
 ----------------------------------------------------------------

@@ -44,5 +44,23 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO">
 			<Text>This trait has no effect. (something to do with bonuses to bonuses to defense and Culture)</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA_SHORT">
+			<Text>The Great Unifier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA">
+			<Text>This trait has no effect. (something to do with vassal of Imagawa, benefits to diplomacy)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT">
+			<Text>Peasant Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI">
+			<Text>This trait has no effect. (something to do with strong benefits to Ashigaru units)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT">
+			<Text>Dragon's Resolve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE">
+			<Text>This trait has no effect. (something to do with attacking)</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

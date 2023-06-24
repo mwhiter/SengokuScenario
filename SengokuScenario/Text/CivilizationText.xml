@@ -68,6 +68,42 @@
 		<Row Tag="TXT_KEY_CIV_HOJO_ADJECTIVE">
 			<Text>Hojo</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIV_TOKUGAWA_DESC">
+			<Text>Tokugawa Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TOKUGAWA_SHORT_DESC">
+			<Text>Tokugawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TOKUGAWA_ADJECTIVE">
+			<Text>Tokugawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IKKO_IKKI_DESC">
+			<Text>Ikko-Ikki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IKKO_IKKI_SHORT_DESC">
+			<Text>Ikko-Ikki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IKKO_IKKI_ADJECTIVE">
+			<Text>Ikko-Ikki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_JAPAN_DESC">
+			<Text>Oda Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_JAPAN_SHORT_DESC">
+			<Text>Oda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_JAPAN_ADJECTIVE">
+			<Text>Oda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_DESC">
+			<Text>Date Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_SHORT_DESC">
+			<Text>Date</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_ADJECTIVE">
+			<Text>Date</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_SHIMAZU_HEADING_1">
 			<Text>History</Text>
@@ -110,6 +146,24 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_HOJO_TEXT_1">
 			<Text>The Hojo clan, a powerful lineage during the Sengoku Jidai period in Japan, established themselves as influential rulers in the Kanto region. Renowned for their military prowess, administrative skills, and expertise in fortress building, the Hojo clan commanded respect and held significant sway over the political landscape. Led by notable figures such as Hojo Ujiyasu, they successfully defended their main stronghold, Odawara Castle, against numerous attacks, solidifying their reputation as formidable defenders. While their ultimate defeat marked the end of their rule, the Hojo clan's legacy endures as a testament to their strategic acumen, cultural patronage, and their lasting impact on the history of feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_TOKUGAWA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_TOKUGAWA_TEXT_1">
+			<Text>The Tokugawa clan, also known as the Tokugawa family, was a powerful and influential lineage that rose to prominence during the Sengoku Jidai period in Japan. The clan's most prominent figure, Tokugawa Ieyasu, played a pivotal role in the unification of Japan and the establishment of the Tokugawa Shogunate, which would rule the country for over 250 years.[NEWLINE][NEWLINE]Originally a vassal of the powerful Oda and later the Toyotomi clans, Ieyasu skillfully navigated the complex political landscape of the era, forging alliances and expanding his power base. Following the decisive Battle of Sekigahara in 1600, Ieyasu emerged victorious, solidifying his position as a dominant force in Japan.[NEWLINE][NEWLINE]Under the Tokugawa Shogunate, the clan enacted a strict and centralized governance system known as the Tokugawa bakufu. This system brought stability and peace to the country, fostering economic growth, cultural development, and social order. The Tokugawa clan's rule marked the beginning of the Edo period, characterized by its isolationist policies and the flourishing of arts, literature, and traditional Japanese culture.[NEWLINE][NEWLINE]The Tokugawa clan's influence extended beyond political and military realms. They were patrons of the arts, promoting the growth of various art forms such as kabuki theater and ukiyo-e woodblock prints. They also implemented strict social hierarchies and codes of conduct, emphasizing loyalty and obedience to maintain order within their domains.[NEWLINE][NEWLINE]While the Tokugawa Shogunate brought relative stability, it eventually faced challenges from external pressures and internal dissent. The arrival of Western powers in the mid-19th century and growing discontent among certain segments of society eventually led to the downfall of the shogunate in the Meiji Restoration of 1868.[NEWLINE][NEWLINE]Nevertheless, the legacy of the Tokugawa clan endures as a defining era in Japanese history. Their political astuteness, cultural contributions, and lasting impact on Japan's governance systems have left an indelible mark on the nation's identity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IKKO_IKKI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IKKO_IKKI_TEXT_1">
+			<Text>The Ikko Ikki, also known as the Ikko sect or the Ikkoshu, were a religious and social movement that emerged during the Sengoku Jidai period in Japan. Rooted in Pure Land Buddhism, the Ikko Ikki sought to challenge the authority of the samurai class and promote social equality among the common people.[NEWLINE][NEWLINE]The movement gained momentum in the Kaga and Echizen provinces, where peasant uprisings and discontent with the ruling class were prevalent. The Ikko Ikki drew support from various social classes, including farmers, artisans, and even some lower-ranking samurai who sympathized with their cause.[NEWLINE][NEWLINE]Under the leadership of influential figures like Rennyo Shonin, the Ikko Ikki established fortified religious communities called ikkizamurai, which served as both religious centers and defensive strongholds. These communities provided protection to their members and promoted a sense of unity and collective resistance against oppressive feudal lords.[NEWLINE][NEWLINE]The Ikko Ikki's influence extended beyond religious matters. They actively engaged in military conflicts and were known for their fierce resistance against powerful warlords. Their armed forces, composed of both armed peasants and warrior monks, posed a significant challenge to the established samurai order.[NEWLINE][NEWLINE]Despite their military and social upheaval, the Ikko Ikki ultimately faced defeat as the central authority sought to suppress their movement. However, their resistance and the ideals they espoused left a lasting impact on Japanese society. The Ikko Ikki played a significant role in challenging the rigid social hierarchy of the time, and their struggles paved the way for future movements advocating for greater social equality and justice. Today, their legacy is remembered as a symbol of popular revolt and the pursuit of social change in feudal Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_TEXT_1">
+			<Text>The Date Clan was a powerful and influential samurai clan that emerged during the Sengoku Jidai period in Japan. Originating from the region of Mutsu, in present-day Fukushima Prefecture, the Date clan rose to prominence under the leadership of notable figures such as Date Masamune. Known for their military prowess and strategic acumen, the Date clan played a significant role in the politics and warfare of the time. They controlled a vast domain and were respected for their disciplined armies, skilled warriors, and shrewd diplomacy. The Date clan's legacy extends beyond their military exploits, as they also cultivated a rich cultural tradition, supporting the arts and encouraging the development of the region. Today, the Date clan remains renowned for their contributions to Japanese history and their enduring impact on the cultural heritage of the Tohoku region.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

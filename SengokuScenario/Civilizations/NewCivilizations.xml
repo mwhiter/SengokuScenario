@@ -100,6 +100,62 @@
 			<Blue>0.392</Blue>
 			<Alpha>1</Alpha>
 		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_DATE_ICON</Type>
+			<Red>1.000</Red>
+			<Green>0.655</Green>
+			<Blue>0.059</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_DATE_BACKGROUND</Type>
+			<Red>0.016</Red>
+			<Green>0.078</Green>
+			<Blue>0.212</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_IMAGAWA_ICON</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_IMAGAWA_BACKGROUND</Type>
+			<Red>0.224</Red>
+			<Green>0.522</Green>
+			<Blue>0.682</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TOKUGAWA_ICON</Type>
+			<Red>1.000</Red>
+			<Green>0.867</Green>
+			<Blue>0.071</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TOKUGAWA_BACKGROUND</Type>
+			<Red>0.486</Red>
+			<Green>0.486</Green>
+			<Blue>0.486</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_IKKO_IKKI_ICON</Type>
+			<Red>0</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_IKKO_IKKI_BACKGROUND</Type>
+			<Red>0.996</Red>
+			<Green>0.808</Green>
+			<Blue>0.137</Blue>
+			<Alpha>1</Alpha>
+		</Row>
 	</Colors>
 	<PlayerColors>
 		<Row>
@@ -136,12 +192,36 @@
 			<Type>PLAYERCOLOR_TAKEDA</Type>
 			<PrimaryColor>COLOR_PLAYER_TAKEDA_ICON</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_TAKEDA_BACKGROUND</SecondaryColor>
-			<TextColor>COLOR_PLAYER_BLACK_TEXT</TextColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>PLAYERCOLOR_HOJO</Type>
 			<PrimaryColor>COLOR_PLAYER_HOJO_ICON</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_HOJO_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_DATE</Type>
+			<PrimaryColor>COLOR_PLAYER_DATE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DATE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_IMAGAWA</Type>
+			<PrimaryColor>COLOR_PLAYER_IMAGAWA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_IMAGAWA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_TOKUGAWA</Type>
+			<PrimaryColor>COLOR_PLAYER_TOKUGAWA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_TOKUGAWA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_IKKO_IKKI</Type>
+			<PrimaryColor>COLOR_PLAYER_IKKO_IKKI_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_IKKO_IKKI_BACKGROUND</SecondaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
@@ -161,6 +241,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -180,6 +261,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -199,6 +281,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -218,6 +301,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -237,6 +321,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -256,6 +341,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
@@ -275,12 +361,74 @@
 			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_TOKUGAWA</Type>
+			<Description>TXT_KEY_CIV_TOKUGAWA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TOKUGAWA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TOKUGAWA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_TOKUGAWA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_TOKUGAWA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_IKKO_IKKI</Type>
+			<Description>TXT_KEY_CIV_IKKO_IKKI_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_IKKO_IKKI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_IKKO_IKKI_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_IKKO_IKKI</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_IKKO_IKKI</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DATE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_DESC</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_DATE</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_DATE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 	</Civilizations>
 	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_JAPAN" />
 		<Row>
 			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
 			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAGOSHIMA</CityName>
@@ -957,6 +1105,370 @@
 			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
 			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAKOSO</CityName>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HAMAMATSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAKATSUGAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KOMAGANE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIMADA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIZUOKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_YAIZU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAKEGAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IWATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TORO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUJIEDA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_INA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TENRYU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AGEMATSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SHIMIZU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SURUGA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OMAI_ZAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IIDA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KOMAMATSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ISAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IKEGAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAKAJIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IWANAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OSHAMAMBE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ECHIZEN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KOMATSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUKUI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KANAZAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSURUGA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SABAE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OBAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AWARA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SAKAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KATSUYAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NANAO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_WAJIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HAKUSAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NONOICHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NOMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ONO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MIKUNI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSUBATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAHOKU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SUZU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NAGOYA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SETO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OGAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ICHINOMIYA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_GIFU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KARIYA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAJIMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAKEFU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TSURUGA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HANDA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOKAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OKAZAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KISO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_GERO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MINOKAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_INUYAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SEKIGAHARA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ENA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HANTO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SEKAJIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ONO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_EIHEIJI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ABASHIRI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MIYAKO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MORIOKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HIROSAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HACHINOH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ICHINOSEKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MUTSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_AJIGASAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KITAKAMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MIZUSAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_RIKUZENTAKATA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TARO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUDAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KUJI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MOTOYOSHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KESENNUMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HANAMAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TOWADA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IMABETSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IWATE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HANAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TODOGASAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAZAWAKO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OKUSHIRA</CityName>
+		</Row>
 	</Civilization_CityNames>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -985,6 +1497,18 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
@@ -1016,6 +1540,18 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
 			<LeaderheadType>LEADER_HOJO_UJIYASU</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<LeaderheadType>LEADER_TOKUGAWA_IEYASU</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<LeaderheadType>LEADER_RENNYO</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<LeaderheadType>LEADER_DATE_MASAMUNE</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<Civilization_FreeUnits>
@@ -1061,6 +1597,24 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
 	</Civilization_FreeUnits>
 	<Traits>
 		<Row>
@@ -1097,6 +1651,21 @@
 			<Type>TRAIT_HOJO</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_TOKUGAWA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_IKKO_IKKI</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_DATE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT</ShortDescription>
 		</Row>
 	</Traits>
 	<Diplomacy_Responses>
@@ -1155,6 +1724,38 @@
 		<Row LeaderType="LEADER_HOJO_UJIYASU">
 			<ResponseType>RESPONSE_DEFEATED</ResponseType>
 			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TOKUGAWA_IEYASU">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TOKUGAWA_IEYASU">
+			<ResponseType>RESPONSE_DOW_GENERIC</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DECLAREWAR_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TOKUGAWA_IEYASU">
+			<ResponseType>RESPONSE_WORK_WITH_US</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEC_FRIENDSHIP_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TOKUGAWA_IEYASU">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEFEATED_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RENNYO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RENNYO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_DEFEATED_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DATE_MASAMUNE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DATE_MASAMUNE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_%</Response>
 		</Row>
 	</Diplomacy_Responses>
 	<Leaders>
@@ -1312,6 +1913,72 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
+		<Row>
+			<Type>LEADER_TOKUGAWA_IEYASU</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU</CivilopediaTag>
+			<ArtDefineTag>Tokugawa_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>7</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>3</Chattiness>
+			<Meanness>4</Meanness>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEADER_RENNYO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO</CivilopediaTag>
+			<ArtDefineTag>IkkoIkki_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>7</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>3</Chattiness>
+			<Meanness>4</Meanness>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEADER_DATE_MASAMUNE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE</CivilopediaTag>
+			<ArtDefineTag>Date_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<DenounceWillingness>7</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>3</Chattiness>
+			<Meanness>4</Meanness>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
 	</Leaders>
 	<Leader_Traits>
 		<Row>
@@ -1341,6 +2008,18 @@
 		<Row>
 			<LeaderType>LEADER_HOJO_UJIYASU</LeaderType>
 			<TraitType>TRAIT_HOJO</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TOKUGAWA_IEYASU</LeaderType>
+			<TraitType>TRAIT_TOKUGAWA</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_RENNYO</LeaderType>
+			<TraitType>TRAIT_IKKO_IKKI</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DATE_MASAMUNE</LeaderType>
+			<TraitType>TRAIT_DATE</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

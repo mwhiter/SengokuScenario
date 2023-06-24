@@ -24,6 +24,15 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU">
 			<Text>Hojo Ujiyasu</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU">
+			<Text>Tokugawa Ieyasu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO">
+			<Text>Rennyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE">
+			<Text>Date Masamune</Text>
+		</Row>
 
 		<!-- Civilopedia -->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_NAME">
@@ -257,6 +266,64 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU_TEXT_4">
 			<Text>Despite their eventual defeat, Ujiyasu's legacy as a skilled military strategist and astute leader endures. The Hojo clan's defensive strategies, political maneuverings, and contributions to the cultural landscape of the Kanto region left an indelible mark on Japanese history. Ujiyasu's reign exemplified the complex dynamics of the Sengoku Jidai period and the resilience of the Hojo clan in the face of relentless challenges.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU_NAME">
+			<Text>Tokugawa Ieyasu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU_SUBTITLE">
+			<Text>Daimyo of the Tokugawa Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU_LIVED">
+			<Text>1543 - 1616 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU_TEXT_1">
+			<Text>Tokugawa (last name, first name Ieyasu) is a brilliant military and peacetime strategist. He is the decisive winner of Japan’s chaotic Sengoku period and the architect of the subsequent Edo period.[NEWLINE][NEWLINE]The chaos of the Sengoku Jidai (period) in Japanese history has become iconic. In the subsequent prosperity and peace of the Edo period, samurai had little to do but entertain each other with stories about the great battles, leaders, and goings-on of that time – ninjas, generals, armies, sieges, and the like. Much of what we imagine about feudal Japan is itself a product of these stories, embellished and romanticized.[NEWLINE][NEWLINE]The Sengoku period was a massive war between rival clans to seek power. The weak Ashikaga shogunate collapsed, leaving the emperor a mere figurehead and the more powerful position of shōgun (military guardian of the Emperor) open. For over a century, rival daimyō (regional lords) and samurai (knights) fought for this title. Into the fray, too, came other elements: Christians, armed by Europeans with muskets, the anti-monarchical ikkō-ikki, and the ninja – these last being military strategists without a concept of honor who could commit scandalous acts to benefit their lord. Three samurai emerge into the spotlight: Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu.[NEWLINE][NEWLINE]There is a story that reflects an aspect of the personalities and motivations of these leaders. Imagine the three of them sitting together looking at a little bird that refuses to sing. Oda opens with a threat: “bird, if you do not sing, I will kill you.” Hideyoshi tries manipulation, “bird, if you do not sing, I will convince you.” But Tokugawa, the canniest of the three, simply says, “bird, I can wait.” Here, patience and a cool head win the day – and so it was with Japan.[NEWLINE][NEWLINE]Oda, the “demon king,” lived up to his name. As the head of the Oda clan, Nobunaga rallied his troops to sweep across the main island of Japan, defeating the ikkō-ikki and removing the Ashikaga shogunate entirely. The last remaining obstacle was the powerful western clan Mōri, who may well have been defeated, too, were it not for a betrayal from within Oda’s own ranks. Seeing Akechi, the traitorous general, coming towards him as he sat relatively unguarded having tea in a temple in Kyoto, Oda committed suicide. The to-be shōgun Tokugawa, too, fled in the company of the ninja (well, samurai at that time) Hattori Hanzō.[NEWLINE][NEWLINE]The Toyotomi clan was the next to take up Oda’s banner. Former retainer, Toyotomi Hideyoshi, took up the banner and, too, seized temporary control. Indeed, it was under Hideyoshi that Japanese forces sought to take Korea, and not for the last time. But even the greatest of kings dies, and Hideyoshi, with his focus on overseas expansion, had drained the coffers. A succession crisis ensued between clan loyalists and the new Tokugawa clan, itself formed from a regional vassal clan of Oda’s, under Tokugawa Ieyasu. In the climactic Battle of Sekigahara, Tokugawa achieved dominance and set about picking up the pieces.[NEWLINE][NEWLINE]Japan was a mess. New ideas were flooding in – republicanism (meaning here rule by the people) and Christianity. Guns and European trade, too, presented an issue. Tokugawa singlehandedly stopped this by implementing sakoku – isolation. Japan’s borders would be closed, except for Nagasaki. This would end both the influx of new and dangerous challenges to the new Tokugawa Shogunate but also an end to the kind of foreign adventures that had led to Hideyoshi’s financial woes. Sakoku was… not disastrous for Japan. Local production flourished, and over what became known as the Edo period (Edo being the home of the shogunate), Japan experienced peace and prosperity… and its neighbors no longer had to worry about samurai showing up on their shores.[NEWLINE][NEWLINE]The system of control here was brutal. There were still nobles, but Tokugawa had an ingenious strategy for controlling them. While nobles ruled their home provinces, their families remained behind as hostages (of a sort) in Edo. This meant that any rebellion could immediately be squashed via a simple threat to the rebel’s family and also the growth of court life in Edo. Bored but wealthy samurai told stories, and would-be warriors fought duels over honor instead of for land. The famous ukiyo-e, the “floating world” of entertainment, grew, as did artists and writers associated with it.[NEWLINE][NEWLINE]This was to crack open in the 1800s, with the arrival (and, significantly, threats to not depart) of American ships demanding trade. Japan realized that the world had developed without them and that things like guns and cannons had gotten quite dangerous. While their opening was traumatic, and the subsequent Meiji period eliminated much of the feudal system of Japan, the infrastructure was already in place to enable Meiji to, within a few decades, take on and defeat some of the most powerful states in the world. But that is a story for another time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO_NAME">
+			<Text>Rennyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO_SUBTITLE">
+			<Text>Daimyo of the Hojo Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO_LIVED">
+			<Text>1415 - 1499 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO_TEXT_1">
+			<Text>Rennyo, also known as Rennyo Shonin or Rennyo Goso, was a prominent figure in the history of the Ikko Ikki movement during the Muromachi period in Japan. He was the eighth abbot of the Honganji temple, the central institution of the Jodo Shinshu sect of Pure Land Buddhism.[NEWLINE][NEWLINE]Rennyo is widely recognized for his efforts in revitalizing and expanding the influence of the Ikko Ikki movement. He played a crucial role in strengthening the religious and social foundations of the Ikko Ikki, attracting a large following of believers and establishing a network of affiliated temples throughout Japan.[NEWLINE][NEWLINE]Under Rennyo's leadership, the Honganji temple became a powerful and influential institution, both in terms of religious teachings and political influence. He focused on making the teachings of Jodo Shinshu accessible to the common people, emphasizing the importance of faith and the belief in Amida Buddha's salvation. Rennyo's preaching style, characterized by his heartfelt sermons and use of vernacular language, resonated with the masses and contributed to the widespread popularity of the Ikko Ikki movement.[NEWLINE][NEWLINE]Rennyo's influence extended beyond religious matters. He actively engaged in negotiations with feudal lords, seeking alliances and protection for the Ikko Ikki communities. His diplomatic skills and ability to navigate the complex political landscape of the time were instrumental in ensuring the survival and growth of the movement.[NEWLINE][NEWLINE]Despite facing numerous challenges and opposition from rival factions, Rennyo's leadership and unwavering dedication to the Ikko Ikki movement left a profound impact. His efforts contributed to the spread of Jodo Shinshu Buddhism and the enduring influence of the Ikko Ikki in Japanese society.[NEWLINE][NEWLINE]Today, Rennyo is revered as a key figure in the history of Pure Land Buddhism and is considered one of the most influential religious leaders of his time. His teachings and legacy continue to inspire and guide followers of Jodo Shinshu Buddhism to seek spiritual awakening and the path to liberation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_NAME">
+			<Text>Date Masamune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_SUBTITLE">
+			<Text>Daimyo of the Date Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_LIVED">
+			<Text>1567 - 1636 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_TEXT_1">
+			<Text>Date Masamune, famously known as the "One-Eyed Dragon," was a prominent daimyo and the most renowned leader of the Date clan during the late 16th and early 17th centuries in Japan. Born in 1567, Masamune inherited leadership of the clan at a young age, facing internal conflicts and rivalries.[NEWLINE][NEWLINE]A notable characteristic of Masamune was his distinct appearance, with one eye covered by an eyepatch. This feature, believed to be a result of smallpox, further enhanced his reputation as a fearsome and charismatic leader. Masamune became known for his strategic vision, tactical brilliance, and his personal bravery on the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_HEADING_2">
+			<Text>Military Achievements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_TEXT_2">
+			<Text>Masamune's rise to power began with the defeat of his treacherous relatives, allowing him to solidify his control over the Date clan's territories in the region of Mutsu. With a strong ambition and a vision for expansion, Masamune embarked on a series of successful military campaigns, rapidly expanding his domain and establishing alliances with other powerful clans.[NEWLINE][NEWLINE]Masamune's military prowess was complemented by his diplomatic skills, as he maintained favorable relations with the central government in Kyoto, securing important positions and recognition. He skillfully navigated the complex political landscape of the time, balancing between loyalty to the Toyotomi and Tokugawa factions.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_HEADING_3">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_TEXT_3">
+			<Text>Beyond his military achievements, Masamune also fostered the cultural and economic development of his territories. He encouraged the growth of commerce and trade, supporting artisans, and promoting the arts. His patronage of cultural activities, including tea ceremonies, Noh theater, and poetry, further elevated his status and the prestige of the Date clan.[NEWLINE][NEWLINE]Masamune's influence extended beyond his lifetime. His legacy is not only tied to his military achievements but also to his efforts in promoting regional development and cultural exchange. The city of Sendai, which he founded, remains a lasting testament to his vision and leadership.[NEWLINE][NEWLINE]Today, Masamune is revered as a legendary figure in Japanese history, symbolizing the indomitable spirit of the samurai and the resilience of the Date clan. His legacy continues to inspire admiration and fascination, and his contributions to the history and culture of Japan remain widely celebrated.</Text>
+		</Row>
 		
 		<!-- Greetings -->
 
@@ -361,6 +428,72 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_DEFEATED_3">
 			<Text>Your were far stronger on the battlefield than I anticipated. Now, I know what I must do.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_FIRSTGREETING_1">
+			<Text>I am Tokugawa Ieyasu. I hope you prove to be a valuable ally.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_FIRSTGREETING_2">
+			<Text>I am Tokugawa Ieyasu. Nothing happens here without my say.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_FIRSTGREETING_3">
+			<Text>I am Tokugawa Ieyasu. Perseverance has made me what I am today. If our descendants want to be strong, they must too study patience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DECLAREWAR_1">
+			<Text>Years of patience and planning have come to this. It is time to die!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DECLAREWAR_2">
+			<Text>The sharp-edged sword cuts through the void, and within the raging fire, a cool wind blows. Prepare to die.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEC_FRIENDSHIP_1">
+			<Text>Most men rush to die by the sword. I've chosen a more patient route, and patience requires good allies. I'd like to make a public Declaration of Friendship, informing the other clans of our alliance. What do you say?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEFEATED_1">
+			<Text>The summer grasses are all that remains of warriors' dreams. I congratulate you on your victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEFEATED_2">
+			<Text>A great calamity has befallen my people. I know what must be done. Let me rest in peace. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_DEFEATED_3">
+			<Text>I thought patience was the key to success. You have proven me wrong. And for that, I congratulate you.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_FIRSTGREETING_1">
+			<Text>It is good to meet you. I am Rennyo, leader of the Jodo Shinshu Buddhists. I hope you have time to listen to our teachings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_FIRSTGREETING_2">
+			<Text>Hello! I am Rennyo, and my teachings have spread far and wide amongst the Ikko-Ikki. I do not advocate for violence, but we must defend ourselves if deemed necessary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_FIRSTGREETING_3">
+			<Text>In the name of the Ikko-Ikki people, I offer you my hand in friendship!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_DEFEATED_1">
+			<Text>My people's fervor has finally burnt out. I congratulate you in your victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_DEFEATED_2">
+			<Text>You have destroyed our people, but you will never break the spirit of the Ikko-Ikki!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_DEFEATED_3">
+			<Text>Our temples have fallen. How could this have happened?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_FIRSTGREETING_1">
+			<Text>Welcome, Stranger! I am Date Masamune, the One-Eyed Dragon of Oshu. My achievements on the battlefield are numerous. Are yours?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_FIRSTGREETING_2">
+			<Text>Welcome to the land of the Date. Our time is precious; I hope you have not come to waste mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_FIRSTGREETING_3">
+			<Text>You stand before the feared warrior, Date Masamune! I ripped my eye out when I was a young boy. Do not think I won't do the same to you, if necessary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_1">
+			<Text>I am defeated? How could this be? I was invincible!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_2">
+			<Text>I thought I couldn't lose on the battlefield. You have proven me wrong. I congratulate you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_3">
+			<Text>The title of Shogun was mine for the taking! This is outrageous! How could I have lost to the likes of you?</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

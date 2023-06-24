@@ -22,7 +22,7 @@
     <RootNamespace>SengokuScenario</RootNamespace>
     <ModReferences />
     <HideSetupGame>true</HideSetupGame>
-    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <ReloadStrategicViewSystem>false</ReloadStrategicViewSystem>
     <ModProperties>
       <Property>
         <Name>Custom_Background_TXT_KEY_SENGOKU_SCENARIO_TITLE</Name>
@@ -82,6 +82,11 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>ChangeTurnIncrement.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Text/ScenarioText.sql</FileName>
       </Action>
       <Action>
@@ -102,6 +107,11 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Text/CityStatesText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Text/TraitsText.xml</FileName>
       </Action>
       <Action>
@@ -118,6 +128,11 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Civilizations/NewCivilizations.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilizations/MinorCivilizations.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -145,7 +160,7 @@
         <FileName>Text/BuildingsText.xml</FileName>
       </Action>
     </ModActions>
-    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ReloadUnitSystem>false</ReloadUnitSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -160,6 +175,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Buildings\NewBuildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="ChangeTurnIncrement.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilizations\MinorCivilizations.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -192,6 +215,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Text\CityNames.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Text\CityStatesText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

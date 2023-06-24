@@ -82,6 +82,11 @@
 			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
 			<DefaultUnit>UNIT_MISSIONARY</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_EMISSARY</Type>
+			<Description>TXT_KEY_UNIT_EMISSARY</Description>
+			<DefaultUnit>UNIT_EMISSARY</DefaultUnit>
+		</Row>
 	</UnitClasses>
 	<Units>
 		<Row>
@@ -190,7 +195,7 @@
 			<Cost>30</Cost>
 			<FaithCost>60</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>1</Moves>
+			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -264,8 +269,8 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>3</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_WARRIOR_MONK</UnitArtInfo>
-			<UnitFlagIconOffset>5</UnitFlagIconOffset>
-			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -447,31 +452,6 @@
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_MISSIONARY</Class>
-			<Type>UNIT_MISSIONARY</Type>
-			<Cost>-1</Cost>
-			<FaithCost>200</FaithCost>
-			<Moves>4</Moves>
-			<Capture>UNITCLASS_MISSIONARY</Capture>
-			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
-			<Civilopedia>TXT_KEY_CIV5_MISSIONARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MISSIONARY_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MISSIONARY</Help>
-			<AdvancedStartCost>-1</AdvancedStartCost>
-			<CombatLimit>0</CombatLimit>
-			<SpreadReligion>true</SpreadReligion>
-			<ReligionSpreads>2</ReligionSpreads>
-			<ReligiousStrength>1000</ReligiousStrength>
-			<UnitArtInfo>ART_DEF_UNIT_MISSIONARY</UnitArtInfo>
-			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>20</UnitFlagIconOffset>
-			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>20</PortraitIndex>
-		</Row>
-		<Row>
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_MUSKETMAN</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
@@ -530,6 +510,54 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_MISSIONARY</Class>
+			<Type>UNIT_MISSIONARY</Type>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
+			<Moves>4</Moves>
+			<Capture>UNITCLASS_MISSIONARY</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_MISSIONARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MISSIONARY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MISSIONARY</Help>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<SpreadReligion>true</SpreadReligion>
+			<ReligionSpreads>2</ReligionSpreads>
+			<ReligiousStrength>1000</ReligiousStrength>
+			<UnitArtInfo>ART_DEF_UNIT_MISSIONARY</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>20</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_EMISSARY</Class>
+			<Type>UNIT_EMISSARY</Type>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CALLIGRAPHY</PrereqTech>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_DIPLOMACY</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_MESSENGER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EMISSARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_EMISSARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EMISSARY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_EMISSARY</Help>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<UnitArtInfo>ART_DEF_UNIT_EMISSARY_JAPAN</UnitArtInfo>
+			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<MoveRate>BIPED</MoveRate>
 		</Row>
 	</Units>
 	<Unit_AITypes>
@@ -624,6 +652,10 @@
 		<Row>
 			<UnitType>UNIT_MISSIONARY</UnitType>
 			<UnitAIType>UNITAI_MISSIONARY</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMISSARY</UnitType>
+			<UnitAIType>UNITAI_MESSENGER</UnitAIType>
 		</Row>
 	</Unit_AITypes>
 	<Unit_Builds>
@@ -889,6 +921,14 @@
 			<UnitType>UNIT_MISSIONARY</UnitType>
 			<PromotionType>PROMOTION_UNWELCOME_EVANGELIST</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_EMISSARY</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMISSARY</UnitType>
+			<PromotionType>PROMOTION_EMISSARY</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
 		<Row>
@@ -906,6 +946,10 @@
 		<Row>
 			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMISSARY</UnitType>
+			<ResourceType>RESOURCE_PAPER</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 </GameData>

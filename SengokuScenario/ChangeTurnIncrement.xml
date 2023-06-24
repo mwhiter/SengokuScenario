@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2023 12:31:41 PM -->
+<GameData>
+	<GameSpeeds>
+	</GameSpeeds>
+	<GameSpeed_Turns>
+		<Delete GameSpeedType="GAMESPEED_QUICK"/>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>1000</TurnsPerIncrement>
+		</Row>
+	</GameSpeed_Turns>
+	<Defines>
+	</Defines>
+</GameData>

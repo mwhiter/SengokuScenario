@@ -368,7 +368,6 @@
 		<Delete Type="RESOURCE_HIDDEN_ARTIFACTS" />
 		<Delete Type="RESOURCE_ARTIFACTS" />
 		<Delete Type="RESOURCE_BRAZILWOOD" />
-		<Delete Type="RESOURCE_PAPER" />
 		<Delete Type="RESOURCE_TOBACCO" />
 		<Delete Type="RESOURCE_LAPIS" />
 		<Delete Type="RESOURCE_MAIZE" />
