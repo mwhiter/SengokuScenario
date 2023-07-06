@@ -33,6 +33,9 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE">
 			<Text>Date Masamune</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO">
+			<Text>Imagawa Yoshimoto</Text>
+		</Row>
 
 		<!-- Civilopedia -->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO_NAME">
@@ -323,6 +326,27 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE_TEXT_3">
 			<Text>Beyond his military achievements, Masamune also fostered the cultural and economic development of his territories. He encouraged the growth of commerce and trade, supporting artisans, and promoting the arts. His patronage of cultural activities, including tea ceremonies, Noh theater, and poetry, further elevated his status and the prestige of the Date clan.[NEWLINE][NEWLINE]Masamune's influence extended beyond his lifetime. His legacy is not only tied to his military achievements but also to his efforts in promoting regional development and cultural exchange. The city of Sendai, which he founded, remains a lasting testament to his vision and leadership.[NEWLINE][NEWLINE]Today, Masamune is revered as a legendary figure in Japanese history, symbolizing the indomitable spirit of the samurai and the resilience of the Date clan. His legacy continues to inspire admiration and fascination, and his contributions to the history and culture of Japan remain widely celebrated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_NAME">
+			<Text>Imagawa Yoshimoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_SUBTITLE">
+			<Text>Daimyo of the Imagawa Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_LIVED">
+			<Text>1519 - 1560 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_TEXT_1">
+			<Text>Imagawa Yoshimoto, born in 1519, was a renowned daimyo and the leader of the Imagawa clan during the Sengoku period in Japan. He ascended to power at a young age and quickly established himself as a prominent figure in the region of Suruga. Under his leadership, the Imagawa clan expanded its influence, forming alliances with other powerful clans such as the Takeda and the Hojo.[NEWLINE][NEWLINE]Yoshimoto was known for his strategic prowess and diplomatic skills. He utilized a combination of military might and political maneuvering to strengthen his position. He built an extensive network of alliances and vassals, securing the loyalty of neighboring clans and expanding his territories. His reputation as a capable leader and shrewd diplomat earned him the respect of his allies and the fear of his enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_HEADING_2">
+			<Text>Campaign on Kyoto and Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO_TEXT_2">
+			<Text>In 1560, Yoshimoto set his sights on further territorial expansion and made a fateful decision to march towards Kyoto, the capital of Japan. However, his ambitions were cut short when he encountered Oda Nobunaga, a rising warlord who defied Yoshimoto's expectations. In a daring surprise attack known as the Battle of Okehazama, Nobunaga's forces ambushed Yoshimoto's army, leading to the daimyo's untimely demise. Yoshimoto's death was a significant turning point in the Sengoku period and marked the beginning of Oda Nobunaga's rise to power.[NEWLINE][NEWLINE]In 1560, Yoshimoto set his sights on further territorial expansion and made a fateful decision to march towards Kyoto, the capital of Japan. However, his ambitions were cut short when he encountered Oda Nobunaga, a rising warlord who defied Yoshimoto's expectations. In a daring surprise attack known as the Battle of Okehazama, Nobunaga's forces ambushed Yoshimoto's army, leading to the daimyo's untimely demise. Yoshimoto's death was a significant turning point in the Sengoku period and marked the beginning of Oda Nobunaga's rise to power.</Text>
 		</Row>
 		
 		<!-- Greetings -->

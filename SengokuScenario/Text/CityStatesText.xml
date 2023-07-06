@@ -14,12 +14,111 @@
 		<Row Tag="TXT_KEY_CITYSTATE_HONMA_ADJ">
 			<Text>Honma</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HATTORI">
+			<Text>Hattori Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HATTORI_ADJ">
+			<Text>Hattori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OUCHI">
+			<Text>Ouchi Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OUCHI_ADJ">
+			<Text>Ouchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SHONI">
+			<Text>Shoni Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SHONI_ADJ">
+			<Text>Shoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AMAKO">
+			<Text>Amako Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AMAKO_ADJ">
+			<Text>Amako</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MIYOSHI">
+			<Text>Miyoshi Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MIYOSHI_ADJ">
+			<Text>Miyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SATAKE">
+			<Text>Satake Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SATAKE_ADJ">
+			<Text>Satake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HATAKEYAMA">
+			<Text>Hatakeyama Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HATAKEYAMA_ADJ">
+			<Text>Hatakeyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KITABATAKE">
+			<Text>Kitabatake Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KITABATAKE_ADJ">
+			<Text>Kitabatake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YAMANA">
+			<Text>Yamana Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YAMANA_ADJ">
+			<Text>Yamana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAGARA">
+			<Text>Sagara Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAGARA_ADJ">
+			<Text>Sagara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASANO">
+			<Text>Asano Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASANO_ADJ">
+			<Text>Asano</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_CIV5_ASHIKAGA_TEXT">
 			<Text>The Ashikaga clan, founded by Ashikaga Takauji in the late 13th century, became one of the most influential samurai clans in Japanese history. Takauji initially supported the Kamakura shogunate but later turned against it, leading to its downfall and the establishment of the Ashikaga shogunate in 1336. The Ashikaga clan ruled over Japan for nearly two and a half centuries, with Kyoto as their capital. The Ashikaga shogunate saw periods of relative stability and prosperity, marked by cultural achievements and the flourishing of Zen Buddhism. However, the clan also faced internal power struggles, which eventually led to its decline. The Ōnin War (1467-1477), a devastating conflict between rival factions within the clan, shattered the shogunate's authority and plunged Japan into a prolonged period of civil unrest known as the Sengoku period. Despite their eventual loss of power, the Ashikaga clan's legacy remains significant, as they profoundly influenced Japanese feudal society, art, and the growth of Zen Buddhism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_HONMA_TEXT">
 			<Text>The Honma clan was a samurai family that emerged in Japan during the Sengoku period. Serving as loyal retainers of the powerful Uesugi clan, the Honma clan gained recognition for their military prowess and unwavering loyalty. Led by skilled leaders such as Honma Yoshitaka and Honma Kazumasu, they actively participated in major battles, including the renowned Battles of Kawanakajima against the Takeda clan. The Honma clan's expertise in archery, spear-fighting, and horseback riding earned them a reputation as formidable warriors. While internal conflicts and the tumultuous Sengoku era posed challenges, the Honma clan's contributions to the Uesugi clan's military campaigns are recognized as part of their legacy in Japanese feudal history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HATTORI_TEXT">
+			<Text>The Hattori clan was a prominent ninja clan in feudal Japan known for their exceptional skills in espionage, stealth, and assassination. Led by Hattori Hanzo, they served the powerful Tokugawa shogunate during the Sengoku period, playing a crucial role in maintaining the shogun's rule. The Hattori clan operated in secrecy, and their existence often remained hidden from the public eye. Their expertise in gathering intelligence, infiltrating enemy territories, and executing covert operations made them invaluable assets to the Tokugawa regime. As trusted and loyal vassals, the Hattori clan protected the shogunate from various threats, solidifying their reputation as elite ninja warriors. Today, their legacy lives on as a symbol of the skilled and mysterious ninja tradition that played an instrumental role in shaping Japan's history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OUCHI_TEXT">
+			<Text>The Ouchi clan was a powerful and influential samurai clan during Japan's Sengoku period. Originating from the Ouchi region (present-day Yamaguchi Prefecture), they rose to prominence in the 14th and 15th centuries, becoming one of the dominant forces in western Japan. The Ouchi clan established a vast domain through strategic alliances and military conquests, ruling over a prosperous and culturally rich territory. They were patrons of the arts and played a pivotal role in promoting Zen Buddhism and fostering cultural exchanges with neighboring countries, particularly China and Korea. However, internal conflicts and external pressures eventually led to their downfall in the late 16th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SHONI_TEXT">
+			<Text>Originating from the Shoni region (present-day Oita Prefecture), they initially served as vassals to the powerful Otomo clan. However, as the Sengoku period unfolded and the central authority weakened, the Shoni clan seized the opportunity to assert their independence and expand their territory. Under the leadership of Shoni Sukemoto, they successfully asserted control over various parts of Kyushu, becoming one of the dominant forces in the region. The Shoni clan was instrumental in trade and cultural exchange with foreign powers, including Portugal and Spain, contributing to the development of commerce and arts in their domain. Despite their power and influence, the Shoni clan faced internal conflicts and external threats from neighboring clans, ultimately leading to their decline in the late 16th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMAKO_TEXT">
+			<Text>Under the leadership of Amako Tsunehisa and later his son Amako Haruhisa, the clan expanded their territory through strategic alliances and military campaigns. The Amako clan was known for their military prowess and innovative strategies, making them a formidable opponent on the battlefield. They also actively engaged in maritime trade and cultural exchange with foreign powers, contributing to the development of commerce and arts in their domain. However, their expansionist ambitions and conflicts with neighboring clans, particularly the Mori clan, led to their downfall in the late 16th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MIYOSHI_TEXT">
+			<Text>Settling in Awa Province (modern-day Tokushima Prefecture), the Miyoshi clan established their influence in the region and became significant players in the local politics and conflicts. Led by notable figures such as Miyoshi Motonaga and Miyoshi Nagaharu, the clan actively engaged in military campaigns and alliances to expand their territory and power. They faced challenges from neighboring clans like the Hachisuka and the Chosokabe, with whom they often clashed over control of Awa Province. Despite facing several setbacks and internal struggles, the Miyoshi clan in Awa remained resilient and maintained their presence in the region. However, like other branches of the main Miyoshi clan, their influence diminished with the rise of powerful clans such as the Tokugawa, and they eventually faded from prominence in the turbulent times of the Sengoku period.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SATAKE_TEXT">
+			<Text>Originating from the Satake District in Hitachi Province (present-day Ibaraki Prefecture), the clan rose to prominence during the Kamakura and Muromachi periods. The Satake clan supported the Ashikaga shogunate and became influential landowners in the region. In the Sengoku period, the clan faced challenges from neighboring clans and underwent internal power struggles. However, under the leadership of Satake Yoshishige, the clan managed to retain and expand their territories, becoming one of the powerful forces in the Tohoku region. The Satake clan played a significant role in the political landscape, participating in battles and alliances that shaped the history of the era. They maintained their status and influence until the Edo period, during which they continued to serve the Tokugawa shogunate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HATAKEYAMA_TEXT">
+			<Text>The Hatakeyama clan was a prominent samurai family in feudal Japan, known for their involvement in the politics and military affairs of the Sengoku period. Originally based in the Kii Province (modern-day Wakayama Prefecture), the clan was a vassal to the powerful Hosokawa clan. However, in the mid-16th century, Hatakeyama Yoshitaka sought to assert the clan's independence and rebelled against the Hosokawa. This rebellion led to conflicts with other neighboring clans and the Ashikaga shogunate. During the turbulent Sengoku period, the Hatakeyama clan faced internal strife and divisions, with various family members vying for control over the clan's leadership. These internal conflicts weakened the clan's power and led to further fragmentation of their territories. In the late 16th century, after the fall of the Ashikaga shogunate, the Hatakeyama clan aligned with the Toyotomi clan under the leadership of Toyotomi Hideyoshi. However, after Hideyoshi's death, the Hatakeyama clan found themselves in conflict with Tokugawa Ieyasu, who eventually emerged as the dominant figure in Japan, leading to their decline. By the early 17th century, the Hatakeyama clan had lost much of their influence and their territories were absorbed by the Tokugawa shogunate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KITABATAKE_TEXT">
+			<Text>The Kitabatake clan, a noble samurai family from feudal Japan with roots dating back to the Kamakura period, served as local governors and vassals in Ise Province. Throughout the Sengoku period, they faced shifting alliances, initially supporting the Ashikaga shogunate but later becoming involved in conflicts with other powerful clans. Kitabatake Tomonori emerged as a prominent figure, aligning with Oda Nobunaga and later Toyotomi Hideyoshi in their quest to unify Japan. However, after Hideyoshi's passing, the clan's influence waned, and they faced challenges from the Tokugawa forces under Tokugawa Ieyasu. Ultimately, with the establishment of the Tokugawa shogunate, the Kitabatake clan's role as independent rulers came to an end, leaving behind a historical legacy that reflects the complexities of the Sengoku Jidai era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_YAMANA_TEXT">
+			<Text>The Yamana clan, a significant samurai lineage during the Sengoku period in Japan, held influence in the western regions, particularly in the provinces of Inaba and Tajima. Known for their military prowess and strategic abilities, the Yamana clan engaged in power struggles with other powerful factions, including the Hosokawa and Ashikaga clans. They were initially supporters of the Ashikaga shogunate, but internal conflicts and external pressures led to their eventual decline. One of their most famous figures, Yamana Sozen, played a pivotal role in the Onin War, a conflict that triggered decades of warfare across Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SAGARA_TEXT">
+			<Text>The Sagara clan was a notable samurai family that held influence in Kyushu, Japan, during the Sengoku period. They ruled over the region of Higo (present-day Kumamoto Prefecture) and were known for their military prowess and strategic skills. The clan faced various challenges and conflicts with neighboring clans, including the Shimazu and Otomo, as they sought to expand their territory and influence. One of their most renowned leaders was Sagara Yoshiharu, who played a significant role in the tumultuous events of the time. However, as the power struggles and unification efforts escalated across Japan, the Sagara clan gradually lost its prominence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ASANO_TEXT">
+			<Text>The Asano clan was a prominent samurai family in feudal Japan, tracing its origins to the province of Kai. Rising to power during the Sengoku period, they became known for their military prowess and strategic abilities, gaining the support of influential allies, such as the Takeda clan. However, their fortunes took a dramatic turn in the early 17th century when Asano Naganori, the lord of the Asano domain, was involved in a serious incident at Edo Castle. In response to insults and provocations from court official Kira Yoshinaka, Asano drew his sword in anger, an act that was strictly forbidden within the castle grounds. As a result, he was ordered to perform seppuku (ritual suicide), leading to the forfeiture of the Asano domain and the disbandment of the clan. The story of the Asano clan's downfall and the subsequent revenge of their loyal retainers, the "47 Ronin," has become a celebrated tale of loyalty and bushido in Japanese history and folklore.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

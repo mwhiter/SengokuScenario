@@ -12,115 +12,151 @@
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"A Horse! A Horse! My kingdom for a horse!"[NEWLINE]- Shakespeare (Richard III)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_TITLE">
 			<Text>Cartography</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_DESC">
-			<Text>The concept of cartography dates back thousands of years when early humans began to create rudimentary maps to navigate their surroundings and depict the world around them. Ancient civilizations like the Mesopotamians, Egyptians, Greeks, and Chinese made significant contributions to the development of cartography, using different techniques and tools to represent the land, seas, and celestial bodies.[NEWLINE][NEWLINE]The history of cartography took a significant leap forward during the Age of Exploration in the 15th and 16th centuries. Explorers like Christopher Columbus, Ferdinand Magellan, and James Cook relied heavily on cartography to document their voyages and discover new lands. During this period, advancements in technology, such as the invention of the printing press and improvements in navigational instruments, enabled more accurate and detailed maps to be produced.[NEWLINE][NEWLINE]The field of cartography continued to evolve with the advent of aerial and satellite imagery in the 20th century. This development allowed cartographers to create maps with greater precision and detail. Today, cartography has expanded beyond traditional paper maps, embracing digital technologies and Geographic Information Systems (GIS) to create interactive and dynamic maps that serve a wide range of purposes, including navigation, urban planning, environmental analysis, and scientific research. Cartography remains a vital discipline for understanding and representing the world around us, continually adapting to new technologies and advancements in data collection and visualization.</Text>
+			<Text>Map making, also known as cartography, is an ancient and essential art that involves creating visual representations of geographical locations, landscapes, and spatial data. Throughout history, maps have served various purposes, from aiding navigation and exploration to delineating territories and recording knowledge. In Japan, cartography has been practiced for centuries, with early maps dating back to the Nara and Heian periods. Japanese maps, known as "ezu" or "chizu," often combined artistic elements with practical information, showcasing the country's unique topography and cultural landmarks. With advancements in technology, modern cartography utilizes Geographic Information Systems (GIS) and digital mapping tools to produce intricate and accurate representations of the world. Today, map making remains a crucial discipline in understanding and visualizing the ever-evolving complexities of our planet, serving as a bridge between cultures, histories, and landscapes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"One doesn't discover new lands without losing sight of the shore."[NEWLINE]- Andre Gide[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_MYSTICISM_TITLE">
 			<Text>Mysticism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_MYSTICISM_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Mysticism, deeply ingrained in various cultures and religious traditions, refers to the pursuit of spiritual knowledge and direct communion with the divine or transcendent reality. In Japan, mysticism has manifested through Shugendo, a syncretic belief system that blends elements of Shinto, Buddhism, and Taoism. Practitioners, known as Yamabushi, seek enlightenment and spiritual transformation through ascetic practices, mountain pilgrimages, and rigorous training in nature's solitude. Embracing a harmonious relationship with the natural world, mysticism in Japan encourages individuals to explore their inner selves and connect with the interconnectedness of all existence. Over time, mysticism has left its indelible mark on Japanese art, literature, and philosophy, enriching the nation's cultural heritage and fostering a profound appreciation for the mystical dimensions of life.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_MYSTICISM_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_MYSTICISM_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"Nature herself has imprinted on the minds of all the idea of God."[NEWLINE]- Cicero[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_TITLE">
 			<Text>Calligraphy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Calligraphy, known as "Shodo" in Japan, is the ancient and revered art of beautiful writing. Rooted in Chinese influence and flourishing during the Heian period, calligraphy quickly became an essential part of Japanese culture. Practiced by skilled artisans and monks, Shodo involves the delicate and precise brushwork of ink on paper or silk to create intricate characters and artistic expressions. As time passed, distinct Japanese calligraphy styles emerged, each reflecting the character and emotions of the artist. Throughout history, calligraphy was not only a form of artistic expression but also served as a means of preserving important texts and transmitting knowledge. Today, Shodo remains cherished as a traditional art form, embodying the essence of Japan's aesthetic values and exemplifying the union of skill, discipline, and spiritual depth.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CALLIGRAPHY_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"Calligraphy is an art form that uses ink and a brush to express the very souls of words on paper."[NEWLINE]- Kaoru Akagawa[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DOHYO_TITLE">
+			<Text>Dohyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DOHYO_DESC">
+			<Text>The "dohyo" is a traditional Japanese sumo wrestling ring, which serves as the sacred and symbolic battleground for sumo matches. Constructed from a mixture of clay and sand, the dohyo is raised above ground level and encircled by a straw bale border known as "tawara." The ring's design and dimensions are strictly regulated, and its construction is a ritualistic process conducted by Shinto priests. Before each sumo match, purification ceremonies take place to cleanse the dohyo and ensure its sanctity. The dohyo represents a hallowed space where the spirit of sumo, with its deep historical and cultural significance, comes alive. It embodies the principles of strength, discipline, and respect, as wrestlers engage in fierce but honorable battles, aiming to force their opponent out of the ring or to the ground. As a center of attention during sumo tournaments, the dohyo is a focal point for sumo fans and participants, a place where tradition and athleticism converge in a display of Japan's unique sporting heritage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DOHYO_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DOHYO_QUOTE">
+			<Text>[NEWLINE]"Once you’ve wrestled, everything else in life is easy."[NEWLINE]- Dan Gable[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_NINJUTSU_TITLE">
 			<Text>Ninjutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_NINJUTSU_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Ninjutsu, the ancient and secretive art of the ninja, was developed during Japan's feudal era. Rooted in espionage, stealth, and guerrilla warfare, ninjutsu focused on unconventional tactics and deception to gather intelligence, sabotage enemies, and carry out covert operations. Ninja, highly trained individuals skilled in ninjutsu, operated outside the conventional samurai code, often as mercenaries or spies for various feudal lords. Employing disguise, camouflage, and specialized tools such as shuriken and grappling hooks, ninja were adept at infiltration and assassination. Their shadowy reputation grew during the Sengoku period, as they became indispensable assets for warlords seeking strategic advantages. The legend of the ninja persisted through the centuries, captivating imaginations and inspiring countless works of fiction and popular culture. Today, the legacy of ninjutsu continues to fascinate and mystify, reflecting a unique aspect of Japan's historical martial traditions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_NINJUTSU_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_NINJUTSU_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"The first priority to the ninja is to win without fighting."[NEWLINE]- Masaaki Hatsumi[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BUSHIDO_TITLE">
 			<Text>Bushido</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BUSHIDO_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Bushido, often referred to as the "Way of the Warrior," is the traditional code of conduct followed by the samurai class in feudal Japan. Emerging during the Kamakura period, Bushido emphasized a strict moral and ethical framework, guiding samurai in their actions both on and off the battlefield. The principles of loyalty, honor, courage, and self-discipline formed the foundation of Bushido, shaping the samurai's identity as noble and valiant warriors. Throughout the Sengoku Jidai, the embodiment of Bushido ideals became instrumental in uniting and guiding clans in their quest for power and control over Japan. With the onset of peace during the Edo period, Bushido evolved into a refined philosophy, influencing various aspects of Japanese society and culture. Today, Bushido's legacy endures as an integral part of Japan's history, continuing to inspire people worldwide with its timeless teachings on moral integrity, respect, and the pursuit of excellence in all endeavors.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BUSHIDO_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BUSHIDO_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"As a samurai, I must strengthen my character; as a human being I must perfect my spirit."[NEWLINE]- Yamaoka Tesshu[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BAJUTSU_TITLE">
 			<Text>Bajutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BAJUTSU_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Bajutsu, the Japanese martial art of horsemanship, held a crucial role in the warfare and culture of feudal Japan. Originating during the early Kamakura period, bajutsu emphasized the mastery of mounted combat techniques and the effective use of weapons while on horseback. Samurai warriors who excelled in bajutsu displayed remarkable skill in archery, spear techniques, and swordplay while riding swiftly across the battlefield. The proficiency in bajutsu allowed samurai to swiftly execute hit-and-run tactics, outmaneuver adversaries, and gain a significant advantage in warfare. As the Sengoku period ushered in an era of incessant conflict, the demand for skilled cavalry and experienced horsemen grew, elevating the importance of bajutsu in the military strategies of prominent clans. Today, bajutsu is preserved as a traditional martial art, cherished for its historical significance and the enduring legacy of the samurai's prowess on horseback.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BAJUTSU_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_BAJUTSU_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"A country can be conquered from the back of a horse but may not be ruled in the same manner."[NEWLINE]- Japanese Proverb[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KENJUTSU_TITLE">
 			<Text>Kenjutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KENJUTSU_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Kenjutsu, the traditional Japanese martial art of swordsmanship, evolved alongside the samurai class during feudal Japan. Initially developed for combat on the battlefield, kenjutsu emphasized the use of the katana, or Japanese sword, as the primary weapon. Throughout the Sengoku period, skilled kenjutsu practitioners, like Miyamoto Musashi and Sasaki Kojirō, achieved legendary status through their mastery of the sword. As the era progressed, kenjutsu's focus expanded to include training in various sword styles, stances, and techniques. With the rise of peace during the Edo period, kenjutsu transformed into the more refined art of kendo, with a greater emphasis on mental discipline, spiritual growth, and the preservation of traditional values. Today, kenjutsu continues to be practiced and revered, serving as a testament to Japan's rich martial heritage and the enduring legacy of the samurai spirit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KENJUTSU_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KENJUTSU_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"The sword has to be more than a simple weapon; it has to be an answer to life's questions."[NEWLINE]- Miyamoto Musashi[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KYUJUTSU_TITLE">
 			<Text>Kyujutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KYUJUTSU_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Kyujutsu, the art of Japanese archery, played a significant role in both warfare and culture during feudal Japan. Rooted in ancient traditions, kyujutsu became a central practice for samurai, who honed their skills to perfection. Archery competitions and training were not only about military prowess but also served as a means of cultivating discipline, focus, and spiritual growth. Throughout the Sengoku period, expert archers like Oda Nobunaga and Takeda Shingen demonstrated the effectiveness of kyujutsu on the battlefield, while archery schools flourished to teach this esteemed art to future generations. Beyond warfare, kyujutsu became an essential part of traditional ceremonies, festivals, and artistic pursuits, exemplifying the deep-rooted connection between the bow, the arrow, and the heart of Japan's cultural heritage.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KYUJUTSU_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_KYUJUTSU_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"Archery is not an art, it is a way."[NEWLINE]- Awa Kenzo[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STRATEGY_TITLE">
 			<Text>Strategy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STRATEGY_DESC">
-			<Text>REPLACE ME</Text>
+			<Text>Military strategy in feudal Japan, particularly during the Sengoku period, was characterized by a dynamic and ever-evolving landscape of tactics and warfare. As clans vied for supremacy, warlords developed unique strategies to exploit the strengths of their armies and overcome adversaries. Techniques like "musha shugyo" (warrior pilgrimages) allowed samurai to gain experience and knowledge, while "heiho" (strategy manuals) provided valuable insights into warfare. Prominent figures like Oda Nobunaga and Toyotomi Hideyoshi revolutionized military organization and tactics, while Takeda Shingen's innovative cavalry formations and naval prowess showcased the power of flexibility and adaptability. The era saw the rise of key military concepts like "bushido" (the way of the warrior), "bushin" (strategic understanding), and "shinobi" (ninja espionage). Military strategy in Sengoku Japan shaped the course of history and laid the groundwork for the unification of the nation under the Tokugawa shogunate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STRATEGY_HELP">
 			<Text>REPLACE ME</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STRATEGY_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"REPLACE ME"[NEWLINE]- REPLACE ME</Text>
+			<Text>[NEWLINE]"People will work hard for you because you trust them."[NEWLINE]- Takeda Shingen[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUIEUJUTSU_TITLE">
+			<Text>Suieujutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUIEUJUTSU_DESC">
+			<Text>Suieujutsu, also known as "water warfare," was a strategic and tactical naval combat technique employed during Japan's Sengoku period. As the nation's warlords vied for control, the mastery of waterways and coastal regions became crucial for military dominance. Suieujutsu involved the utilization of various naval vessels, including large ships like atakebune and sekibune, as well as smaller, maneuverable craft. The strategy involved boarding enemy ships, engaging in close combat, and employing archers, spearmen, and gunners to gain the upper hand in battles fought on rivers, lakes, and along coastlines. Skilled naval commanders, such as the Takeda clan's Takeda Shingen, excelled in using Suieujutsu to secure key strategic positions and protect their territories from seaborne threats. The importance of naval warfare during the Sengoku period highlights the significance of maritime power in shaping the course of Japan's history during this tumultuous era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUIEUJUTSU_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUIEUJUTSU_QUOTE">
+			<Text>[NEWLINE]"Raise the sail with your stronger hand"[NEWLINE]- Japanese Proverb[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TEA_CEREMONY_TITLE">
+			<Text>Tea Ceremony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TEA_CEREMONY_DESC">
+			<Text>The Japanese tea ceremony, also known as "Chanoyu" or "Sado," is a deeply rooted cultural practice that embodies grace, harmony, and reverence for the art of tea preparation and consumption. Developed in the 16th century, the tea ceremony reflects the principles of Zen Buddhism and is steeped in ritual and aesthetics. Participants, known as "guests" and "hosts," come together in a specially designed tearoom, where every movement, gesture, and utensil holds symbolic meaning. The ceremony involves the careful preparation of matcha (powdered green tea) using precise techniques, with each step intended to create a meditative and tranquil atmosphere. Through the tea ceremony, participants cultivate mindfulness, humility, and a profound appreciation for the fleeting beauty of each moment. This cherished tradition continues to be practiced and revered in modern Japan, serving as a living embodiment of the nation's rich cultural heritage and timeless pursuit of inner harmony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TEA_CEREMONY_HELP">
+			<Text>REPLACE ME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TEA_CEREMONY_QUOTE">
+			<Text>[NEWLINE]"The truth lies in a bowl of tea."[NEWLINE]- Nambo Sokei[NEWLINE]</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

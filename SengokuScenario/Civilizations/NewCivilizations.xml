@@ -426,9 +426,49 @@
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
+		<Row>
+			<Type>CIVILIZATION_IMAGAWA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_DESC</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_IMAGAWA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_CIV_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SENGOKU_SCENARIO_CIV_WHITE_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<!-- Oda -->
+		<Row>
+			<Type>CIVILIZATION_JAPAN</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_DESC</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_CIV_ODA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_JAPAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJapan512.dds</MapImage>
+			<SoundtrackTag>Japan</SoundtrackTag>
+			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
 	</Civilizations>
 	<Civilization_CityNames>
-		<Delete CivilizationType="CIVILIZATION_JAPAN" />
 		<Row>
 			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
 			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAGOSHIMA</CityName>
@@ -1469,6 +1509,106 @@
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
 			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OKUSHIRA</CityName>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUJI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ODAWARA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_YOKAHAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KAWASAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TACHIKAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KOFU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_NUMAZU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ITO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUJIYOSHIDA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_CHICHIBU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_YOKOSUKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_FUJISAWA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_ATAMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IZU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_IROZAKI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HAKONE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_URAGA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KURIHAMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MIURA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_MITSUMINE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_KOZUSHIMA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SUTTSU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_OTOBE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_SETANA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_UTASHINAI</CityName>
+		</Row>
 	</Civilization_CityNames>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -1509,6 +1649,14 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
@@ -1552,6 +1700,14 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
 			<LeaderheadType>LEADER_DATE_MASAMUNE</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<LeaderheadType>LEADER_IMAGAWA_YOSHIMOTO</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderheadType>LEADER_ODA_NOBUNAGA</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<Civilization_FreeUnits>
@@ -1615,59 +1771,19 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ODA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
 	</Civilization_FreeUnits>
-	<Traits>
-		<Row>
-			<Type>TRAIT_SHIMAZU</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_OTOMO</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_MORI</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_CHOSOKABE</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_UESUGI</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_TAKEDA</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_HOJO</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_TOKUGAWA</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_IKKO_IKKI</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT</ShortDescription>
-		</Row>
-		<Row>
-			<Type>TRAIT_DATE</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT</ShortDescription>
-		</Row>
-	</Traits>
 	<Diplomacy_Responses>
 		<Row LeaderType="LEADER_SHIMAZU_YOSHIHIRO">
 			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
@@ -1757,6 +1873,14 @@
 			<ResponseType>RESPONSE_DEFEATED</ResponseType>
 			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_%</Response>
 		</Row>
+		<Row LeaderType="LEADER_IMAGAWA_YOSHIMOTO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_IMAGAWA_YOSHIMOTO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_DEFEATED_%</Response>
+		</Row>
 	</Diplomacy_Responses>
 	<Leaders>
 		<Row>
@@ -1765,19 +1889,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_SHIMAZU_YOSHIHIRO_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_SHIMAZU_YOSHIHIRO</CivilopediaTag>
 			<ArtDefineTag>Shimazu_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<VictoryCompetitiveness>8</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>3</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>5</DenounceWillingness>
+			<DoFWillingness>5</DoFWillingness>
 			<Boldness>8</Boldness>
 			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>9</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
+			<Loyalty>10</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>3</Forgiveness>
 			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Meanness>5</Meanness>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1787,18 +1911,18 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_OTOMO_SORIN_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_OTOMO_SORIN</CivilopediaTag>
 			<ArtDefineTag>Otomo_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
+			<VictoryCompetitiveness>4</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
 			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
+			<DoFWillingness>4</DoFWillingness>
+			<Boldness>5</Boldness>
+			<DiploBalance>6</DiploBalance>
+			<Loyalty>4</Loyalty>
 			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
+			<Forgiveness>8</Forgiveness>
+			<Chattiness>4</Chattiness>
 			<Meanness>4</Meanness>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
@@ -1809,19 +1933,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_MORI_MOTONARI_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_MORI_MOTONARI</CivilopediaTag>
 			<ArtDefineTag>Mori_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<VictoryCompetitiveness>5</VictoryCompetitiveness>
 			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>4</DoFWillingness>
+			<Boldness>4</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<Loyalty>5</Loyalty>
+			<Neediness>4</Neediness>
 			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Chattiness>4</Chattiness>
+			<Meanness>6</Meanness>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1831,19 +1955,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_CHOSOKABE_MOTOCHIKA_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_CHOSOKABE_MOTOCHIKA</CivilopediaTag>
 			<ArtDefineTag>Chosokabe_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<VictoryCompetitiveness>9</VictoryCompetitiveness>
+			<WonderCompetitiveness>2</WonderCompetitiveness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>5</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
 			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
+			<DiploBalance>6</DiploBalance>
 			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
+			<Neediness>3</Neediness>
+			<Forgiveness>6</Forgiveness>
 			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Meanness>7</Meanness>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1854,18 +1978,18 @@
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_UESUGI_KENSHIN</CivilopediaTag>
 			<ArtDefineTag>Uesugi_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
+			<WonderCompetitiveness>7</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
 			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Boldness>6</Boldness>
+			<DiploBalance>4</DiploBalance>
+			<Loyalty>7</Loyalty>
+			<Neediness>5</Neediness>
+			<Forgiveness>8</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>3</Meanness>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1875,19 +1999,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_TAKEDA_SHINGEN_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_TAKEDA_SHINGEN</CivilopediaTag>
 			<ArtDefineTag>Takeda_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<VictoryCompetitiveness>8</VictoryCompetitiveness>
+			<WonderCompetitiveness>1</WonderCompetitiveness>
 			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
+			<WarmongerHate>0</WarmongerHate>
 			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
+			<DoFWillingness>3</DoFWillingness>
+			<Boldness></Boldness>
+			<DiploBalance>4</DiploBalance>
+			<Loyalty>7</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
 			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Meanness>7</Meanness>
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1897,18 +2021,18 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_HOJO_UJIYASU_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_HOJO_UJIYASU</CivilopediaTag>
 			<ArtDefineTag>Hojo_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
+			<VictoryCompetitiveness>4</VictoryCompetitiveness>
+			<WonderCompetitiveness>8</WonderCompetitiveness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
 			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
+			<DoFWillingness>7</DoFWillingness>
+			<Boldness>4</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<Loyalty>5</Loyalty>
+			<Neediness>5</Neediness>
 			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
+			<Chattiness>5</Chattiness>
 			<Meanness>4</Meanness>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
@@ -1919,19 +2043,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_TOKUGAWA_IEYASU_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_TOKUGAWA_IEYASU</CivilopediaTag>
 			<ArtDefineTag>Tokugawa_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
-			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<VictoryCompetitiveness>9</VictoryCompetitiveness>
+			<WonderCompetitiveness>8</WonderCompetitiveness>
+			<MinorCivCompetitiveness>10</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>3</DenounceWillingness>
+			<DoFWillingness>8</DoFWillingness>
+			<Boldness>6</Boldness>
+			<DiploBalance>4</DiploBalance>
+			<Loyalty>2</Loyalty>
+			<Neediness>5</Neediness>
+			<Forgiveness>3</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>3</Meanness>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1941,19 +2065,19 @@
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_RENNYO_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_RENNYO</CivilopediaTag>
 			<ArtDefineTag>IkkoIkki_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
-			<WonderCompetitiveness>5</WonderCompetitiveness>
-			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<VictoryCompetitiveness>1</VictoryCompetitiveness>
+			<WonderCompetitiveness>2</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>8</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
 			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
-			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>3</Loyalty>
-			<Neediness>6</Neediness>
-			<Forgiveness>5</Forgiveness>
+			<DiploBalance>4</DiploBalance>
+			<Loyalty>2</Loyalty>
+			<Neediness>2</Neediness>
+			<Forgiveness>3</Forgiveness>
 			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
+			<Meanness>8</Meanness>
 			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
 		</Row>
@@ -1964,6 +2088,50 @@
 			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_DATE_MASAMUNE</CivilopediaTag>
 			<ArtDefineTag>Date_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>4</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>5</DenounceWillingness>
+			<DoFWillingness>5</DoFWillingness>
+			<Boldness>9</Boldness>
+			<DiploBalance>6</DiploBalance>
+			<Loyalty>6</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
+			<Chattiness>6</Chattiness>
+			<Meanness>5</Meanness>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEADER_IMAGAWA_YOSHIMOTO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_SENGOKU_SCENARIO_LEADERS_IMAGAWA_YOSHIMOTO</CivilopediaTag>
+			<ArtDefineTag>Imagawa_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>9</VictoryCompetitiveness>
+			<WonderCompetitiveness>0</WonderCompetitiveness>
+			<MinorCivCompetitiveness>1</MinorCivCompetitiveness>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>8</DenounceWillingness>
+			<DoFWillingness>2</DoFWillingness>
+			<Boldness>6</Boldness>
+			<DiploBalance>4</DiploBalance>
+			<Loyalty>1</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
+			<Chattiness>6</Chattiness>
+			<Meanness>9</Meanness>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEADER_ODA_NOBUNAGA</Type>
+			<Description>TXT_KEY_LEADER_ODA_NOBUNAGA</Description>
+			<Civilopedia>TXT_KEY_LEADER_ODA_NOBUNAGA_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_ODA</CivilopediaTag>
+			<ArtDefineTag>OdaNobunaga_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
 			<WonderCompetitiveness>5</WonderCompetitiveness>
 			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
 			<Boldness>8</Boldness>
@@ -1976,8 +2144,8 @@
 			<Forgiveness>5</Forgiveness>
 			<Chattiness>3</Chattiness>
 			<Meanness>4</Meanness>
-			<PortraitIndex>9</PortraitIndex>
-			<IconAtlas>SENGOKU_SCENARIO_LEADER_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>LEADER_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
 	<Leader_Traits>
@@ -2021,5 +2189,14 @@
 			<LeaderType>LEADER_DATE_MASAMUNE</LeaderType>
 			<TraitType>TRAIT_DATE</TraitType>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_IMAGAWA_YOSHIMOTO</LeaderType>
+			<TraitType>TRAIT_IMAGAWA</TraitType>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType>
+			<TraitType>TRAIT_ODA</TraitType>
+		</Row>
 	</Leader_Traits>
+	
 </GameData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/3/2023 9:57:45 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_DIPLO_NEED_WRITING_TT">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Calligraphy).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER">
+			<Text>[NEWLINE][NEWLINE]They do not have the Technology to establish an embassy (Calligraphy).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER">
+			<Text>[NEWLINE][NEWLINE]You do not have the Technology to establish an embassy (Calligraphy).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_FEATURE_CRATER">
+			<Text>Tottori Sand Dunes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_FEATURES_BARRINGER_TEXT">
+			<Text>The Tottori Sand Dunes, located in Tottori Prefecture, Japan, are a unique and picturesque natural wonder. Covering an extensive area along the coast of the Sea of Japan, these dunes are known for their impressive size and ever-changing landscape. Formed over thousands of years by the deposition of sand carried by the Sendai River and ocean currents, the Tottori Sand Dunes have become a popular tourist destination and symbol of the region. Visitors can enjoy activities such as camel rides, sandboarding, and hiking through the sandy expanse, offering a remarkable experience of the scenic beauty and vastness of Japan's coastal landscapes. The Tottori Sand Dunes stand as a testament to the wondrous diversity of Japan's natural wonders and the awe-inspiring forces of nature that shape our world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_FEATURE_KILIMANJARO">
+			<Text>Mt. Aso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_FEATURES_KILIMANJARO_TEXT">
+			<Text>Mount Aso, located in Kumamoto Prefecture, Japan, is one of the country's most iconic and active volcanoes. It boasts one of the largest calderas in the world, measuring approximately 25 kilometers in diameter, and is a symbol of Japan's volcanic landscapes. The mountain's caldera houses multiple peaks, with the central crater called Nakadake being particularly famous for its ongoing volcanic activity, periodically emitting smoke and ash. Despite its active nature, Mount Aso has attracted visitors for centuries who come to admire its stunning vistas and explore the surrounding Aso Kuju National Park, known for its lush greenery and diverse flora and fauna. Alongside its natural beauty, Mount Aso holds cultural significance as it has been revered as a sacred place in Japanese mythology and history. However, its active nature also poses risks, with occasional eruptions leading to evacuations and disruptions in the region. Nevertheless, Mount Aso remains a fascinating and captivating destination, where nature's raw power and beauty combine to create a unique and unforgettable experience for those who venture to its slopes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_CANNOT_UNLOCK">
+			<Text>[COLOR_NEGATIVE_TEXT]Your Clan does not believe these social policies would benefit them.[/ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

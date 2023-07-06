@@ -104,6 +104,24 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_ADJECTIVE">
 			<Text>Date</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_DESC">
+			<Text>Imagawa Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_SHORT_DESC">
+			<Text>Imagawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_ADJECTIVE">
+			<Text>Imagawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_DESC">
+			<Text>Oda Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_SHORT_DESC">
+			<Text>Oda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_ADJECTIVE">
+			<Text>Oda</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_SHIMAZU_HEADING_1">
 			<Text>History</Text>
@@ -164,6 +182,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_DATE_TEXT_1">
 			<Text>The Date Clan was a powerful and influential samurai clan that emerged during the Sengoku Jidai period in Japan. Originating from the region of Mutsu, in present-day Fukushima Prefecture, the Date clan rose to prominence under the leadership of notable figures such as Date Masamune. Known for their military prowess and strategic acumen, the Date clan played a significant role in the politics and warfare of the time. They controlled a vast domain and were respected for their disciplined armies, skilled warriors, and shrewd diplomacy. The Date clan's legacy extends beyond their military exploits, as they also cultivated a rich cultural tradition, supporting the arts and encouraging the development of the region. Today, the Date clan remains renowned for their contributions to Japanese history and their enduring impact on the cultural heritage of the Tohoku region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_IMAGAWA_TEXT_1">
+			<Text>The Imagawa clan was a prominent samurai family that held significant influence in the region of Suruga during the Sengoku period in Japan. The clan's origins can be traced back to the 12th century, but it was under the leadership of Imagawa Yoshimoto that their power reached its peak. Yoshimoto expanded the clan's territories through strategic alliances and military campaigns, establishing control over parts of the Tōkaidō region. However, their rise to prominence was abruptly halted when they clashed with the powerful Oda clan. In the Battle of Okehazama in 1560, Imagawa Yoshimoto was unexpectedly killed by Oda Nobunaga's forces, marking a turning point in the clan's fortunes. Subsequent internal conflicts and the loss of their charismatic leader weakened the Imagawa clan's position, leading to their decline and eventual dissolution. Despite their ultimate defeat, the Imagawa clan's legacy remains significant, particularly in the realm of cultural patronage and diplomacy, as they were known for fostering alliances and supporting the arts during their heyday.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV_ODA_TEXT_1">
+			<Text>The Oda clan, led by the renowned warlord Oda Nobunaga, rose to prominence during the Sengoku period in Japan. Nobunaga, known for his ambition and strategic brilliance, aimed to unify the fractured nation under his rule. With the Owari province as their base, the Oda clan embarked on a series of military campaigns, employing innovative tactics and forming strategic alliances. Nobunaga's military prowess, combined with his progressive policies, transformed the clan into a formidable force. However, their journey to dominance was abruptly halted when Nobunaga was betrayed and killed in 1582. Despite his untimely demise, the Oda clan's legacy endured through his loyal retainers, most notably Toyotomi Hideyoshi, who successfully completed Nobunaga's vision and unified Japan. The Oda clan's rise and fall exemplify the volatile nature of the Sengoku period and their significant contributions to shaping Japan's history.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

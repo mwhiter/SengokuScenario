@@ -48,7 +48,7 @@
 			<Text>The Great Unifier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA">
-			<Text>This trait has no effect. (something to do with vassal of Imagawa, benefits to diplomacy)</Text>
+			<Text>Begins the game with a free Spy, but as the vassal of the Imagawa clan. All Diplomat Units receive +2 [ICON_MOVES] Movement and the [COLOR_POSITIVE_TEXT]Royal Signet[ENDCOLOR] promotion, granting +10 [ICON_INFLUENCE] Influence from City-State missions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT">
 			<Text>Peasant Rule</Text>
@@ -61,6 +61,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE">
 			<Text>This trait has no effect. (something to do with attacking)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IMAGAWA_SHORT">
+			<Text>Ambition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IMAGAWA">
+			<Text>Begins the game with Tokugawa as a vassal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA_SHORT">
+			<Text>Professional Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA">
+			<Text>This trait has no effect. (something to do with bonuses to Ashigaru)</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

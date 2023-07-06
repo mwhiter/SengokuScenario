@@ -1,31 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 5/31/2023 8:41:21 PM -->
 <GameData>
+	<AIEconomicStrategies>
+		<Update>
+			<Where TechObsolete="TECH_INDUSTRIALIZATION"/>
+			<Set TechObsolete=""/>
+		</Update>
+	</AIEconomicStrategies>
 	<Units>
 		<Delete/>
 	</Units>
 	<Builds>
-		<Delete Type="BUILD_ENCAMPMENT_SHOSHONE" />
-		<Delete Type="BUILD_RAILROAD" />
-		<Delete Type="BUILD_WELL" />
-		<Delete Type="BUILD_OFFSHORE_PLATFORM" />
-		<Delete Type="BUILD_POLDER" />
-		<Delete Type="BUILD_ARCHAEOLOGY_DIG" />
-		<Delete Type="BUILD_BRAZILWOOD_CAMP" />
-		<Delete Type="BUILD_KASBAH" />
-		<Delete Type="BUILD_FEITORIA" />
-		<Delete Type="BUILD_CHATEAU" />
-		<Delete Type="BUILD_SIHEYUAN" />
-		<Delete Type="BUILD_MONGOLIA_ORDO" />
-		<Delete Type="BUILD_SPAIN_HACIENDA" />
-		<Delete Type="BUILD_ENCAMPMENT_SHOSHONE" />
-		<Delete Type="BUILD_EKI" />
-		<Delete Type="BUILD_KUNA" />
-		<Delete Type="BUILD_POLDER_WATER" />
-		<Delete Type="BUILD_POLYNESIAN_BOATS" />
-		<Delete Type="BUILD_EMBASSY" />
-		<Delete Type="BUILD_TERRACE_FARM" />
-		<Delete Type="BUILD_MOAI" />
+		<Update>
+			<Where Type="BUILD_ENCAMPMENT_SHOSHONE" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_RAILROAD" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_WELL" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_OFFSHORE_PLATFORM" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_POLDER" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_ARCHAEOLOGY_DIG" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_BRAZILWOOD_CAMP" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_KASBAH" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_FEITORIA" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_CHATEAU" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_SIHEYUAN" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_MONGOLIA_ORDO" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_SPAIN_HACIENDA" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_ENCAMPMENT_SHOSHONE" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_EKI" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_KUNA" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_POLDER_WATER" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_POLYNESIAN_BOATS" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_EMBASSY" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_TERRACE_FARM" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_MOAI" />
+			<Set>
+				<PrereqTech />
+			</Set>
+		</Update>
 	</Builds>
 	<Unit_Builds>
 		<Delete/>
@@ -57,6 +168,9 @@
 	<Buildings>
 		<Delete/>
 	</Buildings>
+	<Building_BuildingClassYieldChanges>
+		<Delete/>
+	</Building_BuildingClassYieldChanges>
 	<Building_BuildingClassHappiness>
 		<Delete/>
 	</Building_BuildingClassHappiness>
@@ -141,6 +255,45 @@
 	<BuildingClasses>
 		<Delete/>
 	</BuildingClasses>
+	<Civilizations>
+		<Delete/>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Delete/>
+	</Civilization_CityNames>
+	<Civilization_BuildingClassOverrides>
+		<Delete/>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_FreeBuildingClasses>
+		<Delete/>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Delete/>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Delete/>
+	</Civilization_FreeUnits>
+	<Civilization_UnitClassOverrides>
+		<Delete/>
+	</Civilization_UnitClassOverrides>
+	<MinorCivilizations>
+		<Delete/>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Delete/>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Delete/>
+	</MinorCivilization_Flavors>
+	<Leaders>
+		<Delete/>
+	</Leaders>
+	<Leader_Traits>
+		<Delete/>
+	</Leader_Traits>
+	<Traits>
+		<Delete/>
+	</Traits>
 	<HandicapInfo_AIFreeTechs>
 		<Delete/>
 	</HandicapInfo_AIFreeTechs>
@@ -186,6 +339,7 @@
 		<Row>
 			<Type>BUILDING_WALLS</Type>
 			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Cost>75</Cost>
 			<Help>TXT_KEY_BUILDING_WALLS_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_WALLS</Description>
@@ -210,17 +364,63 @@
 			<Flavor>100</Flavor>
 		</Row>
 	</Building_Flavors>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_MINOR</Type>
+			<Description>TXT_KEY_CIV_MINOR_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_MINOR_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_MINOR_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
+			<Playable>false</Playable>
+			<AIPlayable>false</AIPlayable>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_BARBARIAN</Type>
+			<Description>TXT_KEY_CIV_BARBARIAN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_BARBARIAN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_BARBARIAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_BARBARIAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
+			<Playable>false</Playable>
+			<AIPlayable>false</AIPlayable>
+		</Row>
+	</Civilizations>
+	<Leaders>
+		<Row>
+			<Type>LEADER_BARBARIAN</Type>
+			<Description>TXT_KEY_LEADER_BARBARIAN</Description>
+			<Civilopedia>TXT_KEY_LEADER_BARBARIAN_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_LEADER_BARBARIAN</ArtDefineTag>
+			<VictoryCompetitiveness>0</VictoryCompetitiveness>
+			<WonderCompetitiveness>0</WonderCompetitiveness>
+			<MinorCivCompetitiveness>0</MinorCivCompetitiveness>
+			<Boldness>0</Boldness>
+			<DiploBalance>0</DiploBalance>
+			<WarmongerHate>0</WarmongerHate>
+			<DenounceWillingness>0</DenounceWillingness>
+			<DoFWillingness>0</DoFWillingness>
+			<Loyalty>0</Loyalty>
+			<Neediness>0</Neediness>
+			<Forgiveness>0</Forgiveness>
+			<Chattiness>0</Chattiness>
+			<Meanness>0</Meanness>
+		</Row>
+	</Leaders>
 	<Eras>
 		<Delete />
 	</Eras>
 	<Eras>
 		<Row>
 			<ID>0</ID>
-			<Type>ERA_MEDIEVAL</Type>
-			<Description>TXT_KEY_ERA_2</Description>
-			<ShortDescription>TXT_KEY_ERA_2_SHORT</ShortDescription>
-			<Abbreviation>TXT_KEY_ERA_2_ABBREV</Abbreviation>
-			<Strategy>TXT_KEY_ERA_MEDIEVAL_STRATEGY</Strategy>
+			<Type>ERA_EARLY_SENGOKU</Type>
+			<Description>TXT_KEY_ERA_EARLY_SENGOKU</Description>
+			<Strategy>TXT_KEY_ERA_EARLY_SENGOKU_STRATEGY</Strategy>
 			<ArtPrefix>MEDIEVAL </ArtPrefix>
 			<NoGoodies>false</NoGoodies>
 			<NoBarbUnits>false</NoBarbUnits>
@@ -264,12 +464,96 @@
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
 		<Row>
+			<Type>ERA_SENGOKU</Type>
+			<Description>TXT_KEY_ERA_SENGOKU</Description>
+			<Strategy>TXT_KEY_ERA_SENGOKU_STRATEGY</Strategy>
+			<ArtPrefix>MEDIEVAL </ArtPrefix>
+			<NoGoodies>true</NoGoodies>
+			<NoBarbUnits>true</NoBarbUnits>
+			<NoReligion>true</NoReligion>
+			<ResearchAgreementCost>300</ResearchAgreementCost>
+			<EmbarkedUnitDefense>10</EmbarkedUnitDefense>
+			<StartingUnitMultiplier>3</StartingUnitMultiplier>
+			<StartingDefenseUnits>3</StartingDefenseUnits>
+			<StartingWorkerUnits>2</StartingWorkerUnits>
+			<StartingExploreUnits>2</StartingExploreUnits>
+			<StartingGold>100</StartingGold>
+			<StartingCulture>400</StartingCulture>
+			<FreePopulation>2</FreePopulation>
+			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
+			<StartPercent>50</StartPercent>
+			<BuildingMaintenancePercent>60</BuildingMaintenancePercent>
+			<GrowthPercent>75</GrowthPercent>
+			<TrainPercent>33</TrainPercent>
+			<ConstructPercent>37</ConstructPercent>
+			<CreatePercent>37</CreatePercent>
+			<ResearchPercent>20</ResearchPercent>
+			<BuildPercent>80</BuildPercent>
+			<ImprovementPercent>80</ImprovementPercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
+			<CulturePercent>80</CulturePercent>
+			<TradeRouteFoodBonusTimes100>200</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>200</TradeRouteProductionBonusTimes100>
+			<EventChancePerTurn>6</EventChancePerTurn>
+			<FaithCostMultiplier>200</FaithCostMultiplier>
+			<DiploEmphasisReligion>2</DiploEmphasisReligion>
+			<DiploEmphasisLatePolicies>7</DiploEmphasisLatePolicies>
+			<LeaguePercent>200</LeaguePercent>
+			<WarmongerPercent>90</WarmongerPercent>
+			<SoundtrackSpace>120</SoundtrackSpace>
+			<FirstSoundtrackFirst>false</FirstSoundtrackFirst>
+			<CityBombardEffectTag>CITY_BOMBARD_MID</CityBombardEffectTag>
+			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
+			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
+		</Row>
+		<Row>
+			<Type>ERA_LATE_SENGOKU</Type>
+			<Description>TXT_KEY_ERA_LATE_SENGOKU</Description>
+			<Strategy>TXT_KEY_ERA_LATE_SENGOKU_STRATEGY</Strategy>
+			<ArtPrefix>MEDIEVAL </ArtPrefix>
+			<NoGoodies>true</NoGoodies>
+			<NoBarbUnits>true</NoBarbUnits>
+			<NoReligion>true</NoReligion>
+			<ResearchAgreementCost>300</ResearchAgreementCost>
+			<EmbarkedUnitDefense>10</EmbarkedUnitDefense>
+			<StartingUnitMultiplier>3</StartingUnitMultiplier>
+			<StartingDefenseUnits>3</StartingDefenseUnits>
+			<StartingWorkerUnits>2</StartingWorkerUnits>
+			<StartingExploreUnits>2</StartingExploreUnits>
+			<StartingGold>100</StartingGold>
+			<StartingCulture>400</StartingCulture>
+			<FreePopulation>2</FreePopulation>
+			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
+			<StartPercent>50</StartPercent>
+			<BuildingMaintenancePercent>60</BuildingMaintenancePercent>
+			<GrowthPercent>75</GrowthPercent>
+			<TrainPercent>33</TrainPercent>
+			<ConstructPercent>37</ConstructPercent>
+			<CreatePercent>37</CreatePercent>
+			<ResearchPercent>20</ResearchPercent>
+			<BuildPercent>80</BuildPercent>
+			<ImprovementPercent>80</ImprovementPercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
+			<CulturePercent>80</CulturePercent>
+			<TradeRouteFoodBonusTimes100>200</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>200</TradeRouteProductionBonusTimes100>
+			<EventChancePerTurn>6</EventChancePerTurn>
+			<FaithCostMultiplier>200</FaithCostMultiplier>
+			<DiploEmphasisReligion>2</DiploEmphasisReligion>
+			<DiploEmphasisLatePolicies>7</DiploEmphasisLatePolicies>
+			<LeaguePercent>200</LeaguePercent>
+			<WarmongerPercent>90</WarmongerPercent>
+			<SoundtrackSpace>120</SoundtrackSpace>
+			<FirstSoundtrackFirst>false</FirstSoundtrackFirst>
+			<CityBombardEffectTag>CITY_BOMBARD_MID</CityBombardEffectTag>
+			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
+			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
+		</Row>
+		<Row>
 			<Type>ERA_INDUSTRIAL</Type>
-			<Description>TXT_KEY_ERA_4</Description>
-			<ShortDescription>TXT_KEY_ERA_4_SHORT</ShortDescription>
-			<Abbreviation>TXT_KEY_ERA_4_ABBREV</Abbreviation>
-			<Strategy>TXT_KEY_ERA_INDUSTRIAL_STRATEGY</Strategy>
-			<ArtPrefix>INDUSTRIAL </ArtPrefix>
+			<Description>TXT_KEY_ERA_SHOGUN</Description>
+			<Strategy>TXT_KEY_ERA_SHOGUN_STRATEGY</Strategy>
+			<ArtPrefix>MEDIEVAL </ArtPrefix>
 			<NoGoodies>true</NoGoodies>
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
@@ -318,65 +602,33 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 	</Technology_PrereqTechs>
-	<Technologies>
-		<Row>
-			<ID>0</ID>
-			<Type>TECH_CALLIGRAPHY</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_CALLIGRAPHY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CALLIGRAPHY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CALLIGRAPHY_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>0</GridX>
-			<GridY>3</GridY>
-			<Quote>TXT_KEY_TECH_CALLIGRAPHY_QUOTE</Quote>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_BUSHIDO</Type>
-			<Cost>35</Cost>
-			<Description>TXT_KEY_TECH_BUSHIDO_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_BUSHIDO_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_BUSHIDO_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>0</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_BUSHIDO_QUOTE</Quote>
-			<PortraitIndex>3</PortraitIndex>
-			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
-		</Row>
-	</Technologies>
-	<Technology_Flavors>
-		<Row>
-			<TechType>TECH_AGRICULTURE</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-	</Technology_Flavors>
 	<Resources>
-		<Delete Type="RESOURCE_COAL" />
-		<Delete Type="RESOURCE_OIL" />
-		<Delete Type="RESOURCE_ALUMINUM" />
-		<Delete Type="RESOURCE_URANIUM" />
-		<Delete Type="RESOURCE_IVORY" />
-		<Delete Type="RESOURCE_TRUFFLES" />
-		<Delete Type="RESOURCE_HIDDEN_ARTIFACTS" />
-		<Delete Type="RESOURCE_ARTIFACTS" />
-		<Delete Type="RESOURCE_BRAZILWOOD" />
-		<Delete Type="RESOURCE_TOBACCO" />
-		<Delete Type="RESOURCE_LAPIS" />
-		<Delete Type="RESOURCE_MAIZE" />
 		<Update>
 			<Set>
 				<TechReveal/>
 				<TechCityTrade/>
 				<PolicyReveal/>
 			</Set>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_COAL"/>
+			<Set TechReveal="" TechCityTrade=""/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_OIL"/>
+			<Set TechReveal="" TechCityTrade=""/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_ALUMINUM"/>
+			<Set TechReveal="" TechCityTrade=""/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_URANIUM"/>
+			<Set TechReveal="" TechCityTrade=""/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_ARTIFACTS"/>
+			<Set TechReveal="" TechCityTrade=""/>
 		</Update>
 	</Resources>
 	<Projects>

@@ -39,6 +39,11 @@
 			<Description>TXT_KEY_BUILDING_CITADEL</Description>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_MONUMENT</Type>
+			<DefaultBuilding>BUILDING_MONUMENT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MONUMENT</Description>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_SHRINE</Type>
 			<DefaultBuilding>BUILDING_SHRINE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_SHRINE</Description>
@@ -102,6 +107,11 @@
 			<Type>BUILDINGCLASS_GARDEN</Type>
 			<DefaultBuilding>BUILDING_GARDEN</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_GARDEN</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MARKET</Type>
+			<DefaultBuilding>BUILDING_MARKET</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MARKET</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_LIBRARY</Type>
@@ -176,11 +186,33 @@
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_KASUGA_TAISHA</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_OMOTESENKE</Type>
+			<DefaultBuilding>BUILDING_OMOTESENKE</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_OMOTESENKE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
+			<Type>BUILDING_MONUMENT</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<Cost>40</Cost>
+			<Help>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MONUMENT_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MONUMENT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_MAGISTRATE_OFFICE</Type>
 			<BuildingClass>BUILDINGCLASS_MAGISTRATE_OFFICE</BuildingClass>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE</Description>
@@ -196,6 +228,7 @@
 		<Row>
 			<Type>BUILDING_GRANARY</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			<Cost>60</Cost>
 			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GRANARY</Description>
@@ -212,6 +245,7 @@
 		<Row>
 			<Type>BUILDING_RICE_PADDY</Type>
 			<BuildingClass>BUILDINGCLASS_RICE_PADDY</BuildingClass>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			<Cost>75</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY</Description>
@@ -246,6 +280,7 @@
 		<Row>
 			<Type>BUILDING_TEA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_TEA_HOUSE</BuildingClass>
+			<PrereqTech>TECH_TEA_CEREMONY</PrereqTech>
 			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE</Description>
@@ -261,6 +296,7 @@
 		<Row>
 			<Type>BUILDING_NOH_THEATER</Type>
 			<BuildingClass>BUILDINGCLASS_NOH_THEATER</BuildingClass>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER</Description>
@@ -276,6 +312,7 @@
 		<Row>
 			<Type>BUILDING_SUMO_TOURNEY</Type>
 			<BuildingClass>BUILDINGCLASS_SUMO_TOURNEY</BuildingClass>
+			<PrereqTech>TECH_DOHYO</PrereqTech>
 			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY</Description>
@@ -291,6 +328,7 @@
 		<Row>
 			<Type>BUILDING_SEAPORT</Type>
 			<BuildingClass>BUILDINGCLASS_SEAPORT</BuildingClass>
+			<PrereqTech>TECH_SUIEUJUTSU</PrereqTech>
 			<Cost>250</Cost>
 			<Description>TXT_KEY_BUILDING_SEAPORT</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SEAPORT_TEXT</Civilopedia>
@@ -307,6 +345,7 @@
 		<Row>
 			<Type>BUILDING_LIGHTHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<Cost>75</Cost>
 			<Help>TXT_KEY_BUILDING_LIGHTHOUSE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_LIGHTHOUSE</Description>
@@ -325,6 +364,7 @@
 		<Row>
 			<Type>BUILDING_BARRACKS</Type>
 			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<PrereqTech>TECH_STRATEGY</PrereqTech>
 			<Cost>75</Cost>
 			<Help>TXT_KEY_BUILDING_BARRACKS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BARRACKS</Description>
@@ -340,6 +380,7 @@
 		<Row>
 			<Type>BUILDING_STABLE</Type>
 			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			<Cost>100</Cost>
 			<Description>TXT_KEY_BUILDING_STABLE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STABLE_TEXT</Civilopedia>
@@ -369,6 +410,7 @@
 		<Row>
 			<Type>BUILDING_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>100</Cost>
 			<Description>TXT_KEY_BUILDING_TEMPLE_DESC</Description>
@@ -414,6 +456,7 @@
 		<Row>
 			<Type>BUILDING_WATERMILL</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Cost>75</Cost>
 			<Description>TXT_KEY_BUILDING_WATERMILL</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WATERMILL_TEXT</Civilopedia>
@@ -447,6 +490,7 @@
 		<Row>
 			<Type>BUILDING_WORKSHOP</Type>
 			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Cost>120</Cost>
 			<Help>TXT_KEY_BUILDING_WORKSHOP_HELP</Help>
 			<Description>TXT_KEY_BUILDING_WORKSHOP</Description>
@@ -462,6 +506,7 @@
 		<Row>
 			<Type>BUILDING_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Cost>120</Cost>
 			<Description>TXT_KEY_BUILDING_GARDEN</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GARDEN_TEXT</Civilopedia>
@@ -478,6 +523,7 @@
 		<Row>
 			<Type>BUILDING_HARBOR</Type>
 			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<Cost>120</Cost>
 			<Help>TXT_KEY_BUILDING_HARBOR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HARBOR</Description>
@@ -499,6 +545,7 @@
 		<Row>
 			<Type>BUILDING_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+			<PrereqTech>TECH_CALLIGRAPHY</PrereqTech>
 			<Cost>75</Cost>
 			<Help>TXT_KEY_BUILDING_LIBRARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_LIBRARY</Description>
@@ -514,6 +561,7 @@
 		<Row>
 			<Type>BUILDING_UNIVERSITY</Type>
 			<BuildingClass>BUILDINGCLASS_UNIVERSITY</BuildingClass>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<Cost>160</Cost>
 			<FaithCost>200</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
@@ -531,6 +579,7 @@
 		<Row>
 			<Type>BUILDING_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
+			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
 			<Cost>160</Cost>
 			<Help>TXT_KEY_BUILDING_CASTLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CASTLE</Description>
@@ -551,6 +600,7 @@
 		<Row>
 			<Type>BUILDING_CITADEL</Type>
 			<BuildingClass>BUILDINGCLASS_CITADEL</BuildingClass>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Cost>160</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL</Description>
@@ -568,13 +618,33 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
+		<Row>
+			<Type>BUILDING_MARKET</Type>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MARKET_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MARKET</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARKET_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MARKET_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
 		<!-- National Wonders -->
 		<Row>
 			<Type>BUILDING_COURT_SCRIBE</Type>
 			<BuildingClass>BUILDINGCLASS_COURT_SCRIBE</BuildingClass>
+			<PrereqTech>TECH_CALLIGRAPHY</PrereqTech>
 			<Cost>125</Cost>
 			<Help>TXT_KEY_BUILDING_COURT_SCRIBE_HELP</Help>
-			<PrereqTech>TECH_CALLIGARPHY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COURT_SCRIBE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY</Strategy>
@@ -584,8 +654,8 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<IconAtlas>CSDBUILDINGS_ATLAS</IconAtlas>
-			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_NINJUTSU_SCHOOL</Type>
@@ -613,6 +683,7 @@
 		<Row>
 			<Type>BUILDING_HIMEJI_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClass>
+			<PrereqTech>TECH_KENJUTSU</PrereqTech>
 			<Cost>500</Cost>
 			<Help>TXT_KEY_WONDER_HIMEJI_CASTLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HIMEJI_CASTLE</Description>
@@ -633,6 +704,7 @@
 		<Row>
 			<Type>BUILDING_GOLDEN_PAVILION</Type>
 			<BuildingClass>BUILDINGCLASS_GOLDEN_PAVILION</BuildingClass>
+			<PrereqTech>TECH_DOHYO</PrereqTech>
 			<Cost>500</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION</Description>
@@ -674,6 +746,7 @@
 		<Row>
 			<Type>BUILDING_HONGANJI</Type>
 			<BuildingClass>BUILDINGCLASS_HONGANJI</BuildingClass>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Cost>500</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI</Description>
@@ -694,6 +767,7 @@
 		<Row>
 			<Type>BUILDING_KIYOMIZU_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_KIYOMIZU_TEMPLE</BuildingClass>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Cost>500</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE</Description>
@@ -714,6 +788,7 @@
 		<Row>
 			<Type>BUILDING_KASUGA_TAISHA</Type>
 			<BuildingClass>BUILDINGCLASS_KASUGA_TAISHA</BuildingClass>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<Cost>500</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA</Description>
@@ -731,8 +806,49 @@
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
 		</Row>
+		<Row>
+			<Type>BUILDING_OMOTESENKE</Type>
+			<BuildingClass>BUILDINGCLASS_OMOTESENKE</BuildingClass>
+			<PrereqTech>TECH_TEA_CEREMONY</PrereqTech>
+			<Cost>500</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE</Quote>
+			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+		</Row>
 	</Buildings>
 	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_COURT_SCRIBE</BuildingType>
 			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
@@ -742,6 +858,26 @@
 			<BuildingType>BUILDING_COURT_SCRIBE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Building_ResourceQuantity>
@@ -759,6 +895,11 @@
 		</Row>
 	</Building_FreeUnits>
 	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
@@ -783,8 +924,33 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_SAKE_DEN</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>

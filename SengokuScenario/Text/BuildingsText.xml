@@ -21,7 +21,7 @@
 			<Text>A rice paddy, also known as a rice field or rice terrace, is an agricultural landscape specifically cultivated for the purpose of growing rice. It is a fundamental component of rice farming, which is prevalent in many regions across Asia. Rice paddies are typically constructed on flat or gently sloping terrain and are carefully shaped and irrigated to control water levels. They are divided into small, leveled plots, separated by mud or earthen walls, to enable efficient water management. Rice seeds are planted in these flooded plots, allowing the rice plants to grow in submerged conditions. Throughout the growth cycle, the water levels are adjusted to suit different stages of rice cultivation. Rice paddies require diligent maintenance, including periodic weeding, pest control, and soil management. Harvesting of the mature rice grains takes place once the plants have ripened and turned golden. Rice paddies not only serve as the primary source of rice production but also contribute to the ecological balance, acting as habitats for various species of plants and animals. They also have cultural significance, often being associated with traditional farming practices and rural landscapes in many parts of the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_HELP">
-			<Text>+10% [ICON_FOOD] Food. Each source of [ICON_RES_RICE] Rice worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City have at least one source of [ICON_RES_RICE] Rice improved nearby.</Text>
+			<Text>+10% [ICON_FOOD] Food. Each source of [ICON_RES_RICE] Rice worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City have at least one source of [ICON_RES_RICE] Rice improved nearby.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_STRATEGY">
 			<Text>The Rice Paddy can only be constructed in a city with an improved source of [ICON_RES_RICE] Rice nearby. It increases the city's [ICON_FOOD] Food output, and should be built to allow your cities to grow extremely fast.</Text>
@@ -157,6 +157,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE">
+			<Text>Omotesenke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_PEDIA">
+			<Text>Omotesenke is one of the three main schools or "ryuha" of the Japanese tea ceremony, a centuries-old tradition of preparing and serving matcha, powdered green tea. Established in the 17th century by Sen Sotan, Omotesenke emphasizes the beauty of simplicity and the concept of "wabi-sabi," appreciating the beauty in imperfection and transience. The school focuses on creating a serene and harmonious atmosphere during the tea ceremony, with meticulous attention to details such as tea utensils, tea rooms, and the art of tea preparation itself. Omotesenke's teachings and philosophy have been passed down through generations, shaping the way participants engage in the tea ceremony and fostering an appreciation for the essence of Japanese aesthetics and culture. Today, Omotesenke continues to play a significant role in preserving and promoting the art of the tea ceremony, enriching the lives of those who partake in this ancient and revered tradition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE">
+			<Text>[NEWLINE][NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

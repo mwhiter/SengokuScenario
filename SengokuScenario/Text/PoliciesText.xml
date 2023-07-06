@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/5/2023 5:21:49 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION">
+			<Text>Organization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_CAP">
+			<Text>ORGANIZATION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Organization[ENDCOLOR] is useful for clans that wish to invest in their infrastructure and economy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO">
+			<Text>Bushido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_CAP">
+			<Text>BUSHIDO</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Bushido[ENDCOLOR] provides benefits that improve your clan's ability to wage war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY">
+			<Text>Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_CAP">
+			<Text>DIPLOMACY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION">
+			<Text>Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_CAP">
+			<Text>TRADITION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Shinto Tradition[ENDCOLOR] has been a mainstay in Japanese culture for generations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING">
+			<Text>Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_CAP">
+			<Text>UPRISING</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Peasant Uprising[ENDCOLOR] reflects the resentment of the peasant population against the Samurai class.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION">
+			<Text>Devotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_CAP">
+			<Text>DEVOTION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Devotion[ENDCOLOR] empowers Christian missionaries to spread the word of God to other nations.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/3/2023 10:08:37 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_SHIMAZU</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_OTOMO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_MORI</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_CHOSOKABE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_UESUGI</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_TAKEDA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_HOJO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_TOKUGAWA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA_SHORT</ShortDescription>
+			<StartingSpies>1</StartingSpies>
+		</Row>
+		<Row>
+			<Type>TRAIT_IKKO_IKKI</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_DATE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_IMAGAWA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IMAGAWA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_IMAGAWA_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_ODA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TOKUGAWA</TraitType>
+			<UnitCombatType>UNITCOMBAT_DIPLOMACY</UnitCombatType>
+			<PromotionType>PROMOTION_SIGNET</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Trait_MovesChangeUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TOKUGAWA</TraitType>
+			<UnitCombatType>UNITCOMBAT_DIPLOMACY</UnitCombatType>
+			<MovesChange>2</MovesChange>
+		</Row>
+	</Trait_MovesChangeUnitCombats>
+	<DeleteMissingReferences table="Civilizations" column="Type"/>
+	<DeleteMissingReferences table="Traits" column="Type"/>
+	<DeleteMissingReferences table="Leaders" column="Type"/>
+</GameData>

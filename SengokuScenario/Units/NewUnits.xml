@@ -13,6 +13,16 @@
 			<DefaultUnit>UNIT_SETTLER</DefaultUnit>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_CARAVAN</Type>
+			<Description>TXT_KEY_UNIT_CARAVAN</Description>
+			<DefaultUnit>UNIT_CARAVAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARGO_SHIP</Type>
+			<Description>TXT_KEY_UNIT_CARGO_SHIP</Description>
+			<DefaultUnit>UNIT_CARGO_SHIP</DefaultUnit>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_SCOUT</Type>
 			<Description>TXT_KEY_UNIT_SCOUT</Description>
 			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
@@ -87,6 +97,21 @@
 			<Description>TXT_KEY_UNIT_EMISSARY</Description>
 			<DefaultUnit>UNIT_EMISSARY</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_BUNE</Type>
+			<Description>TXT_KEY_UNIT_BUNE</Description>
+			<DefaultUnit>UNIT_BUNE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ATAKEBUNE</Type>
+			<Description>TXT_KEY_UNIT_ATAKEBUNE</Description>
+			<DefaultUnit>UNIT_ATAKEBUNE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FRIGATE</Type>
+			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<DefaultUnit>UNIT_FRIGATE</DefaultUnit>
+		</Row>
 	</UnitClasses>
 	<Units>
 		<Row>
@@ -137,6 +162,7 @@
 		<Row>
 			<Class>UNITCLASS_WORKBOAT</Class>
 			<Type>UNIT_WORKBOAT</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
 			<Cost>50</Cost>
 			<Moves>4</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
@@ -160,6 +186,66 @@
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_CARAVAN</Class>
+			<Type>UNIT_CARAVAN</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Cost>75</Cost>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Moves>1</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_TRADE_UNIT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARAVAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_CARAVAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CARAVAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CARAVAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>3</XPValueDefense>
+			<Trade>true</Trade>
+			<Immobile>true</Immobile>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<NoMaintenance>true</NoMaintenance>
+			<UnitArtInfo>ART_DEF_UNIT_CARAVAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_CARGO_SHIP</Class>
+			<Type>UNIT_CARGO_SHIP</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Cost>100</Cost>
+			<HurryCostModifier>20</HurryCostModifier>
+			<NoMaintenance>true</NoMaintenance>
+			<Moves>1</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_TRADE_UNIT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARGO_SHIP</Description>
+			<Civilopedia>TXT_KEY_CIV5_CARGO_SHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CARGO_SHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CARGO_SHIP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>3</XPValueDefense>
+			<Trade>true</Trade>
+			<Immobile>true</Immobile>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitArtInfo>ART_DEF_UNIT_CARGO_SHIP</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
@@ -277,7 +363,7 @@
 		<Row>
 			<Class>UNITCLASS_KATANA_ASHIGARU</Class>
 			<Type>UNIT_KATANA_ASHIGARU</Type>
-			<PrereqTech>TECH_BUSHIDO</PrereqTech>
+			<PrereqTech>TECH_STRATEGY</PrereqTech>
 			<Combat>10</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
@@ -554,10 +640,105 @@
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<UnitArtInfo>ART_DEF_UNIT_EMISSARY_JAPAN</UnitArtInfo>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
 			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>BIPED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_BUNE</Class>
+			<Type>UNIT_BUNE</Type>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Combat>16</Combat>
+			<RangedCombat>17</RangedCombat>
+			<Cost>100</Cost>
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BUNE</Description>
+			<Civilopedia>TXT_KEY_UNIT_BUNE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BUNE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_BUNE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BUNE</UnitArtInfo>
+			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_ATAKEBUNE</Class>
+			<Type>UNIT_ATAKEBUNE</Type>
+			<PrereqTech>TECH_SUIEUJUTSU</PrereqTech>
+			<Combat>30</Combat>
+			<RangedCombat>12</RangedCombat>
+			<Cost>120</Cost>
+			<Moves>4</Moves>
+			<HurryCostModifier>30</HurryCostModifier>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ATAKEBUNE</Description>
+			<Civilopedia>TXT_KEY_UNIT_ATAKEBUNE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ATAKEBUNE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ATAKEBUNE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_KOREAN_TURTLESHIP</UnitArtInfo>
+			<IconAtlas>SEJONG_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>SEJONG_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FRIGATE</Class>
+			<Type>UNIT_FRIGATE</Type>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Combat>30</Combat>
+			<RangedCombat>15</RangedCombat>
+			<Cost>185</Cost>
+			<Moves>5</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_FRIGATE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FRIGATE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FRIGATE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FRIGATE</UnitArtInfo>
+			<UnitFlagIconOffset>51</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 	</Units>
 	<Unit_AITypes>
@@ -657,6 +838,46 @@
 			<UnitType>UNIT_EMISSARY</UnitType>
 			<UnitAIType>UNITAI_MESSENGER</UnitAIType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
 	</Unit_AITypes>
 	<Unit_Builds>
 		<Row>
@@ -743,6 +964,26 @@
 			<UnitType>UNIT_WORKBOAT</UnitType>
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
@@ -859,11 +1100,54 @@
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
 	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_WORKBOAT</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_YARI_ASHIGARU</UnitType>
@@ -929,6 +1213,26 @@
 			<UnitType>UNIT_EMISSARY</UnitType>
 			<PromotionType>PROMOTION_EMISSARY</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BUNE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATAKEBUNE</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
 		<Row>
@@ -950,6 +1254,10 @@
 		<Row>
 			<UnitType>UNIT_EMISSARY</UnitType>
 			<ResourceType>RESOURCE_PAPER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 </GameData>

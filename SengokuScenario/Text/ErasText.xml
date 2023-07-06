@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/1/2023 12:12:50 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ERA_EARLY_SENGOKU">
+			<Text>Early Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_EARLY_SENGOKU_STRATEGY">
+			<Text>The Early Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_SENGOKU">
+			<Text>Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_SENGOKU_STRATEGY">
+			<Text>The Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_LATE_SENGOKU">
+			<Text>Late Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_LATE_SENGOKU_STRATEGY">
+			<Text>The Late Sengoku Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_SHOGUN">
+			<Text>Shogun Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_SHOGUN_STRATEGY">
+			<Text>The Shogun Era</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

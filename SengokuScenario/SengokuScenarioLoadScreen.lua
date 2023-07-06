@@ -6,19 +6,19 @@ include( "UniqueBonuses" );
 -- Global Constants
 ----------------------------------------------------------------
 MOD_ID = "a629e523-6ef1-4c79-9ade-768e4df9263d";
-MAP_FILE = "Sengoku.Civ5Map"
+MAP_FILE = "SengokuScenario.Civ5Map"
 ktScenarioCivilizations = {
-	[0] = "CIVILIZATION_SHIMAZU",
-	[1] = "CIVILIZATION_OTOMO",
-	[2] = "CIVILIZATION_MORI",
-	[3] = "CIVILIZATION_CHOSOKABE",
-	[4] = "CIVILIZATION_UESUGI",
-	[5] = "CIVILIZATION_TAKEDA",
-	[6] = "CIVILIZATION_HOJO",
-	[7] = "CIVILIZATION_TOKUGAWA",
-	[8] = "CIVILIZATION_IKKO_IKKI",
-	[9] = "CIVILIZATION_JAPAN",
-	[10] = "CIVILIZATION_DATE"
+	[0] = "CIVILIZATION_CHOSOKABE",
+	[1] = "CIVILIZATION_DATE",
+	[2] = "CIVILIZATION_HOJO",
+	[3] = "CIVILIZATION_IKKO_IKKI",
+	[4] = "CIVILIZATION_MORI",
+	[5] = "CIVILIZATION_JAPAN",
+	[6] = "CIVILIZATION_OTOMO",
+	[7] = "CIVILIZATION_SHIMAZU",
+	[8] = "CIVILIZATION_TAKEDA",
+	[9] = "CIVILIZATION_TOKUGAWA",
+	[10] = "CIVILIZATION_UESUGI"
 }
 
 ----------------------------------------------------------------

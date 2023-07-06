@@ -98,5 +98,29 @@
 		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI_HELP">
 			<Text>Powerful ranged Unit, able to attack enemies from a distance. Capable of defending themselves in close combat, but less effective than other melee units in combat.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UNIT_BUNE">
+			<Text>Seki Bune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BUNE_TEXT">
+			<Text>The Seki Bune, also known as "stone ships," were a unique type of warship that emerged in Japan during the Sengoku period. These vessels were named after the stones that were used as ballast to provide stability. The Seki Bune were characterized by their flat-bottomed design, which allowed them to navigate shallow waters and river systems. They were primarily used for riverine warfare and coastal defense, providing a tactical advantage in battles fought in such environments. The Seki Bune were equipped with a combination of cannons, archers, and spearmen, making them formidable in both long-range and close-quarter engagements. Their compact size and maneuverability made them highly effective in navigating narrow waterways and launching surprise attacks. The Seki Bune played a significant role in the conflicts of the Sengoku period, particularly during battles along river systems and coastal regions. Their unique design and specialized capabilities made them an important asset for daimyo seeking to control strategic waterways and defend their territories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BUNE_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BUNE_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE">
+			<Text>Atakebune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_TEXT">
+			<Text>The Atakebune was a type of large Japanese warship that emerged during the late Sengoku period in the 16th century. These formidable vessels were designed with a distinctive appearance, featuring a high forecastle and aftcastle, multiple decks, and sturdy construction. The Atakebune played a crucial role in naval warfare, offering the advantage of both firepower and defensive capabilities. They were equipped with numerous cannons, matchlock guns, and bowmen, allowing them to engage enemy ships from a distance. The Atakebune saw action in various conflicts, including battles between rival daimyo and clashes with foreign powers, particularly during the attempts of the wokou pirates to invade Japan. Their imposing presence and strategic significance made the Atakebune an integral part of Japan's maritime defense and expansion during the Sengoku period, leaving a lasting legacy in naval history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_HELP">
+			<Text></Text>
+		</Row>
 	</Language_en_US>
 </GameData>

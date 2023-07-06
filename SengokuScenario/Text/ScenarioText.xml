@@ -20,9 +20,5 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BRIEFING_BUTTON">
 			<Text>Briefing</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POP_BARBARIAN_CLEARED">
-			<Text>Ronin Encampment Cleared!</Text>
-		</Row>
 	</Language_en_US>
 </GameData>
