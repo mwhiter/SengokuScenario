@@ -11,6 +11,42 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Organization[ENDCOLOR] is useful for clans that wish to invest in their infrastructure and economy.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION">
+			<Text>Organization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Organization[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM">
+			<Text>Fiefdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fiefdom[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM">
+			<Text>Han System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Han System[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS">
+			<Text>Tax Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tax Reforms[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS">
+			<Text>Equal Fields</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Equal Fields[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO">
+			<Text>Chonindo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Chonindo[ENDCOLOR][NEWLINE]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO">
 			<Text>Bushido</Text>
 		</Row>
@@ -19,6 +55,42 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Bushido[ENDCOLOR] provides benefits that improve your clan's ability to wage war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO">
+			<Text>Bushido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Bushido[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_WARRIOR_CODE">
+			<Text>Warrior Code</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_WARRIOR_CODE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE">
+			<Text>Courage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Courage[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE">
+			<Text>Discipline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY">
+			<Text>Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE">
+			<Text>Moral Code</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Moral Code[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY">
 			<Text>Diplomacy</Text>
@@ -29,6 +101,42 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with City-States.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY">
+			<Text>Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE">
+			<Text>Military Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Alliance[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA">
+			<Text>Charisma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Charisma[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES">
+			<Text>Mercenaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercenaries[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE">
+			<Text>Shared Knowledge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Shared Knowledge[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE">
+			<Text>Intrigue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Intrigue[ENDCOLOR][NEWLINE]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION">
 			<Text>Tradition</Text>
 		</Row>
@@ -37,6 +145,42 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Shinto Tradition[ENDCOLOR] has been a mainstay in Japanese culture for generations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION">
+			<Text>Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POLYTHEISM">
+			<Text>Polytheism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POLYTHEISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Polytheism[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM">
+			<Text>Animalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Animalism[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE">
+			<Text>Rites of Passage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Rites of Passage[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP">
+			<Text>Ancestor Worship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ancestor Worship[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS">
+			<Text>Shinto Precepts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Shinto Precepts[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING">
 			<Text>Uprising</Text>
@@ -47,6 +191,42 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Peasant Uprising[ENDCOLOR] reflects the resentment of the peasant population against the Samurai class.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING">
+			<Text>Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Uprising[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_PEASANT_RULE">
+			<Text>Peasant Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_PEASANT_RULE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Peasant Rule[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR">
+			<Text>Religious Fervor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Religious Fervor[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION">
+			<Text>Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Revolution[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY">
+			<Text>Secret Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Secret Society[ENDCOLOR][NEWLINE]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION">
 			<Text>Devotion</Text>
 		</Row>
@@ -55,6 +235,42 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Devotion[ENDCOLOR] empowers Christian missionaries to spread the word of God to other nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION">
+			<Text>Devotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Devotion[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_THEOCRACY">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_THEOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION">
+			<Text>Salvation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Salvation[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS">
+			<Text>Mendicant Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mendicant Orders[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION">
+			<Text>Forced Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Forced Conversion[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE">
+			<Text>European Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]European Trade[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

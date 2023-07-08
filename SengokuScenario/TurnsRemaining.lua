@@ -52,7 +52,24 @@ local civPolicyBranches =
 	["CIVILIZATION_SHIMAZU"] = "POLICY_BRANCH_TRADITION",
 	["CIVILIZATION_TAKEDA"] = "POLICY_BRANCH_TRADITION",
 	["CIVILIZATION_TOKUGAWA"] = "POLICY_BRANCH_TRADITION",
-	["CIVILIZATION_UESUGI"] = "POLICY_BRANCH_TRADITION"
+	["CIVILIZATION_UESUGI"] = "POLICY_BRANCH_TRADITION",
+	["CIVILIZATION_IMAGAWA"] = "POLICY_BRANCH_TRADITION"
+}
+
+local civReligions =
+{
+	["CIVILIZATION_CHOSOKABE"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_DATE"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_HOJO"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_IKKO_IKKI"] = GameInfoTypes["RELIGION_JODO_SHINSHU"],
+	["CIVILIZATION_MORI"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_JAPAN"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_OTOMO"] = GameInfoTypes["RELIGION_CHRISTIANITY"],
+	["CIVILIZATION_SHIMAZU"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_TAKEDA"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_TOKUGAWA"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_UESUGI"] = GameInfoTypes["RELIGION_SHINTO"],
+	["CIVILIZATION_IMAGAWA"] = GameInfoTypes["RELIGION_SHINTO"]
 }
 
 ---------------------------------------------------------------------
@@ -112,6 +129,21 @@ Events.SerialEventExitCityScreen.Add( OnExitCityScreen );
 ---------------------------------------
 -- Game Event Handlers
 ---------------------------------------
+function canTrainBuddhistWarriorMonks(iPlayer, iUnitID, iUnitType)
+	local player = Players[iPlayer];
+	local stateReligion = player:GetStateReligion();
+
+	if (iUnitType == GameInfo.Units["UNIT_WARRIOR_MONK"].ID) then
+		local isBuddhistReligion = stateReligion == GameInfoTypes["RELIGION_SHINTO"] or stateReligion == GameInfoTypes["RELIGION_JODO_SHINSHU"]
+		if (not isBuddhistReligion) then
+			return false;
+		end
+	end
+
+	return true;
+end
+GameEvents.CityCanTrain.Add(canTrainBuddhistWarriorMonks);
+
 function TestVictory()
 	local iTurnsRemaining = g_kiGameTurnLength - Game.GetGameTurn();
 	
@@ -126,12 +158,66 @@ end
 GameEvents.GameCoreTestVictory.Add(TestVictory);
 
 ---------------------------------------------------------------------
--- INITIAL INITIALIZATION
+-- SCENARIO INITIALIZATION
 ---------------------------------------------------------------------
+function InitReligions()
+	local otomoPlayerId;
+	local otomoCapitalCity;
+	local ikkoIkkiPlayerId;
+	local ikkoIkkiCapitalCity;
+	local uesugiPlayerId;
+	local uesugiCapitalCity;
+
+	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+		local player = Players[playerIndex];
+		if (player:IsAlive()) then
+			local playerType = player:GetCivilizationType();
+			if (playerType == GameInfo.Civilizations["CIVILIZATION_OTOMO"].ID) then
+				otomoPlayerId = playerIndex;
+				otomoCapitalCity = player:GetCapitalCity();
+			elseif  (playerType == GameInfo.Civilizations["CIVILIZATION_UESUGI"].ID) then
+				uesugiPlayerId = playerIndex;
+				uesugiCapitalCity = player:GetCapitalCity();
+			elseif  (playerType == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].ID) then
+				ikkoIkkiPlayerId = playerIndex;
+				ikkoIkkiCapitalCity = player:GetCapitalCity();
+			end
+		end
+	end
+
+	-- Buddhism
+	Game.FoundPantheon(uesugiPlayerId, GameInfoTypes["BELIEF_ANCESTOR_WORSHIP"]);
+	Game.FoundReligion(uesugiPlayerId, GameInfoTypes["RELIGION_SHINTO"], nil, GameInfoTypes["BELIEF_KAMI"], GameInfoTypes["BELIEF_PAGODAS"], -1, -1, uesugiCapitalCity);
+	Game.EnhanceReligion(uesugiPlayerId, GameInfoTypes["RELIGION_SHINTO"], GameInfoTypes["BELIEF_RELIGIOUS_COMMUNITY"], GameInfoTypes["BELIEF_DEFENDER_FAITH"]);
+
+	-- Christianity
+	Game.FoundPantheon(otomoPlayerId, GameInfoTypes["BELIEF_PAPAL_PRIMACY"]);
+	Game.FoundReligion(otomoPlayerId, GameInfoTypes["RELIGION_CHRISTIANITY"], nil, GameInfoTypes["BELIEF_TITHE"], GameInfoTypes["BELIEF_CATHEDRALS"], -1, -1, otomoCapitalCity);
+	Game.EnhanceReligion(otomoPlayerId, GameInfoTypes["RELIGION_CHRISTIANITY"], GameInfoTypes["BELIEF_MISSIONARY_ZEAL"], GameInfoTypes["BELIEF_HOLY_ORDER"]);
+
+	-- Jodo Shinshu
+	Game.FoundPantheon(ikkoIkkiPlayerId, GameInfoTypes["BELIEF_POPULISM"]);
+	Game.FoundReligion(ikkoIkkiPlayerId, GameInfoTypes["RELIGION_JODO_SHINSHU"], nil, GameInfoTypes["BELIEF_TRUE_PURE_LAND"], GameInfoTypes["BELIEF_MONASTERIES"], -1, -1, ikkoIkkiCapitalCity);
+	Game.EnhanceReligion(ikkoIkkiPlayerId, GameInfoTypes["RELIGION_JODO_SHINSHU"], GameInfoTypes["BELIEF_HOLY_WARRIORS"], GameInfoTypes["BELIEF_JUST_WAR"]);
+
+	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+		local player = Players[playerIndex];
+		if (player:IsAlive()) then
+			local civType = GameInfo.Civilizations[player:GetCivilizationType()].Type;
+			capital = player:GetCapitalCity();
+			if (capital ~= nil) then
+				local religion = civReligions[civType]
+
+				capital:AdoptReligionFully(religion);
+				player:SetStateReligion(religion)
+			end
+		end
+	end
+end
 
 function InitPlayers()
-	for iPlayerLoop = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
-		AddInitialUnits(iPlayerLoop);
+	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+		AddInitialUnits(playerIndex);
 	end
 end
 
@@ -177,6 +263,7 @@ if (iValue == nil) then
 	Game.SetOption("GAMEOPTION_HUMAN_VASSALS", true);
 	
 	InitPlayers();
+	InitReligions();
 	MakeTokugawaVassalOfImagawa();
 
 	-- Grant AI bonuses

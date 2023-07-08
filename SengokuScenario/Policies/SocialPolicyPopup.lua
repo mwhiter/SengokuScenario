@@ -22,26 +22,6 @@ local g_TraditionInstanceManager = InstanceManager:new( "PolicyButton", "PolicyI
 local g_UprisingInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.UprisingPanel );
 local g_DevotionInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.DevotionPanel );
 
-local pipeManagers =
-{
-	["POLICY_BRANCH_ORGANIZATION"] = g_OrganizationPipeManager:GetInstance(),
-	["POLICY_BRANCH_BUSHIDO"] = g_BushidoPipeManager:GetInstance(),
-	["POLICY_BRANCH_DIPLOMACY"] = g_DiplomacyPipeManager:GetInstance(),
-	["POLICY_BRANCH_TRADITION"] = g_TraditionPipeManager:GetInstance(),
-	["POLICY_BRANCH_UPRISING"] = g_UprisingPipeManager:GetInstance(),
-	["POLICY_BRANCH_DEVOTION"] = g_DevotionPipeManager:GetInstance()
-}
-
-local panels =
-{
-	["POLICY_BRANCH_ORGANIZATION"] = g_OrganizationInstanceManager:GetInstance(),
-	["POLICY_BRANCH_BUSHIDO"] = g_BushidoInstanceManager:GetInstance(),
-	["POLICY_BRANCH_DIPLOMACY"] = g_DiplomacyInstanceManager:GetInstance(),
-	["POLICY_BRANCH_TRADITION"] = g_TraditionInstanceManager:GetInstance(),
-	["POLICY_BRANCH_UPRISING"] = g_UprisingInstanceManager:GetInstance(),
-	["POLICY_BRANCH_DEVOTION"] = g_DevotionInstanceManager:GetInstance()
-}
-
 local civPolicies =
 {
 	["CIVILIZATION_CHOSOKABE"] = "POLICY_BRANCH_TRADITION",
@@ -490,7 +470,20 @@ end
 ContextPtr:SetInputHandler( InputHandler );
 
 function GetPipe(branchType)
-	return pipeManagers[branchType];
+	if (branchType == "POLICY_BRANCH_ORGANIZATION") then
+		return g_OrganizationPipeManager:GetInstance();
+	elseif (branchType == "POLICY_BRANCH_BUSHIDO") then
+		return g_BushidoPipeManager:GetInstance()
+	elseif (branchType == "POLICY_BRANCH_DIPLOMACY") then
+		return g_DiplomacyPipeManager:GetInstance()
+	elseif (branchType == "POLICY_BRANCH_TRADITION") then
+		return g_TraditionPipeManager:GetInstance()
+	elseif (branchType == "POLICY_BRANCH_UPRISING") then
+		return g_UprisingPipeManager:GetInstance()
+	elseif (branchType == "POLICY_BRANCH_DEVOTION") then
+		return g_DevotionPipeManager:GetInstance()
+	end
+	return nil
 end
 
 -------------------------------------------------------------------------------
@@ -737,6 +730,7 @@ function Init()
 	-- Add Policy buttons
 	i = 0;
 	policyInfo = GameInfo.Policies[i];
+	print("Processing policies")
 	while policyInfo ~= nil do
 		
 		local iBranch = policyInfo.PolicyBranchType;
@@ -747,7 +741,21 @@ function Init()
 			local controlTable = nil;
 			print("Policy Branch: " .. iBranch);
 
-			controlTable = panels[iBranch];
+			if (iBranch == "POLICY_BRANCH_ORGANIZATION") then
+				controlTable = g_OrganizationInstanceManager:GetInstance();
+			elseif (iBranch == "POLICY_BRANCH_BUSHIDO") then
+				controlTable = g_BushidoInstanceManager:GetInstance();
+			elseif (iBranch == "POLICY_BRANCH_DIPLOMACY") then
+				controlTable = g_DiplomacyInstanceManager:GetInstance();
+			elseif (iBranch == "POLICY_BRANCH_TRADITION") then
+				controlTable = g_TraditionInstanceManager:GetInstance();
+			elseif (iBranch == "POLICY_BRANCH_UPRISING") then
+				controlTable = g_UprisingInstanceManager:GetInstance();
+			elseif (iBranch == "POLICY_BRANCH_DEVOTION") then
+				controlTable = g_DevotionInstanceManager:GetInstance();
+			end
+
+			print("Policy: " .. policyInfo.Type);
 			
 			IconHookup( policyInfo.PortraitIndex, 64, policyInfo.IconAtlas, controlTable.PolicyImage );
 

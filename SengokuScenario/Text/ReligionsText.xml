@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2023 11:25:20 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RELIGION_JODO_SHINSHU">
+			<Text>Jodo Shinshu Buddhism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_JODO_SHINSHU_PEDIA">
+			<Text>Jodo Shinshu Buddhism, also known as Shin Buddhism, is a school of Mahayana Buddhism that originated in Japan. It is centered around the teachings of Shinran Shonin, a Buddhist monk who lived in the 13th century. Jodo Shinshu is distinguished by its emphasis on the concept of "other power" (tariki) and the practice of reciting the Nembutsu, which is the name of Amida Buddha.[NEWLINE][NEWLINE]The term "Jodo Shinshu" translates to "True Pure Land School" and reflects the school's focus on the Pure Land teachings. According to Jodo Shinshu beliefs, salvation and liberation from suffering are attained through the grace and compassion of Amida Buddha. It is believed that by entrusting oneself to Amida Buddha and reciting the Nembutsu, one can be reborn in the Pure Land, a realm of enlightenment and ultimate liberation.[NEWLINE][NEWLINE]The teachings of Jodo Shinshu emphasize the inherent limitations of human efforts and the reliance on Amida Buddha's wisdom and compassion. This perspective is grounded in the understanding that individuals are inherently filled with blind passions and cannot achieve enlightenment through their own power alone. Instead, they rely on Amida Buddha's vow to save all beings and the transformative power of the Nembutsu.[NEWLINE][NEWLINE]Jodo Shinshu Buddhism has its roots in the Tendai school of Buddhism but developed its distinct teachings and practices under Shinran Shonin's guidance. Shinran emphasized the universality and accessibility of Amida Buddha's salvation, stating that it is available to all beings regardless of their spiritual abilities or social status. This inclusivity and egalitarianism have contributed to the widespread popularity of Jodo Shinshu Buddhism in Japan and beyond.[NEWLINE][NEWLINE]The practice of Jodo Shinshu revolves around reciting the Nembutsu, which is the repetition of the phrase "Namu Amida Butsu" (meaning "I take refuge in Amida Buddha"). Through the sincere recitation of the Nembutsu, practitioners express their gratitude for Amida Buddha's compassion and seek rebirth in the Pure Land. This practice is often performed in both formal settings, such as temples, and in daily life as a way to cultivate mindfulness and gratitude.[NEWLINE][NEWLINE]Jodo Shinshu Buddhism has a strong institutional presence in Japan, with numerous temples and organizations dedicated to its teachings. The Hongwanji, headquartered in Kyoto, is the largest sect within Jodo Shinshu and serves as its central organization. Outside of Japan, Jodo Shinshu has gained followers and established temples in various countries, contributing to its global presence.[NEWLINE][NEWLINE]As a prominent school of Buddhism, Jodo Shinshu continues to offer spiritual guidance, support, and a sense of community to its practitioners. With its emphasis on Amida Buddha's compassion and the Nembutsu practice, Jodo Shinshu Buddhism provides a path for individuals seeking solace, spiritual growth, and liberation from the cycle of suffering.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_ANCESTOR_WORSHIP">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_ANCESTOR_WORSHIP_SHORT">
+			<Text>Ancestor Worship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_PAPAL_PRIMACY">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_PAPAL_PRIMACY_SHORT">
+			<Text>Papal Primacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_POPULISM">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_POPULISM_SHORT">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_KAMI">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_KAMI_SHORT">
+			<Text>Kami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_TRUE_PURE_LAND">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_TRUE_PURE_LAND_SHORT">
+			<Text>True Pure Land</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_TITHE">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_TITHE_SHORT">
+			<Text>Tithe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_MONASTERIES">
+			<Text>This Belief has no effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_MONASTERIES_SHORT">
+			<Text>Monasteries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_HOLY_WARRIORS">
+			<Text>Use [ICON_PEACE] Faith to purchase land units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_HOLY_WARRIORS">
+			<Text>Holy Warriors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_RELIGIOUS_COMMUNITY">
+			<Text>+1% [ICON_PRODUCTION] Production for each follower (max +15%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_RELIGIOUS_COMMUNITY_SHORT">
+			<Text>Religious Community</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_MISSIONARY_ZEAL">
+			<Text>Missionary conversion strength +25%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_MISSIONARY_ZEAL_SHORT">
+			<Text>Missionary Zeal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_DEFENDER_FAITH">
+			<Text>+20% [ICON_STRENGTH] Combat Strength near friendly cities that follow this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_DEFENDER_FAITH_SHORT">
+			<Text>Defender of the Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_JUST_WAR">
+			<Text>+20% [ICON_STRENGTH] Combat Strength near enemy cities that follow this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_JUST_WAR_SHORT">
+			<Text>Just War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_HOLY_ORDER">
+			<Text>Missionaries and Inquisitors cost 30% less [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BELIEF_HOLY_ORDER_SHORT">
+			<Text>Holy Order</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

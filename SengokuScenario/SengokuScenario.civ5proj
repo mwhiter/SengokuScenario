@@ -132,6 +132,11 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Text/ReligionsText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Text/TechsText.xml</FileName>
       </Action>
       <Action>
@@ -199,6 +204,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>UpdateMenuMusic.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Religions/NewReligions.xml</FileName>
+      </Action>
     </ModActions>
     <ReloadUnitSystem>false</ReloadUnitSystem>
   </PropertyGroup>
@@ -254,6 +264,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Religions\NewReligions.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="RemoveModernEras.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -306,6 +320,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Text\ReligionsText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Text\ScenarioText.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -346,6 +364,7 @@
   <ItemGroup>
     <Folder Include="Civilizations" />
     <Folder Include="Buildings" />
+    <Folder Include="Religions" />
     <Folder Include="Policies" />
     <Folder Include="Techs" />
     <Folder Include="Units" />

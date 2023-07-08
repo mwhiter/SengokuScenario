@@ -16,6 +16,7 @@
 			<Type>TRAIT_MORI</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT</ShortDescription>
+			<ExtraEmbarkMoves>1</ExtraEmbarkMoves>
 		</Row>
 		<Row>
 			<Type>TRAIT_CHOSOKABE</Type>
@@ -26,6 +27,8 @@
 			<Type>TRAIT_UESUGI</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT</ShortDescription>
+			<FaithFromKills>100</FaithFromKills>
+			<FightWellDamaged>true</FightWellDamaged>
 		</Row>
 		<Row>
 			<Type>TRAIT_TAKEDA</Type>
@@ -71,6 +74,14 @@
 			<PromotionType>PROMOTION_SIGNET</PromotionType>
 		</Row>
 	</Trait_FreePromotionUnitCombats>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_MORI</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
 	<Trait_MovesChangeUnitCombats>
 		<Row>
 			<TraitType>TRAIT_TOKUGAWA</TraitType>
@@ -78,6 +89,26 @@
 			<MovesChange>2</MovesChange>
 		</Row>
 	</Trait_MovesChangeUnitCombats>
+	<Trait_TradeRouteYieldChange>
+		<Row>
+			<TraitType>TRAIT_MORI</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MORI</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MORI</TraitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_TradeRouteYieldChange>
 	<DeleteMissingReferences table="Civilizations" column="Type"/>
 	<DeleteMissingReferences table="Traits" column="Type"/>
 	<DeleteMissingReferences table="Leaders" column="Type"/>

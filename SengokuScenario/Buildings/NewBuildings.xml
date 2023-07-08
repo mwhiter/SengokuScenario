@@ -822,7 +822,7 @@
 			<ConquestProb>100</ConquestProb>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>12</PortraitIndex>
+			<PortraitIndex>15</PortraitIndex>
 			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>

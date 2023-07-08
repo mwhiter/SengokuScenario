@@ -3,7 +3,6 @@
 <GameData>
 	<Policies>
 		<Delete />
-
 		<Row>
 			<ID>0</ID>
 			<Type>POLICY_ORGANIZATION</Type>
@@ -15,10 +14,10 @@
 		</Row>
 		<Row>
 			<ID>1</ID>
-			<Type>POLICY_ORGANIZATION_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_ORGANIZATION_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_ORGANIZATION_TEST_HELP</Help>
-			<GridX>1</GridX>
+			<Type>POLICY_FIEFDOM</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_HELP</Help>
+			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -28,6 +27,65 @@
 		</Row>
 		<Row>
 			<ID>2</ID>
+			<Type>POLICY_HAN_SYSTEM</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_HELP</Help>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>3</ID>
+			<Type>POLICY_TAX_REFORMS</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>4</ID>
+			<Type>POLICY_EQUAL_FIELDS</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>5</ID>
+			<Type>POLICY_CHONINDO</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>6</ID>
+			<Type>POLICY_ORGANIZATION_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION_FINISHER</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
+		<Row>
+			<ID>7</ID>
 			<Type>POLICY_BUSHIDO</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_HELP</Help>
@@ -36,11 +94,11 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>3</ID>
-			<Type>POLICY_BUSHIDO_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_BUSHIDO_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_BUSHIDO_TEST_HELP</Help>
-			<GridX>1</GridX>
+			<ID>8</ID>
+			<Type>POLICY_WARRIOR_CODE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_WARRIOR_CODE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_WARRIOR_CODE_HELP</Help>
+			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -49,7 +107,66 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>4</ID>
+			<ID>9</ID>
+			<Type>POLICY_COURAGE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE_HELP</Help>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>10</ID>
+			<Type>POLICY_DISCIPLINE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>11</ID>
+			<Type>POLICY_LOYALTY</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>12</ID>
+			<Type>POLICY_MORAL_CODE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>13</ID>
+			<Type>POLICY_BUSHIDO_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_FINISHER_HELP</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
+		<Row>
+			<ID>14</ID>
 			<Type>POLICY_DIPLOMACY</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP</Help>
@@ -58,10 +175,10 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>5</ID>
-			<Type>POLICY_DIPLOMACY_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_DIPLOMACY_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_DIPLOMACY_TEST_HELP</Help>
+			<ID>15</ID>
+			<Type>POLICY_MILITARY_ALLIANCE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE_HELP</Help>
 			<GridX>1</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
@@ -71,7 +188,66 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>6</ID>
+			<ID>16</ID>
+			<Type>POLICY_CHARISMA</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA_HELP</Help>
+			<GridX>4</GridX>
+			<GridY>1</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>17</ID>
+			<Type>POLICY_MERCENARIES</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES_HELP</Help>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>18</ID>
+			<Type>POLICY_SHARED_KNOWLEDGE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>19</ID>
+			<Type>POLICY_INTRIGUE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>20</ID>
+			<Type>POLICY_DIPLOMACY_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY_FINISHER_HELP</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
+		<Row>
+			<ID>21</ID>
 			<Type>POLICY_TRADITION</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_HELP</Help>
@@ -80,11 +256,11 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>7</ID>
-			<Type>POLICY_TRADITION_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_TRADITION_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_TRADITION_TEST_HELP</Help>
-			<GridX>1</GridX>
+			<ID>22</ID>
+			<Type>POLICY_POLYTHEISM</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_POLYTHEISM</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_POLYTHEISM_HELP</Help>
+			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -93,7 +269,66 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>8</ID>
+			<ID>23</ID>
+			<Type>POLICY_ANIMALISM</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM_HELP</Help>
+			<GridX>4</GridX>
+			<GridY>1</GridY>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>24</ID>
+			<Type>POLICY_RITES_OF_PASSAGE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE_HELP</Help>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>25</ID>
+			<Type>POLICY_ANCESTOR_WORSHIP</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP_HELP</Help>
+			<GridX>4</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>26</ID>
+			<Type>POLICY_SHINTO_PRECEPTS</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>27</ID>
+			<Type>POLICY_TRADITION_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_FINISHER_HELP</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
+		<Row>
+			<ID>28</ID>
 			<Type>POLICY_UPRISING</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_HELP</Help>
@@ -102,11 +337,24 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>9</ID>
-			<Type>POLICY_UPRISING_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_UPRISING_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_UPRISING_TEST_HELP</Help>
-			<GridX>1</GridX>
+			<ID>29</ID>
+			<Type>POLICY_PEASANT_RULE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_PEASANT_RULE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_PEASANT_RULE_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>30</ID>
+			<Type>POLICY_POPULISM</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM_HELP</Help>
+			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -115,7 +363,53 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>10</ID>
+			<ID>31</ID>
+			<Type>POLICY_RELIGIOUS_FERVOR</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR_HELP</Help>
+			<GridX>1</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>32</ID>
+			<Type>POLICY_REVOLUTION</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>33</ID>
+			<Type>POLICY_SECRET_SOCIETY</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>34</ID>
+			<Type>POLICY_UPRISING_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING_FINISHER_HELP</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
+		<Row>
+			<ID>35</ID>
 			<Type>POLICY_DEVOTION</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_HELP</Help>
@@ -124,11 +418,11 @@
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
-			<ID>11</ID>
-			<Type>POLICY_DEVOTION_TEST</Type>
-			<Description>TXT_KEY_FOR_SCENARIO_POLICY_DEVOTION_TEST</Description>
-			<Help>TXT_KEY_FOR_SCENARIO_POLICY_DEVOTION_TEST_HELP</Help>
-			<GridX>1</GridX>
+			<ID>36</ID>
+			<Type>POLICY_THEOCRACY</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_THEOCRACY</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_THEOCRACY_HELP</Help>
+			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -136,7 +430,177 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+		<Row>
+			<ID>37</ID>
+			<Type>POLICY_SALVATION</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION_HELP</Help>
+			<GridX>4</GridX>
+			<GridY>1</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>38</ID>
+			<Type>POLICY_MENDICANT_ORDERS</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_HELP</Help>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>39</ID>
+			<Type>POLICY_FORCED_CONVERSION</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION_HELP</Help>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>40</ID>
+			<Type>POLICY_EUROPEAN_TRADE</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_HELP</Help>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<ID>41</ID>
+			<Type>POLICY_DEVOTION_FINISHER</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_FINISHER</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_FINISHER_HELP</Help>
+			<CultureCost>10</CultureCost>
+		</Row>
 	</Policies>
+	<Policy_PrereqPolicies>
+		<Delete />
+		<Row>
+			<PolicyType>POLICY_HAN_SYSTEM</PolicyType>
+			<PrereqPolicy>POLICY_FIEFDOM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TAX_REFORMS</PolicyType>
+			<PrereqPolicy>POLICY_FIEFDOM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EQUAL_FIELDS</PolicyType>
+			<PrereqPolicy>POLICY_FIEFDOM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CHONINDO</PolicyType>
+			<PrereqPolicy>POLICY_EQUAL_FIELDS</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COURAGE</PolicyType>
+			<PrereqPolicy>POLICY_WARRIOR_CODE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PrereqPolicy>POLICY_WARRIOR_CODE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOYALTY</PolicyType>
+			<PrereqPolicy>POLICY_WARRIOR_CODE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MORAL_CODE</PolicyType>
+			<PrereqPolicy>POLICY_COURAGE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MORAL_CODE</PolicyType>
+			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MORAL_CODE</PolicyType>
+			<PrereqPolicy>POLICY_LOYALTY</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCENARIES</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_ALLIANCE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHARED_KNOWLEDGE</PolicyType>
+			<PrereqPolicy>POLICY_CHARISMA</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INTRIGUE</PolicyType>
+			<PrereqPolicy>POLICY_CHARISMA</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RITES_OF_PASSAGE</PolicyType>
+			<PrereqPolicy>POLICY_POLYTHEISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RITES_OF_PASSAGE</PolicyType>
+			<PrereqPolicy>POLICY_ANIMALISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCESTOR_WORSHIP</PolicyType>
+			<PrereqPolicy>POLICY_POLYTHEISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCESTOR_WORSHIP</PolicyType>
+			<PrereqPolicy>POLICY_ANIMALISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHINTO_PRECEPTS</PolicyType>
+			<PrereqPolicy>POLICY_RITES_OF_PASSAGE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHINTO_PRECEPTS</PolicyType>
+			<PrereqPolicy>POLICY_ANCESTOR_WORSHIP</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PEASANT_RULE</PolicyType>
+			<PrereqPolicy>POLICY_POPULISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_FERVOR</PolicyType>
+			<PrereqPolicy>POLICY_PEASANT_RULE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REVOLUTION</PolicyType>
+			<PrereqPolicy>POLICY_PEASANT_RULE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECRET_SOCIETY</PolicyType>
+			<PrereqPolicy>POLICY_PEASANT_RULE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<PrereqPolicy>POLICY_THEOCRACY</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORCED_CONVERSION</PolicyType>
+			<PrereqPolicy>POLICY_THEOCRACY</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORCED_CONVERSION</PolicyType>
+			<PrereqPolicy>POLICY_SALVATION</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EUROPEAN_TRADE</PolicyType>
+			<PrereqPolicy>POLICY_SALVATION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
 	<PolicyBranchTypes>
 		<Delete />
 		<Row>
@@ -146,6 +610,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_HELP</Help>
 			<Title>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_TITLE</Title>
 			<FreePolicy>POLICY_ORGANIZATION</FreePolicy>
+			<FreeFinishingPolicy>POLICY_ORGANIZATION_FINISHER</FreeFinishingPolicy>
 		</Row>
 		<Row>
 			<ID>1</ID>
@@ -154,6 +619,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_HELP</Help>
 			<Title>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_TITLE</Title>
 			<FreePolicy>POLICY_BUSHIDO</FreePolicy>
+			<FreeFinishingPolicy>POLICY_BUSHIDO_FINISHER</FreeFinishingPolicy>
 		</Row>
 		<Row>
 			<ID>2</ID>
@@ -162,6 +628,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP</Help>
 			<Title>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_TITLE</Title>
 			<FreePolicy>POLICY_DIPLOMACY</FreePolicy>
+			<FreeFinishingPolicy>POLICY_DIPLOMACY_FINISHER</FreeFinishingPolicy>
 		</Row>
 		<Row>
 			<ID>3</ID>
