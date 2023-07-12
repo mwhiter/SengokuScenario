@@ -189,7 +189,7 @@
 			<Text>UPRISING</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Peasant Uprising[ENDCOLOR] reflects the resentment of the peasant population against the Samurai class.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Peasant Uprising[ENDCOLOR] reflects the resentment of the peasant population against the Samurai class. Adopting policies in this branch will cause negative effects in other Clan's empires when there are at least 33% [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism followers in that city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING">
 			<Text>Uprising</Text>
@@ -201,31 +201,31 @@
 			<Text>Peasant Rule</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_PEASANT_RULE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Peasant Rule[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Peasant Rule[ENDCOLOR][NEWLINE]Reduces [ICON_PRODUCTION] Production output from non-Ikko Ikki Cities with [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu followers in that City.[NEWLINE][NEWLINE][TAB][ICON_BULLET]100% [ICON_RELIGION_JODO_SHINSHU] followers: -15% [ICON_PRODUCTION] Production in the city.[NEWLINE][TAB][ICON_BULLET]66% or more [ICON_RELIGION_JODO_SHINSHU] followers: -10% [ICON_PRODUCTION] Production in the city.[NEWLINE][TAB][ICON_BULLET]33% or more [ICON_RELIGION_JODO_SHINSHU] followers: -5% [ICON_PRODUCTION] Production in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM">
 			<Text>Populism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POPULISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR][NEWLINE]Reduces [ICON_CULTURE] Culture output from non-Ikko Ikki Cities with [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu followers in that City.[NEWLINE][NEWLINE][TAB][ICON_BULLET]100% [ICON_RELIGION_JODO_SHINSHU] followers: -66% [ICON_CULTURE] Culture in the city.[NEWLINE][TAB][ICON_BULLET]66% or more [ICON_RELIGION_JODO_SHINSHU] followers: -33% [ICON_CULTURE] Culture in the city.[NEWLINE][TAB][ICON_BULLET]33% or more [ICON_RELIGION_JODO_SHINSHU] followers: -15% [ICON_CULTURE] Culture in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR">
 			<Text>Religious Fervor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RELIGIOUS_FERVOR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Religious Fervor[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Religious Fervor[ENDCOLOR][NEWLINE]Reduces [ICON_PEACE] Faith output from non-Ikko Ikki Cities with [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu followers in that City.[NEWLINE][NEWLINE][TAB][ICON_BULLET]100% [ICON_RELIGION_JODO_SHINSHU] followers: -30% [ICON_PEACE] Faith in the city.[NEWLINE][TAB][ICON_BULLET]66% or more [ICON_RELIGION_JODO_SHINSHU] followers: -20% [ICON_PEACE] Faith in the city.[NEWLINE][TAB][ICON_BULLET]33% or more [ICON_RELIGION_JODO_SHINSHU] followers: -10% [ICON_PEACE] Faith in the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION">
 			<Text>Revolution</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_REVOLUTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Revolution[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Revolution[ENDCOLOR][NEWLINE]Reduces [ICON_HAPPINESS_1] Happiness output from non-Ikko Ikki Cities with [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu followers in that City.[NEWLINE][NEWLINE][TAB][ICON_BULLET]100% [ICON_RELIGION_JODO_SHINSHU] followers: -3 [ICON_HAPPINESS_1] Happiness[NEWLINE][TAB][ICON_BULLET]66% or more [ICON_RELIGION_JODO_SHINSHU] followers: -2 [ICON_HAPPINESS_1] Happiness[NEWLINE][TAB][ICON_BULLET]33% or more [ICON_RELIGION_JODO_SHINSHU] followers: -1 [ICON_HAPPINESS_1] Happiness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY">
 			<Text>Secret Society</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SECRET_SOCIETY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Secret Society[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Secret Society[ENDCOLOR][NEWLINE]Reduces [ICON_GOLD] Gold output from non-Ikko Ikki Cities with [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu followers in that City.[NEWLINE][NEWLINE][TAB][ICON_BULLET]100% [ICON_RELIGION_JODO_SHINSHU] followers: -50% [ICON_GOLD] Gold from the city.[NEWLINE][TAB][ICON_BULLET]66% or more [ICON_RELIGION_JODO_SHINSHU] followers: -20% [ICON_GOLD] Gold from the city.[NEWLINE][TAB][ICON_BULLET]33% or more [ICON_RELIGION_JODO_SHINSHU] followers: -10% [ICON_GOLD] Gold from the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION">
 			<Text>Devotion</Text>

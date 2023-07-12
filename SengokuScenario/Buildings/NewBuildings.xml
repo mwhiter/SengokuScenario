@@ -3,6 +3,21 @@
 <GameData>
 	<BuildingClasses>
 		<Row>
+			<Type>BUILDINGCLASS_REBELLION_WEAK</Type>
+			<DefaultBuilding>BUILDING_REBELLION_WEAK</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_REBELLION_WEAK</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_REBELLION_MODERATE</Type>
+			<DefaultBuilding>BUILDING_REBELLION_MODERATE</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_REBELLION_MODERATE</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_REBELLION_STRONG</Type>
+			<DefaultBuilding>BUILDING_REBELLION_STRONG</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_REBELLION_STRONG</Description>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_MAGISTRATE_OFFICE</Type>
 			<DefaultBuilding>BUILDING_MAGISTRATE_OFFICE</DefaultBuilding>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE</Description>
@@ -77,6 +92,11 @@
 			<Type>BUILDINGCLASS_CATHEDRAL</Type>
 			<DefaultBuilding>BUILDING_CATHEDRAL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CATHEDRAL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MONASTERY</Type>
+			<DefaultBuilding>BUILDING_MONASTERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MONASTERY</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_GRANARY</Type>
@@ -194,6 +214,48 @@
 		</Row>
 	</BuildingClasses>
 	<Buildings>
+		<Row>
+			<Type>BUILDING_REBELLION_WEAK</Type>
+			<BuildingClass>BUILDINGCLASS_REBELLION_WEAK</BuildingClass>
+			<NeverCapture>true</NeverCapture>
+			<Help>TXT_KEY_BUILDING_REBELLION_WEAK_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_REBELLION_WEAK_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_REBELLION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_REBELLION_WEAK_STRATEGY</Strategy>
+			<Happiness>-1</Happiness>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_REBELLION_MODERATE</Type>
+			<BuildingClass>BUILDINGCLASS_REBELLION_MODERATE</BuildingClass>
+			<NeverCapture>true</NeverCapture>
+			<Help>TXT_KEY_BUILDING_REBELLION_MODERATE_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_REBELLION_MODERATE_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_REBELLION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_REBELLION_MODERATE_STRATEGY</Strategy>
+			<Happiness>-2</Happiness>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_REBELLION_STRONG</Type>
+			<BuildingClass>BUILDINGCLASS_REBELLION_STRONG</BuildingClass>
+			<NeverCapture>true</NeverCapture>
+			<Help>TXT_KEY_BUILDING_REBELLION_STRONG_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_REBELLION_STRONG_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_REBELLION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_REBELLION_STRONG_STRATEGY</Strategy>
+			<Happiness>-3</Happiness>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
 		<Row>
 			<Type>BUILDING_MONUMENT</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
@@ -437,6 +499,23 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_MONASTERY</Type>
+			<BuildingClass>BUILDINGCLASS_MONASTERY</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>150</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<Description>TXT_KEY_BUILDING_MONASTERY_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MONASTERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MONASTERY_HELP</Help>
+			<ReligiousPressureModifier>50</ReligiousPressureModifier>
+			<ArtDefineTag>MONASTERY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_CATHEDRAL</Type>
@@ -879,6 +958,56 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAGODA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAGODA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAGODA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Building_ResourceQuantity>
 		<Row>
@@ -959,6 +1088,16 @@
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>

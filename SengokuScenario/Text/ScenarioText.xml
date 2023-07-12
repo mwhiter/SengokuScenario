@@ -20,5 +20,36 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BRIEFING_BUTTON">
 			<Text>Briefing</Text>
 		</Row>
+		<!-- Notifications -->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STARTED_SUMMARY">
+			<Text>Jodo Shinshu Rebellion in {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STARTED">
+			<Text>A [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu rebellion has started in {@1_CityName}! This City will experience negative effects until less than 33% of the citizens follow [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_ENDED_SUMMARY">
+			<Text>Rebellion ended in {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_ENDED">
+			<Text>The Jodo Shinshu Rebellion has ended in {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER_SUMMARY">
+			<Text>Jodo Shinshu Rebellion in {@1_CityName} strengthens!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER">
+			<Text>The Jodo Shinshu rebellion in {@1_CityName} has gotten stronger! This City will continue to experience negative effects until you reduce the number of [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism followers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER_SUMMARY">
+			<Text>Jodo Shinshu Rebellion in {@1_CityName} weakens!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER">
+			<Text>The Jodo Shinshu rebellion in {@1_CityName} has gotten weaker! Continue to reduce the number of [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism followers to reduce the negative effects on your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_UPRISING_POLICY_ADOPTED_SUMMARY">
+			<Text>Uprising Policy Adopted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_UPRISING_POLICY_ADOPTED">
+			<Text>The Ikko-Ikki clan has adopted the [COLOR_NEGATIVE_TEXT]{@1_PolicyName}[ENDCOLOR] Social Policy in the Uprising Social Policy Branch. Any effects of a Jodo Shinshu Rebellion has been enhanced![NEWLINE][NEWLINE]{@2_PolicyDescription}[NEWLINE][NEWLINE](NOTE: You may view the Social Policies screen to view currently active effects of a Jodo Shinshu Rebellion.)</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

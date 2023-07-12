@@ -51,10 +51,10 @@
 			<Text>Begins the game with a free Spy, but as the vassal of the Imagawa clan. All Diplomat Units receive +2 [ICON_MOVES] Movement and the [COLOR_POSITIVE_TEXT]Royal Signet[ENDCOLOR] promotion, granting +10 [ICON_INFLUENCE] Influence from City-State missions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT">
-			<Text>Peasant Rule</Text>
+			<Text>Nembutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI">
-			<Text>This trait has no effect. (something to do with)</Text>
+			<Text>Begins the game as the founder of [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism. Cannot purchase Missionaries or Inquisitors. When capturing an enemy City, automatically convert that city to [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT">
 			<Text>Dragon's Resolve</Text>

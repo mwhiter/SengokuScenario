@@ -73,10 +73,10 @@ local civReligions =
 }
 
 ---------------------------------------------------------------------
-function CanAdoptPolicyBranch (iPlayerID, iPolicyBranch)
-	local player = Players[iPlayerID];
+function CanAdoptPolicyBranch (playerId, policyBranchId)
+	local player = Players[playerId];
 	local civ = GameInfo.Civilizations[player:GetCivilizationType()]
-	local policyBranchType = GameInfo.PolicyBranchTypes[iPolicyBranch].Type
+	local policyBranchType = GameInfo.PolicyBranchTypes[policyBranchId].Type
 	if (policyBranchType == "POLICY_BRANCH_ORGANIZATION" or
 		policyBranchType == "POLICY_BRANCH_BUSHIDO" or
 		policyBranchType == "POLICY_BRANCH_DIPLOMACY") then
@@ -86,6 +86,23 @@ function CanAdoptPolicyBranch (iPlayerID, iPolicyBranch)
 	end
 end
 GameEvents.PlayerCanAdoptPolicyBranch.Add(CanAdoptPolicyBranch);
+
+-- This is needed because all civs adopt Uprising branches as Ikko Ikki unlocks them
+function CanAdoptPolicy(playerId, policyId)
+	local policy = GameInfo.Policies[policyId];
+	local policyBranchType = policy.PolicyBranchType;
+
+	if (policyBranchType == "POLICY_BRANCH_UPRISING") then
+		local player = Players[playerId];
+		local civ = GameInfo.Civilizations[player:GetCivilizationType()]
+		if (civPolicyBranches[civ.Type] ~= "POLICY_BRANCH_UPRISING") then
+			return false
+		end
+	end
+
+	return true
+end
+GameEvents.PlayerCanAdoptPolicy.Add(CanAdoptPolicy);
 
 ---------------------------------------
 -- UI Handlers
@@ -126,6 +143,156 @@ function OnExitCityScreen()
 end
 Events.SerialEventExitCityScreen.Add( OnExitCityScreen );
 
+---------------------------------------
+-- Ikko Ikki Religion
+---------------------------------------
+local ikkoIkkiBuildings = 
+{
+	GameInfo.Buildings["BUILDING_REBELLION_WEAK"].ID,
+	GameInfo.Buildings["BUILDING_REBELLION_MODERATE"].ID,
+	GameInfo.Buildings["BUILDING_REBELLION_STRONG"].ID
+}
+
+function MakeIkkoIkkiBuildingsUnbuildable(playerId, cityId, buildingType)
+	for i,e in ipairs(ikkoIkkiBuildings) do
+		if (e == buildingType) then
+			return false;
+		end
+	end
+	
+	return true;
+end
+
+function GetJodoShinshuBuilding(city)
+	for i,e in ipairs(ikkoIkkiBuildings) do
+		if (city:GetNumRealBuilding(e) > 0) then
+			return e;
+		end
+	end
+
+	return nil
+end
+
+function ClearJodoShinshuBuildings(city)
+	for i,e in ipairs(ikkoIkkiBuildings) do
+		city:SetNumRealBuilding(e, 0);
+	end
+end
+
+function UpdateIkkoIkkiRebellions(playerId)
+	local isJodoShinshuFounder = Game.GetFounder(GameInfoTypes["RELIGION_JODO_SHINSHU"], -1) == playerId;
+	if (isJodoShinshuFounder) then
+		return;
+	end
+
+	local player = Players[playerId]
+	for city in player:Cities() do
+		local oldBuilding = GetJodoShinshuBuilding(city);
+		
+		ClearJodoShinshuBuildings(city);
+
+		local numJodoShinshuFollowers = city:GetNumFollowers(GameInfoTypes["RELIGION_JODO_SHINSHU"]);
+		local population = city:GetPopulation();
+
+		if (population > 0) then
+			local newBuilding = nil;
+			if (numJodoShinshuFollowers == population) then
+				newBuilding = GameInfo.Buildings["BUILDING_REBELLION_STRONG"].ID;
+			else
+				local percent = numJodoShinshuFollowers * 100 / population;
+				if (percent >= 66) then
+					newBuilding = GameInfo.Buildings["BUILDING_REBELLION_MODERATE"].ID;
+				elseif (percent >= 33) then
+					newBuilding = GameInfo.Buildings["BUILDING_REBELLION_WEAK"].ID;
+				end
+			end
+
+			-- Need to add a building
+			if (newBuilding ~= nil) then
+				city:SetNumRealBuilding(newBuilding, 1);
+			end
+
+			-- If there's been a change, push a notification
+			if (newBuilding ~= oldBuilding) then
+				local strMessage = "";
+				local summaryMessage = "";
+				-- Rebellion started
+				if (oldBuilding == nil) then
+					strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STARTED", city:GetName());
+					summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STARTED_SUMMARY", city:GetName());
+				-- Rebellion ended
+				elseif (newBuilding == nil) then
+					strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_ENDED", city:GetName());
+					summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_ENDED_SUMMARY", city:GetName());
+				-- Status changed
+				else
+					if (newBuilding == GameInfo.Buildings["BUILDING_REBELLION_STRONG"].ID) then
+						strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER", city:GetName());
+						summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER_SUMMARY", city:GetName());
+					elseif (newBuilding == GameInfo.Buildings["BUILDING_REBELLION_WEAK"].ID) then
+						strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER", city:GetName());
+						summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER_SUMMARY", city:GetName());
+					else
+						if (oldBuilding == GameInfo.Buildings["BUILDING_REBELLION_WEAK"].ID) then
+							strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER", city:GetName());
+							summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STRONGER_SUMMARY", city:GetName());
+						else
+							strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER", city:GetName());
+							summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_WEAKER_SUMMARY", city:GetName());
+						end
+					end
+				end
+				player:AddNotification(GameInfoTypes["NOTIFICATION_GENERIC"], strMessage, summaryMessage, city:GetX(), city:GetY(), city:GetOwner());
+			end
+		end
+	end
+end
+
+local uprisingPolicies = {
+	GameInfo.Policies["POLICY_UPRISING"].ID,
+	GameInfo.Policies["POLICY_PEASANT_RULE"].ID,
+	GameInfo.Policies["POLICY_POPULISM"].ID,
+	GameInfo.Policies["POLICY_RELIGIOUS_FERVOR"].ID,
+	GameInfo.Policies["POLICY_REVOLUTION"].ID,
+	GameInfo.Policies["POLICY_SECRET_SOCIETY"].ID,
+	GameInfo.Policies["POLICY_UPRISING_FINISHER"].ID,
+}
+
+function GiveUprisingPoliciesToPlayers(playerId, policyId)
+	for i,e in ipairs(uprisingPolicies) do
+		if (e == policyId) then
+			-- award other players policy
+			for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+				local player = Players[playerIndex];
+				if (player:IsAlive() and player:GetID() ~= playerId) then
+					player:GrantPolicy(policyId, true);
+
+					local policyName = Locale.ConvertTextKey(GameInfo.Policies[policyId].Description);
+					local policyHelp = Locale.ConvertTextKey(GameInfo.Policies[policyId].Help);
+					local strMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_UPRISING_POLICY_ADOPTED", policyName, policyHelp);
+					local summaryMessage = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_CITY_UPRISING_POLICY_ADOPTED_SUMMARY");
+
+					player:AddNotification(GameInfoTypes["NOTIFICATION_GENERIC"], strMessage, summaryMessage, -1, -1, -1);
+				end
+			end
+		end
+	end
+end
+
+function ConvertCityToJodoShinshu(oldOwner, isCapital, x, y, newOwner, pop, isConquest)
+	local player = Players[newOwner];
+	local playerType = player:GetCivilizationType();
+	if (playerType == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].ID) then
+		local plot = Map.GetPlot(x,y);
+		local city = plot:GetPlotCity();
+		city:AdoptReligionFully(GameInfoTypes["RELIGION_JODO_SHINSHU_BUDDHISM"]);
+	end
+end
+
+GameEvents.CityCanConstruct.Add(MakeIkkoIkkiBuildingsUnbuildable);
+GameEvents.PlayerDoTurn.Add(UpdateIkkoIkkiRebellions);
+GameEvents.PlayerAdoptPolicy.Add(GiveUprisingPoliciesToPlayers);
+GameEvents.CityCaptureComplete.Add(ConvertCityToJodoShinshu);
 ---------------------------------------
 -- Game Event Handlers
 ---------------------------------------
@@ -218,6 +385,12 @@ end
 function InitPlayers()
 	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
 		AddInitialUnits(playerIndex);
+
+		local player = Players[playerIndex]
+		-- Ikko Ikki starts with Uprising branch unlocked
+		if (player:GetCivilizationType() == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].Type) then
+			player:SetPolicyBranchUnlocked(GameInfo.PolicyBranchTypes["POLICY_BRANCH_UPRISING"], true, false);
+		end
 	end
 end
 

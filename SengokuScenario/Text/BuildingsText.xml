@@ -2,6 +2,27 @@
 <!-- Created by ModBuddy on 6/17/2023 1:39:49 PM -->
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_WEAK_DESC">
+			<Text>Jodo Shinshu Rebellion (Weak)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_MODERATE_DESC">
+			<Text>Jodo Shinshu Rebellion (Medium)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_STRONG_DESC">
+			<Text>Jodo Shinshu Rebellion (Strong)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_WEAK_STRATEGY">
+			<Text>At least 33% of this City's citizens follow [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism. Negative penalties will be felt by this City as more Social Policies in the Uprising Social Policy Branch are unlocked by the Ikko-Ikki clan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_MODERATE_STRATEGY">
+			<Text>At least 66% of this City's citizens follow [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism. Negative penalties will be felt by this City as more Social Policies in the Uprising Social Policy Branch are unlocked by the Ikko-Ikki clan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_STRONG_STRATEGY">
+			<Text>100% of this City's citizens follow [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism. Negative penalties will be felt by this City as more Social Policies in the Uprising Social Policy Branch are unlocked by the Ikko-Ikki clan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REBELLION_PEDIA">
+			<Text>The populist teachings of Jodo Shinshu has taken hold of the population. The peasants seek to overthrow the existing samurai order in favor of peasant rule. As such, chaos has sown amongst the population. You must act quickly to remove the religious pressure from this city!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE">
 			<Text>Magistrate Office</Text>
 		</Row>
@@ -169,6 +190,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_DESC">
+			<Text>Jodo Shinshu Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_HELP">
+			<Text>+50% religious pressure emanating from this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_STRATEGY">
+			<Text>Jodo Shinshu Temples increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output. It also increases the religious pressure of this city, allowing your religion to spread to other Cities faster.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -98,6 +98,18 @@
 		<Row Tag="TXT_KEY_UNIT_BOW_SAMURAI_HELP">
 			<Text>Powerful ranged Unit, able to attack enemies from a distance. Capable of defending themselves in close combat, but less effective than other melee units in combat.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA">
+			<Text>Bow Kobaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA_TEXT">
+			<Text>During the Sengoku Jidai, ships were mostly made from wood, occasionally augmented by thick bamboo or iron plates. This made them inflammable, and it was quite common to set fire to a vessel prior to boarding it. Archers would use fire arrows, or bombs would be thrown, all in the interests of making life as difficult as possible for the defenders. However, boarding actions were the most important tactic of war at sea, and everything else was subordinated to them. This was just as well, as incendiary weapons lacked the power of cannons, which were hardly common. Japanese naval warfare never went the same way as European naval tactics, with ships becoming gun platforms and fighting at a distance for the most part.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA_HELP">
+			<Text></Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_BUNE">
 			<Text>Seki Bune</Text>
 		</Row>

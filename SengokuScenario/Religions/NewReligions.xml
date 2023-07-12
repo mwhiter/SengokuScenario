@@ -30,9 +30,11 @@
 		</Row>
 		<Row>
 			<Type>BELIEF_TRUE_PURE_LAND</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_BELIEF_TRUE_PURE_LAND</Description>
-			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_BELIEF_TRUE_PURE_LAND_SHORT</ShortDescription>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BELIEF_PURE_LAND_THOUGHT</Description>
+			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_BELIEF_PURE_LAND_THOUGHT_SHORT</ShortDescription>
 			<Founder>true</Founder>
+			<SpreadStrengthModifier>30</SpreadStrengthModifier>
+			<SpreadDistanceModifier>30</SpreadDistanceModifier>
 		</Row>
 		<Row>
 			<Type>BELIEF_TITHE</Type>
@@ -100,6 +102,13 @@
 			<MissionaryCostModifier>-30</MissionaryCostModifier>
 		</Row>
 	</Beliefs>
+	<Belief_YieldPerXFollowers>
+		<Row>
+			<BeliefType>BELIEF_POPULISM</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<PerXFollowers>3</PerXFollowers>
+		</Row>
+	</Belief_YieldPerXFollowers>
 	<Belief_MaxYieldModifierPerFollower>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_COMMUNITY</BeliefType>
@@ -164,8 +173,8 @@
 		</Row>
 		<Row>
 			<Type>RELIGION_JODO_SHINSHU</Type>
-			<Description>TXT_KEY_RELIGION_JODO_SHINSHU</Description>
-			<Civilopedia>TXT_KEY_RELIGION_JODO_SHINSHU_PEDIA</Civilopedia>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_RELIGION_JODO_SHINSHU</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_RELIGION_JODO_SHINSHU_PEDIA</Civilopedia>
 			<IconAtlas>SENGOKU_SCENARIO_RELIGION_ATLAS_WHITE</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<IconString>[ICON_RELIGION_JODO_SHINSHU]</IconString>

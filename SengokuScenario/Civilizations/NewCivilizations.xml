@@ -1660,6 +1660,18 @@
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
+			<UnitType />
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<UnitClassType>UNITCLASS_INQUISITOR</UnitClassType>
+			<UnitType />
+		</Row>
+	</Civilization_UnitClassOverrides>
 	<Civilization_Leaders>
 		<Row>
 			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
