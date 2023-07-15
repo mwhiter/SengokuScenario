@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2023 2:27:05 PM -->
+<GameData>
+	<AIEconomicStrategies>
+		<Update>
+			<Where Type="ECONOMICAISTRATEGY_DEVELOPING_RELIGION"/>
+			<Set>
+				<TechPrereq />
+			</Set>
+		</Update>
+	</AIEconomicStrategies>
+	<AIMilitaryStrategies>
+		<Update>
+			<Where Type="MILITARYAISTRATEGY_NEED_RANGED_EARLY"/>
+			<Set>
+				<TechObsolete>TECH_KYUJUTSU</TechObsolete>
+			</Set>
+		</Update>
+	</AIMilitaryStrategies>
+</GameData>

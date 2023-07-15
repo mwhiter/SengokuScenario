@@ -464,6 +464,7 @@
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
 		<Row>
+			<ID>1</ID>
 			<Type>ERA_SENGOKU</Type>
 			<Description>TXT_KEY_ERA_SENGOKU</Description>
 			<Strategy>TXT_KEY_ERA_SENGOKU_STRATEGY</Strategy>
@@ -507,6 +508,7 @@
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
 		<Row>
+			<ID>2</ID>
 			<Type>ERA_LATE_SENGOKU</Type>
 			<Description>TXT_KEY_ERA_LATE_SENGOKU</Description>
 			<Strategy>TXT_KEY_ERA_LATE_SENGOKU_STRATEGY</Strategy>
@@ -550,6 +552,7 @@
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
 		<Row>
+			<ID>3</ID>
 			<Type>ERA_INDUSTRIAL</Type>
 			<Description>TXT_KEY_ERA_SHOGUN</Description>
 			<Strategy>TXT_KEY_ERA_SHOGUN_STRATEGY</Strategy>

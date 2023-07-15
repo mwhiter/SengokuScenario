@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2023 1:38:20 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MELEE_I">
+			<Text>Bonus vs Melee (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MELEE_I_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Melee Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_MELEE_I">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Melee Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MELEE_II">
+			<Text>Bonus vs Melee (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MELEE_II_HELP">
+			<Text>+100% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Melee Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_MELEE_II">
+			<Text>+100% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Melee Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_WARRIOR_MONK">
+			<Text>Bonus vs Warrior Monks (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_WARRIOR_MONK_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Warrior Monks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_WARRIOR_MONK">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Warrior Monks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ATTACK_BONUS">
+			<Text>Bonus Attacking Cities (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ATTACK_BONUS_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CITY_ATTACK_BONUS">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/14/2023 11:37:57 AM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_TERRACE_FARM</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TERRACE_FARM</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TERRACE_FARM</ArtDefineTag>
+			<HillsMakesValid>true</HillsMakesValid>
+			<PillageGold>18</PillageGold>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>DLC02_TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_AdjacentImprovementYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<OtherImprovementType>IMPROVEMENT_TERRACE_FARM</OtherImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_AdjacentImprovementYieldChanges>
+	<Improvement_Yields>
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_AdjacentMountainYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_AdjacentMountainYieldChanges>
+	<Improvement_TechFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechFreshWaterYieldChanges>
+	<Improvement_ValidTerrains>
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+</GameData>

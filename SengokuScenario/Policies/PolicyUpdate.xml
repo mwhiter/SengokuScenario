@@ -17,11 +17,15 @@
 			<Type>POLICY_FIEFDOM</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_PEDIA</Civilopedia>
+			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
+			<GarrisonedCityRangeStrikeModifier>50</GarrisonedCityRangeStrikeModifier>
+			<GarrisonFreeMaintenance>true</GarrisonFreeMaintenance>
 			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>56</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -30,9 +34,11 @@
 			<Type>POLICY_HAN_SYSTEM</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_PEDIA</Civilopedia>
 			<GridX>1</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
+			<WorkerSpeedModifier>25</WorkerSpeedModifier>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -69,8 +75,12 @@
 			<Type>POLICY_CHONINDO</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_PEDIA</Civilopedia>
 			<GridX>5</GridX>
 			<GridY>3</GridY>
+			<LandTradeRouteGoldChange>200</LandTradeRouteGoldChange>
+			<SeaTradeRouteGoldChange>200</SeaTradeRouteGoldChange>
+			<RouteGoldMaintenanceMod>-25</RouteGoldMaintenanceMod>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -101,6 +111,8 @@
 			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
+			<ExpModifier>50</ExpModifier>
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -124,6 +136,7 @@
 			<Type>POLICY_DISCIPLINE</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_PEDIA</Civilopedia>
 			<GridX>3</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
@@ -152,6 +165,8 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE_HELP</Help>
 			<GridX>3</GridX>
 			<GridY>3</GridY>
+			<MilitaryProductionModifier>25</MilitaryProductionModifier>
+			<ExtraSupplyPerPopulation>25</ExtraSupplyPerPopulation>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -163,6 +178,7 @@
 			<Type>POLICY_BUSHIDO_FINISHER</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_FINISHER</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_FINISHER_HELP</Help>
+			<UnitGoldMaintenanceMod>-33</UnitGoldMaintenanceMod>
 			<CultureCost>10</CultureCost>
 		</Row>
 		<Row>
@@ -170,6 +186,8 @@
 			<Type>POLICY_DIPLOMACY</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP</Help>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
 			<PortraitIndex>24</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -182,6 +200,8 @@
 			<GridX>1</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<MilitaryUnitGiftExtraInfluence>15</MilitaryUnitGiftExtraInfluence>
+			<CityStateUnitFrequencyModifier>100</CityStateUnitFrequencyModifier>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -195,6 +215,8 @@
 			<GridX>4</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<IncreasedQuestRewards>50</IncreasedQuestRewards>
+			<MinorFriendshipMinimum>20</MinorFriendshipMinimum>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -207,6 +229,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES_HELP</Help>
 			<GridX>1</GridX>
 			<GridY>2</GridY>
+			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -617,7 +640,42 @@
 			<BuildingClassType>BUILDINGCLASS_REBELLION_STRONG</BuildingClassType>
 			<Happiness>-3</Happiness>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_LOYALTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOYALTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
 	</Policy_BuildingClassHappiness>
+	<Policy_BuildingClassCultureChanges>
+		<Delete Type="POLICY_TRADITION" />
+		<Row>
+			<PolicyType>POLICY_BUSHIDO</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_BUSHIDO</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOYALTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LOYALTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
 	<Policy_BuildingClassYieldModifiers>
 		<Row>
 			<PolicyType>POLICY_POPULISM</PolicyType>
@@ -692,6 +750,94 @@
 			<YieldMod>-50</YieldMod>
 		</Row>
 	</Policy_BuildingClassYieldModifiers>
+	<!-- This is confusing. Basically it means per 10 Population, we get 1 Gold. Yield should probably be renamed to something else. -->
+	<Policy_CapitalYieldPerPopChangeEmpire>
+		<Row>
+			<PolicyType>POLICY_TAX_REFORMS</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Policy_CapitalYieldPerPopChangeEmpire>
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ORGANIZATION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TAX_REFORMS</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ORGANIZATION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZATION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_FreeBuilding>
+		<Row>
+			<PolicyType>POLICY_BUSHIDO</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeBuilding>
+	<Policy_FreeUnitClasses>
+		<Delete Type="POLICY_WARRIOR_CODE" />
+		<Row>
+			<PolicyType>POLICY_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_EMISSARY</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<Policy_ConquerorYield>
+		<Delete Type="POLICY_DISCIPLINE" />
+		<Delete Type="POLICY_TREASURE_FLEETS" />
+		<Delete Type="POLICY_FUTURISM" />
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>40</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>40</Yield>
+		</Row>
+	</Policy_ConquerorYield>
+	<Policy_FounderYield>
+		<Delete Type="POLICY_DISCIPLINE" />
+	</Policy_FounderYield>
+	<Policy_UnitClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_HAN_SYSTEM</PolicyType>
+			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+	</Policy_UnitClassProductionModifiers>
+	<Policy_YieldFromKills>
+		<Delete Type="POLICY_MILITARY_TRADITION" />
+		<Row>
+			<PolicyType>POLICY_COURAGE</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Policy_YieldFromKills>
 	<PolicyBranchTypes>
 		<Delete />
 		<Row>
@@ -746,4 +892,5 @@
 			<FreePolicy>POLICY_DEVOTION</FreePolicy>
 		</Row>
 	</PolicyBranchTypes>
+
 </GameData>

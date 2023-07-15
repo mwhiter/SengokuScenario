@@ -1427,7 +1427,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
-			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HACHINOH</CityName>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_HACHINOHI</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
@@ -1499,11 +1499,11 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
-			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TODOGASAKI</CityName>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TODOGA_SAKI</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
-			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAZAWAKO</CityName>
+			<CityName>TXT_KEY_SENGOKU_SCENARIO_CITY_NAME_TAZAWA_KO</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DATE</CivilizationType>

@@ -649,10 +649,6 @@
 			<PrereqTech>TECH_BAJUTSU</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_ARCHITECTURE</TechType>
-			<PrereqTech>TECH_KENJUTSU</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CHEMISTRY</TechType>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 		</Row>

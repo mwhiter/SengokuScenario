@@ -227,6 +227,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
+			<ShowInPedia>false</ShowInPedia>
 		</Row>
 		<Row>
 			<Type>BUILDING_REBELLION_MODERATE</Type>
@@ -241,6 +242,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
+			<ShowInPedia>false</ShowInPedia>
 		</Row>
 		<Row>
 			<Type>BUILDING_REBELLION_STRONG</Type>
@@ -255,6 +257,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
+			<ShowInPedia>false</ShowInPedia>
 		</Row>
 		<Row>
 			<Type>BUILDING_MONUMENT</Type>
@@ -438,6 +441,22 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ARMORY</Type>
+			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
+			<Cost>160</Cost>
+			<PrereqTech>TECH_KENJUTSU</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARMORY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARMORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARMORY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_STABLE</Type>
@@ -1025,11 +1044,6 @@
 	</Building_FreeUnits>
 	<Building_ResourceYieldChanges>
 		<Row>
-			<BuildingType>BUILDING_MONUMENT</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1079,6 +1093,11 @@
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SAKE_DEN</BuildingType>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/14/2023 3:59:19 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TANAKA_HIROSHI">
+			<Text>Tanaka Hiroshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO_SATOSHI">
+			<Text>Yamamoto Satoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATO_KENJI">
+			<Text>Sato Kenji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MATSUMOTO_SHINJI">
+			<Text>Matsumoto Shinji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KIMURA_KAZUKI">
+			<Text>Kimura Kazuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WATANABE_TAKASHI">
+			<Text>Watanabe Takashi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAJIMA_RYO">
+			<Text>Nakajima Ryo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUZUKI_TAKUMI">
+			<Text>Suzuki Takumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAMURA_MASATO">
+			<Text>Nakamura Masato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMADA_YUJI">
+			<Text>Yamada Yuji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ABE_HIROTO">
+			<Text>Abe Hiroto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUZUKI_KOTA">
+			<Text>Suzuki Kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TANAKA_DAISUKE">
+			<Text>Tanaka Daisuke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KOBAYASHI_KENTA">
+			<Text>Kobayashi Kenta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ITO_TATSUYA">
+			<Text>Ito Tatsuya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SAKAMOTO_SHOTA">
+			<Text>Sakamoto Shota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAMURA_RYOTA">
+			<Text>Nakamura Ryota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO_HARUKI">
+			<Text>Yamamoto Haruki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KIMURA_KAZUYA">
+			<Text>Kimura Kazuya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATO_KEISUKE">
+			<Text>Sato Keisuke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WATANABE_YUKI">
+			<Text>Watanabe Yuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAJIMA_RYOSUKE">
+			<Text>Nakajima Ryosuke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUZUKI_KAZUTO">
+			<Text>Suzuki Kazuto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ABE_KAITO">
+			<Text>Abe Kaito</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMADA_SHUN">
+			<Text>Yamada Shun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TANAKA_DAIKI">
+			<Text>Tanaka Daiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAMURA_TOSHIHIRO">
+			<Text>Nakamura Toshihiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KOBAYASHI_SHOGO">
+			<Text>Kobayashi Shogo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ITO_YUTO">
+			<Text>Ito Yuto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SAKAMOTO_KOTA">
+			<Text>Sakamoto Kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WATANABE_YUYA">
+			<Text>Watanabe Yuya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAJIMA_SHOTA">
+			<Text>Nakajima Shota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUZUKI_HARUTO">
+			<Text>Suzuki Haruto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KIMURA_YUKI">
+			<Text>Kimura Yuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATO_RIKU">
+			<Text>Sato Riku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAMURA_KOTA">
+			<Text>Nakamura Kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO_KAZUKI">
+			<Text>Yamamoto Kazuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KIMURA_HAYATO">
+			<Text>Kimura Hayato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATO_RYOICHI">
+			<Text>Sato Ryoichi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WATANABE_TAIGA">
+			<Text>Watanabe Taiga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAJIMA_TAKERU">
+			<Text>Nakajima Takeru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUZUKI_TATSUKI">
+			<Text>Suzuki Tatsuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ABE_KAKERU">
+			<Text>Abe Kakeru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMADA_HAYATE">
+			<Text>Yamada Hayate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TANAKA_SHOMA">
+			<Text>Tanaka Shoma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAMURA_HAYATO">
+			<Text>Nakamura Hayato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KIMURA_KAZUMA">
+			<Text>Kimura Kazuma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATO_YUGO">
+			<Text>Sato Yugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WATANABE_KAZUNARI">
+			<Text>Watanabe Kazunari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAKAJIMA_YUUMA">
+			<Text>Nakajima Yuuma</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

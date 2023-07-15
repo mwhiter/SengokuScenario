@@ -12,7 +12,7 @@
 			<Text>The Yari Ashigaru is the cheapest and earliest unit in the game. Yari Ashigaru allow you to quickly build up and field an army, and can hold their own against Cavalry, but they will quickly fall to more heavily armored foes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_ASHIGARU_HELP">
-			<Text>Weak, cheap early game Unit that deals +100% vs. Mounted Units.</Text>
+			<Text>Weak, cheap early game Unit with a +100% [ICON_STRENGTH] Combat bonus Mounted Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI">
 			<Text>Yari Samurai</Text>
@@ -24,7 +24,7 @@
 			<Text>Yari Samurai fare better in combat against more improved opponents compared to their Ashigaru counterparts. Utilize Yari Samurai when you need to counter a lot of enemy Mounted units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_YARI_SAMURAI_HELP">
-			<Text>+100% vs. Mounted Units.</Text>
+			<Text>Expensive, powerful Samurai Unit with a +100% [ICON_STRENGTH] Combat bonus vs. Mounted Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK">
 			<Text>Warrior Monk</Text>
@@ -36,7 +36,7 @@
 			<Text>The Warrior Monk is a terrifying melee unit only available in Cities where the Buddhist faith is most prominent. Warrior monks are exceptional in combat against traditional melee units like the Yari Ashigaru and Katana Samurai, but they are very vulnerable to ranged attacks from both bows and guns. Be selective with your targets with the Warrior Monk, and they will be a fantastic addition to your army.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_WARRIOR_MONK_HELP">
-			<Text>Feared warrior that can devastate both Melee and Mounted units. Weak to Gunpowder and Archery units. Can only be purchased with [ICON_PEACE] Faith, and is only available to [ICON_RELIGION_BUDDHISM] Buddhist nations.</Text>
+			<Text>Feared warrior with a +100% [ICON_STRENGTH] Combat bonus vs. both Melee and Mounted Units. Weak to Gunpowder and Archery units. Can only be purchased with [ICON_PEACE] Faith, and is only available to [ICON_RELIGION_SHINTO] Shinto and [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu clans.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KATANA_ASHIGARU">
 			<Text>Katana Ashigaru</Text>
@@ -48,7 +48,19 @@
 			<Text>The Katana Ashigaru is a formidable early-game combat unit that is useful for crushing weaker units, such as the Yari Ashigaru. They are most effective in capturing cities early on since they do not suffer combat penalties against them, unlike mounted units, while maintaining a higher combat strength than the Yari Ashigaru. However, Katana Ashigaru may struggle against more heavily armored units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KATANA_ASHIGARU_HELP">
-			<Text>Early game Unit that is useful for capturing cities and defeating weaker melee units.</Text>
+			<Text>Cheap Melee Unit that receives a +50% [ICON_STRENGTH] Combat bonus vs. Melee Units and a +33% [ICON_STRENGTH] Combat bonus vs. Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_JAPANESE_SAMURAI_STRATEGY">
+			<Text>The Katana Samurai is an expensive Melee Unit that can dominate the Japanese battlefield against other Melee units. Use Samurai to lead attacks against enemy Cities, but avoid losing them as replacing them is extremely expensive.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_HELP_SAMURAI">
+			<Text>Powerful Samurai Melee Unit that receives a +50% [ICON_STRENGTH] Combat bonus vs. Melee Units and a +33% [ICON_STRENGTH] Combat bonus vs. Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_MUSKETMAN_STRATEGY">
+			<Text>The Musketman is the first unit in the scenario that can replace the Ashigaru as the mainstay of armies due to their low cost but high strength. Musketman can hold their own against Samurai units, but you can field a lot more Musketman than other types of units. However, the Musketman is vulnerable to attacks from archers and cavalry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_HELP_MUSKETMAN">
+			<Text>Cheap melee Unit that is strong against Melee units but weak against Cavalry and Archers. +50% [ICON_STRENGTH] Combat bonus vs. Melee Units, and an additional +50% [ICON_STRENGTH] Combat bonus vs. Warrior Monks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY">
 			<Text>Light Cavalry</Text>
@@ -72,7 +84,7 @@
 			<Text>One of the most feared units on the battlefield, Heavy Cavalry sacrifice some of their mobility to deal more damage in direct combat. Employ Heavy Cavalry to eliminate opposing threats across the battlefield, yet exercise caution in the presence of Yari units, as they can make quick work of your cavalry.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY_HELP">
-			<Text>A strong Mounted unit that sacrifices extra mobility for better performance in combat.</Text>
+			<Text>A strong Mounted unit that sacrifices extra mobility for better performance in combat. Weak to Yari units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU">
 			<Text>Bow Ashigaru</Text>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/14/2023 1:25:57 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILD_TERRACE_FARM_HELP">
+			<Text>+1 [ICON_FOOD] Food for every Mountain and Terrace Farm adjacent to this Terrace Farm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP">
+			<Text>The Terrace Farm can only be built on hills and does not need a source of fresh water to do so. +1 [ICON_FOOD] Food per adjacent Mountain. All adjacent Terrace Farms gain +1 [ICON_FOOD] Food.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

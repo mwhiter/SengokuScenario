@@ -296,6 +296,21 @@ GameEvents.CityCaptureComplete.Add(ConvertCityToJodoShinshu);
 ---------------------------------------
 -- Game Event Handlers
 ---------------------------------------
+-- iPlayer, iUnit, iX, iY, iBuild
+function canBuildTerraceFarmsAfterPolicy(iPlayer, iUnit, iX, iY, iBuild)
+	local player = Players[iPlayer];
+	local build = GameInfo.Builds[iBuild].Type;
+
+	print("Hi: " .. build);
+
+	if (build ~= GameInfo.Builds["BUILD_TERRACE_FARM"].Type) then
+		return true;
+	end
+
+	return player:HasPolicy(GameInfo.Policies["POLICY_EQUAL_FIELDS"].ID);
+end
+GameEvents.PlayerCanBuild.Add(canBuildTerraceFarmsAfterPolicy);
+
 function canTrainBuddhistWarriorMonks(iPlayer, iUnitID, iUnitType)
 	local player = Players[iPlayer];
 	local stateReligion = player:GetStateReligion();

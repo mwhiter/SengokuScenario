@@ -2,6 +2,24 @@
 <!-- Created by ModBuddy on 7/5/2023 5:21:49 PM -->
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_TITLE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_TITLE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_TITLE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_TITLE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_TITLE">
+			<Text>Monshu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_TITLE">
+			<Text>Daimyo</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION">
 			<Text>Organization</Text>
 		</Row>
@@ -9,7 +27,7 @@
 			<Text>ORGANIZATION</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Organization[ENDCOLOR] is useful for clans that wish to invest in their infrastructure and economy.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Organization[ENDCOLOR] is useful for clans that wish to invest in their infrastructure and economy.[NEWLINE][NEWLINE]Adopting Organization will provide [ICON_CULTURE] 1 Culture in every city.[NEWLINE][NEWLINE]Adopting all Policies in the Organization tree will grant +1 [ICON_FOOD] Food from Terrace Farms and +1 [ICON_PRODUCTION] Production from Mines.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION">
 			<Text>Organization</Text>
@@ -21,31 +39,43 @@
 			<Text>Fiefdom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Fiefdom[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fiefdom[ENDCOLOR][NEWLINE]Garrisoned units provide +1 [ICON_HAPPINESS_1] Happiness, cost no maintenance, and cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FIEFDOM_PEDIA">
+			<Text>In feudal Japan, the system of governance was based on a hierarchical structure known as feudalism. The emperor held symbolic power, while the shoguns were the de facto rulers with military and political authority. The daimyo, powerful regional lords, ruled over territories called domains and were granted land by the shogun in exchange for loyalty and military service. Within their domains, the daimyo acted as feudal lords, maintaining law and order, collecting taxes, and commanding their own samurai armies. The samurai, serving as vassals, followed a code of conduct called Bushido. Peasants made up the majority of the population and worked the land owned by the daimyo. The fiefdom system granted economic power and allowed the daimyo to control their territories, but the feudal system declined in the late 16th and early 17th centuries with the rise of a more centralized government.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM">
 			<Text>Han System</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Han System[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Han System[ENDCOLOR][NEWLINE]+30% [ICON_PRODUCTION] Production when building Workers. Tile construction improvement rate increased by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HAN_SYSTEM_PEDIA">
+			<Text>The Han system, also known as the domain system or han system, was a territorial division system implemented during the feudal period in Japan. It was established by the Tokugawa shogunate in the early 17th century as a means of centralizing control and maintaining stability throughout the country. Under this system, the daimyo, or feudal lords, were assigned specific domains or territories to govern and administer. The size of the domains varied, with some daimyo controlling vast territories while others had smaller holdings. The daimyo had authority over their domains, including the power to collect taxes, enforce laws, and administer justice. They were responsible for maintaining order and providing for the welfare of their subjects within their respective territories. The Han system played a significant role in the political and social structure of feudal Japan, as it helped solidify the authority of the shogunate and provided a framework for governance across the country.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS">
 			<Text>Tax Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TAX_REFORMS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Tax Reforms[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Tax Reforms[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] from each City, and your [ICON_CAPITAL] Capital receives +1 [ICON_GOLD] from every 10 [ICON_CITIZEN] Citizens in your Empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS">
 			<Text>Equal Fields</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Equal Fields[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Equal Fields[ENDCOLOR][NEWLINE]Enables your Workers to build [COLOR_POSITIVE_TEXT]Terrace Farms[ENDCOLOR], which improve [ICON_FOOD] Food with nearby adjacent Mountains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EQUAL_FIELDS_PEDIA">
+			<Text>Feudal Japan was characterized by a variety of agricultural practices, including terrace farming, particularly in regions with hilly or mountainous terrain. Terrace farming involved cutting terraces into the slopes of hills or mountains to create flat, horizontal fields for cultivation. It was prevalent in areas like the Kiso Valley and parts of western and northern Japan. The practice allowed farmers to maximize arable land, cultivate crops such as rice and vegetables, and prevent soil erosion. Farmers constructed stone or earthen walls to create multiple tiers, managing water flow through irrigation channels. Terrace farming played a crucial role in sustaining agricultural productivity, adapting to challenging topography, and supporting the feudal economy by providing a stable food supply.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO">
 			<Text>Chonindo</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Chonindo[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Chonindo[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] from all your sea trade routes and land trade routes. Maintenance paid on Roads reduced by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHONINDO_PEDIA">
+			<Text>Chonindo, also known as the "Way of Townspeople," was a social and cultural movement that emerged during the Edo period in feudal Japan. It emphasized the importance of education, ethical conduct, and social responsibility among the urban commoners, specifically the prosperous merchant class known as chonin. Chonindo promoted the idea that townspeople should not only focus on economic pursuits but also strive for personal growth, moral development, and community engagement. It encouraged the study of Confucian values, practical learning, and participation in philanthropic activities. Chonindo played a significant role in shaping the cultural and intellectual life of the urban commoners, fostering a sense of social cohesion, and promoting a moral framework for conduct within the merchant class during the Edo period.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO">
 			<Text>Bushido</Text>
@@ -54,7 +84,7 @@
 			<Text>BUSHIDO</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Bushido[ENDCOLOR] provides benefits that improve your clan's ability to wage war.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Bushido[ENDCOLOR] provides benefits that improve your clan's ability to wage war.[NEWLINE][NEWLINE]Adopting Bushido will grant +2 [ICON_CULTURE] Culture for Walls. +50% [ICON_PRODUCTION] Production when building Walls, and free Walls appera in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting all Policies in the Bushido branch reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO">
 			<Text>Bushido</Text>
@@ -66,31 +96,34 @@
 			<Text>Warrior Code</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_WARRIOR_CODE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]Military Units gain 50% more Experience from combat. Great Generals are earned 50% faster. [ICON_HAPPINESS_3] War Weariness reduced by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE">
 			<Text>Courage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_COURAGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Courage[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Courage[ENDCOLOR][NEWLINE]Killing a military unit generates [ICON_RESEARCH] Science based on the [ICON_STRENGTH] Strength of the defeated unit. Gain 20 [ICON_RESEARCH] Science and [ICON_CULTURE] Culture when you conquer an enemy City, scaling with game speed and era.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE">
 			<Text>Discipline</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] combat strength for melee Units which have another military Unit in an adjacent tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DISCIPLINE_PEDIA">
+			<Text>In a military structure, discipline refers to a soldier's willingness to follow legitimate orders, to respect superior officers, and to put their life in jeopardy or even die when required. Disciplined soldiers are expected to uphold the dignity of their uniform when off-duty and to protect the weak and helpless. Lapses in discipline may lead to military punishment or even courts-martial and discharge.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY">
 			<Text>Loyalty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS] Happiness and +50% [ICON_PRODUCTION] Production towards Military Buildings (Barracks, Armory).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE">
 			<Text>Moral Code</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Moral Code[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Moral Code[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production towards Military Units. +25% [ICON_WAR] Unit Supply per [ICON_CITIZEN] Population.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY">
 			<Text>Diplomacy</Text>
@@ -99,7 +132,7 @@
 			<Text>DIPLOMACY</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with City-States.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with City-States.[NEWLINE][NEWLINE]Adopting Diplomacy will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. A free Emissary appears near the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY">
 			<Text>Diplomacy</Text>
@@ -111,13 +144,13 @@
 			<Text>Military Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Military Alliance[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Military Alliance[ENDCOLOR][NEWLINE]Militaristic City-States grant units twice as often when you are at war with a common foe. +15 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA">
 			<Text>Charisma</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Charisma[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Charisma[ENDCOLOR][NEWLINE]Resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20. +50% [ICON_INFLUENCE] Influence Rewards from City-States.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES">
 			<Text>Mercenaries</Text>
