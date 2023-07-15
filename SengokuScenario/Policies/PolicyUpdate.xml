@@ -224,11 +224,14 @@
 		</Row>
 		<Row>
 			<ID>17</ID>
-			<Type>POLICY_MERCENARIES</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES</Description>
-			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES_HELP</Help>
+			<Type>POLICY_TRADE_AGREEMENT</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADE_AGREEMENT</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADE_AGREEMENT_HELP</Help>
 			<GridX>1</GridX>
 			<GridY>2</GridY>
+			<TRVisionBoost>2</TRVisionBoost>
+			<TRSpeedBoost>2</TRSpeedBoost>
+			<TradeRouteYieldModifier>10</TradeRouteYieldModifier>
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
@@ -243,6 +246,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE_HELP</Help>
 			<GridX>3</GridX>
 			<GridY>2</GridY>
+			<MinorScienceAllies>true</MinorScienceAllies>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -257,6 +261,7 @@
 			<GridX>5</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
+			<RiggingElectionModifier>100</RiggingElectionModifier>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -311,6 +316,9 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE_HELP</Help>
 			<GridX>2</GridX>
 			<GridY>2</GridY>
+			<FaithCostModifier>-20</FaithCostModifier>
+			<ExtraMissionarySpreads>2</ExtraMissionarySpreads>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -324,6 +332,7 @@
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP_HELP</Help>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
+			<PressureMod>33</PressureMod>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
@@ -448,6 +457,7 @@
 			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<ExtraMissionaryStrength>25</ExtraMissionaryStrength>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -471,6 +481,7 @@
 			<Type>POLICY_MENDICANT_ORDERS</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_PEDIA</Civilopedia>
 			<GridX>1</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
@@ -481,9 +492,10 @@
 		</Row>
 		<Row>
 			<ID>39</ID>
-			<Type>POLICY_FORCED_CONVERSION</Type>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION</Description>
-			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION_HELP</Help>
+			<Type>POLICY_HOLY_SCRIPTURES</Type>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES</Description>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES_PEDIA</Civilopedia>
 			<GridX>3</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
@@ -497,9 +509,11 @@
 			<Type>POLICY_EUROPEAN_TRADE</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_HELP</Help>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_PEDIA</Civilopedia>
 			<GridX>5</GridX>
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
+			<FreeTradeRoute>1</FreeTradeRoute>
 			<CultureCost>10</CultureCost>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -511,6 +525,8 @@
 			<Description>TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_FINISHER</Description>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_FINISHER_HELP</Help>
 			<CultureCost>10</CultureCost>
+			<GoldenAgeTurns>10</GoldenAgeTurns>
+			<ExtraHappinessPerCity>1</ExtraHappinessPerCity>
 		</Row>
 	</Policies>
 	<Policy_PrereqPolicies>
@@ -556,7 +572,7 @@
 			<PrereqPolicy>POLICY_LOYALTY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_MERCENARIES</PolicyType>
+			<PolicyType>POLICY_TRADE_AGREEMENT</PolicyType>
 			<PrereqPolicy>POLICY_MILITARY_ALLIANCE</PrereqPolicy>
 		</Row>
 		<Row>
@@ -612,11 +628,11 @@
 			<PrereqPolicy>POLICY_THEOCRACY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_FORCED_CONVERSION</PolicyType>
+			<PolicyType>POLICY_HOLY_SCRIPTURES</PolicyType>
 			<PrereqPolicy>POLICY_THEOCRACY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_FORCED_CONVERSION</PolicyType>
+			<PolicyType>POLICY_HOLY_SCRIPTURES</PolicyType>
 			<PrereqPolicy>POLICY_SALVATION</PrereqPolicy>
 		</Row>
 		<Row>
@@ -650,9 +666,29 @@
 			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCESTOR_WORSHIP</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCESTOR_WORSHIP</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHINTO_PRECEPTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MAGISTRATE_OFFICE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
 	</Policy_BuildingClassHappiness>
 	<Policy_BuildingClassCultureChanges>
-		<Delete Type="POLICY_TRADITION" />
+		<Delete PolicyType="POLICY_TRADITION" />
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<CultureChange>3</CultureChange>
+		</Row>
 		<Row>
 			<PolicyType>POLICY_BUSHIDO</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
@@ -675,7 +711,64 @@
 			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
 			<ProductionModifier>50</ProductionModifier>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_POLYTHEISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLYTHEISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHINTO_PRECEPTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MAGISTRATE_OFFICE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EUROPEAN_TRADE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EUROPEAN_TRADE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
 	</Policy_BuildingClassProductionModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_POLYTHEISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLYTHEISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
 	<Policy_BuildingClassYieldModifiers>
 		<Row>
 			<PolicyType>POLICY_POPULISM</PolicyType>
@@ -749,6 +842,36 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldMod>-50</YieldMod>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_INTRIGUE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SAKE_DEN</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MENDICANT_ORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLY_SCRIPTURES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLY_SCRIPTURES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
 	</Policy_BuildingClassYieldModifiers>
 	<!-- This is confusing. Basically it means per 10 Population, we get 1 Gold. Yield should probably be renamed to something else. -->
 	<Policy_CapitalYieldPerPopChangeEmpire>
@@ -770,6 +893,23 @@
 			<Yield>1</Yield>
 		</Row>
 	</Policy_CityYieldChanges>
+	<Policy_CoastalCityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_DEVOTION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DEVOTION</PolicyType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EUROPEAN_TRADE</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CoastalCityYieldChanges>
 	<Policy_ImprovementYieldChanges>
 		<Row>
 			<PolicyType>POLICY_ORGANIZATION_FINISHER</PolicyType>
@@ -783,6 +923,42 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Policy_ImprovementYieldChanges>
 	<Policy_FreeBuilding>
 		<Row>
@@ -790,12 +966,22 @@
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 			<Count>1</Count>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Count>1</Count>
+		</Row>
 	</Policy_FreeBuilding>
 	<Policy_FreeUnitClasses>
-		<Delete Type="POLICY_WARRIOR_CODE" />
+		<Delete PolicyType="POLICY_WARRIOR_CODE" />
 		<Row>
 			<PolicyType>POLICY_DIPLOMACY</PolicyType>
 			<UnitClassType>UNITCLASS_EMISSARY</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
 			<Count>1</Count>
 		</Row>
 	</Policy_FreeUnitClasses>
@@ -806,22 +992,27 @@
 		</Row>
 	</Policy_FreePromotions>
 	<Policy_ConquerorYield>
-		<Delete Type="POLICY_DISCIPLINE" />
-		<Delete Type="POLICY_TREASURE_FLEETS" />
-		<Delete Type="POLICY_FUTURISM" />
+		<Delete PolicyType="POLICY_DISCIPLINE" />
+		<Delete PolicyType="POLICY_TREASURE_FLEETS" />
+		<Delete PolicyType="POLICY_FUTURISM" />
 		<Row>
-			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PolicyType>POLICY_COURAGE</PolicyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>40</Yield>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PolicyType>POLICY_COURAGE</PolicyType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>40</Yield>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_SALVATION</PolicyType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>100</Yield>
+		</Row>
 	</Policy_ConquerorYield>
 	<Policy_FounderYield>
-		<Delete Type="POLICY_DISCIPLINE" />
+		<Delete PolicyType="POLICY_DISCIPLINE" />
 	</Policy_FounderYield>
 	<Policy_UnitClassProductionModifiers>
 		<Row>
@@ -830,10 +1021,28 @@
 			<ProductionModifier>30</ProductionModifier>
 		</Row>
 	</Policy_UnitClassProductionModifiers>
+	<Policy_YieldModifierFromActiveSpies>
+		<Delete PolicyType="POLICY_SCHOLASTICISM" />
+		<Row>
+			<PolicyType>POLICY_DIPLOMACY_FINISHER</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DIPLOMACY_FINISHER</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Policy_YieldModifierFromActiveSpies>
 	<Policy_YieldFromKills>
-		<Delete Type="POLICY_MILITARY_TRADITION" />
+		<Delete PolicyType="POLICY_MILITARY_TRADITION" />
 		<Row>
 			<PolicyType>POLICY_COURAGE</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SALVATION</PolicyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>100</Yield>
 		</Row>

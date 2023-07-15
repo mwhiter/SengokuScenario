@@ -117,7 +117,7 @@
 			<Text>Loyalty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_LOYALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS] Happiness and +50% [ICON_PRODUCTION] Production towards Military Buildings (Barracks, Armory).</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness and +50% [ICON_PRODUCTION] Production towards Military Buildings (Barracks, Armory).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MORAL_CODE">
 			<Text>Moral Code</Text>
@@ -132,7 +132,7 @@
 			<Text>DIPLOMACY</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with City-States.[NEWLINE][NEWLINE]Adopting Diplomacy will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. A free Emissary appears near the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] provides benefits that improve your relationships with [ICON_CITY_STATE] City-States.[NEWLINE][NEWLINE]Adopting Diplomacy will cause [ICON_INFLUENCE] Influence with [ICON_CITY_STATE] City-States to degrade 25% slower than normal. A free Emissary appears near the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant +4% [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital for each active [ICON_SPY] Spy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY">
 			<Text>Diplomacy</Text>
@@ -144,31 +144,34 @@
 			<Text>Military Alliance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MILITARY_ALLIANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Military Alliance[ENDCOLOR][NEWLINE]Militaristic City-States grant units twice as often when you are at war with a common foe. +15 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Military Alliance[ENDCOLOR][NEWLINE]Militaristic City-States grant units twice as often when you are at war with a common foe. +15 [ICON_INFLUENCE] Influence from Military Unit gifts to [ICON_CITY_STATE] City-States.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA">
 			<Text>Charisma</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_CHARISMA_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Charisma[ENDCOLOR][NEWLINE]Resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20. +50% [ICON_INFLUENCE] Influence Rewards from City-States.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Charisma[ENDCOLOR][NEWLINE]Resting point for [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States is increased by 20. +50% [ICON_INFLUENCE] Influence Rewards from [ICON_CITY_STATE] City-States.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES">
-			<Text>Mercenaries</Text>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADE_AGREEMENT">
+			<Text>Trade Agreement</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MERCENARIES_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mercenaries[ENDCOLOR][NEWLINE]</Text>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADE_AGREEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Trade Agreement[ENDCOLOR][NEWLINE]+10% Yields from [ICON_INTERNATIONAL_TRADE] Trade Routes. [ICON_INTERNATIONAL_TRADE] Trade Routes to [ICON_CITY_STATE] City-States generate +1 [ICON_INFLUENCE] Influence per turn for each [ICON_CITY_STATE] City-State you have a [ICON_INTERNATIONAL_TRADE] Trade Route with (maximum bonus of +5 [ICON_INFLUENCE] Influence). [ICON_INTERNATIONAL_TRADE] Trade Routes have double speed and vision.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADE_AGREEMENT_PEDIA">
+			<Text>During feudal Japan, trade between different clans or domains was conducted through various means, but there wasn't a centralized trade agreement that encompassed the entire country. Instead, trade between clans was often governed by informal agreements, alliances, or commercial relationships established on a case-by-case basis. Trade routes developed, connecting different regions and allowing for the movement of goods and commodities. Some clans specialized in certain products, such as rice, textiles, iron, or ceramics, while others focused on maritime trade, benefiting from their proximity to ports and coastal areas. The clans engaged in trade through the exchange of goods, often facilitated by merchants and middlemen who acted as intermediaries. These trade activities played a crucial role in facilitating economic development, cultural exchange, and the dissemination of goods and ideas throughout feudal Japan.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE">
 			<Text>Shared Knowledge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHARED_KNOWLEDGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shared Knowledge[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shared Knowledge[ENDCOLOR][NEWLINE]All [ICON_CITY_STATE] City-States which are Allies provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE">
 			<Text>Intrigue</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_INTRIGUE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Intrigue[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Intrigue[ENDCOLOR][NEWLINE]+5% [ICON_CULTURE] Culture from each Sake Den. Chance of rigging election in City-States doubled.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION">
 			<Text>Tradition</Text>
@@ -177,7 +180,7 @@
 			<Text>TRADITION</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shinto Tradition[ENDCOLOR] has been a mainstay in Japanese culture for generations.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shinto Tradition[ENDCOLOR] has been a mainstay in Japanese culture for generations.[NEWLINE][NEWLINE]Adopting Tradition will grant +3 [ICON_CULTURE] Culture and a free Shrine in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting all Policies in the Tradition branch will grant +4 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, and +2 [ICON_PRODUCTION] Production to Holy Sites.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION">
 			<Text>Tradition</Text>
@@ -189,31 +192,31 @@
 			<Text>Polytheism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_POLYTHEISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Polytheism[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Polytheism[ENDCOLOR][NEWLINE]Build Shrines and Temples in half the usual time. +2 [ICON_FOOD] Food from Shrines and Temples.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM">
 			<Text>Animalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANIMALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Animalism[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Animalism[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Faith from Pastures, Camps, and Fishing Boats.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE">
 			<Text>Rites of Passage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Rites of Passage[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Rites of Passage[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith. Missionaries receive 2 extra Spreads.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP">
 			<Text>Ancestor Worship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Ancestor Worship[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Ancestor Worship[ENDCOLOR][NEWLINE]+33% pressure in all Cities. Shrines and Temples provide +1 [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS">
 			<Text>Shinto Precepts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shinto Precepts[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shinto Precepts[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_3] Happiness from each Magistrate Office. Build Magistrate Offices in half the usual time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING">
 			<Text>Uprising</Text>
@@ -267,7 +270,7 @@
 			<Text>DEVOTION</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Devotion[ENDCOLOR] empowers Christian missionaries to spread the word of God to other nations.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Devotion[ENDCOLOR] empowers Christian missionaries to spread the word of God to other nations.[NEWLINE][NEWLINE]Adopting Devotion grants +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith to Coastal Cities.[NEWLINE][NEWLINE]Adopting all policies in Devotion immediately starts a [ICON_GOLDEN_AGE] Golden Age. +1 [ICON_HAPPINESS_1] Happiness in all Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION">
 			<Text>Devotion</Text>
@@ -279,31 +282,43 @@
 			<Text>Theocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_THEOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]+25% Missionary conversion strength. A free Missionary appears near the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION">
 			<Text>Salvation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Salvation[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Salvation[ENDCOLOR][NEWLINE]Killing a military unit generates [ICON_PEACE] Faith based on the [ICON_STRENGTH] of the defeated unit. Gain 100 [ICON_PEACE] Faith when you capture an enemy City, scaling with game speed and era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SALVATION_PEDIA">
+			<Text>Christian salvation refers to the belief and doctrine within Christianity that through faith in Jesus Christ, individuals can be saved from sin and its consequences, reconciled with God, and attain eternal life in the presence of God. According to Christian teachings, all human beings are considered to be born in a state of sin due to the disobedience of Adam and Eve in the Garden of Eden. This separation from God leads to spiritual death and eternal separation from Him. However, through the sacrifice of Jesus Christ on the cross, Christians believe that salvation is made available to all who accept and believe in Him as their Lord and Savior. This belief is based on the concept of grace, where salvation is seen as a gift from God that cannot be earned through human efforts but is received through faith. Christians believe that by accepting Jesus Christ as their personal Savior, repenting of their sins, and following His teachings, they can experience forgiveness, reconciliation with God, and the hope of eternal life. Different Christian denominations may have variations in their understanding and teachings on salvation, but the concept of salvation through faith in Jesus Christ is central to Christian theology.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS">
 			<Text>Mendicant Orders</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mendicant Orders[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Mendicant Orders[ENDCOLOR][NEWLINE]Temples and Cathedrals increase a city's [ICON_GOLD] Gold output by 15%. Shrines, Temples, and Cathedrals provide +1 [ICON_GOLD].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION">
-			<Text>Forced Conversion</Text>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_PEDIA">
+			<Text>Mendicant orders were religious orders that emerged in the High Middle Ages in Europe, characterized by their commitment to poverty and itinerant preaching. The two most prominent mendicant orders were the Franciscans, founded by St. Francis of Assisi, and the Dominicans, founded by St. Dominic de Guzmán. These orders rejected the accumulation of wealth and property, relying on alms and donations for their sustenance. The Franciscans emphasized humility, charity, and closeness to nature, while the Dominicans focused on preaching, education, and combating heresy through intellectual pursuits. Mendicant friars traveled from place to place, preaching the Gospel, providing spiritual guidance, and engaging in acts of charity. They played a significant role in the religious, social, and intellectual life of medieval Europe, appealing to many with their active engagement in the world and their contributions to education and scholarship. Today, mendicant orders continue to exist, upholding their traditions of poverty, preaching, and service to the community.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_FORCED_CONVERSION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Forced Conversion[ENDCOLOR][NEWLINE]</Text>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE">
+			<Text>Holy Scripture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Holy Scripture[ENDCOLOR][NEWLINE]+15% [ICON_RESEARCH] Science and [ICON_PEACE] Faith from Libraries and Universities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE_PEDIA">
+			<Text>Holy scripture holds a central and revered position in Christianity. Christians consider the Bible, composed of the Old Testament and the New Testament, as the inspired and authoritative word of God. The Old Testament contains the sacred writings of the Hebrew Bible, encompassing religious history, moral teachings, and prophetic messages. The New Testament focuses on the life, teachings, death, and resurrection of Jesus Christ, as well as the early Christian community and its teachings. Christians believe that the scriptures reveal God's nature, purposes, and instructions for humanity's relationship with Him. The Bible serves as a guide for faith, morality, and spiritual growth, and its study, interpretation, and application are fundamental to Christian worship, doctrine, and ethical frameworks across denominations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE">
 			<Text>European Trade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]European Trade[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]European Trade[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. +3 [ICON_PRODUCTION] Production in Coastal Cities. +100% [ICON_PRODUCTION] Production when building Harbors and Seaports.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_PEDIA">
+			<Text>Portuguese traders, led by explorers such as Fernão Mendes Pinto, arrived in Japan in the mid-16th century, primarily seeking valuable goods such as silver and silk. They established trade relationships with various regional daimyo (feudal lords), contributing to the growth of commerce and introducing firearms and Western technology. However, as political instability and conflict escalated, European traders faced challenges navigating the shifting alliances and power struggles among the Japanese warlords. The arrival of European missionaries and the spread of Christianity further complicated the trade dynamic. Ultimately, the shogunate implemented restrictions on Christianity and foreign influence, leading to a decline in European trade until the period of isolation that followed in the early 17th century.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

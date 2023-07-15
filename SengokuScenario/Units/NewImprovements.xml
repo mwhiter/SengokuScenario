@@ -3,6 +3,111 @@
 <GameData>
 	<Improvements>
 		<Row>
+			<Type>IMPROVEMENT_MINE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_MINE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MINE</ArtDefineTag>
+			<HillsMakesValid>true</HillsMakesValid>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_PASTURE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_PASTURE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_PASTURE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_PASTURE</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CITY_RUINS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CITY_RUINS</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_CITY_RUINS_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITY_RUINS</ArtDefineTag>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_BARBARIAN_CAMP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ENCAMPMENT</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_BARBARIAN_CAMP</ArtDefineTag>
+			<BarbarianCamp>true</BarbarianCamp>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_QUARRY</Type>
+			<Description>TXT_KEY_IMPROVEMENT_QUARRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_QUARRY_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_QUARRY</ArtDefineTag>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_TRADING_POST</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TRADING_POST</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TRADING_POST</ArtDefineTag>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LUMBERMILL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LUMBERMILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_LUMBERMILL</ArtDefineTag>
+			<RequiresFeature>true</RequiresFeature>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_FISHING_BOATS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FISHING_BOATS</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FISHINGBOATS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FISHING_BOATS</ArtDefineTag>
+			<Water>true</Water>
+			<PillageGold>10</PillageGold>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_PLANTATION</Type>
+			<Description>TXT_KEY_IMPROVEMENT_PLANTATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_PLANTATION_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_PLANTATION</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CAMP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CAMP</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CAMP_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CAMP</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>19</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_FORT</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FORT</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FORT</ArtDefineTag>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>50</DefenseModifier>
+			<OutsideBorders>true</OutsideBorders>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>IMPROVEMENT_TERRACE_FARM</Type>
 			<Description>TXT_KEY_IMPROVEMENT_TERRACE_FARM</Description>
 			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_TEXT</Civilopedia>
@@ -12,6 +117,31 @@
 			<PillageGold>18</PillageGold>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>DLC02_TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CITADEL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CITADEL</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITADEL</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>100</DefenseModifier>
+			<InAdjacentFriendly>true</InAdjacentFriendly>
+			<CultureBombRadius>1</CultureBombRadius>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<NearbyEnemyDamage>30</NearbyEnemyDamage>
+			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_HOLY_SITE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_HOLY_SITE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_HOLY_SITE</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>EXPANSION_TERRAIN_ATLAS</IconAtlas>
 		</Row>
 	</Improvements>
 	<Improvement_AdjacentImprovementYieldChanges>

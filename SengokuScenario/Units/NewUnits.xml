@@ -123,6 +123,11 @@
 			<DefaultUnit>UNIT_MISSIONARY</DefaultUnit>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_PROPHET</Type>
+			<Description>TXT_KEY_UNIT_PROPHET</Description>
+			<DefaultUnit>UNIT_PROPHET</DefaultUnit>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_GREAT_GENERAL</Type>
 			<Description>TXT_KEY_UNIT_GREAT_GENERAL</Description>
 			<DefaultUnit>UNIT_GREAT_GENERAL</DefaultUnit>
@@ -835,6 +840,33 @@
 			<PortraitIndex>48</PortraitIndex>
 			<MoveRate>GREAT_PERSON</MoveRate>
 		</Row>
+		<Row>
+			<Class>UNITCLASS_PROPHET</Class>
+			<Type>UNIT_PROPHET</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<Capture>UNITCLASS_PROPHET</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_PROPHET</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREAT_PROPHET</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREATPROPHETS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREAT_PROPHET_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<FoundReligion>true</FoundReligion>
+			<SpreadReligion>true</SpreadReligion>
+			<ReligionSpreads>4</ReligionSpreads>
+			<ReligiousStrength>1000</ReligiousStrength>
+			<UnitArtInfo>ART_DEF_UNIT_GREAT_PROPHET</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
 	</Units>
 	<Unit_AITypes>
 		<Row>
@@ -1009,6 +1041,10 @@
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<UnitAIType>UNITAI_GENERAL</UnitAIType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<UnitAIType>UNITAI_PROPHET</UnitAIType>
+		</Row>
 	</Unit_AITypes>
 	<Unit_ClassUpgrades>
 		<Row>
@@ -1108,6 +1144,10 @@
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
 		</Row>
 	</Unit_Builds>
 	<Unit_Flavors>
@@ -1463,6 +1503,14 @@
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
