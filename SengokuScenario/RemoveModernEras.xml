@@ -294,6 +294,9 @@
 	<Traits>
 		<Delete/>
 	</Traits>
+	<Trait_BuildsUnitClasses>
+		<Delete/>
+	</Trait_BuildsUnitClasses>
 	<HandicapInfo_AIFreeTechs>
 		<Delete/>
 	</HandicapInfo_AIFreeTechs>
@@ -303,6 +306,249 @@
 	<Improvement_TechYieldChanges>
 		<Delete/>
 	</Improvement_TechYieldChanges>
+	<Beliefs>
+		<Delete />
+	</Beliefs>
+	<Belief_YieldFromConversion>
+		<Delete />
+	</Belief_YieldFromConversion>
+	<Belief_YieldFromEraUnlock>
+		<Delete />
+	</Belief_YieldFromEraUnlock>
+	<Belief_YieldFromSpread>
+		<Delete />
+	</Belief_YieldFromSpread>
+	<Belief_YieldChangeWorldWonder>
+		<Delete />
+	</Belief_YieldChangeWorldWonder>
+	<Belief_YieldPerXFollowers>
+		<Delete />
+	</Belief_YieldPerXFollowers>
+	<Belief_YieldPerWorldWonderConstruction>
+		<Delete />
+	</Belief_YieldPerWorldWonderConstruction>
+	<Belief_YieldPerScience>
+		<Delete />
+	</Belief_YieldPerScience>
+	<Belief_YieldPerPop>
+		<Delete />
+	</Belief_YieldPerPop>
+	<Belief_YieldPerOtherReligionFollower>
+		<Delete />
+	</Belief_YieldPerOtherReligionFollower>
+	<Belief_YieldPerLux>
+		<Delete />
+	</Belief_YieldPerLux>
+	<Belief_YieldPerHolyCityBirth>
+		<Delete />
+	</Belief_YieldPerHolyCityBirth>
+	<Belief_YieldPerHeal>
+		<Delete />
+	</Belief_YieldPerHeal>
+	<Belief_YieldPerGPT>
+		<Delete />
+	</Belief_YieldPerGPT>
+	<Belief_YieldPerFollowingCity>
+		<Delete />
+	</Belief_YieldPerFollowingCity>
+	<Belief_YieldPerConstruction>
+		<Delete />
+	</Belief_YieldPerConstruction>
+	<Belief_YieldPerBorderGrowth>
+		<Delete />
+	</Belief_YieldPerBorderGrowth>
+	<Belief_YieldPerBirth>
+		<Delete />
+	</Belief_YieldPerBirth>
+	<Belief_YieldPerActiveTR>
+		<Delete />
+	</Belief_YieldPerActiveTR>
+	<Belief_YieldModifierNaturalWonder>
+		<Delete />
+	</Belief_YieldModifierNaturalWonder>
+	<Belief_YieldFromWLTKD>
+		<Delete />
+	</Belief_YieldFromWLTKD>
+	<Belief_YieldFromTechUnlock>
+		<Delete />
+	</Belief_YieldFromTechUnlock>
+	<Belief_YieldFromSpread>
+		<Delete />
+	</Belief_YieldFromSpread>
+	<Belief_YieldFromRemoveHeresy>
+		<Delete />
+	</Belief_YieldFromRemoveHeresy>
+	<Belief_YieldFromProposal>
+		<Delete />
+	</Belief_YieldFromProposal>
+	<Belief_YieldFromPolicyUnlock>
+		<Delete />
+	</Belief_YieldFromPolicyUnlock>
+	<Belief_YieldFromPillageGlobal>
+		<Delete />
+	</Belief_YieldFromPillageGlobal>
+	<Belief_YieldFromKnownPantheons>
+		<Delete />
+	</Belief_YieldFromKnownPantheons>
+	<Belief_YieldFromKills>
+		<Delete />
+	</Belief_YieldFromKills>
+	<Belief_YieldFromImprovementBuild>
+		<Delete />
+	</Belief_YieldFromImprovementBuild>
+	<Belief_YieldFromHost>
+		<Delete />
+	</Belief_YieldFromHost>
+	<Belief_YieldFromGPUse>
+		<Delete />
+	</Belief_YieldFromGPUse>
+	<Belief_YieldFromForeignSpread>
+		<Delete />
+	</Belief_YieldFromForeignSpread>
+	<Belief_YieldFromFaithPurchase>
+		<Delete />
+	</Belief_YieldFromFaithPurchase>
+	<Belief_YieldFromEraUnlock>
+		<Delete />
+	</Belief_YieldFromEraUnlock>
+	<Belief_YieldFromConversionExpo>
+		<Delete />
+	</Belief_YieldFromConversionExpo>
+	<Belief_YieldFromConversion>
+		<Delete />
+	</Belief_YieldFromConversion>
+	<Belief_YieldFromConquest>
+		<Delete />
+	</Belief_YieldFromConquest>
+	<Belief_YieldFromBarbarianKills>
+		<Delete />
+	</Belief_YieldFromBarbarianKills>
+	<Belief_YieldChangeWorldWonder>
+		<Delete />
+	</Belief_YieldChangeWorldWonder>
+	<Belief_YieldChangeTradeRoute>
+		<Delete />
+	</Belief_YieldChangeTradeRoute>
+	<Belief_YieldChangePerXForeignFollowers>
+		<Delete />
+	</Belief_YieldChangePerXForeignFollowers>
+	<Belief_YieldChangePerXCityStateFollowers>
+		<Delete />
+	</Belief_YieldChangePerXCityStateFollowers>
+	<Belief_YieldChangePerForeignCity>
+		<Delete />
+	</Belief_YieldChangePerForeignCity>
+	<Belief_YieldChangeNaturalWonder>
+		<Delete />
+	</Belief_YieldChangeNaturalWonder>
+	<Belief_YieldChangeAnySpecialist>
+		<Delete />
+	</Belief_YieldChangeAnySpecialist>
+	<Belief_YieldBonusGoldenAge>
+		<Delete />
+	</Belief_YieldBonusGoldenAge>
+	<Belief_VotePerXImprovementOwned>
+		<Delete />
+	</Belief_VotePerXImprovementOwned>
+	<Belief_UnimprovedFeatureYieldChanges>
+		<Delete />
+	</Belief_UnimprovedFeatureYieldChanges>
+	<Belief_TradeRouteYieldChange>
+		<Delete />
+	</Belief_TradeRouteYieldChange>
+	<Belief_TerrainYieldChanges>
+		<Delete />
+	</Belief_TerrainYieldChanges>
+	<Belief_SpecificFaithUnitPurchase>
+		<Delete />
+	</Belief_SpecificFaithUnitPurchase>
+	<Belief_SpecialistYieldChanges>
+		<Delete />
+	</Belief_SpecialistYieldChanges>
+	<Belief_ResourceYieldChanges>
+		<Delete />
+	</Belief_ResourceYieldChanges>
+	<Belief_ResourceQuantityModifiers>
+		<Delete />
+	</Belief_ResourceQuantityModifiers>
+	<Belief_ResourceHappiness>
+		<Delete />
+	</Belief_ResourceHappiness>
+	<Belief_PlotYieldChanges>
+		<Delete />
+	</Belief_PlotYieldChanges>
+	<Belief_MaxYieldPerFollowerPercent>
+		<Delete />
+	</Belief_MaxYieldPerFollowerPercent>
+	<Belief_MaxYieldPerFollower>
+		<Delete />
+	</Belief_MaxYieldPerFollower>
+	<Belief_MaxYieldModifierPerFollowerPercent>
+		<Delete />
+	</Belief_MaxYieldModifierPerFollowerPercent>
+	<Belief_MaxYieldModifierPerFollower>
+		<Delete />
+	</Belief_MaxYieldModifierPerFollower>
+	<Belief_LakePlotYield>
+		<Delete />
+	</Belief_LakePlotYield>
+	<Belief_ImprovementYieldChanges>
+		<Delete />
+	</Belief_ImprovementYieldChanges>
+	<Belief_HolyCityYieldChanges>
+		<Delete />
+	</Belief_HolyCityYieldChanges>
+	<Belief_GreatWorkYieldChanges>
+		<Delete />
+	</Belief_GreatWorkYieldChanges>
+	<Belief_GreatPersonPoints>
+		<Delete />
+	</Belief_GreatPersonPoints>
+	<Belief_GreatPersonExpendedYield>
+		<Delete />
+	</Belief_GreatPersonExpendedYield>
+	<Belief_GoldenAgeGreatPersonRateModifier>
+		<Delete />
+	</Belief_GoldenAgeGreatPersonRateModifier>
+	<Belief_FreePromotions>
+		<Delete />
+	</Belief_FreePromotions>
+	<Belief_FeatureYieldChanges>
+		<Delete />
+	</Belief_FeatureYieldChanges>
+	<Belief_EraFaithUnitPurchase>
+		<Delete />
+	</Belief_EraFaithUnitPurchase>
+	<Belief_CoastalCityYieldChanges>
+		<Delete />
+	</Belief_CoastalCityYieldChanges>
+	<Belief_CityYieldPerXTerrainTimes100>
+		<Delete />
+	</Belief_CityYieldPerXTerrainTimes100>
+	<Belief_CityYieldPerXFeatureTimes100>
+		<Delete />
+	</Belief_CityYieldPerXFeatureTimes100>
+	<Belief_CityYieldFromUnimprovedFeature>
+		<Delete />
+	</Belief_CityYieldFromUnimprovedFeature>
+	<Belief_CityYieldChanges>
+		<Delete />
+	</Belief_CityYieldChanges>
+	<Belief_CapitalYieldChanges>
+		<Delete />
+	</Belief_CapitalYieldChanges>
+	<Belief_BuildingClassYieldChanges>
+		<Delete />
+	</Belief_BuildingClassYieldChanges>
+	<Belief_BuildingClassTourism>
+		<Delete />
+	</Belief_BuildingClassTourism>
+	<Belief_BuildingClassFaithPurchase>
+		<Delete />
+	</Belief_BuildingClassFaithPurchase>
+	<Belief_BuildingClassHappiness>
+		<Delete />
+	</Belief_BuildingClassHappiness>
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_PALACE</Type>
@@ -335,26 +581,6 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
-		</Row>
-		<Row>
-			<Type>BUILDING_WALLS</Type>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
-			<Cost>75</Cost>
-			<Help>TXT_KEY_BUILDING_WALLS_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_WALLS</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_WALLS_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>1000</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
-			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
-			<PortraitIndex>32</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

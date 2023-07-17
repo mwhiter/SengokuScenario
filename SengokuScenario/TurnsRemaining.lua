@@ -2,7 +2,8 @@
 -- Globals
 ---------------------------------------
 local g_bScenarioDone = false;
-local g_iHandicap = Game:GetHandicapType();
+local handicap = Game:GetHandicapType();
+local savedData = Modding.OpenSaveData();
 
 local g_kiGameTurnLength = 200;
 
@@ -35,6 +36,7 @@ function GetPlayer(civType)
 	return nil
 end
 
+local otomoPlayer = GetPlayer("CIVILIZATION_OTOMO");
 local tokugawaPlayer = GetPlayer("CIVILIZATION_TOKUGAWA");
 local tokugawaTeam = Teams[tokugawaPlayer:GetTeam()];
 local imagawaPlayer = GetPlayer("CIVILIZATION_IMAGAWA");
@@ -296,12 +298,40 @@ GameEvents.CityCaptureComplete.Add(ConvertCityToJodoShinshu);
 ---------------------------------------
 -- Game Event Handlers
 ---------------------------------------
+function otomoTraitOneShotInfluence(iCityOwner, eMajorityReligion, iX, iY)
+	local player = Players[iCityOwner];
+	if (not player:IsMinorCiv() or not otomoPlayer:IsAlive()) then
+		return;
+	end
+
+	if (eMajorityReligion ~= GameInfo.Religions["RELIGION_CHRISTIANITY"].ID) then
+		return
+	end
+
+	print("We are Christianity");
+
+	local cityPlot = Map.GetPlot(iX, iY);
+	local city = cityPlot:GetPlotCity();
+
+	local key = "OtomoFirstConvert_MinorCity_" .. tostring(city:GetID());
+	local value = savedData.GetValue(key);
+
+	if (value ~= nil) then
+		return;
+	end
+
+	print("Haven't converted yet.");
+	
+	-- Save that this city has converted so we don't do this again.
+	player:ChangeMinorCivFriendshipWithMajor(otomoPlayer:GetID(), 40);
+	savedData.SetValue(key, 1);
+end
+GameEvents.CityConvertsReligion.Add(otomoTraitOneShotInfluence);
+
 -- iPlayer, iUnit, iX, iY, iBuild
 function canBuildTerraceFarmsAfterPolicy(iPlayer, iUnit, iX, iY, iBuild)
 	local player = Players[iPlayer];
 	local build = GameInfo.Builds[iBuild].Type;
-
-	print("Hi: " .. build);
 
 	if (build ~= GameInfo.Builds["BUILD_TERRACE_FARM"].Type) then
 		return true;
@@ -325,6 +355,23 @@ function canTrainBuddhistWarriorMonks(iPlayer, iUnitID, iUnitType)
 	return true;
 end
 GameEvents.CityCanTrain.Add(canTrainBuddhistWarriorMonks);
+
+function IkkoIkkiCannotTrainReligiousUnits(iPlayer, iUnitID, iUnitType)
+	if (
+		iUnitType == GameInfo.Units["UNIT_MISSIONARY"].ID or
+		iUnitType == GameInfo.Units["UNIT_INQUISITOR"].ID
+	) then
+		local player = Players[iPlayer];
+		local civ = GameInfo.Civilizations[player:GetCivilizationType()];
+
+		if (civ.Type == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].Type) then
+			return false;
+		end
+	end
+
+	return true;
+end
+GameEvents.CityCanTrain.Add(IkkoIkkiCannotTrainReligiousUnits);
 
 function TestVictory()
 	local iTurnsRemaining = g_kiGameTurnLength - Game.GetGameTurn();
@@ -357,10 +404,10 @@ function InitReligions()
 			if (playerType == GameInfo.Civilizations["CIVILIZATION_OTOMO"].ID) then
 				otomoPlayerId = playerIndex;
 				otomoCapitalCity = player:GetCapitalCity();
-			elseif  (playerType == GameInfo.Civilizations["CIVILIZATION_UESUGI"].ID) then
+			elseif (playerType == GameInfo.Civilizations["CIVILIZATION_UESUGI"].ID) then
 				uesugiPlayerId = playerIndex;
 				uesugiCapitalCity = player:GetCapitalCity();
-			elseif  (playerType == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].ID) then
+			elseif (playerType == GameInfo.Civilizations["CIVILIZATION_IKKO_IKKI"].ID) then
 				ikkoIkkiPlayerId = playerIndex;
 				ikkoIkkiCapitalCity = player:GetCapitalCity();
 			end
@@ -400,6 +447,7 @@ end
 function InitPlayers()
 	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
 		AddInitialUnits(playerIndex);
+		AddUnitsPerDifficulty(playerIndex);
 
 		local player = Players[playerIndex]
 		-- Ikko Ikki starts with Uprising branch unlocked
@@ -424,9 +472,166 @@ function AddInitialUnits(playerIndex)
 	AddUnitToPlot(player, "UNIT_YARI_ASHIGARU", capital:GetX(), capital:GetY(), UNITAI_DEFENSE);
 end
 
--- Grant bonuses to AI
-function SetAIBonuses()
-	print ("TODO: AI Bonuses not set yet!");
+function AddUnitsPerDifficulty(playerIndex)
+	-- Culture, Faith, Gold
+	local humanStartingYields = {
+		[0] = { 75, 100, 200 },
+		[1] = { 45, 75, 150 },
+		[2] = { 45, 50, 125 },
+		[3] = { 30, 25, 100 },
+		[4] = { 30, 20, 75 },
+		[5] = { 0, 15, 50 },
+		[6] = { 0, 0, 25 },
+		[7] = { 0, 0, 10 }
+	};
+	local humanStartingUnits = {
+		[0] = {
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[1] = {
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[2] = {
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[3] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[4] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[5] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+		},
+		[6] = {},
+		[7] = {},
+	};
+
+	-- Culture, Faith, Gold
+	local cpuStartingYields = {
+		[0] = { 75, 25, 50 },
+		[1] = { 75, 25, 50 },
+		[2] = { 75, 25, 50 },
+		[3] = { 75, 25, 50 },
+		[4] = { 75, 50, 75 },
+		[5] = { 75, 100, 150 },
+		[6] = { 75, 175, 225 },
+		[7] = { 75, 300, 500 }
+	};
+	local cpuStartingUnits = {
+		[0] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[1] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[2] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[3] = {
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[4] = {
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[5] = {
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_BOW_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[6] = {
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_BOW_ASHIGARU", UNITAI_DEFENSE }
+		},
+		[7] = {
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_SETTLER", UNITAI_SETTLE },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_WORKER", UNITAI_WORKER },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_SCOUT", UNITCOMBAT_RECON },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_YARI_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_BOW_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_BOW_ASHIGARU", UNITAI_DEFENSE },
+			{ "UNIT_BOW_ASHIGARU", UNITAI_DEFENSE }
+		}
+	};
+
+	local player = Players[playerIndex];
+
+	if (not player:IsAlive()) then
+		return;
+	end
+
+	function SetInitialYields(player, yields, handicap)
+		local culture = yields[handicap][1];
+		local faith = yields[handicap][2];
+		local gold = yields[handicap][3];
+
+		player:SetJONSCulture(culture);
+		player:SetFaith(faith);
+		player:SetGold(gold);
+	end
+
+	function PlaceUnits(player, units, handicap)
+		local capital = player:GetCapitalCity();
+		local unitList = humanStartingUnits[handicap];
+		for i,unit in ipairs(unitList) do
+			AddUnitToPlot(player, unit[1], capital:GetX(), capital:GetY(), unit[2]);
+		end
+	end
+
+	if (player:IsHuman()) then
+		SetInitialYields(player, humanStartingYields, handicap);
+		PlaceUnits(player, humanStartingUnits, handicap);
+	else
+		SetInitialYields(player, cpuStartingYields, handicap);
+		PlaceUnits(player, cpuStartingUnits, handicap);
+	end
 end
 
 function MakeTokugawaVassalOfImagawa()
@@ -435,7 +640,6 @@ function MakeTokugawaVassalOfImagawa()
 	tokugawaTeam:DoBecomeVassal(imagawaTeamId, true);
 end
 
-local savedData = Modding.OpenSaveData();
 local iValue = savedData.GetValue("ScenarioInitialized");
 
 if (iValue == nil) then
@@ -453,10 +657,8 @@ if (iValue == nil) then
 	InitPlayers();
 	InitReligions();
 	MakeTokugawaVassalOfImagawa();
-
-	-- Grant AI bonuses
-	SetAIBonuses();
 	
 	-- For final score on victory screen not to be crazy inflated
 	Game.SetEstimateEndTurn(200);
+	Game.SetStartYear(1500)
 end

@@ -6,6 +6,8 @@
 			<Type>TRAIT_SHIMAZU</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU_SHORT</ShortDescription>
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
+			<GreatGeneralExtraBonus>15</GreatGeneralExtraBonus>
 		</Row>
 		<Row>
 			<Type>TRAIT_OTOMO</Type>
@@ -109,6 +111,40 @@
 			<Yield>1</Yield>
 		</Row>
 	</Trait_TradeRouteYieldChange>
+	<Trait_YieldFromCSFriend>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldFromCSFriend>
+	<Trait_YieldFromCSAlly>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OTOMO</TraitType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldFromCSAlly>
 	<DeleteMissingReferences table="Civilizations" column="Type"/>
 	<DeleteMissingReferences table="Traits" column="Type"/>
 	<DeleteMissingReferences table="Leaders" column="Type"/>

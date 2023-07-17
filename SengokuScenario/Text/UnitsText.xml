@@ -62,6 +62,18 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_HELP_MUSKETMAN">
 			<Text>Cheap melee Unit that is strong against Melee units but weak against Cavalry and Archers. +50% [ICON_STRENGTH] Combat bonus vs. Melee Units, and an additional +50% [ICON_STRENGTH] Combat bonus vs. Warrior Monks.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO">
+			<Text>Portuguese Terco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_TEXT">
+			<Text>The Portuguese terco was a military formation and tactical unit utilized by the Portuguese during the Age of Discovery and their overseas colonial ventures. It consisted of a well-organized infantry unit composed of musketeers, pikemen, and officers. The terco was known for its disciplined formations, firepower, and versatility in combat. Musketeers armed with matchlock firearms provided ranged support, while pikemen wielding long spears defended against enemy charges. The terço's effectiveness was demonstrated in various conflicts, including battles in Asia, Africa, and South America. The Portuguese terco played a significant role in expanding and maintaining Portuguese influence overseas, representing a formidable military force during the time of their empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_STRATEGY">
+			<Text>The Portuguese Terco is the Otomo clan unique unit, replacing the Musketman. This Unit is stronger in combat than the Musketman and fights at a higher strength against mounted units. It is also available at Theology, significantly earlier than Gunpowder. However, the Portuguese Terco is more expensive to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_HELP">
+			<Text>Dominant military Unit that is strong against Melee units, but weak against Archers. Only the Otomo clan may build it. This Unit is available in the Technology Tree earlier and has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as a Bonus vs Mounted promotion. However it is also more expensive to build.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY">
 			<Text>Light Cavalry</Text>
 		</Row>
@@ -145,6 +157,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_HELP">
 			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ESCALADERS">
+			<Text>Escaladers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ESCALADERS_TEXT">
+			<Text>The use of siege ladders was a common tactic employed in warfare to breach the fortified walls of Japanese cities during various periods of history. In feudal Japan, when attacking a well-defended city, invading forces would often utilize siege ladders as an effective means to scale the walls and gain entry into the city. Siege ladders were typically long, portable wooden structures with rungs or steps that could be propped against the walls to allow warriors to climb and enter the city. These ladders were often accompanied by other siege weapons, such as battering rams or catapults, to weaken the defenses and create openings for the attacking forces. The use of siege ladders required careful planning, coordination, and often involved fierce and intense fighting as defenders sought to repel the invaders from breaching their city walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ESCALADERS_STRATEGY">
+			<Text>Use Escaladers to knock down the defenses of a city. They have the Cover I promotion to keep them safe from ranged units; attack them with melee units to defeat them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ESCALADERS_HELP">
+			<Text>Siege unit deadly at melee attacks versus cities.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -6,19 +6,19 @@
 			<Text>Unwavering Loyalty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU">
-			<Text>This trait has no effect. (something to do with discipline / loyalty)</Text>
+			<Text>+15% [ICON_GREAT_GENERAL] Great General [ICON_STRENGTH] Combat Strength bonus and +50% Spawn Rate. Tiles claimed by a Citadel's Culture Bomb grants an immediate boost of [ICON_PEACE] Faith, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold (doubled if tiles owned by another civilization).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO_SHORT">
-			<Text>Call of Christianity</Text>
+			<Text>European Embrace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO">
-			<Text>This trait has no effect. (something to do with religion)</Text>
+			<Text>Begins the game as the founder of [ICON_RELIGION_CHRISTIANITY] Christianity. When a City-State first converts to [ICON_RELIGION_CHRISTIANITY] Christianity, gain +40 [ICON_INFLUENCE] Influence with that City-State. +1 [ICON_PEACE] Faith, [ICON_FOOD] Food, [ICON_CULTURE] Culture from City-State Friends (doubled if Allied).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT">
 			<Text>Rising Tide</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI">
-			<Text>+1[ICON_MOVES] Movement for Embarked Units. +1[ICON_PRODUCTION] Production from Fishing Boats. +1[ICON_GOLD] Gold, +1[ICON_CULTURE] Culture, and +1[ICON_PEACE] from Sea Trade Routes.</Text>
+			<Text>+1[ICON_MOVES] Movement for Embarked Units. +1[ICON_PRODUCTION] Production from Fishing Boats. +1[ICON_GOLD] Gold, +1[ICON_CULTURE] Culture, and +1[ICON_PEACE] Faith from Sea [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE_SHORT">
 			<Text>Warlord of Shikoku</Text>

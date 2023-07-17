@@ -20,6 +20,24 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_TITLE">
 			<Text>Daimyo</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_FINISHER">
+			<Text>Tradition (Finisher)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ORGANIZATION_FINISHER">
+			<Text>Organization (Finisher)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_UPRISING_FINISHER">
+			<Text>Uprising (Finisher)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DEVOTION_FINISHER">
+			<Text>Devotion (Finisher)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BUSHIDO_FINISHER">
+			<Text>Bushido (Finisher)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_DIPLOMACY_FINISHER">
+			<Text>Diplomacy (Finisher)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION">
 			<Text>Organization</Text>
 		</Row>
@@ -216,7 +234,7 @@
 			<Text>Shinto Precepts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_SHINTO_PRECEPTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shinto Precepts[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_3] Happiness from each Magistrate Office. Build Magistrate Offices in half the usual time.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shinto Precepts[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from each Magistrate Office. Build Magistrate Offices in half the usual time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING">
 			<Text>Uprising</Text>
@@ -297,25 +315,25 @@
 			<Text>Mendicant Orders</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mendicant Orders[ENDCOLOR][NEWLINE]Temples and Cathedrals increase a city's [ICON_GOLD] Gold output by 15%. Shrines, Temples, and Cathedrals provide +1 [ICON_GOLD].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Mendicant Orders[ENDCOLOR][NEWLINE]Temples and Cathedrals increase a city's [ICON_GOLD] Gold output by 15%. Shrines, Temples, and Cathedrals provide +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_MENDICANT_ORDERS_PEDIA">
 			<Text>Mendicant orders were religious orders that emerged in the High Middle Ages in Europe, characterized by their commitment to poverty and itinerant preaching. The two most prominent mendicant orders were the Franciscans, founded by St. Francis of Assisi, and the Dominicans, founded by St. Dominic de Guzmán. These orders rejected the accumulation of wealth and property, relying on alms and donations for their sustenance. The Franciscans emphasized humility, charity, and closeness to nature, while the Dominicans focused on preaching, education, and combating heresy through intellectual pursuits. Mendicant friars traveled from place to place, preaching the Gospel, providing spiritual guidance, and engaging in acts of charity. They played a significant role in the religious, social, and intellectual life of medieval Europe, appealing to many with their active engagement in the world and their contributions to education and scholarship. Today, mendicant orders continue to exist, upholding their traditions of poverty, preaching, and service to the community.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE">
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES">
 			<Text>Holy Scripture</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE_HELP">
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Holy Scripture[ENDCOLOR][NEWLINE]+15% [ICON_RESEARCH] Science and [ICON_PEACE] Faith from Libraries and Universities.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURE_PEDIA">
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_HOLY_SCRIPTURES_PEDIA">
 			<Text>Holy scripture holds a central and revered position in Christianity. Christians consider the Bible, composed of the Old Testament and the New Testament, as the inspired and authoritative word of God. The Old Testament contains the sacred writings of the Hebrew Bible, encompassing religious history, moral teachings, and prophetic messages. The New Testament focuses on the life, teachings, death, and resurrection of Jesus Christ, as well as the early Christian community and its teachings. Christians believe that the scriptures reveal God's nature, purposes, and instructions for humanity's relationship with Him. The Bible serves as a guide for faith, morality, and spiritual growth, and its study, interpretation, and application are fundamental to Christian worship, doctrine, and ethical frameworks across denominations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE">
 			<Text>European Trade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]European Trade[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. +3 [ICON_PRODUCTION] Production in Coastal Cities. +100% [ICON_PRODUCTION] Production when building Harbors and Seaports.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]European Trade[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. +3 [ICON_PRODUCTION] Production in Coastal Cities. Build Harbors and Seaports in half the usual time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_EUROPEAN_TRADE_PEDIA">
 			<Text>Portuguese traders, led by explorers such as Fernão Mendes Pinto, arrived in Japan in the mid-16th century, primarily seeking valuable goods such as silver and silk. They established trade relationships with various regional daimyo (feudal lords), contributing to the growth of commerce and introducing firearms and Western technology. However, as political instability and conflict escalated, European traders faced challenges navigating the shifting alliances and power struggles among the Japanese warlords. The arrival of European missionaries and the spread of Christianity further complicated the trade dynamic. Ultimately, the shogunate implemented restrictions on Christianity and foreign influence, leading to a decline in European trade until the period of isolation that followed in the early 17th century.</Text>

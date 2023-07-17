@@ -35,6 +35,12 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_STRATEGY">
 			<Text>The Magistrate Office reduces the unhappiness in your Cities due to Distress and Poverty, helping you manage the happiness of your clan. It is also vital to establish Magistrate Offices quickly in cities you capture, especially if you're intent upon conquering a bunch of them.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_GRANARY_HELP">
+			<Text>40% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_GRANARY_STRATEGY">
+			<Text>The Granary decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 40%. Build Granaries in cities that you want to grow large over time.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY">
 			<Text>Rice Paddy</Text>
 		</Row>
@@ -54,10 +60,16 @@
 			<Text>During feudal Japan, sake dens, also known as "Izakaya", played an important role in the social fabric of Japanese society. These establishments originated as humble sake breweries but evolved into gathering places where locals would come to enjoy sake and camaraderie. In a time of strict social hierarchies and rigid class divisions, sakaya provided a space where people from different walks of life could intermingle, share stories, and forge connections. Sake dens often became popular meeting spots for samurai, merchants, artists, and commoners alike, fostering a sense of community and relaxation amidst the demands of feudal life. The sakaya owners, known as "sakanaya," acted as both brewers and hosts, carefully selecting and serving a range of sake to cater to different tastes. These sake dens became cultural hubs, nurturing the arts and serving as venues for poetry recitals, performances, and intellectual discourse. With their warm ambiance, lively atmosphere, and the ever-flowing sake, sake dens in feudal Japan left an indelible mark on the social fabric and drinking culture of the time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_HELP">
-			<Text>City must have 5 [ICON_CITIZEN] Population. Maximum 3 Sake Dens may be built in your clan. In addition to the [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness effects, the Sake Den provides 1 additional Spy for your clan.</Text>
+			<Text>City must have 5 [ICON_CITIZEN] Population. Maximum 3 Sake Dens may be built in your clan. -1 [ICON_HAPPINESS_3] Unhappiness from Boredom. In addition to the [ICON_GOLD] Gold, the Sake Den provides 1 additional Spy for your clan.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_STRATEGY">
 			<Text>The Sake Den is an incredibly strong building, boosting a City's [ICON_GOLD] Gold generation, [ICON_HAPPINESS_1] Happiness, and allowing recruitment of spies for your clan. Build Sake Dens in your strongest cities and combine them with other Gold-generation cities to fund your armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SHRINE_HELP">
+			<Text>+1 [ICON_PEACE] Faith for every 5 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SHRINE_STRATEGY">
+			<Text>The Shrine increases the [ICON_PEACE] Faith output of the city, speeding up the rate at which you can spread religions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL">
 			<Text>Ninjutsu School</Text>
@@ -71,6 +83,18 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_STRATEGY">
 			<Text>An important National Wonder for improving your clan's espionage abilities. The Ninjutsu School provides two additional spies, and levels up all your existing spies. Your clan must have built 3 Sake Dens before constructing the Ninjutsu School.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE">
+			<Text>Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_PEDIA">
+			<Text>Castles played a crucial role in the military and political landscape of the time. Built primarily during the late 15th to the 17th century, these castles served as the centers of power for feudal lords, providing defensive capabilities, administrative functions, and symbolizing the lord's authority. Japanese castles often featured multi-tiered structures with walls and moats, designed to withstand sieges and attacks. The main keep, or "tenshu," was the central structure where the lord resided and from which strategic operations were conducted. The castles incorporated elements of traditional Japanese architecture, such as curved roofs, sliding doors, and gardens, while also adopting defensive innovations like stone walls and towers. Some famous examples of Japanese castles include Himeji Castle, Matsumoto Castle, and Osaka Castle, showcasing the architectural and cultural significance of these feudal fortifications.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_HELP">
+			<Text>City must have Walls. -1 [ICON_HAPPINESS_3] from Distress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_STRATEGY">
+			<Text>The Castle is a Sengoku-era building which increases the city's Defensive Strength by 10 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL">
 			<Text>Citadel</Text>
 		</Row>
@@ -78,10 +102,10 @@
 			<Text>A citadel is a fortified stronghold or a fortified area within a city or town that serves as a defensive structure and a symbol of authority. Citadels have a long history dating back to ancient civilizations, where they were strategically positioned to provide protection against external threats and control over a region. These fortified complexes typically feature high walls, strong gates, and towers for surveillance and defense. Citadels often housed important government or military institutions, such as palaces, barracks, or administrative buildings. Throughout history, citadels played a crucial role in safeguarding territories, providing refuge for inhabitants during times of conflict, and asserting control over a region. They have become iconic landmarks and historical sites, representing the strength and resilience of civilizations from the past. Today, many citadels have been preserved or transformed into museums, offering visitors a glimpse into the military, political, and cultural heritage of the time periods in which they were built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP">
-			<Text></Text>
+			<Text>City must have a Castle. -1 [ICON_HAPPINESS_3] from Distress. Cities gain Indirect Fire, allowing them to fire over obstacles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_STRATEGY">
-			<Text></Text>
+			<Text>The Castle is a Late Sengoku-era building which increases the city's Defensive Strength by 10 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE">
 			<Text>Tea House</Text>
@@ -90,10 +114,10 @@
 			<Text>Tea houses, known as "chashitsu" or "ochaya," have a rich history in feudal Japan as serene retreats dedicated to the art of tea ceremony and the appreciation of matcha, powdered green tea. Originating from Zen Buddhism, tea houses became important spaces for contemplation, tranquility, and social interaction. These elegant establishments were often nestled in carefully manicured gardens or scenic locations, providing a serene environment that reflected the principles of harmony and simplicity. Tea masters, known as "chajin," meticulously crafted the tea house's design, incorporating elements of traditional architecture and aesthetics. The tea ceremony, conducted with grace and precision, became a symbol of hospitality and refined manners. Tea houses became gathering places for intellectuals, samurai, and cultural elites, fostering discussions on philosophy, art, and poetry. With their focus on mindfulness, tea houses in feudal Japan provided an oasis of calm in a bustling world, serving as sanctuaries where the appreciation of tea became a pathway to inner peace and connection with others.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_HELP">
-			<Text></Text>
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Boredom. +10% [ICON_CULTURE] Culture in this City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_STRATEGY">
-			<Text></Text>
+			<Text>The Tea House reduces Boredom in a City and improves the Culture output of the City. Build these when you want to help combat Unhappiness from Boredom and research Social Policies faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER">
 			<Text>Noh Theater</Text>
@@ -102,10 +126,10 @@
 			<Text>Noh theater, a traditional form of Japanese performing arts, holds a rich historical significance in feudal Japan. Developed during the 14th century, Noh theater became an integral part of courtly culture and the entertainment of the aristocracy. The theater itself, known as a "Noh stage" or "Nohgakudo," embodied a unique blend of simplicity and elegance. Constructed with natural materials, the stage featured a distinctive structure adorned with intricate woodwork and painted backdrops. Noh theaters were often found within the premises of shrines, temples, or feudal lord residences. These venues served as hallowed spaces for performances that combined music, dance, and poetic dialogue to convey stories rooted in mythology, folklore, and historical events. Noh theater also provided a platform for skilled actors, musicians, and chorus members to showcase their talents and artistic prowess. With its deep symbolism and spiritual undertones, Noh theater offered audiences a profound and contemplative experience, exploring themes of beauty, impermanence, and the human condition. In feudal Japan, Noh theaters stood as cultural sanctuaries, preserving and propagating the captivating artistry and poetic depth of this timeless theatrical tradition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_HELP">
-			<Text></Text>
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Boredom.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_STRATEGY">
-			<Text></Text>
+			<Text>The Noh Theater reduces Boredom in a City and improves its Culture output. Build these when you want to help combat Unhappiness from Boredom and research Social Policies faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY">
 			<Text>Sumo Wrestling Tourney</Text>
@@ -114,7 +138,7 @@
 			<Text>A sumo wrestling tournament, known as a "basho," is a highly anticipated and traditional event in Japan, showcasing the ancient sport of sumo wrestling. These tournaments take place several times throughout the year in major cities such as Tokyo, Osaka, and Nagoya. The basho lasts for 15 days, with wrestlers, or "rikishi," from various sumo stables competing against each other in a round-robin format. Each day of the tournament features exciting matches between the rikishi, who strive to push, throw, or force their opponents out of the circular ring, called a "dohyo." The top-ranked wrestlers, known as "yokozuna," attract particular attention and have a special status in the sport. Sumo tournaments are steeped in tradition, with rituals, ceremonies, and distinctive customs that accompany the matches. The atmosphere in the venue is electrifying, with spectators cheering for their favorite rikishi and immersing themselves in the unique cultural experience of sumo. Attending a sumo wrestling tournament offers a captivating glimpse into the ancient Japanese sport, its rituals, and the incredible strength and technique displayed by the sumo wrestlers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_HELP">
-			<Text></Text>
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Boredom. When completed in a City, it automatically begins a "We Love the King Day!" for 10 turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_STRATEGY">
 			<Text></Text>
@@ -138,7 +162,7 @@
 			<Text>Horyu-ji, located in Nara, Japan, is a Buddhist temple complex that holds immense historical and cultural significance. Founded in the early 7th century, Horyu-ji is one of the oldest wooden structures in the world and stands as a testament to the architectural and artistic achievements of ancient Japan. The temple complex consists of several buildings, including the iconic five-story pagoda and the main hall, known as the Golden Hall or Kondo. These structures showcase the distinct architectural style of the Asuka period, characterized by intricate wood carvings, ornate roof tiles, and the use of traditional building techniques. Horyu-ji also houses a vast collection of Buddhist artifacts, including statues, scriptures, and relics, many of which are considered national treasures or important cultural properties.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_HELP">
-			<Text></Text>
+			<Text>Provides a free Shrine in all Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE]</Text>
@@ -174,7 +198,7 @@
 			<Text>Kasuga Taisha, located in Nara, Japan, is a renowned Shinto shrine that holds deep historical and cultural significance. Established in the 8th century, it is dedicated to the deities of Kasuga Shrine, known as the guardian gods of the Fujiwara clan, a powerful family during the Heian period. Kasuga Taisha is known for its striking vermilion-colored buildings and numerous stone lanterns that line the paths leading to the shrine. The shrine's architectural style, called Kasuga-zukuri, is characterized by its intricate wooden structures and the use of cypress bark on the roofs. Kasuga Taisha is also surrounded by a picturesque forest, known as Kasugayama Primeval Forest, which is considered sacred and has been designated as a UNESCO World Heritage site. The shrine plays a significant role in the local community and hosts several festivals throughout the year, including the Setsubun Mantoro festival where lanterns are illuminated, creating a magical atmosphere. Kasuga Taisha stands as a testament to the enduring traditions and spiritual reverence of Shintoism in Japan, attracting visitors from around the world who come to appreciate its architectural beauty, serene ambiance, and rich cultural heritage.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP">
-			<Text></Text>
+			<Text>Receive +25 [ICON_GOLD] Gold when purchasing units and buildings with [ICON_PEACE] Faith. -1 [ICON_HAPPINESS_3] Unrest from Religious Unrest in all Cities. Provides a free Shrine in the city in which it was built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
@@ -186,7 +210,7 @@
 			<Text>Omotesenke is one of the three main schools or "ryuha" of the Japanese tea ceremony, a centuries-old tradition of preparing and serving matcha, powdered green tea. Established in the 17th century by Sen Sotan, Omotesenke emphasizes the beauty of simplicity and the concept of "wabi-sabi," appreciating the beauty in imperfection and transience. The school focuses on creating a serene and harmonious atmosphere during the tea ceremony, with meticulous attention to details such as tea utensils, tea rooms, and the art of tea preparation itself. Omotesenke's teachings and philosophy have been passed down through generations, shaping the way participants engage in the tea ceremony and fostering an appreciation for the essence of Japanese aesthetics and culture. Today, Omotesenke continues to play a significant role in preserving and promoting the art of the tea ceremony, enriching the lives of those who partake in this ancient and revered tradition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_HELP">
-			<Text></Text>
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Boredom in every City. A free Tea House appears in this City. +50 [ICON_PEACE] Faith when a new Citizen is born in this City (scaling with era).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>

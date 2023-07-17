@@ -1662,16 +1662,109 @@
 	</Civilization_FreeBuildingClasses>
 	<Civilization_UnitClassOverrides>
 		<Row>
-			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
-			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
-			<UnitType />
+			<CivilizationType>CIVILIZATION_OTOMO</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_OTOMO_PORTUGUESE_TERCO</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTOMO</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTOMO</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHOSOKABE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHOSOKABE</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MORI</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MORI</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TAKEDA</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HOJO</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UESUGI</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DATE</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
-			<UnitClassType>UNITCLASS_INQUISITOR</UnitClassType>
-			<UnitType />
+			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
-	</Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_IKKO_IKKI</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IMAGAWA</CivilizationType>
+			<TechType>TECH_BUSHIDO</TechType>
+		</Row>
+	</Civilization_FreeTechs>
 	<Civilization_Leaders>
 		<Row>
 			<CivilizationType>CIVILIZATION_SHIMAZU</CivilizationType>

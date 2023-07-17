@@ -2,7 +2,6 @@
 <!-- Created by ModBuddy on 7/8/2023 11:24:56 AM -->
 <GameData>
 	<Beliefs>
-		<Delete />
 		<Row>
 			<ID>0</ID>
 			<Type>BELIEF_ANCESTOR_WORSHIP</Type>
@@ -108,7 +107,24 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<PerXFollowers>3</PerXFollowers>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_KAMI</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<PerXFollowers>4</PerXFollowers>
+		</Row>
 	</Belief_YieldPerXFollowers>
+	<Belief_YieldChangeWorldWonder>
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<YieldType>BELIEF_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<YieldType>BELIEF_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_YieldChangeWorldWonder>
 	<Belief_MaxYieldModifierPerFollower>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_COMMUNITY</BeliefType>
@@ -144,6 +160,18 @@
 			<EraType>ERA_LATE_SENGOKU</EraType>
 		</Row>
 	</Belief_EraFaithUnitPurchase>
+	<Belief_YieldFromSpread>
+		<Row>
+			<BeliefType>BELIEF_PAPAL_PRIMACY</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_PAPAL_PRIMACY</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Belief_YieldFromSpread>
 	<Religions>
 		<Delete />
 		<Row>

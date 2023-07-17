@@ -278,7 +278,7 @@
 			<Type>BUILDING_MAGISTRATE_OFFICE</Type>
 			<BuildingClass>BUILDINGCLASS_MAGISTRATE_OFFICE</BuildingClass>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
-			<Cost>100</Cost>
+			<Cost>200</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_PEDIA</Civilopedia>
@@ -286,8 +286,8 @@
 			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
 			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
 			<BuildAnywhere>true</BuildAnywhere>
-			<PovertyFlatReduction>-1</PovertyFlatReduction>
-			<DistressFlatReduction>-1</DistressFlatReduction>
+			<PovertyFlatReduction>1</PovertyFlatReduction>
+			<DistressFlatReduction>1</DistressFlatReduction>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -298,13 +298,14 @@
 			<Type>BUILDING_GRANARY</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-			<Cost>60</Cost>
-			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
+			<Cost>80</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_GRANARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GRANARY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_GRANARY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<FoodKept>40</FoodKept>
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -315,7 +316,7 @@
 			<Type>BUILDING_RICE_PADDY</Type>
 			<BuildingClass>BUILDINGCLASS_RICE_PADDY</BuildingClass>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-			<Cost>75</Cost>
+			<Cost>100</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_RICE_PADDY_PEDIA</Civilopedia>
@@ -331,7 +332,7 @@
 			<Type>BUILDING_SAKE_DEN</Type>
 			<BuildingClass>BUILDINGCLASS_SAKE_DEN</BuildingClass>
 			<PrereqTech>TECH_NINJUTSU</PrereqTech>
-			<Cost>100</Cost>
+			<Cost>250</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SAKE_DEN_PEDIA</Civilopedia>
@@ -339,7 +340,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PAPER_MAKER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<LocalPopRequired>5</LocalPopRequired>
-			<Happiness>1</Happiness>
+			<BoredomFlatReduction>1</BoredomFlatReduction>
 			<ExtraSpies>1</ExtraSpies>
 			<NeverCapture>true</NeverCapture>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -350,12 +351,13 @@
 			<Type>BUILDING_TEA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_TEA_HOUSE</BuildingClass>
 			<PrereqTech>TECH_TEA_CEREMONY</PrereqTech>
-			<Cost>100</Cost>
+			<Cost>125</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEA_HOUSE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_PAPER_MAKER</ArtDefineTag>
+			<BoredomFlatReduction>1</BoredomFlatReduction>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -366,11 +368,12 @@
 			<Type>BUILDING_NOH_THEATER</Type>
 			<BuildingClass>BUILDINGCLASS_NOH_THEATER</BuildingClass>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
-			<Cost>100</Cost>
+			<Cost>200</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_NOH_THEATER_STRATEGY</Strategy>
+			<BoredomFlatReduction>1</BoredomFlatReduction>
 			<ArtDefineTag>ART_DEF_BUILDING_PAPER_MAKER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
@@ -382,11 +385,13 @@
 			<Type>BUILDING_SUMO_TOURNEY</Type>
 			<BuildingClass>BUILDINGCLASS_SUMO_TOURNEY</BuildingClass>
 			<PrereqTech>TECH_DOHYO</PrereqTech>
-			<Cost>100</Cost>
+			<Cost>300</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_STRATEGY</Strategy>
+			<BoredomFlatReduction>1</BoredomFlatReduction>
+			<WLTKDTurns>10</WLTKDTurns>
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
@@ -485,6 +490,7 @@
 			<Description>TXT_KEY_BUILDING_SHRINE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SHRINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_SHRINE_HELP</Help>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<ConquestProb>66</ConquestProb>
 			<MinAreaSize>-1</MinAreaSize>
@@ -679,18 +685,37 @@
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_WALLS</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Cost>150</Cost>
+			<Help>TXT_KEY_BUILDING_WALLS_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_WALLS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_WALLS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
 			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
-			<Cost>160</Cost>
-			<Help>TXT_KEY_BUILDING_CASTLE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_CASTLE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CASTLE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CASTLE_STRATEGY</Strategy>
+			<Cost>300</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_STRATEGY</Strategy>
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>700</Defense>
+			<DistressFlatReduction>1</DistressFlatReduction>
+			<Defense>1000</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
@@ -703,15 +728,16 @@
 			<Type>BUILDING_CITADEL</Type>
 			<BuildingClass>BUILDINGCLASS_CITADEL</BuildingClass>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
-			<Cost>160</Cost>
+			<Cost>600</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_STRATEGY</Strategy>
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>700</Defense>
+			<DistressFlatReduction>1</DistressFlatReduction>
+			<CityIndirectFire>true</CityIndirectFire>
+			<Defense>1000</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
@@ -827,12 +853,13 @@
 		<Row>
 			<Type>BUILDING_HORYUJI</Type>
 			<BuildingClass>BUILDINGCLASS_HORYUJI</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>200</Cost>
 			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_QUOTE</Quote>
+			<FreeBuilding>BUILDINGCLASS_SHRINE</FreeBuilding>
 			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -842,6 +869,28 @@
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
 			<WonderSplashImage>horyujisplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_KASUGA_TAISHA</Type>
+			<BuildingClass>BUILDINGCLASS_KASUGA_TAISHA</BuildingClass>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
+			<Cost>200</Cost>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE</Quote>
+			<ReligiousUnrestFlatReductionGlobal>1</ReligiousUnrestFlatReductionGlobal>
+			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
 		</Row>
@@ -888,31 +937,10 @@
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
 		</Row>
 		<Row>
-			<Type>BUILDING_KASUGA_TAISHA</Type>
-			<BuildingClass>BUILDINGCLASS_KASUGA_TAISHA</BuildingClass>
-			<PrereqTech>TECH_MYSTICISM</PrereqTech>
-			<Cost>500</Cost>
-			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP</Help>
-			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA</Description>
-			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_PEDIA</Civilopedia>
-			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE</Quote>
-			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<DisplayPosition>2</DisplayPosition>
-			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>12</PortraitIndex>
-			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
-			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
-		</Row>
-		<Row>
 			<Type>BUILDING_OMOTESENKE</Type>
 			<BuildingClass>BUILDINGCLASS_OMOTESENKE</BuildingClass>
 			<PrereqTech>TECH_TEA_CEREMONY</PrereqTech>
-			<Cost>500</Cost>
+			<Cost>250</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_PEDIA</Civilopedia>
@@ -920,6 +948,8 @@
 			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
+			<BoredomFlatReductionGlobal>1</BoredomFlatReductionGlobal>
+			<FreeBuildingThisCity>BUILDINGCLASS_TEA_HOUSE</FreeBuildingThisCity>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<DisplayPosition>2</DisplayPosition>
@@ -1046,6 +1076,13 @@
 			<NumUnits>1</NumUnits>
 		</Row>
 	</Building_FreeUnits>
+	<Building_YieldFromFaithPurchase>
+		<Row>
+			<BuildingType>BUILDING_KASUGA_TAISHA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldFromFaithPurchase>
 	<Building_ResourceYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
@@ -1104,6 +1141,31 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KASUGA_TAISHA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEA_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SAKE_DEN</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
@@ -1123,7 +1185,29 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOH_THEATER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUMO_TOURNEY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OMOTESENKE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
 	</Building_YieldChanges>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_SAKE_DEN</BuildingType>
@@ -1133,6 +1217,11 @@
 		<Row>
 			<BuildingType>BUILDING_RICE_PADDY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEA_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>10</Yield>
 		</Row>
 	</Building_YieldModifiers>
@@ -1155,4 +1244,11 @@
 			<NumBuildingNeeded>3</NumBuildingNeeded>
 		</Row>
 	</Building_PrereqBuildingClasses>
+	<Building_YieldFromBirth>
+		<Row>
+			<BuildingType>BUILDING_OMOTESENKE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldFromBirth>
 </GameData>

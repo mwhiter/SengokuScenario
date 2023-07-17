@@ -83,6 +83,11 @@
 			<DefaultUnit>UNIT_MUSKETMAN</DefaultUnit>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_ESCALADERS</Type>
+			<Description>TXT_KEY_UNIT_ESCALADERS</Description>
+			<DefaultUnit>UNIT_ESCALADERS</DefaultUnit>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_CANNON</Type>
 			<Description>TXT_KEY_UNIT_CANNON</Description>
 			<DefaultUnit>UNIT_CANNON</DefaultUnit>
@@ -563,6 +568,35 @@
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Type>UNIT_OTOMO_PORTUGUESE_TERCO</Type>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Combat>14</Combat>
+			<Cost>100</Cost>
+			<FaithCost>200</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_STRATEGY</Strategy>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_UNIT_OTOMO_PORTUGUESE_TERCO_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_SPANISH_TERCIO</UnitArtInfo>
+			<IconAtlas>DLC02_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_MUSKETMAN</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<Combat>12</Combat>
@@ -655,12 +689,11 @@
 			<Type>UNIT_ATAKEBUNE</Type>
 			<PrereqTech>TECH_SUIEUJUTSU</PrereqTech>
 			<Combat>30</Combat>
-			<RangedCombat>12</RangedCombat>
 			<Cost>120</Cost>
 			<Moves>4</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
 			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_ATAKEBUNE</Description>
@@ -712,6 +745,35 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_ESCALADERS</Class>
+			<Type>UNIT_ESCALADERS</Type>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>125</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ESCALADERS</Description>
+			<Civilopedia>TXT_KEY_UNIT_ESCALADERS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ESCALADERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ESCALADERS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CHEMISTRY</ObsoleteTech>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_HUNS_BATTERING_RAM</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CANNON</Class>
@@ -867,7 +929,8 @@
 			<PortraitIndex>16</PortraitIndex>
 			<MoveRate>GREAT_PERSON</MoveRate>
 		</Row>
-	</Units>
+	
+</Units>
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_SETTLER</UnitType>
@@ -928,6 +991,30 @@
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>OTOMO_PORTUGUESE_TERCO</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>OTOMO_PORTUGUESE_TERCO</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>OTOMO_PORTUGUESE_TERCO</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KATANA_ASHIGARU</UnitType>
@@ -1150,223 +1237,6 @@
 			<BuildType>BUILD_HOLY_SITE</BuildType>
 		</Row>
 	</Unit_Builds>
-	<Unit_Flavors>
-		<Row>
-			<UnitType>UNIT_SETTLER</UnitType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>21</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WORKER</UnitType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WORKBOAT</UnitType>
-			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVAN</UnitType>
-			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVAN</UnitType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARGO_SHIP</UnitType>
-			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARGO_SHIP</UnitType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SCOUT</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_YARI_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_YARI_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_YARI_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_YARI_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MUSKETMAN</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MUSKETMAN</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_MONK</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_MONK</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KATANA_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KATANA_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KATANA_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KATANA_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_ASHIGARU</UnitType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_SAMURAI</UnitType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_KOBAYA</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOW_KOBAYA</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BUNE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BUNE</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ATAKEBUNE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>24</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_WORKBOAT</UnitType>
@@ -1412,6 +1282,51 @@
 			<UnitType>UNIT_KATANA_SAMURAI</UnitType>
 			<PromotionType>PROMOTION_CITY_ATTACK_BONUS</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESCALADERS</UnitType>
+			<PromotionType>PROMOTION_ONLY_ATTACKS_CITIES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
 			<PromotionType>PROMOTION_ANTI_MELEE_I</PromotionType>
@@ -1419,6 +1334,18 @@
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
 			<PromotionType>PROMOTION_ANTI_WARRIOR_MONK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTOMO_PORTUGUESE_TERCO</UnitType>
+			<PromotionType>PROMOTION_ANTI_MELEE_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTOMO_PORTUGUESE_TERCO</UnitType>
+			<PromotionType>PROMOTION_ANTI_WARRIOR_MONK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTOMO_PORTUGUESE_TERCO</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
