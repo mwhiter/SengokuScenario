@@ -317,7 +317,7 @@
 			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<FaithCostModifier>-20</FaithCostModifier>
-			<ExtraMissionarySpreads>2</ExtraMissionarySpreads>
+			<ExtraMissionarySpreads>1</ExtraMissionarySpreads>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>

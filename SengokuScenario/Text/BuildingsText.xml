@@ -30,10 +30,13 @@
 			<Text>In feudal Japan, a magistrate's office, known as "bugyosho" or "machiya," held a vital role in the governance and administration of local regions. These offices served as centers of authority, where magistrates, or "bugyo," carried out their duties of enforcing the law, resolving disputes, and maintaining order. Situated in prominent locations within towns or cities, magistrate's offices were often imposing structures designed to convey a sense of power and authority. Within their walls, magistrates presided over court hearings, issued judgments, and oversaw the daily affairs of their jurisdiction. These offices also provided a platform for citizens to voice their concerns, seek justice, and present petitions. Magistrate's offices became hubs of social interaction, where community members would gather to witness trials, engage in negotiations, and participate in local governance. Through their administration of justice and the exercise of power, magistrate's offices played a crucial role in maintaining law and order, resolving conflicts, and upholding societal harmony in feudal Japan.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_HELP">
-			<Text>-1 [ICON_HAPPINESS_3] from Distress and Poverty.[NEWLINE][NEWLINE]When built in an [ICON_OCCUPIED] Occupied City, also eliminates extra [ICON_HAPPINESS_3] Unhappiness.</Text>
+			<Text>-1 [ICON_HAPPINESS_3] from Distress and Poverty.[NEWLINE][NEWLINE]Also eliminates extra [ICON_HAPPINESS_3] Unhappiness from an [ICON_OCCUPIED] Occupied City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE_STRATEGY">
 			<Text>The Magistrate Office reduces the unhappiness in your Cities due to Distress and Poverty, helping you manage the happiness of your clan. It is also vital to establish Magistrate Offices quickly in cities you capture, especially if you're intent upon conquering a bunch of them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_WATERMILL_HELP">
+			<Text>City must be built next to a River.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_GRANARY_HELP">
 			<Text>40% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
@@ -71,6 +74,12 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SHRINE_STRATEGY">
 			<Text>The Shrine increases the [ICON_PEACE] Faith output of the city, speeding up the rate at which you can spread religions.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEMPLE_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Religious Unrest in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_TEMPLE_STRATEGY">
+			<Text>The Temple increases the peace Faith of a city, speeding up the rate at which you can found and spread religions. The city must contain a Shrine before the Temple can be constructed.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL">
 			<Text>Ninjutsu School</Text>
 		</Row>
@@ -83,6 +92,27 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_STRATEGY">
 			<Text>An important National Wonder for improving your clan's espionage abilities. The Ninjutsu School provides two additional spies, and levels up all your existing spies. Your clan must have built 3 Sake Dens before constructing the Ninjutsu School.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_LIGHTHOUSE_HELP">
+			<Text>+1 [ICON_FOOD] Food from Coast and Ocean Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_LIGHTHOUSE_STRATEGY">
+			<Text>The Lighthouse can only be constructed in a city next to a coastal tile. It increases the [ICON_FOOD] Food output of water tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_HARBOR_HELP">
+			<Text>+1 [ICON_GOLD] Gold from Coast and Ocean Tiles. Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_HARBOR_STRATEGY">
+			<Text>The Harbor improves the range and [ICON_GOLD] Gold yield of sea trade routes and tiles. It allows "water city connections" (see rules) between cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SEAPORT_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Sea Resources worked by this City. +20% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]City must be built on the coast and have a Harbor built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SEAPORT_STRATEGY">
+			<Text>A Seaport increases the [ICON_PRODUCTION] Production output of an improved sea resource, and the speed at which naval units are built in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_WALLS_STRATEGY">
+			<Text>Walls increase the City's [ICON_STRENGTH] Combat Strength and Hit Points, making it more difficult to capture. -5% Needs Modifier from Empire size. Walls are quite useful for cities located along a frontier.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE">
 			<Text>Castle</Text>
 		</Row>
@@ -90,10 +120,10 @@
 			<Text>Castles played a crucial role in the military and political landscape of the time. Built primarily during the late 15th to the 17th century, these castles served as the centers of power for feudal lords, providing defensive capabilities, administrative functions, and symbolizing the lord's authority. Japanese castles often featured multi-tiered structures with walls and moats, designed to withstand sieges and attacks. The main keep, or "tenshu," was the central structure where the lord resided and from which strategic operations were conducted. The castles incorporated elements of traditional Japanese architecture, such as curved roofs, sliding doors, and gardens, while also adopting defensive innovations like stone walls and towers. Some famous examples of Japanese castles include Himeji Castle, Matsumoto Castle, and Osaka Castle, showcasing the architectural and cultural significance of these feudal fortifications.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_HELP">
-			<Text>City must have Walls. -1 [ICON_HAPPINESS_3] from Distress.</Text>
+			<Text>City must have Walls. -5% Needs Modifier from Empire size. +1 City Attack Range.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_STRATEGY">
-			<Text>The Castle is a Sengoku-era building which increases the city's Defensive Strength by 10 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.</Text>
+			<Text>The Castle is a Sengoku-era building which increases the city's Defensive Strength by 10 and Hit Points by 25. The Castle also increases a City's attack range by an additional 1 hex, making it much more effective for defending your cities from attack. The city must possess Walls before the Castle can be constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL">
 			<Text>Citadel</Text>
@@ -102,7 +132,7 @@
 			<Text>A citadel is a fortified stronghold or a fortified area within a city or town that serves as a defensive structure and a symbol of authority. Citadels have a long history dating back to ancient civilizations, where they were strategically positioned to provide protection against external threats and control over a region. These fortified complexes typically feature high walls, strong gates, and towers for surveillance and defense. Citadels often housed important government or military institutions, such as palaces, barracks, or administrative buildings. Throughout history, citadels played a crucial role in safeguarding territories, providing refuge for inhabitants during times of conflict, and asserting control over a region. They have become iconic landmarks and historical sites, representing the strength and resilience of civilizations from the past. Today, many citadels have been preserved or transformed into museums, offering visitors a glimpse into the military, political, and cultural heritage of the time periods in which they were built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP">
-			<Text>City must have a Castle. -1 [ICON_HAPPINESS_3] from Distress. Cities gain Indirect Fire, allowing them to fire over obstacles.</Text>
+			<Text>City must have a Castle. -5% Needs Modifier from Empire size. Cities gain Indirect Fire, allowing them to fire over obstacles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_STRATEGY">
 			<Text>The Castle is a Late Sengoku-era building which increases the city's Defensive Strength by 10 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.</Text>
@@ -143,6 +173,28 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_SUMO_TOURNEY_STRATEGY">
 			<Text></Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_PAGODA_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Religious Unrest. Other Religions exert 25% less Pressure in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_PAGODA_STRATEGY">
+			<Text>The Pagoda is a very strong defensive Religious building available to [ICON_RELIGION_SHINTO] Shinto clans. In addition to the [ICON_CULTURE] Culture, [ICON_PEACE] Faith, and [ICON_HAPPINESS_3] Unhappiness from Religious Unrest benefits, it reduces the spread of other Religions in this City by 25%, helping defend against the spread of other religions ([ICON_RELIGION_CHRISTIANITY] Christianity and [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CATHEDRAL_HELP">
+			<Text>-2 [ICON_HAPPINESS_3] Unhappiness from Religious Unrest. All Missionaries trained in this City can spread religion one extra time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CATHEDRAL_STRATEGY">
+			<Text>The Pagoda is a very strong defensive Religious building available to [ICON_RELIGION_SHINTO] Shinto clans. In addition to the [ICON_CULTURE] Culture, [ICON_PEACE] Faith, and [ICON_HAPPINESS_3] Unhappiness from Religious Unrest benefits, it reduces the spread of other Religions in this City by 25%, helping defend against the spread of other religions ([ICON_RELIGION_CHRISTIANITY] Christianity and [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_DESC">
+			<Text>Jodo Shinshu Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Religious Unrest. +50% religious pressure emanating from this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_STRATEGY">
+			<Text>Jodo Shinshu Temples increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output. It also increases the religious pressure of this city, allowing your religion to spread to other Cities faster.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION">
 			<Text>Golden Pavilion</Text>
 		</Row>
@@ -150,7 +202,7 @@
 			<Text>The Golden Pavilion, also known as Kinkaku-ji, is a stunning Zen Buddhist temple located in Kyoto, Japan. Renowned for its exquisite beauty and tranquil surroundings, the pavilion stands as a testament to the rich cultural heritage of Japan. Its upper two floors are covered in shimmering gold leaf, creating a breathtaking sight that reflects on the surrounding pond. Originally built as a retirement villa for a shogun in the 14th century, the Golden Pavilion has withstood the test of time, surviving fires and war to become a UNESCO World Heritage site and a beloved symbol of Japanese architecture and spirituality. Visitors from around the world come to admire its harmonious blend of natural and man-made beauty, making it a must-see destination for those seeking serenity and cultural immersion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_HELP">
-			<Text></Text>
+			<Text>+1 [ICON_HAPPINESS_1] Happiness in all Cities. [ICON_CULTURE] Culture Cost of acquiring new Policies reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"What transforms this world is knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE]</Text>
@@ -174,7 +226,7 @@
 			<Text>Hongan-ji, also known as Nishi Hongan-ji, is a prominent Buddhist temple located in Kyoto, Japan. Founded in the 16th century, it belongs to the Jodo Shinshu school of Buddhism and is considered one of the largest wooden structures in the world. The temple complex encompasses multiple buildings, including the Goei-do (Founder's Hall) and Amidado (Hall of Amida Buddha). Hongan-ji has a rich historical significance, as it played a pivotal role in the development and propagation of Jodo Shinshu Buddhism during a time of social and political upheaval in Japan. The temple has endured numerous reconstructions and fires throughout its history, showcasing the resilience and dedication of its followers. Today, Hongan-ji serves as a spiritual center and a place for Buddhist ceremonies, study, and worship. It also houses important cultural artifacts, such as ancient Buddhist scriptures and works of art. As an architectural marvel and a symbol of religious devotion, Hongan-ji continues to attract visitors from around the world, offering a glimpse into the profound teachings and cultural heritage of Jodo Shinshu Buddhism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_HELP">
-			<Text></Text>
+			<Text>Immediately starts a [ICON_GOLDEN_AGE] Golden Age. +20% [ICON_PRODUCTION] Production during [ICON_GOLDEN_AGE] Golden Ages.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE]</Text>
@@ -186,7 +238,7 @@
 			<Text>Kiyomizu-dera Temple, located in Kyoto, Japan, is an iconic and historic Buddhist temple that holds great cultural and religious significance. Founded in the 8th century, the temple is known for its impressive wooden structure, which was constructed without the use of any nails. The main hall of Kiyomizu-dera, known as the Hondo, stands on a steep hillside, offering visitors panoramic views of the surrounding city and the beautiful Otawa Waterfall below.[NEWLINE][NEWLINE]Kiyomizu-dera is a popular destination for tourists and locals alike, especially during the spring cherry blossom season and the autumn foliage season when the temple and its surrounding maple trees create a stunning display of colors. The temple complex also features various other structures and shrines, including the Jishu Shrine dedicated to love and matchmaking.[NEWLINE][NEWLINE]The temple holds deep spiritual significance for worshippers, who visit to pray for good fortune, success in their endeavors, and general well-being. Visitors can also participate in traditional rituals, such as drinking from the Otawa Waterfall, believed to have healing properties, and receiving blessings from the temple's resident priests.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_HELP">
-			<Text></Text>
+			<Text>A free Emissary appears in the City where this Wonder was built. Each [ICON_CITY_STATE] City-State Friend provides +1 [ICON_SCIENCE] Science and [ICON_PEACE] Faith in this City. +3 [ICON_SCIENCE] Science and [ICON_PEACE] Faith if Allied.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"In Kyoto,[NEWLINE]hearing the cuckoo,[NEWLINE]I long for Kyoto."[NEWLINE][TAB]- Basho[NEWLINE]</Text>
@@ -198,7 +250,7 @@
 			<Text>Kasuga Taisha, located in Nara, Japan, is a renowned Shinto shrine that holds deep historical and cultural significance. Established in the 8th century, it is dedicated to the deities of Kasuga Shrine, known as the guardian gods of the Fujiwara clan, a powerful family during the Heian period. Kasuga Taisha is known for its striking vermilion-colored buildings and numerous stone lanterns that line the paths leading to the shrine. The shrine's architectural style, called Kasuga-zukuri, is characterized by its intricate wooden structures and the use of cypress bark on the roofs. Kasuga Taisha is also surrounded by a picturesque forest, known as Kasugayama Primeval Forest, which is considered sacred and has been designated as a UNESCO World Heritage site. The shrine plays a significant role in the local community and hosts several festivals throughout the year, including the Setsubun Mantoro festival where lanterns are illuminated, creating a magical atmosphere. Kasuga Taisha stands as a testament to the enduring traditions and spiritual reverence of Shintoism in Japan, attracting visitors from around the world who come to appreciate its architectural beauty, serene ambiance, and rich cultural heritage.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_HELP">
-			<Text>Receive +25 [ICON_GOLD] Gold when purchasing units and buildings with [ICON_PEACE] Faith. -1 [ICON_HAPPINESS_3] Unrest from Religious Unrest in all Cities. Provides a free Shrine in the city in which it was built.</Text>
+			<Text>Receive +25 [ICON_GOLD] Gold when purchasing units and buildings with [ICON_PEACE] Faith. -1 [ICON_HAPPINESS_3] Unrest from Religious Unrest in every City. Provides a free Shrine in the city in which it was built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
@@ -215,14 +267,8 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE">
 			<Text>[NEWLINE][NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_DESC">
-			<Text>Jodo Shinshu Temple</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_HELP">
-			<Text>+50% religious pressure emanating from this city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MONASTERY_STRATEGY">
-			<Text>Jodo Shinshu Temples increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output. It also increases the religious pressure of this city, allowing your religion to spread to other Cities faster.</Text>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HIMEJI_CASTLE_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength for Units fighting in Friendly Territory, and +10% [ICON_STRENGTH] Combat Strength for all Cities. Increases [ICON_SILVER_FIST] Military Unit Supply Cap by 5.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

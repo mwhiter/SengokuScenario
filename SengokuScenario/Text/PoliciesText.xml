@@ -3,22 +3,22 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_TITLE">
-			<Text>Daimyo</Text>
+			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_TITLE">
-			<Text>Daimyo</Text>
+			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_TITLE">
-			<Text>Daimyo</Text>
+			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_TITLE">
-			<Text>Daimyo</Text>
+			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_TITLE">
-			<Text>Monshu</Text>
+			<Text>Monshu {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_TITLE">
-			<Text>Daimyo</Text>
+			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_FINISHER">
 			<Text>Tradition (Finisher)</Text>
@@ -222,7 +222,7 @@
 			<Text>Rites of Passage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_RITES_OF_PASSAGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Rites of Passage[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith. Missionaries receive 2 extra Spreads.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Rites of Passage[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith. Missionaries can spread religion one extra time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_ANCESTOR_WORSHIP">
 			<Text>Ancestor Worship</Text>

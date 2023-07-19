@@ -575,10 +575,6 @@
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DOHYO</TechType>
-			<PrereqTech>TECH_COMPASS</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 		</Row>
@@ -614,10 +610,6 @@
 		<Row>
 			<TechType>TECH_NINJUTSU</TechType>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_BAJUTSU</TechType>
-			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BAJUTSU</TechType>

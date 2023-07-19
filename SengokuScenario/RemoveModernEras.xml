@@ -841,23 +841,23 @@
 		</Update>
 		<Update>
 			<Where Type="RESOURCE_COAL"/>
-			<Set TechReveal="" TechCityTrade=""/>
+			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>
 		</Update>
 		<Update>
 			<Where Type="RESOURCE_OIL"/>
-			<Set TechReveal="" TechCityTrade=""/>
+			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>
 		</Update>
 		<Update>
 			<Where Type="RESOURCE_ALUMINUM"/>
-			<Set TechReveal="" TechCityTrade=""/>
+			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>
 		</Update>
 		<Update>
 			<Where Type="RESOURCE_URANIUM"/>
-			<Set TechReveal="" TechCityTrade=""/>
+			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>
 		</Update>
 		<Update>
 			<Where Type="RESOURCE_ARTIFACTS"/>
-			<Set TechReveal="" TechCityTrade=""/>
+			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>
 		</Update>
 	</Resources>
 	<Projects>
