@@ -23,6 +23,68 @@
 		<Row Tag="TXT_KEY_BUILDING_REBELLION_PEDIA">
 			<Text>The populist teachings of Jodo Shinshu has taken hold of the population. The peasants seek to overthrow the existing samurai order in favor of peasant rule. As such, chaos has sown amongst the population. You must act quickly to remove the religious pressure from this city!</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_BARRACKS_HELP">
+			<Text>+15 XP and +10% [ICON_PRODUCTION] Production for all Melee Units trained in this City. Increases the [ICON_SILVER_FIST] Military Supply Cap by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_STABLE_HELP">
+			<Text>+15 XP and +10% [ICON_PRODUCTION] Production for all Mounted Units trained in this City. Increases the [ICON_SILVER_FIST] Military Supply Cap by 1.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cow worked by this City produce +1 [ICON_PRODUCTION].[NEWLINE][NEWLINE]City must have a source of [ICON_RES_HORSE] Horses improved with a Pasture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO">
+			<Text>Archery Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_PEDIA">
+			<Text>An archery dojo is a dedicated space where individuals come together to learn, practice, and refine their skills in the art of archery. It serves as a sanctuary, providing a focused and disciplined environment for archers to cultivate their technique, physicality, and mental concentration. Within the walls of the dojo, archers receive guidance from experienced instructors, engage in structured training sessions, and immerse themselves in the rich traditions and philosophies associated with archery. The dojo is not only a physical space but also a symbol of dedication and reverence for the ancient craft, fostering a sense of community and camaraderie among practitioners as they strive to achieve mastery, develop inner strength, and connect with the timeless spirit of archery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_HELP">
+			<Text>+15 XP and +10% [ICON_PRODUCTION] Production for all Archers trained in this City. Increases the [ICON_SILVER_FIST] Military Supply Cap by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARMORY_STRATEGY">
+			<Text>The Armory can only be constructed in a city with an improved source of [ICON_RES_IRON] Iron nearby, and in a city without a Blacksmith present already. The Armory improves the [ICON_STRENGTH] Combat Strength of Military Units built in this City when attacking, and increases your [ICON_SILVER_FIST] Military Supply Cap, allowing you to support more units on the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARMORY_HELP">
+			<Text>All Units trained in this City receive the [COLOR_POSITIVE_TEXT]Improved Armor[ENDCOLOR] Promotion (+15% [ICON_COMBAT_STRENGTH] Combat Strength when defending) for free. +10% [ICON_SILVER_FIST] Military Supply Cap from [ICON_CITIZEN] Population in this City.[NEWLINE][NEWLINE]City must not have a Blacksmith, and have a mined source of Iron nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH">
+			<Text>Blacksmith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH_STRATEGY">
+			<Text>The Blacksmith can only be constructed in a city with an improved source of [ICON_RES_IRON] Iron nearby, and in a city without an Armory present already. The Blacksmith improves the [ICON_STRENGTH] Combat Strength of Military Units built in this City when defending, and increases your [ICON_SILVER_FIST] Military Supply Cap, allowing you to support more units on the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH_HELP">
+			<Text>All Units trained in this City receive the [COLOR_POSITIVE_TEXT]Improved Weapons[ENDCOLOR] Promotion (+15% [ICON_COMBAT_STRENGTH] Combat Strength when attacking) for free. +10% [ICON_SILVER_FIST] Military Supply Cap from [ICON_CITIZEN] Population in this City.[NEWLINE][NEWLINE]City must not have an Armory, and have a mined source of Iron nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_WORKSHOP_STRATEGY">
+			<Text>The Workshop speeds a city's [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_WORKSHOP_HELP">
+			<Text>Allows [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_LIBRARY_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Illiteracy. +1 [ICON_SCIENCE] Science from every 2 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_UNIVERSITY_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Illiteracy. City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MARKET_STRATEGY">
+			<Text>Markets increase the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with a Market will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_MINE">
+			<Text>Gold Mine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GOLD_MINE_TEXT">
+			<Text>From the early discovery of gold in ancient times to the development of sophisticated mining techniques during the Edo period, these mines have yielded substantial quantities of the precious metal. The mines have been scattered throughout Japan, with major deposits found in regions like Sado Island, Tohoku, and Hokkaido. Over time, they played pivotal roles in funding various historical endeavors, including the construction of grand temples, castles, and infrastructure. Although many mines ceased production during the modernization era, the legacy of Japanese gold mining endures, attracting tourists and historians alike, eager to explore the remnants of once-thriving mining communities and celebrate the enduring allure of this valuable natural resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_MINE_STRATEGY">
+			<Text>The Gold Mine can only be constructed in a city with a nearby source of [ICON_RES_GOLD] Gold. The Gold Mine greatly increases the [ICON_GOLD] Gold output of a city and provides benefits when sending trade routes from this city to others. Gold Mines make sources of Gold extremely valuable for your civilization to obtain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLD_MINE_HELP">
+			<Text>Land and sea trade routes originating from this city produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. Each source of [ICON_RES_GOLD] Gold worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a source of [ICON_RES_GOLD] Gold mined nearby.</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_MAGISTRATE_OFFICE">
 			<Text>Magistrate Office</Text>
 		</Row>
@@ -91,6 +153,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_NINJUTSU_SCHOOL_STRATEGY">
 			<Text>An important National Wonder for improving your clan's espionage abilities. The Ninjutsu School provides two additional spies, and levels up all your existing spies. Your clan must have built 3 Sake Dens before constructing the Ninjutsu School.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_GARDEN_HELP">
+			<Text>+25+ [ICON_GREAT_PEOPLE] Great People generation in this City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BUILDING_LIGHTHOUSE_HELP">
 			<Text>+1 [ICON_FOOD] Food from Coast and Ocean Tiles.</Text>
@@ -205,7 +270,7 @@
 			<Text>+1 [ICON_HAPPINESS_1] Happiness in all Cities. [ICON_CULTURE] Culture Cost of acquiring new Policies reduced by 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_GOLDEN_PAVILION_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"What transforms this world is knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE]</Text>
+			<Text>[NEWLINE]"What transforms this world is knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is. When you look at the world with knowledge, you realize that things are unchangeable and at the same time are constantly being transformed."[NEWLINE][TAB]- Yukio Mishima[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI">
 			<Text>Horyu-ji</Text>
@@ -217,7 +282,7 @@
 			<Text>Provides a free Shrine in all Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HORYUJI_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE]</Text>
+			<Text>[NEWLINE]"Purification in Shinto lifts the burden from the shoulders of the individual and washes it away."[NEWLINE][TAB]- Stuart D. B. Picken[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI">
 			<Text>Hongan-ji</Text>
@@ -229,7 +294,7 @@
 			<Text>Immediately starts a [ICON_GOLDEN_AGE] Golden Age. +20% [ICON_PRODUCTION] Production during [ICON_GOLDEN_AGE] Golden Ages.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HONGANJI_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE]</Text>
+			<Text>[NEWLINE]"May the wisdom of the All-Compassionate One so shine within our hearts and minds, that the mists of error and the foolish vanity of self be dispelled. So shall we understand the changing nature of existence and reach spiritual peace."[NEWLINE][TAB]- Shinran[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE">
 			<Text>Kiyomizu Temple</Text>
@@ -241,7 +306,7 @@
 			<Text>A free Emissary appears in the City where this Wonder was built. Each [ICON_CITY_STATE] City-State Friend provides +1 [ICON_SCIENCE] Science and [ICON_PEACE] Faith in this City. +3 [ICON_SCIENCE] Science and [ICON_PEACE] Faith if Allied.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KIYOMIZU_TEMPLE_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"In Kyoto,[NEWLINE]hearing the cuckoo,[NEWLINE]I long for Kyoto."[NEWLINE][TAB]- Basho[NEWLINE]</Text>
+			<Text>[NEWLINE]"In Kyoto,[NEWLINE]hearing the cuckoo,[NEWLINE]I long for Kyoto."[NEWLINE][TAB]- Basho[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA">
 			<Text>Kasuga Taisha</Text>
@@ -253,7 +318,7 @@
 			<Text>Receive +25 [ICON_GOLD] Gold when purchasing units and buildings with [ICON_PEACE] Faith. -1 [ICON_HAPPINESS_3] Unrest from Religious Unrest in every City. Provides a free Shrine in the city in which it was built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
+			<Text>[NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE">
 			<Text>Omotesenke</Text>
@@ -265,10 +330,22 @@
 			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Boredom in every City. A free Tea House appears in this City. +50 [ICON_PEACE] Faith when a new Citizen is born in this City (scaling with era).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE_QUOTE">
-			<Text>[NEWLINE][NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>
+			<Text>[NEWLINE]"Tea with us became more than an idealization of the form of drinking; it is a religion of the art of life.... Teaism was Taoism in disguise."[NEWLINE][TAB]– Okakura Kakuzo[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_HIMEJI_CASTLE_HELP">
 			<Text>+15% [ICON_STRENGTH] Combat Strength for Units fighting in Friendly Territory, and +10% [ICON_STRENGTH] Combat Strength for all Cities. Increases [ICON_SILVER_FIST] Military Unit Supply Cap by 5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA">
+			<Text>Dejima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_PEDIA">
+			<Text>Dejima, a historical artificial island located in Nagasaki, Japan, stands as a symbol of cultural exchange and diplomatic relations between Japan and the outside world during the Edo period. Initially built to accommodate Portuguese traders in the 17th century, Dejima later became the sole designated trading post for the Dutch East India Company in Japan, following the country's isolationist Sakoku policy. Isolated from the mainland by a single bridge, Dejima served as a confined yet bustling center of trade, where Dutch traders engaged in commerce and cultural interaction with the Japanese. Despite its limited size, Dejima played a crucial role in facilitating the flow of knowledge, goods, and ideas between Japan and the West, leaving an indelible mark on history as a unique and extraordinary site of cross-cultural exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_HELP">
+			<Text>Gains an additional trade route slot and a Cargo Ship appears in the city. All Naval Units trained in this city receive the [COLOR_POSITIVE_TEXT]Supply[ENDCOLOR] Promotion. Sea trade routes with other players generate an additional 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_QUOTE">
+			<Text>[NEWLINE]"They own this world, its jungles, its skies, and its seas. Yet they complain that Dejima is a prison. They complain they are not free."[NEWLINE][TAB]– David Mitchell, The Thousand Autumns of Jacob de Zoet[NEWLINE]</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

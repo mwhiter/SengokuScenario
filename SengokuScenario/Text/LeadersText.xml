@@ -519,5 +519,24 @@
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_DATE_MASAMUNE_DEFEATED_3">
 			<Text>The title of Shogun was mine for the taking! This is outrageous! How could I have lost to the likes of you?</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_FIRSTGREETING_1">
+			<Text>I am Imagawa Yoshimoto, daimyo of the Imagawa clan! Will you stand in the way of my ambition?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_FIRSTGREETING_2">
+			<Text>Greetings! The Shogunate remains open for claim. Will you stand in the way of the Imagawa and get crushed, or join us and succeed together?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_FIRSTGREETING_3">
+			<Text>You stand before the fierce Imagawa clan. Do you come before me as a warrior, or as a coward?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_DEFEATED_1">
+			<Text>You have beaten me! How could I fail my people like this? I must retire in disgrace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_DEFEATED_2">
+			<Text>Today you are the victor. I must congratulate you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_LEADER_IMAGAWA_YOSHIMOTO_DEFEATED_3">
+			<Text>You have defeated us, but our clan will not be forgotten! We will return, one day.</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

@@ -38,5 +38,23 @@
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CITY_ATTACK_BONUS">
 			<Text>+33% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPROVED_WEAPONS">
+			<Text>Improved Weapons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPROVED_WEAPONS_BONUS_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_IMPROVED_WEAPONS_BONUS">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPROVED_ARMOR">
+			<Text>Improved Armor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPROVED_ARMOR_BONUS_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_IMPROVED_ARMOR_BONUS">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when defending.</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

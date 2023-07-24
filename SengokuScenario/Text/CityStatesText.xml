@@ -80,6 +80,18 @@
 		<Row Tag="TXT_KEY_CITYSTATE_ASANO_ADJ">
 			<Text>Asano</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KONO">
+			<Text>Kono Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KONO_ADJ">
+			<Text>Kono</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TAKOAKA">
+			<Text>Takoaka Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TAKOAKA_ADJ">
+			<Text>Takoaka</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_CIV5_ASHIKAGA_TEXT">
 			<Text>The Ashikaga clan, founded by Ashikaga Takauji in the late 13th century, became one of the most influential samurai clans in Japanese history. Takauji initially supported the Kamakura shogunate but later turned against it, leading to its downfall and the establishment of the Ashikaga shogunate in 1336. The Ashikaga clan ruled over Japan for nearly two and a half centuries, with Kyoto as their capital. The Ashikaga shogunate saw periods of relative stability and prosperity, marked by cultural achievements and the flourishing of Zen Buddhism. However, the clan also faced internal power struggles, which eventually led to its decline. The Onin War (1467-1477), a devastating conflict between rival factions within the clan, shattered the shogunate's authority and plunged Japan into a prolonged period of civil unrest known as the Sengoku period. Despite their eventual loss of power, the Ashikaga clan's legacy remains significant, as they profoundly influenced Japanese feudal society, art, and the growth of Zen Buddhism.</Text>
@@ -119,6 +131,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_ASANO_TEXT">
 			<Text>The Asano clan was a prominent samurai family in feudal Japan, tracing its origins to the province of Kai. Rising to power during the Sengoku period, they became known for their military prowess and strategic abilities, gaining the support of influential allies, such as the Takeda clan. However, their fortunes took a dramatic turn in the early 17th century when Asano Naganori, the lord of the Asano domain, was involved in a serious incident at Edo Castle. In response to insults and provocations from court official Kira Yoshinaka, Asano drew his sword in anger, an act that was strictly forbidden within the castle grounds. As a result, he was ordered to perform seppuku (ritual suicide), leading to the forfeiture of the Asano domain and the disbandment of the clan. The story of the Asano clan's downfall and the subsequent revenge of their loyal retainers, the "47 Ronin," has become a celebrated tale of loyalty and bushido in Japanese history and folklore.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KONO_TEXT">
+			<Text>The Kono clan, a prominent and ancient lineage hailing from Japan, boasts a storied history that stretches back centuries. Originating during the Heian period (794-1185 AD), the Kono clan has played a significant role in the nation's cultural and political landscape. Throughout the ages, they have amassed both prestige and influence, contributing to the development of Japan's feudal society. The Kono clan's prominence peaked during the Sengoku period (1467-1603 AD), when they held considerable sway in the Shikoku region. Renowned for their military prowess, the clan participated in numerous battles, cementing their reputation as formidable warriors. While the clan experienced fluctuations in fortune during later years, their enduring legacy endures as a testament to their enduring impact on Japan's history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAKOAKA_TEXT">
+			<Text>The Takoaka clan, a lesser-known but equally fascinating lineage with roots tracing back to ancient Japan, emerged in the early Kamakura period (1185-1333 AD). Hailing from the Hokuriku region, the Takoaka clan established themselves as respected regional leaders, playing vital roles in local governance and commerce. With a strong focus on scholarship and cultural pursuits, they nurtured intellectuals and artists within their ranks, contributing to the region's intellectual growth. Though not as politically influential as some of their contemporaries, the Takoaka clan remained steadfast in their loyalty to various shogunates and neighboring clans. Despite the passage of time, the Takoaka clan's legacy of scholarly pursuits and regional stewardship has endured, leaving a lasting impression on the historical tapestry of Japan.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

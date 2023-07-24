@@ -37,14 +37,36 @@
 		</Row>
 		<Row>
 			<Type>PROMOTION_CITY_ATTACK_BONUS</Type>
-			<Description>TXT_KEY_PROMOTION_HEAVY_PAYLOAD</Description>
-			<Help>TXT_KEY_PROMOTION_HEAVY_PAYLOAD</Help>
+			<Description>TXT_KEY_PEDIA_PROMOTION_CITY_ATTACK_BONUS</Description>
+			<Help>TXT_KEY_PROMOTION_CITY_ATTACK_BONUS_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CityAttack>33</CityAttack>
 			<PortraitIndex>59</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_CITY_ATTACK_BONUS</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPROVED_WEAPONS</Type>
+			<Description>TXT_KEY_PROMOTION_IMPROVED_WEAPONS</Description>
+			<Help>TXT_KEY_PROMOTION_IMPROVED_WEAPONS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<AttackMod>25</AttackMod>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>extraPromo_Atlas</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_IMPROVED_WEAPONS_BONUS</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPROVED_ARMOR</Type>
+			<Description>TXT_KEY_PROMOTION_IMPROVED_ARMOR</Description>
+			<Help>TXT_KEY_PROMOTION_IMPROVED_ARMOR_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<DefenseMod>15</DefenseMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_IMPROVED_ARMOR_BONUS</PediaEntry>
 		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitClasses>

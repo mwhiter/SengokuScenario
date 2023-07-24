@@ -40,7 +40,7 @@
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<WorkerSpeedModifier>25</WorkerSpeedModifier>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>26</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -53,7 +53,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -66,7 +66,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>58</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -83,7 +83,7 @@
 			<RouteGoldMaintenanceMod>-25</RouteGoldMaintenanceMod>
 			<PolicyBranchType>POLICY_BRANCH_ORGANIZATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>57</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -114,7 +114,7 @@
 			<ExpModifier>50</ExpModifier>
 			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -127,7 +127,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -141,7 +141,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>20</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -154,7 +154,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -169,7 +169,7 @@
 			<ExtraSupplyPerPopulation>25</ExtraSupplyPerPopulation>
 			<PolicyBranchType>POLICY_BRANCH_BUSHIDO</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -203,7 +203,7 @@
 			<MilitaryUnitGiftExtraInfluence>15</MilitaryUnitGiftExtraInfluence>
 			<CityStateUnitFrequencyModifier>100</CityStateUnitFrequencyModifier>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -218,7 +218,7 @@
 			<IncreasedQuestRewards>50</IncreasedQuestRewards>
 			<MinorFriendshipMinimum>20</MinorFriendshipMinimum>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>38</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -235,7 +235,7 @@
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -249,7 +249,7 @@
 			<MinorScienceAllies>true</MinorScienceAllies>
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>39</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -263,7 +263,7 @@
 			<PolicyBranchType>POLICY_BRANCH_DIPLOMACY</PolicyBranchType>
 			<RiggingElectionModifier>100</RiggingElectionModifier>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>37</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -292,7 +292,7 @@
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>44</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -321,7 +321,7 @@
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>43</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -335,7 +335,7 @@
 			<PressureMod>33</PressureMod>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>43</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -348,7 +348,7 @@
 			<GridY>3</GridY>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>43</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -377,7 +377,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -390,7 +390,7 @@
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -403,7 +403,7 @@
 			<GridY>3</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -416,7 +416,7 @@
 			<GridY>3</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -429,7 +429,7 @@
 			<GridY>3</GridY>
 			<PolicyBranchType>POLICY_BRANCH_UPRISING</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -459,7 +459,7 @@
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<ExtraMissionaryStrength>25</ExtraMissionaryStrength>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>45</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -472,7 +472,7 @@
 			<GridY>1</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>45</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -486,7 +486,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>45</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -500,7 +500,7 @@
 			<GridY>2</GridY>
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>47</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -515,7 +515,7 @@
 			<PolicyBranchType>POLICY_BRANCH_DEVOTION</PolicyBranchType>
 			<FreeTradeRoute>1</FreeTradeRoute>
 			<CultureCost>10</CultureCost>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>

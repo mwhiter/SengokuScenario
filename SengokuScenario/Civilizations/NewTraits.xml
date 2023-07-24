@@ -24,6 +24,8 @@
 			<Type>TRAIT_CHOSOKABE</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE_SHORT</ShortDescription>
+			<CapitalBuildingModifier>25</CapitalBuildingModifier>
+			<ExtraEmbarkMoves>1</ExtraEmbarkMoves>
 		</Row>
 		<Row>
 			<Type>TRAIT_UESUGI</Type>
@@ -57,6 +59,7 @@
 			<Type>TRAIT_DATE</Type>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE</Description>
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE_SHORT</ShortDescription>
+			<LevelExperienceModifier>-25</LevelExperienceModifier>
 		</Row>
 		<Row>
 			<Type>TRAIT_IMAGAWA</Type>
@@ -69,11 +72,93 @@
 			<ShortDescription>TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA_SHORT</ShortDescription>
 		</Row>
 	</Traits>
+	<Trait_FreePromotionUnitClass>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_YARI_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_BOW_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_KATANA_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_YARI_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_BOW_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ODA</TraitType>
+			<UnitClassType>UNITCLASS_KATANA_ASHIGARU</UnitClassType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitClass>
 	<Trait_FreePromotionUnitCombats>
 		<Row>
 			<TraitType>TRAIT_TOKUGAWA</TraitType>
 			<UnitCombatType>UNITCOMBAT_DIPLOMACY</UnitCombatType>
 			<PromotionType>PROMOTION_SIGNET</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CHOSOKABE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CHOSOKABE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CHOSOKABE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CHOSOKABE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CHOSOKABE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
 		</Row>
 	</Trait_FreePromotionUnitCombats>
 	<Trait_ImprovementYieldChanges>
@@ -83,12 +168,23 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_TAKEDA</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Trait_ImprovementYieldChanges>
 	<Trait_MovesChangeUnitCombats>
 		<Row>
 			<TraitType>TRAIT_TOKUGAWA</TraitType>
 			<UnitCombatType>UNITCOMBAT_DIPLOMACY</UnitCombatType>
 			<MovesChange>2</MovesChange>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TAKEDA</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<MovesChange>1</MovesChange>
 		</Row>
 	</Trait_MovesChangeUnitCombats>
 	<Trait_TradeRouteYieldChange>
@@ -145,7 +241,38 @@
 			<Yield>2</Yield>
 		</Row>
 	</Trait_YieldFromCSAlly>
-	<DeleteMissingReferences table="Civilizations" column="Type"/>
-	<DeleteMissingReferences table="Traits" column="Type"/>
-	<DeleteMissingReferences table="Leaders" column="Type"/>
+	<Trait_YieldChangeWorldWonder>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Trait_YieldChangeWorldWonder>
+	<Trait_BuildingClassYieldChanges>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HOJO</TraitType>
+			<BuildingClassType>BUILDINGCLASS_CITADEL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Trait_BuildingClassYieldChanges>
+	<Trait_MaintenanceModifierUnitCombats>
+		<Row>
+			<TraitType>TRAIT_BUFFALO_HORNS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<MaintenanceModifier> -50 </MaintenanceModifier>
+		</Row>
+	</Trait_MaintenanceModifierUnitCombats>
 </GameData>

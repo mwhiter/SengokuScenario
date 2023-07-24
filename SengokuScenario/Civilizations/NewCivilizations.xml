@@ -263,7 +263,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_otomo.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -283,7 +283,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_mori.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -363,7 +363,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_hojo.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -1666,6 +1666,11 @@
 			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 			<UnitType>UNIT_OTOMO_PORTUGUESE_TERCO</UnitType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOKUGAWA</CivilizationType>
+			<UnitClassType>UNITCLASS_HEAVY_CAVALRY</UnitClassType>
+			<UnitType>UNIT_TOKUGAWA_MOUNTED_GUNNER</UnitType>
+		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_FreeTechs>
 		<Row>
@@ -1883,7 +1888,7 @@
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_ODA</CivilizationType>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>

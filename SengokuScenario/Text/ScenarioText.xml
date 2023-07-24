@@ -7,18 +7,51 @@
 			<Text>Sengoku Jidai</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_DESC">
-			<Text>In 1500, Feudal Japan has plunged into a massive civil war as rival warlords seek total control of Japan. Are you able to become Japan's next Shogun?</Text>
+			<Text>In 1540, Feudal Japan has plunged into a massive civil war as rival warlords seek total control of Japan. Are you able to become Japan's next Shogun?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TURNS_REMAINING">
 			<Text>Turns Left: {1_TurnsRemaining}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_CONDITION_1">
+			<Text>Become Shogun by capturing and holding Kyoto.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_CONDITION_2">
+			<Text>Capture and hold 60% of victory-eligible land in Japan.</Text>
+		</Row>
 		<!-- Dawn of Man-->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT">
-			<Text>SCENARIO DESCRIPTION[NEWLINE]The year is 1500. Once-unified Japan has fractured into numerous warring factions, led by powerful warlords who seek to become the Shogun and force their rivals to bow before them. It is a time of unprecedented upheaval and opportunity, where the clash of steel echoes across the land, the scent of gunpowder fills the air, and the dreams of countless daimyo fuel the fires of ambition.[NEWLINE][NEWLINE]Your samurai look to you for guidance, as you lead your people towards the total conquest of Japan. The weight of your clan's legacy rests upon your shoulders. Will you rise to the challenge and lead your clan with unwavering resolve? Or will you wield cunning and deception, outmaneuvering your rivals with strategic mastery? The path you forge will shape the fate of your people and etch your name into the annals of legend. Are you ready to become the Shogun of Japan?[NEWLINE][NEWLINE]VICTORY CONDITIONS[NEWLINE]Replace me! This has not been finished![NEWLINE][NEWLINE]SPECIAL RULES[NEWLINE]Replace me! This has not been finished!</Text>
+			<Text>SCENARIO DESCRIPTION[NEWLINE]The year is 1540. Once-unified Japan has fractured into numerous warring factions, led by powerful warlords who seek to become the Shogun and force their rivals to bow before them. It is a time of unprecedented upheaval and opportunity, where the clash of steel echoes across the land, the scent of gunpowder fills the air, and the dreams of countless daimyo fuel the fires of ambition. Are you ready to become the Shogun of Japan?[NEWLINE][NEWLINE]VICTORY CONDITIONS[NEWLINE]You must achieve the following objectives before Winter, 1600 AD in order to win the scenario:[NEWLINE][TAB][ICON_BULLET]{TXT_KEY_SENGOKU_SCENARIO_VICTORY_CONDITION_1}[NEWLINE][TAB][ICON_BULLET]{TXT_KEY_SENGOKU_SCENARIO_VICTORY_CONDITION_2}[NEWLINE][NEWLINE]SPECIAL RULES[NEWLINE]This scenario features a reworked tech tree, new Religions, Units, Buildings, and Social Policies. Three religions have been founded at the start of the game: [ICON_RELIGION_CHRISTIANITY] Christianity, [ICON_RELIGION_SHINTO] Shinto, and [ICON_RELIGION_JODO_SHINSHU] Jodo Shinshu Buddhism. These religions have powerful effects so be sure to prioritze your [ICON_PEACE] Faith generation and economy!</Text>
 		</Row>
 		<!-- Turns Remaining UI-->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_BRIEFING_BUTTON">
 			<Text>Briefing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_STATUS_BUTTON">
+			<Text>Victory Status</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_KYOTO_CONTROLLED_CIV">
+			<Text>Controlled By: {@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_HELP">
+			<Text>You can only unify Japan by achieving the following two conditions before the game ends (end of turn Winter, 1600 AD). Your clan must control the city of Kyoto, and you or your vassals must own 60% of all eligible land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP">
+			<Text>Eligible land for victory are all tiles that are not Tundra, Snow, Coast, or Ocean, and must be on a landmass that has at least 5 tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_YOUR_LAND_PERCENT">
+			<Text>Your Land Control: {1_LandPercent}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_YOUR_RIVAL_CIV">
+			<Text>Your Rival: {@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_YOUR_RIVAL_LAND_PERCENT">
+			<Text>Your Rival Land Control: {1_LandPercent}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_KYOTO_CAPTURED_HUMAN">
+			<Text>We have captured Kyoto and can now be recognized as the Shogun! Continue to conquer the rest of Japan and force the other clans to surrender to our might!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_KYOTO_CAPTURED">
+			<Text>Kyoto has been captured by {@1_CivName}, and they can now be recognized as the Shogun! We must act quickly to prevent them from dominating Japan!</Text>
 		</Row>
 		<!-- Notifications -->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_REBELLION_STARTED_SUMMARY">
@@ -50,6 +83,43 @@
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CITY_UPRISING_POLICY_ADOPTED">
 			<Text>The Ikko-Ikki clan has adopted the [COLOR_NEGATIVE_TEXT]{@1_PolicyName}[ENDCOLOR] Social Policy in the Uprising Social Policy Branch. Any effects of a Jodo Shinshu Rebellion has been enhanced![NEWLINE][NEWLINE]{@2_PolicyDescription}[NEWLINE][NEWLINE](NOTE: You may view the Social Policies screen to view currently active effects of a Jodo Shinshu Rebellion.)</Text>
+		</Row>
+		<!-- Seasons -->
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH1">
+			<Text>Winter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH2">
+			<Text>Winter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH3">
+			<Text>Spring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH4">
+			<Text>Spring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH5">
+			<Text>Spring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH6">
+			<Text>Summer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH7">
+			<Text>Summer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH8">
+			<Text>Summer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH9">
+			<Text>Fall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH10">
+			<Text>Fall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH11">
+			<Text>Fall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_MONTH12">
+			<Text>Winter</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

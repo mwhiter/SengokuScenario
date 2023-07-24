@@ -98,6 +98,18 @@
 		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY_HELP">
 			<Text>A strong Mounted unit that sacrifices extra mobility for better performance in combat. Weak to Yari units.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOKUGAWA_MOUNTED_GUNNER">
+			<Text>Mounted Gunner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOKUGAWA_MOUNTED_GUNNER_TEXT">
+			<Text>The Mounted Gunners were an elite and highly specialized military force during Japan's Edo period (1603-1868). Established by Tokugawa Ieyasu, the founder of the Tokugawa shogunate, the mounted gunners were renowned for their exceptional horsemanship and mastery of firearms, particularly matchlock muskets (teppo). This formidable cavalry unit played a crucial role in maintaining the Tokugawa regime's control over the country, participating in various battles and campaigns. Their combination of swift maneuverability and the devastating firepower of their muskets made them a force to be reckoned with on the battlefield, ensuring the Tokugawa shogunate's supremacy for over two centuries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOKUGAWA_MOUNTED_GUNNER_STRATEGY">
+			<Text>The Mounted Gunner is the Tokugawa clan's unique unit, replacing the Heavy Cavalry. They are much stronger than the regular Heavy Cavalry, and can move one hex more than the Heavy Cavalry, making it an incredibly powerful and dangerous unit. Use Mounted Gunners to crush the enemy's units, and then use your infantry to capture their undefended cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOKUGAWA_MOUNTED_GUNNER_HELP">
+			<Text>Mounted Unit capable of crushing their contemporary foes. Only the Tokugawa may build it. In addition to a higher [ICON_STRENGTH] Combat Strength, the Tokugawa Mounted Gunners are faster than the Heavy Cavalry, which it replaces.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_BOW_ASHIGARU">
 			<Text>Bow Ashigaru</Text>
 		</Row>
@@ -129,10 +141,10 @@
 			<Text>During the Sengoku Jidai, ships were mostly made from wood, occasionally augmented by thick bamboo or iron plates. This made them inflammable, and it was quite common to set fire to a vessel prior to boarding it. Archers would use fire arrows, or bombs would be thrown, all in the interests of making life as difficult as possible for the defenders. However, boarding actions were the most important tactic of war at sea, and everything else was subordinated to them. This was just as well, as incendiary weapons lacked the power of cannons, which were hardly common. Japanese naval warfare never went the same way as European naval tactics, with ships becoming gun platforms and fighting at a distance for the most part.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA_STRATEGY">
-			<Text></Text>
+			<Text>The Bow Kobaya is the only naval unit in the game with a ranged attack. The Bow Kobaya is useful for weakening enemy ships from a distance, which can then be captured by more powerful melee ships. It cannot enter Deep Ocean hexes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BOW_KOBAYA_HELP">
-			<Text></Text>
+			<Text>Early Sengoku Naval Unit used to wrest control of the seas with its ranged attack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BUNE">
 			<Text>Seki Bune</Text>
@@ -141,10 +153,10 @@
 			<Text>The Seki Bune, also known as "stone ships," were a unique type of warship that emerged in Japan during the Sengoku period. These vessels were named after the stones that were used as ballast to provide stability. The Seki Bune were characterized by their flat-bottomed design, which allowed them to navigate shallow waters and river systems. They were primarily used for riverine warfare and coastal defense, providing a tactical advantage in battles fought in such environments. The Seki Bune were equipped with a combination of cannons, archers, and spearmen, making them formidable in both long-range and close-quarter engagements. Their compact size and maneuverability made them highly effective in navigating narrow waterways and launching surprise attacks. The Seki Bune played a significant role in the conflicts of the Sengoku period, particularly during battles along river systems and coastal regions. Their unique design and specialized capabilities made them an important asset for daimyo seeking to control strategic waterways and defend their territories.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BUNE_STRATEGY">
-			<Text></Text>
+			<Text>The Seki Bune is the first naval melee unit available to clans in the game. It is dominant on the seas until the arrival of the Atakebune, and should be used to attack other naval units and cities to secure your Sea Trade Routes which will kickstart your clan's economy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BUNE_HELP">
-			<Text></Text>
+			<Text>Sengoku Naval Unit used to wrest control of the seas through melee attacks on naval units and cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE">
 			<Text>Atakebune</Text>
@@ -153,10 +165,10 @@
 			<Text>The Atakebune was a type of large Japanese warship that emerged during the late Sengoku period in the 16th century. These formidable vessels were designed with a distinctive appearance, featuring a high forecastle and aftcastle, multiple decks, and sturdy construction. The Atakebune played a crucial role in naval warfare, offering the advantage of both firepower and defensive capabilities. They were equipped with numerous cannons, matchlock guns, and bowmen, allowing them to engage enemy ships from a distance. The Atakebune saw action in various conflicts, including battles between rival daimyo and clashes with foreign powers, particularly during the attempts of the wokou pirates to invade Japan. Their imposing presence and strategic significance made the Atakebune an integral part of Japan's maritime defense and expansion during the Sengoku period, leaving a lasting legacy in naval history.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_STRATEGY">
-			<Text></Text>
+			<Text>The Atakebune is the strongest melee naval unit available to clans in the game, outclassing the Seki Bune before it, but very expensive to build and maintain. Use Atakebunes to attack and capture enemy coastal cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ATAKEBUNE_HELP">
-			<Text></Text>
+			<Text>Strongest Naval Melee unit in the game. The Atakebune is heavily-armored and dominates ships and cities at close range, allowing it to help capture late-game coastal cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ESCALADERS">
 			<Text>Escaladers</Text>

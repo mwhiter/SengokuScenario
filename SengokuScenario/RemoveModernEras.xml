@@ -213,6 +213,9 @@
 	<Building_ResourceQuantityRequirements>
 		<Delete/>
 	</Building_ResourceQuantityRequirements>
+	<Building_ResourceYieldChanges>
+		<Delete/>
+	</Building_ResourceYieldChanges>
 	<Building_RiverPlotYieldChanges>
 		<Delete/>
 	</Building_RiverPlotYieldChanges>
@@ -832,13 +835,6 @@
 		<Delete/>
 	</Technology_PrereqTechs>
 	<Resources>
-		<Update>
-			<Set>
-				<TechReveal/>
-				<TechCityTrade/>
-				<PolicyReveal/>
-			</Set>
-		</Update>
 		<Update>
 			<Where Type="RESOURCE_COAL"/>
 			<Set TechReveal="TECH_FUTURE_TECH" TechCityTrade="TECH_FUTURE_TECH"/>

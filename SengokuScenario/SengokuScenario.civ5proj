@@ -227,6 +227,11 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Yields/YieldsRebalance.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>PostRemoveInvalidReferences.sql</FileName>
       </Action>
       <Action>
@@ -302,6 +307,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="GlobalDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="ModderCredits.txt">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -441,11 +450,24 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="VictoryStatus.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="VictoryStatus.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Yields\YieldsRebalance.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Civilizations" />
     <Folder Include="Buildings" />
     <Folder Include="AI" />
+    <Folder Include="Yields" />
     <Folder Include="Religions" />
     <Folder Include="Policies" />
     <Folder Include="Techs" />

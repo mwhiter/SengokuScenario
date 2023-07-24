@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT22" FontStyle="Shadow">
+	<Box Style="BGBlock_ClearTopBar"/>
+	<Instance Name="KyotoVCInstance">
+		<Grid Size="550,200" Style="Grid9Blank" Anchor="L,T" Offset="0,0" Padding="5">
+			<Box Offset="-8,0" Anchor="L,T" Size="550,48" Color="Black.0">
+				<Image Anchor="L,T" Offset="0,0" Size="128,128"   Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds"  >
+					<Image Anchor="C,C" Offset="0,0" Size="128,128"   Texture="Assets/UI/Art/Icons/LeaderPortraits1024.dds"  ID="LeaderPortrait"/>
+				</Image>
+
+				<Label Anchor="L,C" Offset="128,0" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CITYSTATE_KYOTO" />
+				<Label ID="KyotoCivLabel" Anchor="L,C" Offset="128,24" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Controlled by" />
+			</Box>
+		</Grid>
+	</Instance>
+	<Instance Name="LandControlVCInstance">
+		<Grid Size="550,200" Style="Grid9Blank" Anchor="L,T" Offset="0,0" Padding="5">
+			<Box Offset="-8,0" Anchor="L,T" Size="550,48" Color="Black.0">
+				<Label ID="YourLandPercentLabel" Anchor="L,C" Offset="0,0" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Your Land" Tooltip="TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP" />
+				<Label ID="TopRivalLabel" Anchor="L,C" Offset="0,24" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Top Rival Land" Tooltip="TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP" />
+				<Label ID="TopRivalLandPercentLabel" Anchor="L,C" Offset="0,48" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Top Rival Land" Tooltip="TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP" />
+			</Box>
+		</Grid>
+	</Instance>
+	<Grid Padding="50,70" Size="950,700" Anchor="C,C" Offset="0,0" Style="Grid9DetailFive140" ID="StatusPopup">
+		<!-- Upper Treatment -->
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="0,0" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="48,48" Offset="-1,-1" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+		</Image>
+
+		<!-- Side treatments -->
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+
+		<Label Style="MenuTitleCaption" String="TXT_KEY_SENGOKU_SCENARIO_VICTORY_STATUS_BUTTON" ID="Title" />
+
+		<Grid Size="700,100" Anchor="C,T" Offset="0,50" Style="Grid9Blank">
+			<Label ID="HelpLabel" Anchor="L,T" Offset="0,0" WrapWidth="650" LeadingOffset="-4" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_SENGOKU_SCENARIO_VICTORY_HELP"/>
+		</Grid>
+
+		<Stack ID="VCStack" Anchor="C,T" Size="550,600" Offset="0,180" StackGrowth="Bottom" Padding="35"/>
+		<GridButton Size="200,36" Anchor="C,B" String="TXT_KEY_OK_BUTTON" Style="BaseButton" AnchorSide="I.I" Offset="0,50" ID="CloseStatusButton" Hidden="0"/>
+	</Grid>
+</Context>

@@ -190,4 +190,7 @@
 			<TerrainType>TERRAIN_HILL</TerrainType>
 		</Row>
 	</Improvement_ValidTerrains>
+	<Improvement_YieldAdjacentSameType>
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+	</Improvement_YieldAdjacentSameType>
 </GameData>

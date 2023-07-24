@@ -3,22 +3,22 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_ORGANIZATION_TITLE">
-			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_BUSHIDO_TITLE">
-			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DIPLOMACY_TITLE">
-			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_TRADITION_TITLE">
-			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_UPRISING_TITLE">
-			<Text>Monshu {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_BRANCH_DEVOTION_TITLE">
-			<Text>Daimyo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_POLICY_TRADITION_FINISHER">
 			<Text>Tradition (Finisher)</Text>

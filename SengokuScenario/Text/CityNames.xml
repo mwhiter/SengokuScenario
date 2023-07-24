@@ -915,5 +915,11 @@
 		<Row Tag="TXT_KEY_CITYSTATE_WAYAKAMA">
 			<Text>Wayakama</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_IMABARI">
+			<Text>Imabari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AWAJI">
+			<Text>Awaji</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

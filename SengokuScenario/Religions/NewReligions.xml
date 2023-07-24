@@ -116,13 +116,13 @@
 	<Belief_YieldChangeWorldWonder>
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
-			<YieldType>BELIEF_FAITH</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
-			<YieldType>BELIEF_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 	</Belief_YieldChangeWorldWonder>
 	<Belief_MaxYieldModifierPerFollower>
@@ -193,8 +193,8 @@
 		</Row>
 		<Row>
 			<Type>RELIGION_CHRISTIANITY</Type>
-			<Description>TXT_KEY_RELIGION_CATHOLICISM</Description>
-			<Civilopedia>TXT_KEY_MEDIEVAL_SCENARIO_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_RELIGION_CHRISTIANITY</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
 			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 			<IconString>[ICON_RELIGION_CHRISTIANITY]</IconString>

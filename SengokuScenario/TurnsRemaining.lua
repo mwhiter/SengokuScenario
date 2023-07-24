@@ -1,11 +1,37 @@
 ---------------------------------------
 -- Globals
 ---------------------------------------
-local g_bScenarioDone = false;
+local isScenarioDone = false;
 local handicap = Game:GetHandicapType();
-local savedData = Modding.OpenSaveData();
+local gameTurnLength = 240;
 
-local g_kiGameTurnLength = 200;
+--------------------------------------------------------------
+-- Memoized Persistent Properties
+--------------------------------------------------------------
+-- Try not to use this directly for pulling values!
+-- Memoize instead.
+savedData = Modding.OpenSaveData();
+-------------------------------------------------------------- 
+function GetPersistentProperty(name)
+	if(g_Properties == nil) then
+		g_Properties = {};
+	end
+	
+	if(g_Properties[name] == nil) then
+		g_Properties[name] = savedData.GetValue(name);
+	end
+	
+	return g_Properties[name];
+end
+--------------------------------------------------------------
+function SetPersistentProperty(name, value)
+	if(g_Properties == nil) then
+		g_Properties = {};
+	end
+	
+	savedData.SetValue(name, value);
+	g_Properties[name] = value;
+end
 
 function AddUnitToPlot(player, unitType, plotX, plotY, unitAi)
 	iUnitID = GameInfoTypes[unitType];
@@ -41,6 +67,8 @@ local tokugawaPlayer = GetPlayer("CIVILIZATION_TOKUGAWA");
 local tokugawaTeam = Teams[tokugawaPlayer:GetTeam()];
 local imagawaPlayer = GetPlayer("CIVILIZATION_IMAGAWA");
 local imagawaTeam = Teams[imagawaPlayer:GetTeam()];
+
+local kyotoCity = nil;
 
 local civPolicyBranches =
 {
@@ -110,13 +138,12 @@ GameEvents.PlayerCanAdoptPolicy.Add(CanAdoptPolicy);
 -- UI Handlers
 ---------------------------------------
 ContextPtr:SetUpdate(function()
-
-	if (g_bScenarioDone) then
+	if (isScenarioDone) then
 		ContextPtr:ClearUpdate(); 
 		ContextPtr:SetHide( true );
 	end
 
-	local iTurnsRemaining = g_kiGameTurnLength - Game.GetGameTurn();
+	local iTurnsRemaining = gameTurnLength - Game.GetGameTurn();
 	local turnsRemainingText = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_TURNS_REMAINING", iTurnsRemaining);
 	Controls.TurnsRemainingLabel:LocalizeAndSetText(turnsRemainingText);
 	Controls.Grid:DoAutoSize();
@@ -126,11 +153,15 @@ end);
 function OnBriefingButton()
 	UI.AddPopup( { Type = ButtonPopupTypes.BUTTONPOPUP_TEXT,
                    Data1 = 800,
-                   Data2 = 1,
                    Option1 = true,
                    Text = "TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT" } );
 end
 Controls.BriefingButton:RegisterCallback( Mouse.eLClick, OnBriefingButton );
+
+function OnVictoryStatusButton()
+	UIManager:QueuePopup(Controls.VictoryStatus, PopupPriority.eUtmost);
+end
+Controls.VictoryStatusButton:RegisterCallback(Mouse.eLClick, OnVictoryStatusButton)
 
 function OnEnterCityScreen()
     ContextPtr:SetHide( true );
@@ -314,7 +345,7 @@ function otomoTraitOneShotInfluence(iCityOwner, eMajorityReligion, iX, iY)
 	local city = cityPlot:GetPlotCity();
 
 	local key = "OtomoFirstConvert_MinorCity_" .. tostring(city:GetID());
-	local value = savedData.GetValue(key);
+	local value = GetPersistentProperty(key);
 
 	if (value ~= nil) then
 		return;
@@ -324,7 +355,7 @@ function otomoTraitOneShotInfluence(iCityOwner, eMajorityReligion, iX, iY)
 	
 	-- Save that this city has converted so we don't do this again.
 	player:ChangeMinorCivFriendshipWithMajor(otomoPlayer:GetID(), 40);
-	savedData.SetValue(key, 1);
+	SetPersistentProperty(key, 1);
 end
 GameEvents.CityConvertsReligion.Add(otomoTraitOneShotInfluence);
 
@@ -373,22 +404,180 @@ function IkkoIkkiCannotTrainReligiousUnits(iPlayer, iUnitID, iUnitType)
 end
 GameEvents.CityCanTrain.Add(IkkoIkkiCannotTrainReligiousUnits);
 
+function HasPlayerCapturedKyoto(player)
+	local kyotoPlot = Map.GetPlot(GetPersistentProperty("KyotoPlotX"), GetPersistentProperty("KyotoPlotY"));
+	if (kyotoPlot:IsCity()) then
+		local owner = kyotoPlot:GetOwner();
+		if (owner == player:GetID()) then
+			return true
+		end
+	else
+		print("Kyoto is not a city...something went horribly wrong!");
+	end
+
+	return false;
+end
+
+function GetPlayerVictoryLandArea(playerIndex)
+	local numVictoryPlots = 0;
+	local team = Players[playerIndex]:GetTeam();
+	for plotIndex = 1, Map.GetNumPlots(), 1 do
+		plot = Map.GetPlotByIndex(plotIndex-1);
+		local plotOwner = Players[plot:GetOwner()];
+		if (plotOwner ~= nil and isVictoryPlot(plot)) then
+			local plotOwnerTeam = Teams[plotOwner:GetTeam()];
+			if (plot:GetOwner() == playerIndex or plotOwnerTeam:IsVassal(team)) then
+				numVictoryPlots = numVictoryPlots + 1;
+			end
+		end
+	end
+	return numVictoryPlots;
+end
+
+function IsPlayerLandDominant(player)
+	local numVictoryPlots = GetPersistentProperty("NumVictoryPlots", numVictoryPlots);
+	local numPlayerVictoryPlots = GetPlayerVictoryLandArea(player:GetID());
+
+	local percentOwned = numPlayerVictoryPlots * 100 / numVictoryPlots;
+	return percentOwned >= 60.0;
+end
+
 function TestVictory()
-	local iTurnsRemaining = g_kiGameTurnLength - Game.GetGameTurn();
+	local turnsRemaining = gameTurnLength - Game.GetGameTurn();
 	
-	PreGame.SetGameOption("GAMEOPTION_NO_EXTENDED_PLAY", true);	-- No extended play allowed
-	
-	if (iTurnsRemaining < 1 and not g_bScenarioDone) then
-		Game.SetGameState(GameplayGameStateTypes.GAMESTATE_OVER);	
-		GameEvents.GameCoreTestVictory.Remove(TestVictory);
-		g_bScenarioDone = true;
-	end	
+	local victor = nil;
+	-- Loop through players and see if anyone has fulfilled all objectives
+	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+		local player = Players[playerIndex];
+		
+		if (HasPlayerCapturedKyoto(player) and IsPlayerLandDominant(player)) then
+			victor = player;
+		end
+	end
+
+	if (victor ~= nil or turnsRemaining < 1) then
+		isScenarioDone = true;
+		PreGame.SetGameOption("GAMEOPTION_NO_EXTENDED_PLAY", true);
+	end
+
+	if (isScenarioDone) then
+		if (victor ~= nil) then
+			Game.SetWinner(victor:GetTeam(), GameInfo.Victories["VICTORY_TIME"].ID);
+			GameEvents.GameCoreTestVictory.Remove(TestVictory);
+		else
+			Game.SetGameState(GameplayGameStateTypes.GAMESTATE_OVER);	
+			GameEvents.GameCoreTestVictory.Remove(TestVictory);
+			isScenarioDone = true;
+		end
+	end
 end
 GameEvents.GameCoreTestVictory.Add(TestVictory);
+
+function KyotoCannotBeRazed(cityOwner, cityId)
+	local owner = Players[cityOwner];
+	local city = owner:GetCityById(cityId);
+	if (city:Plot():GetX() == GetPersistentProperty("KyotoPlotX") and
+		city:Plot():GetY() == GetPersistentProperty("KyotoPlotY")) then
+		return false;
+	end
+
+	return true;
+end
+GameEvents.CanRaze.Add(KyotoCannotBeRazed);
+
+function NotifyKyotoChanged(ownerId, isCapital, x, y, newOwnerId, pop, isConquest)
+	local isKyoto = x == GetPersistentProperty("KyotoPlotX") and y == GetPersistentProperty("KyotoPlotY");
+	if (not isKyoto) then
+		return;
+	end
+
+	local newOwner = Players[newOwnerId];
+
+	local popupInfo = {
+		Data1 = 500,
+		Type = ButtonPopupTypes.BUTTONPOPUP_TEXT,
+	}
+
+	local isHumanPlayer = newOwnerId == 0;
+	if (isHumanPlayer) then
+		text = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_KYOTO_CAPTURED_HUMAN");
+	else
+		if (Teams[newOwner:GetTeam()]:IsHasMet(Game.GetActiveTeam())) then
+			text = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_KYOTO_CAPTURED", newOwner:GetCivilizationDescriptionKey());
+		else
+			text = Locale.ConvertTextKey("TXT_KEY_SENGOKU_SCENARIO_KYOTO_CAPTURED", "TXT_KEY_UNMET_PLAYER");
+		end
+	end
+	popupInfo.Text = text
+	UI.AddPopup(popupInfo);
+
+end
+GameEvents.CityCaptureComplete.Add(NotifyKyotoChanged);
 
 ---------------------------------------------------------------------
 -- SCENARIO INITIALIZATION
 ---------------------------------------------------------------------
+local numVictoryPlots = 0;
+
+function isVictoryPlot(plot)
+	if (plot == nil) then
+		return false;
+	end
+
+	local terrainType = plot:GetTerrainType();
+	if (terrainType == TerrainTypes.TERRAIN_SNOW or
+		terrainType == TerrainTypes.TERRAIN_TUNDRA or
+		terrainType == TerrainTypes.TERRAIN_COAST or
+		terrainType == TerrainTypes.TERRAIN_OCEAN) then
+		return false;
+	end
+
+	local area = plot:Area();
+	if (area:GetNumTiles() < 5) then
+		return false;
+	end
+
+	return true;
+end
+
+function InitVictory()
+	local plot = nil;
+	for plotIndex = 1, Map.GetNumPlots(), 1 do
+		plot = Map.GetPlotByIndex(plotIndex-1);
+
+		if (isVictoryPlot(plot)) then
+			numVictoryPlots = numVictoryPlots + 1;
+		end
+	end
+
+	print("Number of victory plots: " .. tostring(numVictoryPlots));
+
+	SetPersistentProperty("NumVictoryPlots", numVictoryPlots);
+
+	local kyotoPlotX = -1;
+	local kyotoPlotY = -1;
+	-- And finally for city states
+	for playerIndex = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS-1, 1 do
+		local player = Players[playerIndex];
+		if (player:IsAlive()) then
+			local minorType = player:GetMinorCivType();
+
+			for city in player:Cities() do
+				if (city == nil) then
+					print ("City-State setup error");
+				elseif (minorType == GameInfo.MinorCivilizations["MINOR_CIV_ASHIKAGA"].ID) then
+					kyotoCity = city;
+					kyotoPlotX = city:Plot():GetX();
+					kyotoPlotY = city:Plot():GetY();
+				end
+			end
+		end
+	end
+
+	SetPersistentProperty("KyotoPlotX", kyotoPlotX);
+	SetPersistentProperty("KyotoPlotY", kyotoPlotY);
+end
+
 function InitReligions()
 	local otomoPlayerId;
 	local otomoCapitalCity;
@@ -442,12 +631,51 @@ function InitReligions()
 			end
 		end
 	end
+
+	for playerIndex = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS-1, 1 do
+		local player = Players[playerIndex];
+		if (player:IsAlive()) then
+			for city in player:Cities() do
+				city:AdoptReligionFully(GameInfoTypes["RELIGION_SHINTO"]);
+			end
+		end
+	end
+end
+
+function RevealPlotAndAdjacent(plot, teamId)
+	plot:SetRevealed(teamId, true);
+
+	local numDirections = DirectionTypes.NUM_DIRECTION_TYPES;
+	for direction = 0, numDirections - 1, 1 do
+		local adjPlot = Map.PlotDirection(plot:GetX(), plot:GetY(), direction);
+		if (adjPlot ~= nil) then
+			adjPlot:SetRevealed(teamId, true);
+		end
+     end
+end
+
+function MeetKyoto(playerIndex)
+	local kyotoPlot = Map.GetPlot(
+		GetPersistentProperty("KyotoPlotX"),
+		GetPersistentProperty("KyotoPlotY")
+	);
+
+	local kyotoOwner = Players[kyotoPlot:GetOwner()];
+	local kyotoTeamId = kyotoOwner:GetTeam();
+
+	local player = Players[playerIndex];
+	local teamIndex = player:GetTeam();
+	local team = Teams[player:GetTeam()];
+
+	team:Meet(kyotoTeamId, true);
+	RevealPlotAndAdjacent(kyotoPlot, teamIndex);
 end
 
 function InitPlayers()
 	for playerIndex = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
 		AddInitialUnits(playerIndex);
 		AddUnitsPerDifficulty(playerIndex);
+		MeetKyoto(playerIndex);
 
 		local player = Players[playerIndex]
 		-- Ikko Ikki starts with Uprising branch unlocked
@@ -632,6 +860,14 @@ function AddUnitsPerDifficulty(playerIndex)
 		SetInitialYields(player, cpuStartingYields, handicap);
 		PlaceUnits(player, cpuStartingUnits, handicap);
 	end
+	
+	-- Tokugawa gets walls and a free Emissary
+	local playerType = player:GetCivilizationType();
+	if (playerType == GameInfo.Civilizations["CIVILIZATION_TOKUGAWA"].ID) then
+		local capital = player:GetCapitalCity();
+		AddUnitToPlot(player, "UNIT_EMISSARY", capital:GetX(), capital:GetY(), UNITAI_MESSENGER);
+		capital:SetNumRealBuilding(GameInfoTypes["BUILDING_WALLS"], 1);
+	end
 end
 
 function MakeTokugawaVassalOfImagawa()
@@ -640,25 +876,24 @@ function MakeTokugawaVassalOfImagawa()
 	tokugawaTeam:DoBecomeVassal(imagawaTeamId, true);
 end
 
-local iValue = savedData.GetValue("ScenarioInitialized");
-
+local iValue = GetPersistentProperty("ScenarioInitialized");
 if (iValue == nil) then
 
 	print ("In Initial Initialization");
-	savedData.SetValue("ScenarioInitialized", 1);
-
-	-- Game Options (some also set in WorldBuilder)
-	Game.SetOption("GAMEOPTION_NO_BARBARIANS", true);
+	SetPersistentProperty("ScenarioInitialized", 1);
+	
+	Game.SetOption("GAMEOPTION_NO_BARBARIANS", false);
 	Game.SetOption("GAMEOPTION_EVENTS", false);
 	Game.SetOption("GAMEOPTION_NO_LEAGUES", true);
 	Game.SetOption("GAMEOPTION_NO_CULTURE_OVERVIEW_UI", true);
 	Game.SetOption("GAMEOPTION_HUMAN_VASSALS", true);
-	
+
+	InitVictory();
 	InitPlayers();
 	InitReligions();
 	MakeTokugawaVassalOfImagawa();
 	
 	-- For final score on victory screen not to be crazy inflated
-	Game.SetEstimateEndTurn(200);
-	Game.SetStartYear(1500)
+	Game.SetEstimateEndTurn(224);
+	Game.SetStartYear(1540);
 end

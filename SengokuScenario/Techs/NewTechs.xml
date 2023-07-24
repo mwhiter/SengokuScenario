@@ -5,7 +5,7 @@
 		<Row>
 			<ID>0</ID>
 			<Type>TECH_AGRICULTURE</Type>
-			<Cost>35</Cost>
+			<Cost>50</Cost>
 			<Description>TXT_KEY_TECH_AGRICULTURE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_AGRICULTURE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_AGRICULTURE_HELP</Help>
@@ -20,7 +20,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BUSHIDO</Type>
-			<Cost>35</Cost>
+			<Cost>50</Cost>
 			<Description>TXT_KEY_TECH_BUSHIDO_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BUSHIDO_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_BUSHIDO_HELP</Help>
@@ -37,7 +37,7 @@
 
 		<Row>
 			<Type>TECH_SAILING</Type>
-			<Cost>55</Cost>
+			<Cost>80</Cost>
 			<Description>TXT_KEY_TECH_SAILING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SAILING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SAILING_HELP</Help>
@@ -55,7 +55,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MYSTICISM</Type>
-			<Cost>55</Cost>
+			<Cost>80</Cost>
 			<Description>TXT_KEY_TECH_MYSTICISM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MYSTICISM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_MYSTICISM_HELP</Help>
@@ -70,7 +70,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CONSTRUCTION</Type>
-			<Cost>55</Cost>
+			<Cost>80</Cost>
 			<Description>TXT_KEY_TECH_CONSTRUCTION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CONSTRUCTION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CONSTRUCTION_HELP</Help>
@@ -86,7 +86,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_STRATEGY</Type>
-			<Cost>55</Cost>
+			<Cost>80</Cost>
 			<Description>TXT_KEY_TECH_STRATEGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STRATEGY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_STRATEGY_HELP</Help>
@@ -103,7 +103,7 @@
 
 		<Row>
 			<Type>TECH_OPTICS</Type>
-			<Cost>85</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_HELP</Help>
@@ -120,7 +120,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CALLIGRAPHY</Type>
-			<Cost>85</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_TECH_CALLIGRAPHY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CALLIGRAPHY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CALLIGRAPHY_HELP</Help>
@@ -137,7 +137,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_TEA_CEREMONY</Type>
-			<Cost>85</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_TECH_TEA_CEREMONY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TEA_CEREMONY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_TEA_CEREMONY_HELP</Help>
@@ -152,7 +152,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HORSEBACK_RIDING</Type>
-			<Cost>85</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_TITLE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_TECH_HORSEBACK_RIDING_HELP</Help>
@@ -168,7 +168,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ENGINEERING</Type>
-			<Cost>85</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_TECH_ENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ENGINEERING_HELP</Help>
@@ -186,7 +186,7 @@
 
 		<Row>
 			<Type>TECH_COMPASS</Type>
-			<Cost>175</Cost>
+			<Cost>225</Cost>
 			<Description>TXT_KEY_TECH_COMPASS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPASS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_COMPASS_HELP</Help>
@@ -203,7 +203,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_DRAMA</Type>
-			<Cost>175</Cost>
+			<Cost>225</Cost>
 			<Description>TXT_KEY_TECH_DRAMA_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_DRAMA_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_DRAMA_HELP</Help>
@@ -219,7 +219,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CURRENCY</Type>
-			<Cost>175</Cost>
+			<Cost>225</Cost>
 			<Description>TXT_KEY_TECH_CURRENCY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CURRENCY_DESC</Civilopedia>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
@@ -236,7 +236,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_KYUJUTSU</Type>
-			<Cost>175</Cost>
+			<Cost>225</Cost>
 			<Description>TXT_KEY_TECH_KYUJUTSU_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_KYUJUTSU_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_KYUJUTSU_HELP</Help>
@@ -251,7 +251,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_METAL_CASTING</Type>
-			<Cost>175</Cost>
+			<Cost>225</Cost>
 			<Description>TXT_KEY_TECH_METAL_CASTING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_METAL_CASTING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_METAL_CASTING_HELP</Help>
@@ -269,7 +269,7 @@
 		
 		<Row>
 			<Type>TECH_DOHYO</Type>
-			<Cost>275</Cost>
+			<Cost>450</Cost>
 			<Description>TXT_KEY_TECH_DOHYO_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_DOHYO_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_DOHYO_HELP</Help>
@@ -283,7 +283,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CIVIL_SERVICE</Type>
-			<Cost>275</Cost>
+			<Cost>450</Cost>
 			<Description>TXT_KEY_TECH_CIVIL_SERVICE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CIVIL_SERVICE_HELP</Help>
@@ -300,7 +300,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_THEOLOGY</Type>
-			<Cost>275</Cost>
+			<Cost>450</Cost>
 			<Description>TXT_KEY_TECH_THEOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_THEOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_THEOLOGY_HELP</Help>
@@ -316,7 +316,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_KENJUTSU</Type>
-			<Cost>275</Cost>
+			<Cost>450</Cost>
 			<Description>TXT_KEY_TECH_KENJUTSU_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_KENJUTSU_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_KENJUTSU_HELP</Help>
@@ -332,7 +332,7 @@
 
 		<Row>
 			<Type>TECH_SUIEUJUTSU</Type>
-			<Cost>425</Cost>
+			<Cost>750</Cost>
 			<Description>TXT_KEY_TECH_SUIEUJUTSU_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SUIEUJUTSU_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SUIEUJUTSU_HELP</Help>
@@ -347,7 +347,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_EDUCATION</Type>
-			<Cost>425</Cost>
+			<Cost>750</Cost>
 			<Description>TXT_KEY_TECH_EDUCATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_EDUCATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_EDUCATION_HELP</Help>
@@ -364,7 +364,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_NINJUTSU</Type>
-			<Cost>425</Cost>
+			<Cost>750</Cost>
 			<Description>TXT_KEY_TECH_NINJUTSU_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NINJUTSU_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_NINJUTSU_HELP</Help>
@@ -379,7 +379,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BAJUTSU</Type>
-			<Cost>425</Cost>
+			<Cost>750</Cost>
 			<Description>TXT_KEY_TECH_BAJUTSU_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BAJUTSU_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_BAJUTSU_HELP</Help>
@@ -395,7 +395,7 @@
 		
 		<Row>
 			<Type>TECH_ASTRONOMY</Type>
-			<Cost>780</Cost>
+			<Cost>1100</Cost>
 			<Description>TXT_KEY_TECH_ASTRONOMY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ASTRONOMY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ASTRONOMY_HELP</Help>
@@ -413,7 +413,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ARCHITECTURE</Type>
-			<Cost>780</Cost>
+			<Cost>1100</Cost>
 			<Description>TXT_KEY_TECH_ARCHITECTURE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARCHITECTURE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ARCHITECTURE_HELP</Help>
@@ -430,7 +430,7 @@
 		
 		<Row>
 			<Type>TECH_CHEMISTRY</Type>
-			<Cost>1150</Cost>
+			<Cost>1500</Cost>
 			<Description>TXT_KEY_TECH_CHEMISTRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CHEMISTRY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CHEMISTRY_HELP</Help>
@@ -446,7 +446,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GUNPOWDER</Type>
-			<Cost>1150</Cost>
+			<Cost>1500</Cost>
 			<Description>TXT_KEY_TECH_GUNPOWDER_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GUNPOWDER_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_GUNPOWDER_HELP</Help>
@@ -462,7 +462,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_FUTURE_TECH</Type>
-			<Cost>3000 </Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_FUTURE_TECH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FUTURE_TECH_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FUTURE_TECH_HELP</Help>

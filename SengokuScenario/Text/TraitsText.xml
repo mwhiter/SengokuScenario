@@ -6,13 +6,13 @@
 			<Text>Unwavering Loyalty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_SHIMAZU">
-			<Text>+15% [ICON_GREAT_GENERAL] Great General [ICON_STRENGTH] Combat Strength bonus and +50% Spawn Rate. Tiles claimed by a Citadel's Culture Bomb grants an immediate boost of [ICON_PEACE] Faith, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold (doubled if tiles owned by another civilization).</Text>
+			<Text>+15%[ICON_GREAT_GENERAL] Great General [ICON_STRENGTH] Combat Strength bonus and +50% Spawn Rate. Tiles claimed by a Citadel's Culture Bomb grants an immediate boost of [ICON_PEACE] Faith, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold (doubled if tiles owned by another civilization).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO_SHORT">
 			<Text>European Embrace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_OTOMO">
-			<Text>Begins the game as the founder of [ICON_RELIGION_CHRISTIANITY] Christianity. When a City-State first converts to [ICON_RELIGION_CHRISTIANITY] Christianity, gain +40 [ICON_INFLUENCE] Influence with that City-State. +1 [ICON_PEACE] Faith, [ICON_FOOD] Food, [ICON_CULTURE] Culture from City-State Friends (doubled if Allied).</Text>
+			<Text>Begins the game as the founder of [ICON_RELIGION_CHRISTIANITY] Christianity. When a City-State first converts to [ICON_RELIGION_CHRISTIANITY] Christianity, gain +40 [ICON_INFLUENCE] Influence with that City-State. +1[ICON_PEACE] Faith, [ICON_FOOD] Food, [ICON_CULTURE] Culture from City-State Friends (doubled if Allied).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_MORI_SHORT">
 			<Text>Rising Tide</Text>
@@ -24,31 +24,31 @@
 			<Text>Warlord of Shikoku</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_CHOSOKABE">
-			<Text>This trait has no effect. (something to do with bonuses on Shikoku)</Text>
+			<Text>Embarked units have +1[ICON_MOVES] Movement and can defend themselves. +25%[ICON_PRODUCTION] Production towards a building if it already exists in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI_SHORT">
 			<Text>Disciple of Bishamonten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_UESUGI">
-			<Text>Units fight as though they were at full strength even when damaged. Gains [ICON_PEACE] Faith for the empire for each enemy unit killed.</Text>
+			<Text>Begins the game as the founder of [ICON_RELIGION_SHINTO] Shinto. Units fight as though they were at full strength even when damaged. Gains [ICON_PEACE] Faith for the empire for each enemy unit killed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA_SHORT">
 			<Text>Tiger of Kai</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TAKEDA">
-			<Text>This trait has no effect. (something to do with bonuses to cavalry)</Text>
+			<Text>+1[ICON_PRODUCTION] Production per Pasture. All mounted units have +1[ICON_MOVES] Movement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO_SHORT">
 			<Text>Lion of Sagami</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_HOJO">
-			<Text>This trait has no effect. (something to do with bonuses to bonuses to defense and Culture)</Text>
+			<Text>Units receive a +20% [ICON_STRENGTH] Combat bonus when fighting in their own territory. +1[ICON_CULTURE] Culture for every defensive Building (Walls, Castles, Citadels). +4[ICON_CULTURE] Culture from each World Wonder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA_SHORT">
 			<Text>The Great Unifier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_TOKUGAWA">
-			<Text>Begins the game with a free Spy, but as the vassal of the Imagawa clan. All Diplomat Units receive +2 [ICON_MOVES] Movement and the [COLOR_POSITIVE_TEXT]Royal Signet[ENDCOLOR] promotion, granting +10 [ICON_INFLUENCE] Influence from City-State missions.</Text>
+			<Text>Begins the game with a free Spy, but as the vassal of the Imagawa clan. All Diplomat Units receive +2[ICON_MOVES] Movement and the [COLOR_POSITIVE_TEXT]Royal Signet[ENDCOLOR] promotion, granting +10[ICON_INFLUENCE] Influence from City-State missions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IKKO_IKKI_SHORT">
 			<Text>Nembutsu</Text>
@@ -60,7 +60,7 @@
 			<Text>Dragon's Resolve</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_DATE">
-			<Text>This trait has no effect. (something to do with attacking)</Text>
+			<Text>Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_IMAGAWA_SHORT">
 			<Text>Ambition</Text>
@@ -69,10 +69,10 @@
 			<Text>Begins the game with Tokugawa as a vassal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA_SHORT">
-			<Text>Professional Army</Text>
+			<Text>Peasant Army</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_TRAIT_ODA">
-			<Text>This trait has no effect. (something to do with bonuses to Ashigaru)</Text>
+			<Text>All Ashigaru (Bow Ashigaru, Yari Ashigaru, Katana Ashigaru) units receive +1 Sight and will heal every turn, even if they perform an action.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

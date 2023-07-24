@@ -171,6 +171,32 @@
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
+		<Row>
+			<Type>MINOR_CIV_KONO</Type>
+			<Description>TXT_KEY_CITYSTATE_KONO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KONO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KONO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_KONO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_TAKOAKA</Type>
+			<Description>TXT_KEY_CITYSTATE_TAKOAKA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TAKOAKA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_TAKOAKA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_TAKOAKA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
 	</MinorCivilizations>
 	<MinorCivilization_CityNames>
 		<Row>
@@ -224,6 +250,14 @@
 		<Row>
 			<MinorCivType>MINOR_CIV_ASANO</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_WAYAKAMA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_IMABARI</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_AWAJI</CityName>
 		</Row>
 	</MinorCivilization_CityNames>
 	<MinorCivilization_Flavors>
@@ -576,6 +610,56 @@
 			<MinorCivType>MINOR_CIV_ASANO</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KONO</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TAKOAKA</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 	</MinorCivilization_Flavors>
 </GameData>

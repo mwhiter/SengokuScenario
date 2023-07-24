@@ -74,6 +74,11 @@
 			<Description>TXT_KEY_BUILDING_BARRACKS</Description>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_ARCHERY_DOJO</Type>
+			<DefaultBuilding>BUILDING_ARCHERY_DOJO</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARCHERY_DOJO</Description>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_STABLE</Type>
 			<DefaultBuilding>BUILDING_STABLE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_STABLE</Description>
@@ -119,9 +124,9 @@
 			<Description>TXT_KEY_BUILDING_WORKSHOP</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_FORGE</Type>
-			<DefaultBuilding>BUILDING_FORGE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_FORGE</Description>
+			<Type>BUILDINGCLASS_BLACKSMITH</Type>
+			<DefaultBuilding>BUILDING_BLACKSMITH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLACKSMITH</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_GARDEN</Type>
@@ -134,9 +139,9 @@
 			<Description>TXT_KEY_BUILDING_MARKET</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_MINT</Type>
-			<DefaultBuilding>BUILDING_MINT</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_MINT</Description>
+			<Type>BUILDINGCLASS_GOLD_MINE</Type>
+			<DefaultBuilding>BUILDING_GOLD_MINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GOLD_MINE</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_LIBRARY</Type>
@@ -215,6 +220,12 @@
 			<Type>BUILDINGCLASS_OMOTESENKE</Type>
 			<DefaultBuilding>BUILDING_OMOTESENKE</DefaultBuilding>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_OMOTESENKE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_DEJIMA</Type>
+			<DefaultBuilding>BUILDING_DEJIMA</DefaultBuilding>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_DEJIMA</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 	</BuildingClasses>
@@ -408,33 +419,18 @@
 			<Type>BUILDING_BARRACKS</Type>
 			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
 			<PrereqTech>TECH_STRATEGY</PrereqTech>
-			<Cost>75</Cost>
+			<Cost>70</Cost>
 			<Help>TXT_KEY_BUILDING_BARRACKS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BARRACKS</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_BARRACKS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<CitySupplyFlat>1</CitySupplyFlat>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>5</PortraitIndex>
-		</Row>
-		<Row>
-			<Type>BUILDING_ARMORY</Type>
-			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
-			<Cost>160</Cost>
-			<PrereqTech>TECH_KENJUTSU</PrereqTech>
-			<Help>TXT_KEY_BUILDING_ARMORY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_ARMORY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ARMORY_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
-			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_STABLE</Type>
@@ -446,10 +442,66 @@
 			<Strategy>TXT_KEY_BUILDING_STABLE_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_STABLE_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
+			<CitySupplyFlat>1</CitySupplyFlat>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ARCHERY_DOJO</Type>
+			<BuildingClass>BUILDINGCLASS_ARCHERY_DOJO</BuildingClass>
+			<PrereqTech>TECH_STRATEGY</PrereqTech>
+			<Cost>70</Cost>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_STRATEGY</Strategy>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_ARCHERY_DOJO_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<CitySupplyFlat>1</CitySupplyFlat>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_ARMORY</Type>
+			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
+			<Cost>150</Cost>
+			<PrereqTech>TECH_KENJUTSU</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARMORY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARMORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARMORY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MutuallyExclusiveGroup>1</MutuallyExclusiveGroup>
+			<CitySupplyModifier>10</CitySupplyModifier>
+			<FreePromotion>PROMOTION_IMPROVED_ARMOR</FreePromotion>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BLACKSMITH</Type>
+			<BuildingClass>BUILDINGCLASS_BLACKSMITH</BuildingClass>
+			<Cost>150</Cost>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BLACKSMITH</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FORGE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BLACKSMITH_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_BLACKSMITH_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MutuallyExclusiveGroup>1</MutuallyExclusiveGroup>
+			<CitySupplyModifier>10</CitySupplyModifier>
+			<FreePromotion>PROMOTION_IMPROVED_WEAPONS</FreePromotion>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_SHRINE</Type>
@@ -555,23 +607,6 @@
 			<PortraitIndex>29</PortraitIndex>
 		</Row>
 		<Row>
-			<Type>BUILDING_FORGE</Type>
-			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>120</Cost>
-			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_FORGE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FORGE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_FORGE_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_FORGE_HELP</Help>
-			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>2</PortraitIndex>
-		</Row>
-		<Row>
 			<Type>BUILDING_WORKSHOP</Type>
 			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
@@ -581,6 +616,8 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WORKSHOP_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -596,6 +633,7 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GARDEN_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_GARDEN_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_GARDEN_HELP</Help>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -672,6 +710,7 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LIBRARY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_LIBRARY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LIBRARY</ArtDefineTag>
+			<IlliteracyFlatReduction>1</IlliteracyFlatReduction>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -690,6 +729,8 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_UNIVERSITY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UNIVERSITY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
@@ -720,7 +761,7 @@
 			<Type>BUILDING_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
 			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
-			<Cost>300</Cost>
+			<Cost>250</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CASTLE_PEDIA</Civilopedia>
@@ -742,7 +783,7 @@
 			<Type>BUILDING_CITADEL</Type>
 			<BuildingClass>BUILDINGCLASS_CITADEL</BuildingClass>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
-			<Cost>600</Cost>
+			<Cost>500</Cost>
 			<Help>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_HELP</Help>
 			<Description>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL</Description>
 			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_BUILDING_CITADEL_PEDIA</Civilopedia>
@@ -781,20 +822,22 @@
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
 		<Row>
-			<Type>BUILDING_MINT</Type>
-			<BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
-			<Cost>100</Cost>
+			<Type>BUILDING_GOLD_MINE</Type>
+			<BuildingClass>BUILDINGCLASS_GOLD_MINE</BuildingClass>
+			<Cost>120</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MINT</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MINT_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MINT_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_MINT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GOLD_MINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GOLD_MINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GOLD_MINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GOLD_MINE_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
 		</Row>
 		<!-- National Wonders -->
 		<Row>
@@ -996,6 +1039,32 @@
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
 		</Row>
+		<Row>
+			<Type>BUILDING_DEJIMA</Type>
+			<BuildingClass>BUILDINGCLASS_DEJIMA</BuildingClass>
+			<Cost>600</Cost>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Help>TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_HELP</Help>
+			<Description>TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA</Description>
+			<Civilopedia>TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_SENGOKU_SCENARIO_WONDER_DEJIMA_QUOTE</Quote>
+			<ArtDefineTag>GREAT LIGHTHOUSE</ArtDefineTag>
+			<Water>true</Water>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>8</DisplayPosition>
+			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<WonderSplashImage>dejimasplash.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_COLOSSUS</WonderSplashAudio>
+		</Row>
 	</Buildings>
 	<Building_GoldenAgeYieldMod>
 		<Row>
@@ -1004,6 +1073,40 @@
 			<Yield>20</Yield>
 		</Row>
 	</Building_GoldenAgeYieldMod>
+	<Building_UnitCombatFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHERY_DOJO</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_UnitCombatFreeExperiences>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHERY_DOJO</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
 	<Building_ClassesNeededInCity>
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
@@ -1012,6 +1115,14 @@
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NINJUTSU_SCHOOL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SAKE_DEN</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
 	<Building_ResourceQuantity>
@@ -1030,6 +1141,11 @@
 		<Row>
 			<BuildingType>BUILDING_KIYOMIZU_TEMPLE</BuildingType>
 			<UnitType>UNIT_EMISSARY</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEJIMA</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>
 	</Building_FreeUnits>
@@ -1066,9 +1182,28 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLD_MINE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_SeaPlotYieldChanges>
@@ -1214,6 +1349,41 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLD_MINE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEJIMA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEJIMA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
 	</Building_YieldChanges>
 	<Building_YieldPerAlly>
 		<Row>
@@ -1245,6 +1415,11 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>20</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
 	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers>
 		<Row>
@@ -1262,17 +1437,34 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>10</Yield>
 		</Row>
-	</Building_YieldModifiers>
-	<Building_ClassesNeededInCity>
 		<Row>
-			<BuildingType>BUILDING_NINJUTSU_SCHOOL</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SAKE_DEN</BuildingClassType>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
 		</Row>
-	</Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
 	<Building_LocalResourceAnds>
 		<Row>
 			<BuildingType>BUILDING_RICE_PADDY</BuildingType>
 			<ResourceType>RESOURCE_RICE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLD_MINE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
 		</Row>
 	</Building_LocalResourceAnds>
 	<Building_PrereqBuildingClasses>
