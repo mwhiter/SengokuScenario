@@ -19,3 +19,6 @@ The year is 1540. Once-unified Japan has fractured into numerous warring faction
 ![image](https://github.com/mwhiter/SengokuScenario/assets/4925402/7e75ed22-0e4e-4366-82ad-d7f5ab001431)
 ![image](https://github.com/mwhiter/SengokuScenario/assets/4925402/1ff931a8-84ec-434b-a356-5ed748748ca1)
 ![image](https://github.com/mwhiter/SengokuScenario/assets/4925402/a8aa1038-c424-4a94-a683-24fed6b780ba)
+
+# Bugs
+If you find an issue with mod, please open a Github issue.
