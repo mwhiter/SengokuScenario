@@ -2,6 +2,16 @@ NOTE: THIS MOD IS IN BETA. IT IS NOT CONSIDERED FINISHED AND WILL BE UNBALANCED 
 
 You can find the latest releases [here](https://github.com/mwhiter/SengokuScenario/blob/0ae7cb298601ade2bdd693876714673274ff9eb7/Releases/).
 
+# Installation Instructions
+1. Find the latest release in Releases/ folder.
+2. Extract the contents of the .zip files (two .modinfo) into your ~\Documents\My Games\Sid Meier's Civilization 5\MODS directory.
+3. Load up Civ 5 and select MODS
+4. The mods will automatically extract.
+5. Enable Community Patch, Vox Populi, Sengoku Scenario Art, and Sengoku Scenario (the Sengoku Scenario mod will notify you of missing dependencies).
+6. Load the mods and follow instructions.
+7. Enjoy!
+
+
 # Sengoku Scenario
 This repository contains the source code for the "Sengoku Scenario" for Vox Populi, Civilization V.
 
