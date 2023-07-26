@@ -16,7 +16,7 @@
 			<Text>Become Shogun by capturing and holding Kyoto.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_CONDITION_2">
-			<Text>Capture and hold 60% of victory-eligible land in Japan.</Text>
+			<Text>Capture and hold 40% of victory-eligible land in Japan.</Text>
 		</Row>
 		<!-- Dawn of Man-->
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT">
@@ -33,7 +33,7 @@
 			<Text>Controlled By: {@1_CivName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_HELP">
-			<Text>You can only unify Japan by achieving the following two conditions before the game ends (end of turn Winter, 1600 AD). Your clan must control the city of Kyoto, and you or your vassals must own 60% of all eligible land.</Text>
+			<Text>You can only unify Japan by achieving the following two conditions before the game ends (end of turn Winter, 1600 AD). Your clan must control the city of Kyoto, and you or your vassals must own 40% of all eligible land.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP">
 			<Text>Eligible land for victory are all tiles that are not Tundra, Snow, Coast, or Ocean, and must be on a landmass that has at least 5 tiles.</Text>

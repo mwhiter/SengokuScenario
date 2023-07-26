@@ -243,7 +243,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_shimazu.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -303,7 +303,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_chosokabe.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -323,7 +323,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_uesugi.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -343,7 +343,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_takeda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -383,7 +383,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_tokugawa.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -403,7 +403,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_ikkoikki.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -423,7 +423,7 @@
 			<MapImage>MapJapan512.dds</MapImage>
 			<SoundtrackTag>Japan</SoundtrackTag>
 			<DawnOfManQuote>TXT_KEY_SENGOKU_SCENARIO_CIV5_DAWN_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManImage>dom_date.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -1660,7 +1660,114 @@
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KASUGA_TAISHA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OMOTESENKE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DEJIMA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDEN_PAVILION</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HORYUJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HONGANJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KIYOMIZU_TEMPLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURT_SCRIBE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NINJUTSU_SCHOOL</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KASUGA_TAISHA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OMOTESENKE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DEJIMA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDEN_PAVILION</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HORYUJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HONGANJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KIYOMIZU_TEMPLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURT_SCRIBE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NINJUTSU_SCHOOL</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
 	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_ESCALADERS</UnitClassType>
+			<UnitType />
+		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_OTOMO</CivilizationType>
 			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>

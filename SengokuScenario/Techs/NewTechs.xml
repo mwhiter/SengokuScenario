@@ -33,6 +33,7 @@
 			<Quote>TXT_KEY_TECH_BUSHIDO_QUOTE</Quote>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_BUSHIDO</AudioIntro>
 		</Row>
 
 		<Row>
@@ -64,9 +65,10 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>1</GridX>
 			<GridY>3</GridY>
-			<Quote>TXT_KEY_TECH_MINING_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_MYSTICISM_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_MYSTICISM</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_CONSTRUCTION</Type>
@@ -98,6 +100,7 @@
 			<Quote>TXT_KEY_TECH_STRATEGY_QUOTE</Quote>
 			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_STRATEGY</AudioIntro>
 		</Row>
 
 
@@ -115,7 +118,7 @@
 			<Quote>TXT_KEY_SENGOKU_SCENARIO_TECH_OPTICS_QUOTE</Quote>
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_OPTICS</AudioIntro>
+			<AudioIntro>AS2D_TECH_CARTOGRAPHY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_OPTICS</AudioIntroHeader>
 		</Row>
 		<Row>
@@ -134,6 +137,7 @@
 			<Quote>TXT_KEY_TECH_CALLIGRAPHY_QUOTE</Quote>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_CALLIGRAPHY</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_TEA_CEREMONY</Type>
@@ -149,6 +153,7 @@
 			<Quote>TXT_KEY_TECH_TEA_CEREMONY_QUOTE</Quote>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_TEA_CEREMONY</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_HORSEBACK_RIDING</Type>
@@ -248,6 +253,7 @@
 			<Quote>TXT_KEY_TECH_KYUJUTSU_QUOTE</Quote>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_KYUJUTSU</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_METAL_CASTING</Type>
@@ -280,6 +286,7 @@
 			<Quote>TXT_KEY_TECH_DOHYO_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_DOHYO</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_CIVIL_SERVICE</Type>
@@ -328,6 +335,7 @@
 			<Quote>TXT_KEY_TECH_KENJUTSU_QUOTE</Quote>
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_KENJUTSU</AudioIntro>
 		</Row>
 
 		<Row>
@@ -344,6 +352,7 @@
 			<Quote>TXT_KEY_TECH_SUIEUJUTSU_QUOTE</Quote>
 			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_SUIEUJUTSU</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_EDUCATION</Type>
@@ -376,6 +385,7 @@
 			<Quote>TXT_KEY_TECH_NINJUTSU_QUOTE</Quote>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_NINJUTSU</AudioIntro>
 		</Row>
 		<Row>
 			<Type>TECH_BAJUTSU</Type>
@@ -391,6 +401,7 @@
 			<Quote>TXT_KEY_TECH_BAJUTSU_QUOTE</Quote>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>SENGOKU_SCENARIO_TECH_ATLAS</IconAtlas>
+			<AudioIntro>AS2D_TECH_BAJUTSU</AudioIntro>
 		</Row>
 		
 		<Row>

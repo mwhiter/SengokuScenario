@@ -926,7 +926,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<WonderSplashImage>goldenpavilionsplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDEN_PAVILION</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_HORYUJI</Type>
@@ -948,7 +948,7 @@
 			<PortraitIndex>7</PortraitIndex>
 			<WonderSplashImage>horyujisplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HORYU_JI</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_KASUGA_TAISHA</Type>
@@ -970,7 +970,7 @@
 			<PortraitIndex>12</PortraitIndex>
 			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_KASUGA_TAISHA</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_HONGANJI</Type>
@@ -993,7 +993,7 @@
 			<PortraitIndex>8</PortraitIndex>
 			<WonderSplashImage>honganjisplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HONGAN_JI</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_KIYOMIZU_TEMPLE</Type>
@@ -1014,7 +1014,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<WonderSplashImage>kiyomizutemplesplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_KIYOMIZU_TEMPLE</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_OMOTESENKE</Type>
@@ -1035,9 +1035,9 @@
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
-			<WonderSplashImage>kasugataishasplash.dds</WonderSplashImage>
+			<WonderSplashImage>omotosenkesplash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_HIMEJI_CASTLE</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_OMOTESENKE</WonderSplashAudio>
 		</Row>
 		<Row>
 			<Type>BUILDING_DEJIMA</Type>
@@ -1063,7 +1063,7 @@
 			<IconAtlas>SENGOKU_SCENARIO_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 			<WonderSplashImage>dejimasplash.dds</WonderSplashImage>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_COLOSSUS</WonderSplashAudio>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_DEJIMA</WonderSplashAudio>
 		</Row>
 	</Buildings>
 	<Building_GoldenAgeYieldMod>

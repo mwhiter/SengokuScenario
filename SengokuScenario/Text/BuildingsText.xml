@@ -318,7 +318,7 @@
 			<Text>Receive +25 [ICON_GOLD] Gold when purchasing units and buildings with [ICON_PEACE] Faith. -1 [ICON_HAPPINESS_3] Unrest from Religious Unrest in every City. Provides a free Shrine in the city in which it was built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_KASUGA_TAISHA_QUOTE">
-			<Text>[NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world’s goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
+			<Text>[NEWLINE]"To be fully alive is to have an aesthetic perception of life because a major part of the world's goodness lies in its often unspeakable beauty."[NEWLINE][TAB]– Yukitaka Yamamoto[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SENGOKU_SCENARIO_WONDER_OMOTESENKE">
 			<Text>Omotesenke</Text>

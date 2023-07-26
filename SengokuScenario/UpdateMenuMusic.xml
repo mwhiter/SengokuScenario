@@ -5,5 +5,8 @@
 		<Replace Name="LOADING_SCREEN_MUSIC_OVERRIDE">
 			<Value>AS2D_SCENARIO_MUSIC_SENGOKU_MUSIC</Value>
 		</Replace>
+		<Replace Name="LOADING_SCREEN_DAWN_OF_MAN_SPEECH_OVERRIDE">
+			<Value>AS2D_SCENARIO_SPEECH_SENGOKU</Value>
+		</Replace>
 	</Defines>
 </GameData>

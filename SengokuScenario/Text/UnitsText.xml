@@ -86,6 +86,18 @@
 		<Row Tag="TXT_KEY_UNIT_LIGHT_CAVALRY_HELP">
 			<Text>Fast and powerful Mounted unit. Weak to Yari units.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER">
+			<Text>Horse Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HORSE_ARCHER_TEXT">
+			<Text>Horse archery, known as "yabusame" or "inuoumono" in feudal Japan, was a skillful and revered martial art practiced by elite warriors called "samurai." This ancient tradition originated from continental Asia, and the Japanese adopted and refined it to suit their unique combat style. Horse archers were highly regarded for their exceptional horsemanship and marksmanship, capable of firing arrows with remarkable precision while riding at high speeds. The bow they used was called a "yumi," which was longer than the traditional bows used by infantry, allowing for greater accuracy and range. These skilled horse archers played a pivotal role in battles, skirmishes, and hunting expeditions, showcasing their deadly proficiency in both open field engagements and guerrilla warfare.[NEWLINE][NEWLINE]Throughout Japan's feudal period, horse archers served as essential components of samurai armies, particularly during the Sengoku (Warring States) period from the 15th to 17th centuries. They were valued for their mobility, enabling them to perform hit-and-run tactics, surprise attacks, and encircle enemies. Their strategic significance in conflicts led to extensive training, and some domains even held yabusame competitions to foster and demonstrate the mastery of this art. Although the advent of firearms and the centralization of power under the Tokugawa shogunate brought changes to warfare, the legacy of horse archers endured, exemplifying their lasting impact on Japan's military history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY">
+			<Text>Horse archers are fast ranged units, deadly on open terrain. As a mounted unit, the Horse Archer is vulnerable to Yari units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER_HELP">
+			<Text>A fast Ranged Unit used for hit-and-run attacks.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY">
 			<Text>Heavy Cavalry</Text>
 		</Row>

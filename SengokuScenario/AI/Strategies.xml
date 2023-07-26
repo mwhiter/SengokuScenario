@@ -5,7 +5,7 @@
 		<Update>
 			<Where Type="ECONOMICAISTRATEGY_DEVELOPING_RELIGION"/>
 			<Set>
-				<TechPrereq />
+				<TechObsolete>NULL</TechObsolete>
 			</Set>
 		</Update>
 	</AIEconomicStrategies>

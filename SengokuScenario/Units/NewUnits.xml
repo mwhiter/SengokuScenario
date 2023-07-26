@@ -58,6 +58,11 @@
 			<DefaultUnit>UNIT_KATANA_SAMURAI</DefaultUnit>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_HORSE_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_HORSE_ARCHER</Description>
+			<DefaultUnit>UNIT_HORSE_ARCHER</DefaultUnit>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_LIGHT_CAVALRY</Type>
 			<Description>TXT_KEY_UNIT_LIGHT_CAVALRY</Description>
 			<DefaultUnit>UNIT_LIGHT_CAVALRY</DefaultUnit>
@@ -354,8 +359,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_KATANA_ASHIGARU</UnitArtInfo>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<UnitFlagAtlas>SENGOKU_SCENARIO_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 		<Row>
@@ -385,6 +390,38 @@
 			<UnitFlagIconOffset>17</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_HORSE_ARCHER</Class>
+			<Type>UNIT_HORSE_ARCHER</Type>
+			<PrereqTech>TECH_KYUJUTSU</PrereqTech>
+			<Combat>9</Combat>
+			<RangedCombat>12</RangedCombat>
+			<Cost>90</Cost>
+			<FaithCost>180</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<Range>2</Range>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HORSE_ARCHER</Description>
+			<Civilopedia>TXT_KEY_HORSE_ARCHER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HORSE_ARCHER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_HORSE_ARCHER_JAPAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<IconAtlas>SENGOKU_SCENARIO_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
 		</Row>
 		<Row>
@@ -1070,6 +1107,10 @@
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_HORSE_ARCHER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
@@ -1401,6 +1442,14 @@
 			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_HORSE_ARCHER</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_ARCHER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
@@ -1504,6 +1553,10 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_ARCHER</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 		<Row>

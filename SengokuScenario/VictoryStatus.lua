@@ -179,8 +179,10 @@ function UpdateLandControl()
 	local rivalPercent = CalculatePercent(highestNumVictoryPlots, numVictoryPlots);
 	
 	landControlUIControls.YourLandPercentLabel:LocalizeAndSetText("TXT_KEY_SENGOKU_SCENARIO_YOUR_LAND_PERCENT", string.format("%.2f", yourPercent));
+	landControlUIControls.YourLandPercentLabel:LocalizeAndSetToolTip("TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP");
 	landControlUIControls.TopRivalLabel:LocalizeAndSetText("TXT_KEY_SENGOKU_SCENARIO_YOUR_RIVAL_CIV", rivalName);
 	landControlUIControls.TopRivalLandPercentLabel:LocalizeAndSetText("TXT_KEY_SENGOKU_SCENARIO_YOUR_RIVAL_LAND_PERCENT", string.format("%.2f", rivalPercent));
+	landControlUIControls.TopRivalLandPercentLabel:LocalizeAndSetText("TXT_KEY_SENGOKU_SCENARIO_VICTORY_LAND_CONTROL_HELP");
 end
 -------------------------------------------------
 -- BuildLayout

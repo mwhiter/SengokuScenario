@@ -3,7 +3,7 @@
 ---------------------------------------
 local isScenarioDone = false;
 local handicap = Game:GetHandicapType();
-local gameTurnLength = 240;
+local gameTurnLength = 241;
 
 --------------------------------------------------------------
 -- Memoized Persistent Properties
@@ -439,7 +439,7 @@ function IsPlayerLandDominant(player)
 	local numPlayerVictoryPlots = GetPlayerVictoryLandArea(player:GetID());
 
 	local percentOwned = numPlayerVictoryPlots * 100 / numVictoryPlots;
-	return percentOwned >= 60.0;
+	return percentOwned >= 40.0;
 end
 
 function TestVictory()
@@ -886,6 +886,7 @@ if (iValue == nil) then
 	Game.SetOption("GAMEOPTION_EVENTS", false);
 	Game.SetOption("GAMEOPTION_NO_LEAGUES", true);
 	Game.SetOption("GAMEOPTION_NO_CULTURE_OVERVIEW_UI", true);
+	Game.SetOption("GAMEOPTION_NO_TECH_TRADING", true);
 	Game.SetOption("GAMEOPTION_HUMAN_VASSALS", true);
 
 	InitVictory();
