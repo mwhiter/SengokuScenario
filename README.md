@@ -1,3 +1,5 @@
+NOTE: THIS MOD IS IN BETA. IT IS NOT CONSIDERED FINISHED AND WILL BE UNBALANCED AND/OR HAVE POTENTIAL CRASHES. IF YOU ENCOUNTER AN ISSUE, PLEASE REPORT IT WITH GITHUB ISSUES HERE: https://github.com/mwhiter/SengokuScenario/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+
 # Sengoku Scenario
 This repository contains the source code for the "Sengoku Scenario" for Vox Populi, Civilization V.
 
